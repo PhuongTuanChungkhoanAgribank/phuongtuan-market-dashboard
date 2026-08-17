@@ -1,3 +1,4 @@
+import html
 import json
 from pathlib import Path
 import streamlit as st
@@ -228,6 +229,23 @@ def clean_prototype_text(text: str) -> str:
         result = result.replace(old, "")
     return result.strip()
 
+
+def display_tag(item: dict) -> str:
+    """Return a useful secondary tag without repeating the category label."""
+    ticker = (item.get("ticker") or "").strip()
+    if ticker:
+        exchange = (item.get("exchange") or "").strip()
+        return f"[{exchange}: {ticker}]" if exchange else f"[{ticker}]"
+
+    tag = (item.get("tag") or "").strip()
+    category = (item.get("category") or "").strip()
+    # The data pipeline historically stored category in both fields.
+    # Show the category only once, in the red category pill.
+    if not tag or tag.casefold() == category.casefold():
+        return ""
+    return tag
+
+
 # -----------------------------------------------------------------------------
 # Header
 # -----------------------------------------------------------------------------
@@ -242,7 +260,7 @@ st.markdown(
         <div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div>
         <div class="hero-note">Daily Market</div>
       </div>
-      <div class="update-box">CẬP NHẬT<br><b>{updated_at}</b></div>
+      <div class="update-box">CẬP NHẬT<br><b>{html.escape(str(updated_at))}</b></div>
     </div>
     """,
     unsafe_allow_html=True,
@@ -291,19 +309,23 @@ else:
         cols = st.columns(3, gap="medium")
         for col, (item, headline, summary) in zip(cols, row):
             with col:
-                tag = item.get("tag", item.get("ticker", "Thông tin"))
-                if item.get("ticker") and not tag.startswith("["):
-                    tag = f"[{item.get('exchange','')}: {item.get('ticker')}]"
+                tag = display_tag(item)
                 url = item.get("source_url") or item.get("url") or "#"
+                tag_html = f"<span class='pill'>{html.escape(tag)}</span>" if tag else ""
+                category_html = f"<span class='cat'>{html.escape(str(item.get('category','—')))}</span>"
+                source = html.escape(str(item.get("source", "")))
+                headline_html = html.escape(headline)
+                summary_html = html.escape(summary)
+                url_html = html.escape(str(url), quote=True)
+                published_html = html.escape(str(item.get('published_at','')))
                 st.markdown(
                     f"""
                     <div class='card'>
-                      <span class='pill'>{tag}</span>
-                      <span class='cat'>{item.get('category','—')}</span>
-                      <span class='time'>{item.get('published_at','')}</span>
-                      <div class='headline'>{headline}</div>
-                      <div class='summary'>{summary}</div>
-                      <div class='source'>{item.get('source','')} · <a href='{url}' target='_blank'>Nguồn ↗</a></div>
+                      {tag_html}{category_html}
+                      <span class='time'>{published_html}</span>
+                      <div class='headline'>{headline_html}</div>
+                      <div class='summary'>{summary_html}</div>
+                      <div class='source'>{source} · <a href='{url_html}' target='_blank'>Nguồn ↗</a></div>
                     </div>
                     """,
                     unsafe_allow_html=True,
