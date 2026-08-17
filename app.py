@@ -38,8 +38,8 @@ cards = data.get("cards", [])
 
 c1, c2 = st.columns([3, 1])
 with c1:
-    st.markdown('<p class="brand-title">PHƯƠNG TUẤN | CHỨNG KHOÁN AGRIBANK</p>', unsafe_allow_html=True)
-    st.markdown('<div class="brand-sub">DAILY MARKET NEWS · Thuần thông tin · Dịch tiếng Việt · Không nhận định đầu tư</div>', unsafe_allow_html=True)
+    st.markdown('<p class="brand-title">PHƯƠNG TUẤN</p>', unsafe_allow_html=True)
+    st.markdown('<div class="brand-sub">CHỨNG KHOÁN AGRIBANK</div>', unsafe_allow_html=True)
 with c2:
     st.markdown(f"<div style='text-align:right;color:#7B848D;font-size:.76rem'>Cập nhật<br><b style='color:#B81D2D;font-size:1rem'>{data.get('updated_at','—')}</b></div>", unsafe_allow_html=True)
 
