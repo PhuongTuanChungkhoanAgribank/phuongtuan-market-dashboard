@@ -1,5 +1,6 @@
 import html
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -60,6 +61,13 @@ cards = data.get("cards", [])
 def clean_prototype_text(text: str) -> str:
     if not text:
         return ""
+
+    # RSS feeds sometimes leave HTML entities in stored data, especially
+    # &nbsp; / non-breaking spaces. Decode and normalize them at render time
+    # as a second safety layer for older JSON files.
+    result = html.unescape(str(text)).replace("\xa0", " ")
+    result = re.sub(r"\s+", " ", result)
+
     replacements = [
         "Prototype: ", "Prototype – ", "Prototype - ",
         "Card này dùng để kiểm tra cách hiển thị nhóm vĩ mô quốc tế. ",
@@ -69,10 +77,9 @@ def clean_prototype_text(text: str) -> str:
         "Thông tin doanh nghiệp được trình bày thuần túy theo sự kiện công bố, không thêm nhận định, dự báo hoặc khuyến nghị. ",
         "Card mẫu minh họa định dạng tin doanh nghiệp: mã cổ phiếu, sự kiện chính, nguồn và liên kết gốc. ",
     ]
-    result = text
     for old in replacements:
         result = result.replace(old, "")
-    return result.strip()
+    return re.sub(r"\s+", " ", result).strip()
 
 
 def display_tag(item: dict) -> str:
