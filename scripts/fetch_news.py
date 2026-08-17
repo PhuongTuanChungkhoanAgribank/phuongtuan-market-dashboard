@@ -12,10 +12,9 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "daily_news.json"
+ARCHIVE_DIR = ROOT / "data" / "archive"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
-# Google News RSS is the free aggregation layer. The dashboard displays
-# factual headlines/summaries and links users back to the original source.
 FEEDS = [
     ("THẾ GIỚI", "global markets OR world economy OR US stocks OR China economy"),
     ("VĨ MÔ", "Federal Reserve OR Fed OR inflation OR interest rates OR USD OR Treasury"),
@@ -24,44 +23,32 @@ FEEDS = [
     ("QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.2)"}
-RECENT_HOURS = 72
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.3)"}
+FETCH_HOURS = 36
 
 
 def google_news_url(query: str) -> str:
-    return (
-        "https://news.google.com/rss/search?q="
-        + quote(query)
-        + "&hl=vi&gl=VN&ceid=VN:vi"
-    )
+    return "https://news.google.com/rss/search?q=" + quote(query) + "&hl=vi&gl=VN&ceid=VN:vi"
 
 
 def clean_html(text: str) -> str:
-    """Normalize RSS text, including HTML entities such as &nbsp;."""
     text = html.unescape(text or "")
     text = re.sub(r"<[^>]+>", " ", text)
     text = text.replace("\xa0", " ")
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def strip_source_suffix(text: str) -> str:
-    """Remove the common final Google News source suffix."""
     text = clean_html(text)
-    if " - " in text:
-        return text.rsplit(" - ", 1)[0].strip()
-    return text
+    return text.rsplit(" - ", 1)[0].strip() if " - " in text else text
 
 
 def translate_to_vi(text: str) -> str:
-    """Best-effort free translation. Never let translation failure break the feed."""
     text = clean_html(text)
     if not text or re.search(r"[À-ỹĐđ]", text):
         return text
     try:
-        url = "https://translate.googleapis.com/translate_a/single"
-        params = {"client": "gtx", "sl": "auto", "tl": "vi", "dt": "t", "q": text[:4500]}
-        response = requests.get(url, params=params, headers=HEADERS, timeout=15)
+        response = requests.get("https://translate.googleapis.com/translate_a/single", params={"client": "gtx", "sl": "auto", "tl": "vi", "dt": "t", "q": text[:4500]}, headers=HEADERS, timeout=15)
         response.raise_for_status()
         payload = response.json()
         return clean_html("".join(part[0] for part in payload[0] if part and part[0])) or text
@@ -69,7 +56,7 @@ def translate_to_vi(text: str) -> str:
         return text
 
 
-def published_dt(entry) -> datetime:
+def published_dt(entry):
     raw = entry.get("published") or entry.get("updated")
     if raw:
         try:
@@ -79,11 +66,7 @@ def published_dt(entry) -> datetime:
     return datetime.now(timezone.utc)
 
 
-def published_iso(entry) -> str:
-    return published_dt(entry).isoformat()
-
-
-def source_name(entry) -> str:
+def source_name(entry):
     source = entry.get("source")
     if isinstance(source, dict):
         return source.get("title", "Google News")
@@ -91,97 +74,70 @@ def source_name(entry) -> str:
 
 
 def infer_ticker(title: str):
-    """Infer a ticker only when the headline contains an explicit 3-letter token."""
-    blocked = {
-        "FED", "ETF", "GDP", "CPI", "PPI", "USD", "CEO", "AI", "ECB", "BOJ",
-        "EU", "M&A", "THE", "AND", "FOR", "NEW", "TOP", "IPO", "BID",
-    }
-    matches = re.findall(r"(?<![A-Za-z])[A-Z]{3}(?![A-Za-z])", title or "")
-    for item in matches:
+    blocked = {"FED", "ETF", "GDP", "CPI", "PPI", "USD", "CEO", "AI", "ECB", "BOJ", "THE", "AND", "FOR", "NEW", "TOP", "IPO"}
+    for item in re.findall(r"(?<![A-Za-z])[A-Z]{3}(?![A-Za-z])", title or ""):
         if item not in blocked:
             return item
     return ""
 
 
 def infer_exchange(title: str, source: str) -> str:
-    """Return an exchange only when it is explicitly present; never guess HOSE."""
     text = f"{title} {source}".upper()
-    if "UPCOM" in text:
-        return "UPCOM"
-    if "HNX" in text:
-        return "HNX"
-    if "HOSE" in text:
-        return "HOSE"
+    for exchange in ("UPCOM", "HNX", "HOSE"):
+        if exchange in text:
+            return exchange
     return ""
 
 
 def importance_score(category: str, title: str, summary: str) -> int:
-    """Simple factual relevance score for future ranking; not an investment signal."""
     text = f"{title} {summary}".lower()
-    score = 2
-    keyword_weights = {
-        "lãi suất": 1, "tỷ giá": 1, "fed": 1, "fomc": 1, "inflation": 1,
-        "cpi": 1, "pce": 1, "nhnn": 1, "chính phủ": 1, "ngân hàng nhà nước": 1,
-        "kết quả kinh doanh": 1, "lợi nhuận": 1, "doanh thu": 1, "etf": 1,
-        "ftse": 1, "msci": 1, "nâng hạng": 1, "giảm lãi suất": 1,
-        "tăng lãi suất": 1, "khủng hoảng": 1, "thuế": 1,
-    }
-    score += sum(weight for keyword, weight in keyword_weights.items() if keyword in text)
+    keywords = ["lãi suất", "tỷ giá", "fed", "fomc", "inflation", "cpi", "pce", "nhnn", "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse", "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế"]
+    score = 2 + sum(1 for keyword in keywords if keyword in text)
     if category in {"VĨ MÔ", "TRONG NƯỚC"} and any(x in text for x in ("fed", "nhnn", "lãi suất", "tỷ giá")):
         score += 1
     return max(1, min(score, 5))
+
+
+def normalize_key(text: str) -> str:
+    text = clean_html(text).casefold()
+    text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def fetch_feed(category: str, query: str):
     response = requests.get(google_news_url(query), headers=HEADERS, timeout=25)
     response.raise_for_status()
     feed = feedparser.parse(response.content)
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=FETCH_HOURS)
     results = []
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=RECENT_HOURS)
-
-    for entry in feed.entries[:12]:
+    for entry in feed.entries[:20]:
         published = published_dt(entry)
         if published < cutoff:
             continue
-
         title_original = clean_html(entry.get("title", ""))
         summary_original = clean_html(entry.get("summary", ""))
         if not title_original:
             continue
-
         title = strip_source_suffix(title_original)
         summary = strip_source_suffix(summary_original) if summary_original else ""
         if not summary or summary.casefold() == title_original.casefold():
             summary = "Cập nhật thông tin theo nguồn công bố; không thêm nhận định, dự báo hoặc khuyến nghị."
-
         title_vi = clean_html(translate_to_vi(title))
         summary_vi = clean_html(translate_to_vi(summary))
         ticker = infer_ticker(title_original) if category == "DOANH NGHIỆP" else ""
         exchange = infer_exchange(title_original, source_name(entry)) if ticker else ""
-
-        results.append(
-            {
-                "category": category,
-                "tag": "",  # category is the single canonical label; prevents duplicate tags.
-                "ticker": ticker,
-                "exchange": exchange,
-                "headline_vi": title_vi,
-                "summary_vi": summary_vi[:500],
-                "source": source_name(entry),
-                "source_url": entry.get("link", "https://news.google.com/"),
-                "published_at": published_iso(entry),
-                "importance": importance_score(category, title_vi, summary_vi),
-            }
-        )
+        local_dt = published.astimezone(VN_TZ)
+        results.append({"category": category, "tag": "", "ticker": ticker, "exchange": exchange, "headline_vi": title_vi, "summary_vi": summary_vi[:500], "source": source_name(entry), "source_url": entry.get("link", "https://news.google.com/"), "published_at": published.isoformat(), "published_date_vn": local_dt.strftime("%Y-%m-%d"), "published_time_vn": local_dt.strftime("%H:%M"), "importance": importance_score(category, title_vi, summary_vi)})
     return results
 
 
-def normalize_key(text: str) -> str:
-    """Normalize Vietnamese text for stronger cross-feed duplicate detection."""
-    text = clean_html(text).casefold()
-    text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+def load_existing():
+    if not DATA_FILE.exists():
+        return []
+    try:
+        return json.loads(DATA_FILE.read_text(encoding="utf-8")).get("cards", [])
+    except Exception:
+        return []
 
 
 def dedupe(cards):
@@ -196,43 +152,51 @@ def dedupe(cards):
     return output
 
 
+def save_snapshot(cards, day):
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    archive_file = ARCHIVE_DIR / f"{day}.json"
+    old_cards = []
+    if archive_file.exists():
+        try:
+            old_cards = json.loads(archive_file.read_text(encoding="utf-8")).get("cards", [])
+        except Exception:
+            pass
+    day_cards = [c for c in cards if c.get("published_date_vn") == day]
+    archive_cards = dedupe(old_cards + day_cards)
+    archive_cards.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    archive_file.write_text(json.dumps({"date": day, "timezone": "Asia/Ho_Chi_Minh", "cards": archive_cards}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def main():
-    cards = []
-    errors = []
+    fresh, errors = [], []
     for category, query in FEEDS:
         try:
-            cards.extend(fetch_feed(category, query))
+            fresh.extend(fetch_feed(category, query))
         except Exception as exc:
             errors.append(f"{category}: {exc}")
-
-    cards = dedupe(cards)
-    limits = {"THẾ GIỚI": 5, "VĨ MÔ": 5, "TRONG NƯỚC": 5, "DOANH NGHIỆP": 10, "QUỸ": 4}
-    selected = []
-    counts = {key: 0 for key in limits}
-    for card in cards:
-        category = card["category"]
-        if category in limits and counts[category] < limits[category]:
+    now_vn = datetime.now(VN_TZ)
+    today = now_vn.strftime("%Y-%m-%d")
+    all_recent = dedupe(load_existing() + fresh)
+    today_cards = [c for c in all_recent if c.get("published_date_vn") == today]
+    if not today_cards:
+        print("No fresh news for today; keeping existing dashboard data.")
+        return
+    limits = {"THẾ GIỚI": 8, "VĨ MÔ": 8, "TRONG NƯỚC": 8, "DOANH NGHIỆP": 30, "QUỸ": 8}
+    selected, counts = [], {k: 0 for k in limits}
+    for card in sorted(today_cards, key=lambda x: x.get("published_at", ""), reverse=True):
+        cat = card.get("category")
+        if cat in limits and counts[cat] < limits[cat]:
             selected.append(card)
-            counts[category] += 1
-
-    # If every feed failed, preserve the last good dataset instead of publishing empty data.
-    if not selected:
-        if DATA_FILE.exists():
-            print("No fresh items collected; keeping existing data.")
-            return
-        raise RuntimeError("No RSS items were collected: " + "; ".join(errors))
-
-    selected.sort(key=lambda x: (x.get("importance", 0), x.get("published_at", "")), reverse=True)
-    now = datetime.now(VN_TZ).strftime("%d/%m/%Y %H:%M")
-    payload = {"updated_at": now, "timezone": "Asia/Ho_Chi_Minh", "cards": selected}
+            counts[cat] += 1
+    payload = {"updated_at": now_vn.strftime("%d/%m/%Y %H:%M"), "timezone": "Asia/Ho_Chi_Minh", "date": today, "cards": selected}
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-
+    save_snapshot(all_recent, today)
     if errors:
         print("Some feeds failed:")
         for error in errors:
             print("-", error)
-    print(f"Updated {len(selected)} news cards at {now} (Vietnam time)")
+    print(f"Updated {len(selected)} cards for {today}; archive saved.")
 
 
 if __name__ == "__main__":
