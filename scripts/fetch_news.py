@@ -1,3 +1,4 @@
+import html
 import json
 import re
 from datetime import datetime, timedelta, timezone
@@ -36,7 +37,10 @@ def google_news_url(query: str) -> str:
 
 
 def clean_html(text: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", text or "")
+    """Normalize RSS text, including HTML entities such as &nbsp;."""
+    text = html.unescape(text or "")
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = text.replace("\xa0", " ")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
@@ -52,7 +56,7 @@ def translate_to_vi(text: str) -> str:
         response = requests.get(url, params=params, headers=HEADERS, timeout=15)
         response.raise_for_status()
         payload = response.json()
-        return "".join(part[0] for part in payload[0] if part and part[0]).strip() or text
+        return clean_html("".join(part[0] for part in payload[0] if part and part[0])) or text
     except Exception:
         return text
 
@@ -107,6 +111,7 @@ def fetch_feed(category: str, tag: str, query: str):
         # Google News commonly appends the publication name after " - ".
         title = title_original.rsplit(" - ", 1)[0].strip()
         summary = re.sub(r"^.*? - ", "", summary_original).strip() if summary_original else ""
+        summary = clean_html(summary)
         if not summary or summary == title_original:
             summary = "Cập nhật thông tin theo nguồn công bố; không thêm nhận định, dự báo hoặc khuyến nghị."
 
