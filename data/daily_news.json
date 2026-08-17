@@ -1,0 +1,45 @@
+{
+  "updated_at": "17/08/2026 16:20",
+  "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "GOOGLE NEWS",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Prototype: Tin thế giới sẽ được tổng hợp và dịch sang tiếng Việt",
+      "summary_vi": "Đây là dữ liệu mẫu để kiểm tra giao diện. Ở bước tiếp theo hệ thống sẽ lấy tin thật từ Google News RSS và các nguồn đã chốt.",
+      "source": "Prototype",
+      "source_url": "https://news.google.com/"
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "FED",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Prototype: Thông tin từ Cục Dự trữ Liên bang Mỹ",
+      "summary_vi": "Card này dùng để kiểm tra cách hiển thị nhóm vĩ mô quốc tế. Nội dung thực tế sẽ lấy từ nguồn chính thức của Fed.",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/"
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "[HOSE: PLX]",
+      "ticker": "PLX",
+      "exchange": "HOSE",
+      "headline_vi": "PLX điều chỉnh phương án bán cổ phiếu quỹ",
+      "summary_vi": "Thông tin doanh nghiệp được trình bày thuần túy theo sự kiện công bố, không thêm nhận định, dự báo hoặc khuyến nghị.",
+      "source": "Prototype doanh nghiệp",
+      "source_url": "https://www.hsx.vn/"
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "[HOSE: PDR]",
+      "ticker": "PDR",
+      "exchange": "HOSE",
+      "headline_vi": "PDR hoàn tất giao dịch đầu tư tại Lotte Properties HCMC",
+      "summary_vi": "Card mẫu minh họa định dạng tin doanh nghiệp: mã cổ phiếu, sự kiện chính, nguồn và liên kết gốc.",
+      "source": "Prototype doanh nghiệp",
+      "source_url": "https://www.hsx.vn/"
+    }
+  ]
+}
