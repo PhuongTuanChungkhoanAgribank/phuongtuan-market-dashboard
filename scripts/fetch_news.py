@@ -1,17 +1,19 @@
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 import feedparser
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "daily_news.json"
+VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
-# Google News RSS is used as a free aggregation layer. The app only displays
+# Google News RSS is the free aggregation layer. The dashboard displays
 # factual headlines/summaries and links users back to the original source.
 FEEDS = [
     ("THẾ GIỚI", "THẾ GIỚI", "global markets OR world economy OR US stocks OR China economy"),
@@ -21,7 +23,8 @@ FEEDS = [
     ("QUỸ", "QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.0)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.1)"}
+RECENT_HOURS = 72
 
 
 def google_news_url(query: str) -> str:
@@ -39,9 +42,7 @@ def clean_html(text: str) -> str:
 
 
 def translate_to_vi(text: str) -> str:
-    """Best-effort free translation through Google's public translate endpoint.
-    If translation fails, keep the original text so the pipeline never breaks.
-    """
+    """Best-effort free translation. Never let translation failure break the feed."""
     text = clean_html(text)
     if not text or re.search(r"[À-ỹĐđ]", text):
         return text
@@ -56,15 +57,18 @@ def translate_to_vi(text: str) -> str:
         return text
 
 
-def published_iso(entry) -> str:
+def published_dt(entry) -> datetime:
     raw = entry.get("published") or entry.get("updated")
     if raw:
         try:
-            dt = parsedate_to_datetime(raw)
-            return dt.astimezone(timezone.utc).isoformat()
+            return parsedate_to_datetime(raw).astimezone(timezone.utc)
         except Exception:
             pass
-    return datetime.now(timezone.utc).isoformat()
+    return datetime.now(timezone.utc)
+
+
+def published_iso(entry) -> str:
+    return published_dt(entry).isoformat()
 
 
 def source_name(entry) -> str:
@@ -75,8 +79,6 @@ def source_name(entry) -> str:
 
 
 def infer_ticker(title: str):
-    # Common Vietnamese stock ticker pattern: uppercase 3 letters in brackets
-    # or surrounded by punctuation. Avoid treating common acronyms as tickers.
     blocked = {"FED", "ETF", "GDP", "CPI", "PPI", "USD", "CEO", "AI", "ECB", "BOJ", "EU", "M&A"}
     matches = re.findall(r"(?<![A-Za-z])[A-Z]{3}(?![A-Za-z])", title)
     for item in matches:
@@ -86,18 +88,23 @@ def infer_ticker(title: str):
 
 
 def fetch_feed(category: str, tag: str, query: str):
-    url = google_news_url(query)
-    response = requests.get(url, headers=HEADERS, timeout=25)
+    response = requests.get(google_news_url(query), headers=HEADERS, timeout=25)
     response.raise_for_status()
     feed = feedparser.parse(response.content)
     results = []
-    for entry in feed.entries[:8]:
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=RECENT_HOURS)
+
+    for entry in feed.entries[:12]:
+        published = published_dt(entry)
+        if published < cutoff:
+            continue
+
         title_original = clean_html(entry.get("title", ""))
         summary_original = clean_html(entry.get("summary", ""))
         if not title_original:
             continue
 
-        # Google News often appends the publication name after " - ".
+        # Google News commonly appends the publication name after " - ".
         title = title_original.rsplit(" - ", 1)[0].strip()
         summary = re.sub(r"^.*? - ", "", summary_original).strip() if summary_original else ""
         if not summary or summary == title_original:
@@ -145,8 +152,7 @@ def main():
             errors.append(f"{category}: {exc}")
 
     cards = dedupe(cards)
-    # Keep the dashboard fast and readable. Prioritize a balanced mix.
-    limits = {"THẾ GIỚI": 4, "VĨ MÔ": 4, "TRONG NƯỚC": 4, "DOANH NGHIỆP": 8, "QUỸ": 3}
+    limits = {"THẾ GIỚI": 5, "VĨ MÔ": 5, "TRONG NƯỚC": 5, "DOANH NGHIỆP": 10, "QUỸ": 4}
     selected = []
     counts = {key: 0 for key in limits}
     for card in cards:
@@ -155,16 +161,16 @@ def main():
             selected.append(card)
             counts[category] += 1
 
-    # If every feed failed, preserve the existing data instead of publishing
-    # an empty dashboard.
+    # If every feed failed, preserve the last good dataset instead of publishing empty data.
     if not selected:
         if DATA_FILE.exists():
+            print("No fresh items collected; keeping existing data.")
             return
         raise RuntimeError("No RSS items were collected: " + "; ".join(errors))
 
     selected.sort(key=lambda x: x.get("published_at", ""), reverse=True)
-    now = datetime.now().astimezone().strftime("%d/%m/%Y %H:%M")
-    payload = {"updated_at": now, "cards": selected}
+    now = datetime.now(VN_TZ).strftime("%d/%m/%Y %H:%M")
+    payload = {"updated_at": now, "timezone": "Asia/Ho_Chi_Minh", "cards": selected}
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -172,7 +178,7 @@ def main():
         print("Some feeds failed:")
         for error in errors:
             print("-", error)
-    print(f"Updated {len(selected)} news cards at {now}")
+    print(f"Updated {len(selected)} news cards at {now} (Vietnam time)")
 
 
 if __name__ == "__main__":
