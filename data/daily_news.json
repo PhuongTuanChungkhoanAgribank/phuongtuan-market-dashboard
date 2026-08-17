@@ -1,45 +1,258 @@
 {
-  "updated_at": "17/08/2026 16:20",
+  "updated_at": "17/08/2026 09:57",
   "cards": [
     {
-      "category": "THẾ GIỚI",
-      "tag": "GOOGLE NEWS",
+      "category": "DOANH NGHIỆP",
+      "tag": "DOANH NGHIỆP",
       "ticker": "",
       "exchange": "",
-      "headline_vi": "Tin thế giới",
-      "summary_vi": "Tổng hợp thông tin quốc tế từ Google News RSS và các nguồn đã chốt.",
-      "source": "Google News",
-      "source_url": "https://news.google.com/"
+      "headline_vi": "Vietcombank “hút” thêm 2.150 tỷ đồng qua kênh trái phiếu",
+      "summary_vi": "Vietcombank “hút” thêm 2.150 tỷ đồng qua kênh trái phiếu &nbsp;&nbsp; Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0dCMVByNFV0LVNoT3AwTWE0dUJvS08zQlVYWDRqZk5YZGJDdWxXeVF1NnpBRmlCeVFrQWViX2JXSWJSSVlHZmFjdFBQMTRtYUloUVhBT2dhRlJNbExDa1Y5a25BUXlhSTRNZGxaZGw0emRxcnVFb21VUHhSMjM3UnRPM0FYZEtObWhkend6MHZzbGVQbTNzaW94Zw?oc=5",
+      "published_at": "2026-08-17T09:10:49+00:00"
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "TRONG NƯỚC",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Băn khoăn xử lý chênh lệch thu - chi và cơ chế cho \"khoản âm\" nghìn tỷ nếu có của Ngân hàng Nhà nước",
+      "summary_vi": "chi và cơ chế cho \"khoản âm\" nghìn tỷ nếu có của Ngân hàng Nhà nước &nbsp;&nbsp; Báo và Phát thanh, Truyền hình Lạng Sơn",
+      "source": "Báo và Phát thanh, Truyền hình Lạng Sơn",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTUhtMGkyZVhtTTQzRXRxU0VmRjV2UkxzWTlmbzNiLTJoOXlKUFJKaGtCNjBtMFlYNGxLM21GbVd2dW1CZUFpVDBrbUU1TjBTOXJrMVBzc0YzVTBlVlJFcXFlU1VhR09KVGhWVExOSnJ1RUFMbUZkN084UUFiSEtGNnVDd3FvTXJQT2poMVpWR2hzaGFydWF6SEZoSGl0RmFpM0JvejFscmpMLS1RRkROeVpKald3ZWhZcGNEN2FPVkFzZHhOQjF4MEVzUldzQQ?oc=5",
+      "published_at": "2026-08-17T08:16:44+00:00"
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "DOANH NGHIỆP",
+      "ticker": "KSB",
+      "exchange": "HOSE",
+      "headline_vi": "KSB: Lợi nhuận ngày càng cải thiện nhưng cổ phiếu vẫn ở vùng đáy cuối 2022",
+      "summary_vi": "KSB: Lợi nhuận ngày càng cải thiện nhưng cổ phiếu vẫn ở vùng đáy cuối 2022 &nbsp;&nbsp; Nhadautu.vn",
+      "source": "Nhadautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNXNBNVktYlBjRDRIcXFjaFY2bENNeTlIM05aNUJPdXpzemJFU2phRk9MU3V2VlVkamtrM1JnWV9jOXR1Yy1NdVVaQTM0UmlGWUU4aGhlUGVScW55MDE4Q28zMjI1SHlmXzhMMnBQUW9lREJYVHRiMmx6bmVsbzg1MUFCLWVLSFBtb2p2YnMyX1Uxa0RucV9ZaG9ZSUtMOGQ2SE9aWUJNRXNUdw?oc=5",
+      "published_at": "2026-08-17T08:06:11+00:00"
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "TRONG NƯỚC",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Lãi suất cho vay hạ nhiệt nhanh hơn huy động, áp lực cuối năm còn lớn",
+      "summary_vi": "Lãi suất cho vay hạ nhiệt nhanh hơn huy động, áp lực cuối năm còn lớn &nbsp;&nbsp; Thời báo Tài chính Việt Nam",
+      "source": "Thời báo Tài chính Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYmlQU3l2UUZKeHJwZGtKWjRIUW04anp2SkFTdzBFS1puLUluS0RLQVhOUmdCeHdPSk50Y3ZIRmVFcVBTeW1yZTQ2cEFlZHo2NEtvV3N0UUkxenlBUUt3MGVkWlY4ZGhrYXFSZ0xJNTJqMmtZcWplTzBFUnJTVWxuNmpvdHJXMUsxZ2hXTFlaUmRVbzh2ZUgzLTR2ZktHRlgxRG1tNWRWclREb3E1Zm1nanFsd1pWTlgtajhWWVR3?oc=5",
+      "published_at": "2026-08-17T07:01:32+00:00"
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "TRONG NƯỚC",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Sửa Luật Ngân hàng Nhà nước Việt Nam: Tăng kiểm soát, giảm rủi ro, gỡ vướng thị trường",
+      "summary_vi": "Sửa Luật Ngân hàng Nhà nước Việt Nam: Tăng kiểm soát, giảm rủi ro, gỡ vướng thị trường &nbsp;&nbsp; Báo Sức khỏe & Đời sống",
+      "source": "Báo Sức khỏe & Đời sống",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZUxjcnUwTjlyMW5qdy1wd1RTZHg5TmpvTW05ZEh2bTh5U3Z2blFJblQ4cUFrUVZjWkxSNWEzSklHY0xnRzNlRVpSbm5tbng0cHdqM2N0MUgtbks1d3RQSXB4dXljWXVFOHdpNS0zdmhnTFR3eWJqMHY4c3B4cnBlS2phSWlmbHpYdDRVc3NLWWtjSVI0M25hMlJuMEVYYVJpRFAtcG81ek1Sa1laMkxWVFVLaFJybzRnZkttN0xYOWJkSWhCRjJ6SmlQdTU?oc=5",
+      "published_at": "2026-08-17T06:57:00+00:00"
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "DOANH NGHIỆP",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Công ty Trung Minh: Gánh khối nợ hơn 5.100 tỷ đồng, tiếp tục báo lỗ bán niên",
+      "summary_vi": "Công ty Trung Minh: Gánh khối nợ hơn 5.100 tỷ đồng, tiếp tục báo lỗ bán niên &nbsp;&nbsp; Báo Pháp Luật Việt Nam",
+      "source": "Báo Pháp Luật Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0lrNU5rN0VsV1l4TjNOalpPQy1FYldXS3dqcHVvSXFWTUJ6M0R3cndseTZnbGJ6YktVYzRjeDdKcVlmM2Q0S3h1U0ZkSjJwX2FMdE1zRU4xUzdIVEhSMU1oU0tqdi1uc3BCZjlDbFR2WElNN3lYLW1nWFZySDFZY1NOcEtvUUliYThaNmxEQ3FhZGZfeVF1Uk1SSDloSlJ6U2ljaW9veVZsNjlmdjNOMmpR?oc=5",
+      "published_at": "2026-08-17T04:30:00+00:00"
     },
     {
       "category": "VĨ MÔ",
-      "tag": "FED",
+      "tag": "VĨ MÔ",
       "ticker": "",
       "exchange": "",
-      "headline_vi": "Thông tin từ Cục Dự trữ Liên bang Mỹ",
-      "summary_vi": "Cập nhật các thông tin và công bố từ nguồn chính thức của Cục Dự trữ Liên bang Mỹ.",
-      "source": "Federal Reserve",
-      "source_url": "https://www.federalreserve.gov/"
+      "headline_vi": "Giá vàng SJC tiếp tục tăng, thị trường thế giới chờ đợi triển vọng lãi suất của Mỹ.",
+      "summary_vi": "Giá vàng SJC tiếp tục tăng, thị trường thế giới chờ đợi triển vọng lãi suất của Mỹ.    Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVXJlQ1hxMWVjb0dNZS0zTlBlR00waG1RZmZlbFhxMm9DS00yUkRtLUNRanhhWVpRMDlqN3Y3RWFjdFVESXE4REZNb2JUaTFkc3Y3eTl3QkE1cXhBUUpiQ0NNUHVpRW9LdHdPbnk3a1BZWVFoMFA3RnlLQU9IYnotUFAxMHJDQlR6TFU4ak8xNUZ2TmJLdlZ4QmtUZFdubkppUWc4?oc=5",
+      "published_at": "2026-08-17T04:09:22+00:00"
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "TRONG NƯỚC",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Kinh tế số cần tạo ra giá trị thực cho tăng trưởng",
+      "summary_vi": "Kinh tế số cần tạo ra giá trị thực cho tăng trưởng &nbsp;&nbsp; baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWDZ4OWM4S3Q5ZzRFeFctT2I2TFN6dTk0RnN3VlZ5QWJIazlHZDdPVkg0SGtwY2lsaE5ZMS1nSWZXZ3o3U0hPdW1OSnJkMUhYWDlkOVVhSzNldjNPTERVZFhqWV9WS1Nla1B5QWlfN0hSRExQWTBHczI2dFFzdlI4cGJLUXVvUURkelVZ?oc=5",
+      "published_at": "2026-08-17T03:19:00+00:00"
     },
     {
       "category": "DOANH NGHIỆP",
-      "tag": "[HOSE: PLX]",
-      "ticker": "PLX",
+      "tag": "DOANH NGHIỆP",
+      "ticker": "VNG",
       "exchange": "HOSE",
-      "headline_vi": "PLX điều chỉnh phương án bán cổ phiếu quỹ",
-      "summary_vi": "Thông tin doanh nghiệp được trình bày thuần túy theo sự kiện công bố, không thêm nhận định, dự báo hoặc khuyến nghị.",
-      "source": "HOSE",
-      "source_url": "https://www.hsx.vn/"
+      "headline_vi": "VNG tái cơ cấu, dồn lực cho cuộc đua AI",
+      "summary_vi": "VNG tái cơ cấu, dồn lực cho cuộc đua AI &nbsp;&nbsp; baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QMUNuLWhGWi1WOFFPN2hOeVBZMy00dWdaWklaVG53VGF5WTRTcXY3aThJQ2NuQmpMR09aOTNKbDlYdGh4c2luei00ZjMxS0FMdHRKVUJJaXJ2VldQU1Zaa0lIX1JFUmNfVWYtemtzOExnWFBFOEhJaElSQQ?oc=5",
+      "published_at": "2026-08-17T02:47:00+00:00"
     },
     {
       "category": "DOANH NGHIỆP",
-      "tag": "[HOSE: PDR]",
-      "ticker": "PDR",
-      "exchange": "HOSE",
-      "headline_vi": "PDR hoàn tất giao dịch đầu tư tại Lotte Properties HCMC",
-      "summary_vi": "Thông tin doanh nghiệp gồm mã cổ phiếu, sự kiện chính và nguồn liên kết gốc.",
-      "source": "HOSE",
-      "source_url": "https://www.hsx.vn/"
+      "tag": "DOANH NGHIỆP",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Ngân hàng ồ ạt phát hành trái phiếu, đạt gần 36.000 tỷ đồng trong 1 tháng",
+      "summary_vi": "Ngân hàng ồ ạt phát hành trái phiếu, đạt gần 36.000 tỷ đồng trong 1 tháng &nbsp;&nbsp; Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcUJ6enFTMS1Pd05mbVJZYXJ4Q1VUVFhjUnBzTjlQRkx2UkJxQmJPUkJuYXNCYS1yTWpCc3hwcWRmcEZ4azBWMHBHaTNzaExuay1VUmt5VnhYSjMyNndXZFkwZ2xfZE5WMkpfSkFmdWlvbWFRUHRnOGdyR2VWNU9uT1pQUDFBb0pUQUxKcjl3bm0xWmcwclNhR1lXN0hUVXZaX2wwZWd0SG1mb0gwRmdjVEFac1htb0xaM0g3cm9mNm1HcWRu?oc=5",
+      "published_at": "2026-08-17T02:46:10+00:00"
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "VĨ MÔ",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Tỷ giá ngoại tệ, tỷ giá USD/ VNĐ hôm nay 17/8: Đồng USD biến động nhưng khó bứt phá.",
+      "summary_vi": "Tỷ giá ngoại tệ, tỷ giá USD/ VNĐ hôm nay 17/8: Đồng USD biến động nhưng khó bứt phá.    Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFZpeHhENkNNZlc1WV9VUFpyVjgtVnJkM3NTcE14T050dXl6VkZJVXQyVVBnT0tETW11SlNyVnQ1Rm1FOVBXSURHendsWjNYbXRZeDNyU1RVUHduYVNYUVR5ZkR3dEtqRnd4UHdGR1JpNjdnYzdtZ0xiMUYzdEJyWmdVcUhYcUJpTWc4bW1admh3dndvbEpWYjJEZTdTRmh4TTBlbnZSM3RvVGU0U3c?oc=5",
+      "published_at": "2026-08-17T02:19:32+00:00"
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "VĨ MÔ",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Tỷ giá USD hôm nay (17/8): Đồng USD khó bứt phá trong tuần này.",
+      "summary_vi": "Tỷ giá USD hôm nay (17/8): Đồng USD khó bứt phá trong tuần này.    Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMjIyTldWcHdFbi1zYlZSZGZvQ1VnSHFqd3U0M2k2blFJWHdNOGJ0cjBRVnBHRTlSQWd1bzhXUzdURGd4dVBmd3Y5dVN2aWh1bFpGUUkxSUsyRXBBd2l2NGw2WmxMNGFaR0hBYi0xX2k1b1NQVW5RRDJwbVhnQ19aU0VkSHZpMGdISnZERDln?oc=5",
+      "published_at": "2026-08-17T01:55:17+00:00"
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "DOANH NGHIỆP",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Cổ phiếu dầu khí cuối năm 2026: Dòng tiền sẽ chọn ai trong chu kỳ đầu tư mới?",
+      "summary_vi": "Cổ phiếu dầu khí cuối năm 2026: Dòng tiền sẽ chọn ai trong chu kỳ đầu tư mới? &nbsp;&nbsp; thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNc1MtMWFqblROT3kzelctbm16LWpzOXlFa1pOVGpISGZJN09BUkVoWGtSQmx3d3Y1OEU3Z3R4OGdnVmptdXgxaTFwcnRSTElQM2poUm1yYXAzeFJUcEdLNTZZTFhGS3ZrTXJRLUh3U3JhZjAxaFRMZXRLSjRZOElaQVFQTk9wQXhpbEJEbk9DUGRKZFdwSEt6V2FUQmVTOWprSjhsdkpicTFyRkVEbzVhYV80U3U1RTVyODljTnIyVQ?oc=5",
+      "published_at": "2026-08-16T23:00:00+00:00"
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "DOANH NGHIỆP",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Lãi giảm hơn 90%, ‘ông lớn' hạ tầng lấy tiền đâu mua lại 108 tỷ đồng trái phiếu?",
+      "summary_vi": "Lãi giảm hơn 90%, ‘ông lớn' hạ tầng lấy tiền đâu mua lại 108 tỷ đồng trái phiếu? &nbsp;&nbsp; vietnamnet.vn",
+      "source": "vietnamnet.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2FMaVJwWnQ5YmFvYzJPVklzUkRQcWtUd0dVemtONjhEYlU0RHR4aFRMN1ZuRnE1SHQ0aUREU3JoOE80MWFGOW01VEhzd0tXWlAwWjFfdXh4eWlSM2UyQUU3WjdVSE9fcXhyRUJCaUpLeXhxaXNtelQtRGQ4RUdCRmwtQlhEY2s2S0NWNzlQcFBld0JTNzkxVTYyV3lwXzhUd2huZ1RfdjZQX00xZnI1VU1R?oc=5",
+      "published_at": "2026-08-16T23:00:00+00:00"
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "DOANH NGHIỆP",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Một doanh nghiệp cao su chuẩn bị chốt ngày thưởng cổ phiếu tỷ lệ 300%",
+      "summary_vi": "Một doanh nghiệp cao su chuẩn bị chốt ngày thưởng cổ phiếu tỷ lệ 300% &nbsp;&nbsp; cafef.vn",
+      "source": "cafef.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQzQxU3p1R3I3S182bjlLUUpoWEUxMWJCa053WGVQVGlJR3BrSE1qaW4zV2xSMVVMNHNyRlMwLTdaelBMWkhHcHBPZ3B6a3kyM2VENnQ4aTFtXzlrTWdOZFMzU3l5TmYwSkZKNzNIQTNYNnRVSEVOakl5SjU2MzBka0UwZjBOd1FuMkRaUGxvU2x6cURSUHl6cnh2YTMyRFRKYllFRGt6VDZxODJR?oc=5",
+      "published_at": "2026-08-16T17:04:00+00:00"
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "VĨ MÔ",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Đồng đô la Mỹ chạm mức thấp nhất kể từ tháng Năm.",
+      "summary_vi": "Đồng đô la Mỹ chạm mức thấp nhất kể từ tháng Năm.    Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vaVFuNjhHS05tMWtCakhzbWFxWjUxTUxqMEVQNzMtbHZCbHFSWmJTbnB6Tkx2LXRhTTVJYlhiZVNXcDNIa1FhRHVCMVNkTThMRmZHZC05RmR0cndFeUZRWmZOZlN4ck1KU0RabnlBVGlUcC1qREtwcg?oc=5",
+      "published_at": "2026-08-15T12:05:25+00:00"
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "THẾ GIỚI",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Điểm tin kinh tế thế giới ngày 14/8/2026 nổi bật",
+      "summary_vi": "Điểm tin kinh tế thế giới ngày 14/8/2026    Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IVmZDMjIxWVBnc3pydHRaQm9hSzd5WWlPRkdlQVdUUEpkaG0xSC1UbTNCNV9nMkl0aVZ0cmVYUUVOc05sSU1ITDZnREhoTGc5RU9paHhrZEVIUDBZX1VLMExHNHNWc0NLN0gyZEJSem1xU1pLNk1McGlKMF9MYW8?oc=5",
+      "published_at": "2026-08-14T14:35:01+00:00"
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "THẾ GIỚI",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Trung Quốc mở rộng việc sử dụng đồng nhân dân tệ ở thị trường nước ngoài",
+      "summary_vi": "Trung Quốc mở rộng việc sử dụng đồng nhân dân tệ ở thị trường nước ngoài    Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdTZfcHpSazRnV2pobmNkVXNjNFRFNld1d0xndF9NVmxid0tKUkRlY2ZVYVhab3p5WkRWUm1uTEpkcnc3blRqNW8zaXRJbG55ekxlTUEyZ3g2UzR6SDJkS1E4NlVyelBCTXdaVFYzR3B4cXA2M1BYdWJndjl6djZNZkdJN0gxNTg5YVI1ODR6Nnk?oc=5",
+      "published_at": "2026-08-13T09:16:11+00:00"
+    },
+    {
+      "category": "QUỸ",
+      "tag": "QUỸ",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "1,5 tỷ USD vốn ETF sẽ chảy vào chứng khoán Việt: Những cổ phiếu nào dẫn đầu danh sách dự kiến mua?",
+      "summary_vi": "1,5 tỷ USD vốn ETF sẽ chảy vào chứng khoán Việt: Những cổ phiếu nào dẫn đầu danh sách dự kiến mua? &nbsp;&nbsp; VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTWV2c3lzT1F6ZHRrRjZHWlg4SXlwUXVhR0lBVVJyRHI5TUoxSWFqNzFVNXF4R1BtclVyTTA3dG9nYWZEcGpWTnU1RTcxMXA3cXZsZmtURGJ3aXFjaHhSZVdHOFJSSWk3MTAxVFk1SG96M0NqZnhYM1IwOU14Y2dEdGJtQ0NsZ2NzRDQtaFpJNVIxYTFGMVplOExJZkRpVm5ubkRKaEthd0F3UDkwX2I5M3F1VlNVVVQ4U3pSS1psT2U4OVZkckVtUHpZU09VdDA?oc=5",
+      "published_at": "2026-08-04T07:00:00+00:00"
+    },
+    {
+      "category": "QUỸ",
+      "tag": "QUỸ",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "30 cổ phiếu được kỳ vọng hút mạnh dòng tiền FTSE khi Việt Nam nâng hạng",
+      "summary_vi": "30 cổ phiếu được kỳ vọng hút mạnh dòng tiền FTSE khi Việt Nam nâng hạng &nbsp;&nbsp; Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTm9vME5PY3oyR3o4SlQ4WUN3dDJTSkF4WFlmRFUxRElST19fdlAyVjI2dW5kcVg1aGJKR1ltWF9UZkN5Uy1DZUZmM3U2UEhPSG9tbld3UElUdzY5ZXdYdFRLdzZSZTNHM3lydHo4bVAtcnBJeGR2NVNtZHhlTEx1X0JPcDV2ZlRrZEhadU40VW9jSlJCaUxkd3lrQUhMZHh3OEgyNHAycE05aGxfRExseThKWVhjODZW?oc=5",
+      "published_at": "2026-08-03T07:00:00+00:00"
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "THẾ GIỚI",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Một tuần thị trường đảo chiều: Tại sao các nhà đầu tư cùng nhau phòng thủ?",
+      "summary_vi": "Một tuần thị trường đảo chiều: Tại sao các nhà đầu tư cùng nhau phòng thủ?    Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcl9jUmFSUDdUdkRCcVdCVGlPZTg1RnRWZzJha1A0cG5HVEg4Rm4zVWJNWnBYOFpUZ3lpSmVLeGJfTHVjU0E3V0VBTG03WVRETVhWVUY4TGdwMUZncjRIcFUwZnR3cnVJTlpqY0Q2NHo4UE5Qb2tyTUVGWGUzdzY2MVRYeE0td1dfUlJ6M3BKem02dlpRTXdwM1ROVHN4QQ?oc=5",
+      "published_at": "2026-08-02T07:00:00+00:00"
+    },
+    {
+      "category": "QUỸ",
+      "tag": "QUỸ",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Hơn 20 nghìn tỷ đồng bị rút khỏi các quỹ đầu tư trong nửa đầu năm 2026",
+      "summary_vi": "Hơn 20 nghìn tỷ đồng bị rút khỏi các quỹ đầu tư trong nửa đầu năm 2026 &nbsp;&nbsp; baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRmFTX1RBZk8xc2xDS0trRFh3eXF5elgta25EX1NUbS1TQjFkNEc2QmhLSS1WcWtUSVltb2xmRWRSLUU1XzhqdUROdHJSR1VKOWNud09ja2tjM0FFNVAtWU1YaXBHWGp1WmFsS1c3QXNvdUtMUUtIRzk3Z3MyOHR5QTYyWnVXWkhUWURjWnpWc05xRW1OZmhsbGRFODI4QmJ5azBwS0xB?oc=5",
+      "published_at": "2026-07-29T07:00:00+00:00"
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "THẾ GIỚI",
+      "ticker": "",
+      "exchange": "",
+      "headline_vi": "Trung Quốc: Chiến lược toàn cầu hóa mới và tác động của nó đối với nền kinh tế thế giới",
+      "summary_vi": "Trung Quốc: Chiến lược toàn cầu hóa mới và tác động của nó tới nền kinh tế thế giới    Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd0l6TlF2S0J6S1FDSFdNY21CQ0ZydmRHZ0JjdF94el94QWJLQjdNS1hMTHI3TU5iNWZiTExHWjdBaXdZVVZ1OFRDVzlFamxra2dzQnpHSGhrc0VUUFprZWlVeU9Qdjkzc1FQTjlNc093amJRTGZrN3dLbGE1VDhyQVhPT3dnUFpObTFmNFE2OEVvdzc1NmFyNlpKeVJLSDFYdFFn?oc=5",
+      "published_at": "2026-07-28T07:00:00+00:00"
     }
   ]
 }
