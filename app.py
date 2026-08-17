@@ -209,9 +209,7 @@ cards = data.get("cards", [])
 
 
 def clean_prototype_text(text: str) -> str:
-    """Keep the prototype usable while preventing internal demo wording from
-    appearing on the public dashboard. Real RSS/news content will pass through
-    unchanged."""
+    """Remove legacy prototype/demo wording before it reaches the public UI."""
     if not text:
         return ""
     replacements = [
@@ -242,7 +240,7 @@ st.markdown(
         <div class="hero-title">PHƯƠNG TUẤN <span class="accent">- CHỨNG KHOÁN AGRIBANK</span><br>
         CHI NHÁNH MIỀN TRUNG</div>
         <div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div>
-        <div class="hero-note">Thuần thông tin · Dịch tiếng Việt · Không nhận định đầu tư</div>
+        <div class="hero-note">Daily Market</div>
       </div>
       <div class="update-box">CẬP NHẬT<br><b>{updated_at}</b></div>
     </div>
