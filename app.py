@@ -9,42 +9,264 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Phương Tuấn - Chứng khoán Agribank Chi nhánh Miền Trung",
-    page_icon="📊",
+    page_icon="📈",
     layout="wide",
 )
 
 DATA_FILE = Path(__file__).parent / "data" / "daily_news.json"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
+# Agriseco / market visual system
 st.markdown(
     """
     <style>
-    :root { --orange:#F7A21F; --orange-2:#FFBE45; --red:#B81D2D; --navy:#151B3A; --ink:#1D2530; --muted:#66717D; --bg:#F4F6F8; --line:#E1E5EA; }
-    .stApp { background:radial-gradient(circle at 8% 10%,rgba(247,162,31,.055),transparent 25%),radial-gradient(circle at 92% 18%,rgba(184,29,45,.045),transparent 25%),var(--bg); }
-    .block-container { max-width:1500px; padding-top:.75rem; padding-bottom:2rem; }
-    .hero { position:relative; overflow:hidden; border-radius:18px; min-height:145px; padding:26px 32px 24px; margin-bottom:18px; background:radial-gradient(circle at 88% 20%,rgba(247,162,31,.26),transparent 25%),radial-gradient(circle at 74% 115%,rgba(184,29,45,.28),transparent 33%),linear-gradient(118deg,#11162F 0%,#171D42 48%,#222A5B 100%); box-shadow:0 12px 32px rgba(18,24,55,.16); }
-    .hero:before { content:""; position:absolute; inset:0; opacity:.20; background:repeating-linear-gradient(90deg,transparent 0 78px,rgba(255,255,255,.055) 79px 80px),repeating-linear-gradient(0deg,transparent 0 38px,rgba(255,255,255,.045) 39px 40px); pointer-events:none; }
-    .hero:after { content:""; position:absolute; width:720px; height:260px; right:-110px; bottom:-145px; transform:rotate(-8deg); border-top:2px solid rgba(247,162,31,.28); border-radius:50%; box-shadow:80px -26px 0 -78px rgba(247,162,31,.28),170px -62px 0 -118px rgba(247,162,31,.22),270px -18px 0 -150px rgba(184,29,45,.30); pointer-events:none; }
-    .hero-content { position:relative; z-index:2; }
-    .hero-title { color:#fff; font-size:1.55rem; line-height:1.2; font-weight:900; letter-spacing:.01em; margin:0; }
-    .hero-title .accent { color:var(--orange-2); }
-    .hero-tagline { color:#E9ECF7; font-size:.90rem; font-weight:800; margin-top:.42rem; letter-spacing:.015em; }
-    .hero-note { color:rgba(255,255,255,.68); font-size:.72rem; margin-top:.62rem; }
-    .update-box { position:absolute; z-index:3; top:25px; right:30px; text-align:right; color:rgba(255,255,255,.65); font-size:.70rem; }
-    .update-box b { color:var(--orange-2); font-size:.92rem; }
-    .section-title { font-size:1rem; font-weight:900; color:var(--ink); margin:.7rem 0 .65rem; }
-    [data-testid="stMetric"] { background:rgba(255,255,255,.72); border:1px solid var(--line); border-radius:12px; padding:10px 14px; }
-    [data-testid="stMetricLabel"] { color:var(--muted); } [data-testid="stMetricValue"] { color:var(--navy); }
-    .card { background:rgba(255,255,255,.97); border:1px solid var(--line); border-radius:14px; padding:15px; min-height:184px; box-shadow:0 3px 12px rgba(25,35,50,.045); transition:transform .15s ease,box-shadow .15s ease; }
-    .card:hover { transform:translateY(-2px); box-shadow:0 9px 24px rgba(25,35,50,.09); }
-    .pill { display:inline-block; background:#FFF7E5; color:#7A5200; border-radius:999px; padding:4px 8px; font-size:.67rem; font-weight:800; }
-    .cat { display:inline-block; background:#FFF1F2; color:var(--red); border-radius:999px; padding:4px 8px; font-size:.67rem; font-weight:800; margin-left:5px; }
-    .time { float:right; color:#8A929B; font-size:.65rem; }
-    .headline { color:var(--ink); font-size:.99rem; font-weight:850; line-height:1.42; margin-top:.68rem; }
-    .summary { font-size:.82rem; line-height:1.52; color:#5B6672; margin-top:.42rem; }
-    .source { color:#7B848D; font-size:.66rem; margin-top:.72rem; } a { color:var(--red) !important; }
-    div[role="radiogroup"] { gap:14px; }
-    @media (max-width:800px) { .hero { min-height:180px; padding:22px; } .hero-title { font-size:1.18rem; max-width:78%; } .hero-tagline { font-size:.78rem; max-width:78%; } .update-box { top:20px; right:20px; } }
+    :root {
+        --orange:#F7A21F;
+        --orange-2:#FFBF45;
+        --red:#B81D2D;
+        --purple:#24104A;
+        --purple-2:#34156B;
+        --navy:#0B0D2A;
+        --navy-2:#15133D;
+        --ink:#F7F8FF;
+        --muted:#B7B9D0;
+        --line:rgba(255,255,255,.12);
+    }
+
+    .stApp {
+        background:
+            radial-gradient(circle at 8% 12%, rgba(247,162,31,.10), transparent 24%),
+            radial-gradient(circle at 88% 18%, rgba(184,29,45,.14), transparent 25%),
+            radial-gradient(circle at 55% 70%, rgba(93,39,173,.16), transparent 34%),
+            linear-gradient(135deg,#07091E 0%,#111036 45%,#1A0B36 100%);
+        color:var(--ink);
+    }
+
+    .stApp:before {
+        content:"";
+        position:fixed;
+        inset:0;
+        pointer-events:none;
+        opacity:.22;
+        background:
+            repeating-linear-gradient(90deg,transparent 0 79px,rgba(152,124,255,.11) 80px,transparent 81px),
+            repeating-linear-gradient(0deg,transparent 0 39px,rgba(152,124,255,.07) 40px,transparent 41px);
+        mask-image:linear-gradient(to bottom,black 0%,transparent 72%);
+        z-index:0;
+    }
+
+    .block-container {
+        position:relative;
+        z-index:1;
+        max-width:1500px;
+        padding-top:.8rem;
+        padding-bottom:2rem;
+    }
+
+    /* Purple double-exposure market hero */
+    .hero {
+        position:relative;
+        overflow:hidden;
+        border-radius:0 0 22px 22px;
+        min-height:190px;
+        padding:27px 32px 25px;
+        margin:0 0 20px;
+        background:
+            radial-gradient(circle at 88% 38%,rgba(247,162,31,.23),transparent 20%),
+            radial-gradient(circle at 75% 115%,rgba(184,29,45,.38),transparent 34%),
+            radial-gradient(circle at 56% 60%,rgba(102,43,201,.30),transparent 33%),
+            linear-gradient(115deg,#0B0D2A 0%,#151641 43%,#251044 100%);
+        box-shadow:0 18px 45px rgba(0,0,0,.34);
+    }
+
+    .hero:before {
+        content:"";
+        position:absolute;
+        inset:0;
+        opacity:.34;
+        background:
+            repeating-linear-gradient(90deg,transparent 0 78px,rgba(255,255,255,.045) 79px 80px),
+            repeating-linear-gradient(0deg,transparent 0 38px,rgba(255,255,255,.035) 39px 40px);
+        pointer-events:none;
+    }
+
+    /* Abstract candlestick / city double exposure */
+    .hero:after {
+        content:"";
+        position:absolute;
+        width:760px;
+        height:310px;
+        right:-55px;
+        bottom:-178px;
+        transform:rotate(-7deg);
+        border-top:2px solid rgba(247,162,31,.38);
+        border-radius:50%;
+        box-shadow:
+            0 -18px 0 -9px rgba(118,71,222,.18),
+            90px -45px 0 -34px rgba(247,162,31,.26),
+            190px -75px 0 -65px rgba(184,29,45,.30),
+            300px -36px 0 -92px rgba(247,162,31,.22);
+        pointer-events:none;
+    }
+
+    .hero-glow {
+        position:absolute;
+        right:7%;
+        top:12px;
+        width:360px;
+        height:180px;
+        background:radial-gradient(ellipse,rgba(111,57,211,.28),transparent 68%);
+        filter:blur(2px);
+        pointer-events:none;
+    }
+
+    .hero-content { position:relative; z-index:2; max-width:72%; }
+    .hero-title {
+        color:#fff;
+        font-size:1.52rem;
+        line-height:1.18;
+        font-weight:950;
+        letter-spacing:.015em;
+        margin:0;
+        text-shadow:0 2px 14px rgba(0,0,0,.28);
+    }
+    .hero-title .accent { color:var(--orange); }
+    .hero-tagline { color:#F0F1FF; font-size:.90rem; font-weight:850; margin-top:.48rem; letter-spacing:.02em; }
+    .hero-note {
+        display:inline-block;
+        color:var(--orange);
+        font-size:.76rem;
+        font-weight:900;
+        margin-top:.72rem;
+        padding-top:.42rem;
+        border-top:2px solid var(--orange);
+        letter-spacing:.08em;
+    }
+    .update-box {
+        position:absolute;
+        z-index:3;
+        top:24px;
+        right:30px;
+        text-align:right;
+        color:rgba(255,255,255,.62);
+        font-size:.68rem;
+        letter-spacing:.06em;
+    }
+    .update-box b { color:var(--orange-2); font-size:.92rem; letter-spacing:0; }
+
+    .section-title {
+        font-size:1.02rem;
+        font-weight:950;
+        color:#fff;
+        margin:1rem 0 .75rem;
+        padding-left:.75rem;
+        border-left:4px solid var(--orange);
+        letter-spacing:.02em;
+    }
+
+    /* Metric tiles */
+    [data-testid="stMetric"] {
+        background:linear-gradient(145deg,rgba(40,22,78,.82),rgba(16,16,48,.86));
+        border:1px solid rgba(154,126,255,.18);
+        border-radius:15px;
+        padding:11px 15px;
+        box-shadow:0 8px 24px rgba(0,0,0,.18);
+    }
+    [data-testid="stMetricLabel"] { color:#B8B9D2 !important; }
+    [data-testid="stMetricValue"] { color:#fff !important; }
+
+    /* Search */
+    div[data-baseweb="input"] {
+        background:rgba(255,255,255,.055) !important;
+        border:1px solid rgba(154,126,255,.18) !important;
+        border-radius:12px !important;
+    }
+    div[data-baseweb="input"] input { color:#fff !important; }
+    div[data-baseweb="input"] input::placeholder { color:#8E90AC !important; }
+
+    /* Filter radios as compact purple buttons */
+    div[role="radiogroup"] { gap:9px; }
+    div[role="radiogroup"] label {
+        background:rgba(38,21,75,.62);
+        border:1px solid rgba(154,126,255,.18);
+        border-radius:999px;
+        padding:7px 13px;
+        transition:.15s ease;
+    }
+    div[role="radiogroup"] label:hover { border-color:rgba(247,162,31,.55); }
+    div[role="radiogroup"] p { color:#E9E9F7 !important; font-weight:700; }
+
+    /* News cards: dark purple body + Agriseco orange/red accents */
+    .card {
+        position:relative;
+        overflow:hidden;
+        background:linear-gradient(145deg,rgba(35,19,68,.96),rgba(17,14,43,.97));
+        border:1px solid rgba(154,126,255,.22);
+        border-radius:16px;
+        padding:16px;
+        min-height:205px;
+        box-shadow:0 10px 28px rgba(0,0,0,.24);
+        transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;
+    }
+    .card:before {
+        content:"";
+        position:absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        width:3px;
+        background:linear-gradient(180deg,var(--orange),var(--red));
+        opacity:.9;
+    }
+    .card:hover {
+        transform:translateY(-3px);
+        border-color:rgba(247,162,31,.58);
+        box-shadow:0 16px 35px rgba(0,0,0,.34);
+    }
+    .pill {
+        display:inline-block;
+        background:rgba(247,162,31,.13);
+        color:var(--orange-2);
+        border:1px solid rgba(247,162,31,.26);
+        border-radius:999px;
+        padding:4px 8px;
+        font-size:.66rem;
+        font-weight:900;
+    }
+    .cat {
+        display:inline-block;
+        background:rgba(184,29,45,.15);
+        color:#FF7784;
+        border:1px solid rgba(184,29,45,.25);
+        border-radius:999px;
+        padding:4px 8px;
+        font-size:.66rem;
+        font-weight:900;
+        margin-left:5px;
+    }
+    .time { float:right; color:#8F91B0; font-size:.65rem; }
+    .headline { color:#fff; font-size:1rem; font-weight:900; line-height:1.42; margin-top:.72rem; }
+    .summary { font-size:.81rem; line-height:1.52; color:#B7B8CD; margin-top:.44rem; }
+    .source { color:#8F91AB; font-size:.65rem; margin-top:.78rem; }
+    a { color:var(--orange) !important; font-weight:750; }
+
+    /* Footer */
+    .footer-note {
+        color:#777A9A;
+        font-size:.68rem;
+        margin-top:1.25rem;
+        padding-top:.8rem;
+        border-top:1px solid rgba(255,255,255,.08);
+    }
+
+    @media (max-width:800px) {
+        .hero { min-height:210px; padding:22px; }
+        .hero-content { max-width:100%; }
+        .hero-title { font-size:1.15rem; padding-right:8%; }
+        .hero-tagline { font-size:.76rem; }
+        .update-box { top:18px; right:18px; }
+        .card { min-height:180px; }
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -61,13 +283,8 @@ cards = data.get("cards", [])
 def clean_prototype_text(text: str) -> str:
     if not text:
         return ""
-
-    # RSS feeds sometimes leave HTML entities in stored data, especially
-    # &nbsp; / non-breaking spaces. Decode and normalize them at render time
-    # as a second safety layer for older JSON files.
     result = html.unescape(str(text)).replace("\xa0", " ")
     result = re.sub(r"\s+", " ", result)
-
     replacements = [
         "Prototype: ", "Prototype – ", "Prototype - ",
         "Card này dùng để kiểm tra cách hiển thị nhóm vĩ mô quốc tế. ",
@@ -105,10 +322,11 @@ updated_at = data.get("updated_at", "—")
 st.markdown(
     f"""
     <div class="hero">
+      <div class="hero-glow"></div>
       <div class="hero-content">
         <div class="hero-title">PHƯƠNG TUẤN <span class="accent">- CHỨNG KHOÁN AGRIBANK</span><br>CHI NHÁNH MIỀN TRUNG</div>
         <div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div>
-        <div class="hero-note">Daily Market</div>
+        <div class="hero-note">DAILY MARKET</div>
       </div>
       <div class="update-box">CẬP NHẬT<br><b>{html.escape(str(updated_at))}</b></div>
     </div>
@@ -116,11 +334,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-m1, m2, m3, m4 = st.columns(4)
+m1, m2, m3, m4, m5 = st.columns(5)
 m1.metric("Tổng tin", len(cards))
 m2.metric("Doanh nghiệp", sum(1 for x in cards if x.get("category") == "DOANH NGHIỆP"))
 m3.metric("Vĩ mô", sum(1 for x in cards if x.get("category") == "VĨ MÔ"))
 m4.metric("Thế giới", sum(1 for x in cards if x.get("category") == "THẾ GIỚI"))
+m5.metric("Quỹ", sum(1 for x in cards if x.get("category") == "QUỸ"))
 
 search = st.text_input("Tìm kiếm", placeholder="Nhập mã cổ phiếu, doanh nghiệp, chủ đề hoặc từ khóa…")
 category = st.radio("Bộ lọc", ["Tất cả", "THẾ GIỚI", "TRONG NƯỚC", "VĨ MÔ", "DOANH NGHIỆP", "QUỸ"], horizontal=True, label_visibility="collapsed")
@@ -168,4 +387,4 @@ else:
                 )
                 st.write("")
 
-st.markdown('<div style="color:#8A929B;font-size:.68rem;margin-top:1rem;">Bản tin cung cấp thông tin, không phải khuyến nghị đầu tư.</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer-note">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK CHI NHÁNH MIỀN TRUNG · Bản tin cung cấp thông tin, không phải khuyến nghị đầu tư.</div>', unsafe_allow_html=True)
