@@ -3,7 +3,6 @@ name: Update Daily Market News
 on:
   schedule:
     # 07:00, 11:00 and 15:00 Vietnam time (UTC+7) every day.
-    # GitHub Actions cron uses UTC, so these are 00:00, 04:00 and 08:00 UTC.
     - cron: "0 0 * * *"
     - cron: "0 4 * * *"
     - cron: "0 8 * * *"
@@ -31,11 +30,11 @@ jobs:
       - name: Fetch and translate news
         run: python scripts/fetch_news.py
 
-      - name: Commit updated news
+      - name: Commit updated news and archive
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/daily_news.json
+          git add data/daily_news.json data/archive/
           if git diff --cached --quiet; then
             echo "No news changes to commit."
           else
