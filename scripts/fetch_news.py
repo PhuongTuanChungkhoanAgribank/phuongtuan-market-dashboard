@@ -17,14 +17,14 @@ VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 # Google News RSS is the free aggregation layer. The dashboard displays
 # factual headlines/summaries and links users back to the original source.
 FEEDS = [
-    ("THẾ GIỚI", "THẾ GIỚI", "global markets OR world economy OR US stocks OR China economy"),
-    ("VĨ MÔ", "VĨ MÔ", "Federal Reserve OR Fed OR inflation OR interest rates OR USD OR Treasury"),
-    ("TRONG NƯỚC", "TRONG NƯỚC", "Việt Nam kinh tế OR Chính phủ OR NHNN OR tỷ giá OR lãi suất"),
-    ("DOANH NGHIỆP", "DOANH NGHIỆP", "Việt Nam doanh nghiệp OR HOSE OR HNX OR kết quả kinh doanh OR cổ phiếu"),
-    ("QUỸ", "QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư"),
+    ("THẾ GIỚI", "global markets OR world economy OR US stocks OR China economy"),
+    ("VĨ MÔ", "Federal Reserve OR Fed OR inflation OR interest rates OR USD OR Treasury"),
+    ("TRONG NƯỚC", "Việt Nam kinh tế OR Chính phủ OR NHNN OR tỷ giá OR lãi suất"),
+    ("DOANH NGHIỆP", "Việt Nam doanh nghiệp OR HOSE OR HNX OR kết quả kinh doanh OR cổ phiếu"),
+    ("QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.1)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.2)"}
 RECENT_HOURS = 72
 
 
@@ -43,6 +43,14 @@ def clean_html(text: str) -> str:
     text = text.replace("\xa0", " ")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def strip_source_suffix(text: str) -> str:
+    """Remove the common final Google News source suffix."""
+    text = clean_html(text)
+    if " - " in text:
+        return text.rsplit(" - ", 1)[0].strip()
+    return text
 
 
 def translate_to_vi(text: str) -> str:
@@ -83,15 +91,48 @@ def source_name(entry) -> str:
 
 
 def infer_ticker(title: str):
-    blocked = {"FED", "ETF", "GDP", "CPI", "PPI", "USD", "CEO", "AI", "ECB", "BOJ", "EU", "M&A"}
-    matches = re.findall(r"(?<![A-Za-z])[A-Z]{3}(?![A-Za-z])", title)
+    """Infer a ticker only when the headline contains an explicit 3-letter token."""
+    blocked = {
+        "FED", "ETF", "GDP", "CPI", "PPI", "USD", "CEO", "AI", "ECB", "BOJ",
+        "EU", "M&A", "THE", "AND", "FOR", "NEW", "TOP", "IPO", "BID",
+    }
+    matches = re.findall(r"(?<![A-Za-z])[A-Z]{3}(?![A-Za-z])", title or "")
     for item in matches:
         if item not in blocked:
             return item
     return ""
 
 
-def fetch_feed(category: str, tag: str, query: str):
+def infer_exchange(title: str, source: str) -> str:
+    """Return an exchange only when it is explicitly present; never guess HOSE."""
+    text = f"{title} {source}".upper()
+    if "UPCOM" in text:
+        return "UPCOM"
+    if "HNX" in text:
+        return "HNX"
+    if "HOSE" in text:
+        return "HOSE"
+    return ""
+
+
+def importance_score(category: str, title: str, summary: str) -> int:
+    """Simple factual relevance score for future ranking; not an investment signal."""
+    text = f"{title} {summary}".lower()
+    score = 2
+    keyword_weights = {
+        "lãi suất": 1, "tỷ giá": 1, "fed": 1, "fomc": 1, "inflation": 1,
+        "cpi": 1, "pce": 1, "nhnn": 1, "chính phủ": 1, "ngân hàng nhà nước": 1,
+        "kết quả kinh doanh": 1, "lợi nhuận": 1, "doanh thu": 1, "etf": 1,
+        "ftse": 1, "msci": 1, "nâng hạng": 1, "giảm lãi suất": 1,
+        "tăng lãi suất": 1, "khủng hoảng": 1, "thuế": 1,
+    }
+    score += sum(weight for keyword, weight in keyword_weights.items() if keyword in text)
+    if category in {"VĨ MÔ", "TRONG NƯỚC"} and any(x in text for x in ("fed", "nhnn", "lãi suất", "tỷ giá")):
+        score += 1
+    return max(1, min(score, 5))
+
+
+def fetch_feed(category: str, query: str):
     response = requests.get(google_news_url(query), headers=HEADERS, timeout=25)
     response.raise_for_status()
     feed = feedparser.parse(response.content)
@@ -108,38 +149,46 @@ def fetch_feed(category: str, tag: str, query: str):
         if not title_original:
             continue
 
-        # Google News commonly appends the publication name after " - ".
-        title = title_original.rsplit(" - ", 1)[0].strip()
-        summary = re.sub(r"^.*? - ", "", summary_original).strip() if summary_original else ""
-        summary = clean_html(summary)
-        if not summary or summary == title_original:
+        title = strip_source_suffix(title_original)
+        summary = strip_source_suffix(summary_original) if summary_original else ""
+        if not summary or summary.casefold() == title_original.casefold():
             summary = "Cập nhật thông tin theo nguồn công bố; không thêm nhận định, dự báo hoặc khuyến nghị."
 
-        title_vi = translate_to_vi(title)
-        summary_vi = translate_to_vi(summary)
+        title_vi = clean_html(translate_to_vi(title))
+        summary_vi = clean_html(translate_to_vi(summary))
         ticker = infer_ticker(title_original) if category == "DOANH NGHIỆP" else ""
+        exchange = infer_exchange(title_original, source_name(entry)) if ticker else ""
 
         results.append(
             {
                 "category": category,
-                "tag": tag,
+                "tag": "",  # category is the single canonical label; prevents duplicate tags.
                 "ticker": ticker,
-                "exchange": "HOSE" if ticker else "",
+                "exchange": exchange,
                 "headline_vi": title_vi,
                 "summary_vi": summary_vi[:500],
                 "source": source_name(entry),
                 "source_url": entry.get("link", "https://news.google.com/"),
                 "published_at": published_iso(entry),
+                "importance": importance_score(category, title_vi, summary_vi),
             }
         )
     return results
+
+
+def normalize_key(text: str) -> str:
+    """Normalize Vietnamese text for stronger cross-feed duplicate detection."""
+    text = clean_html(text).casefold()
+    text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 
 def dedupe(cards):
     seen = set()
     output = []
     for card in sorted(cards, key=lambda x: x.get("published_at", ""), reverse=True):
-        key = re.sub(r"\W+", " ", card.get("headline_vi", "").lower()).strip()
+        key = normalize_key(card.get("headline_vi", ""))
         if not key or key in seen:
             continue
         seen.add(key)
@@ -150,9 +199,9 @@ def dedupe(cards):
 def main():
     cards = []
     errors = []
-    for category, tag, query in FEEDS:
+    for category, query in FEEDS:
         try:
-            cards.extend(fetch_feed(category, tag, query))
+            cards.extend(fetch_feed(category, query))
         except Exception as exc:
             errors.append(f"{category}: {exc}")
 
@@ -173,7 +222,7 @@ def main():
             return
         raise RuntimeError("No RSS items were collected: " + "; ".join(errors))
 
-    selected.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    selected.sort(key=lambda x: (x.get("importance", 0), x.get("published_at", "")), reverse=True)
     now = datetime.now(VN_TZ).strftime("%d/%m/%Y %H:%M")
     payload = {"updated_at": now, "timezone": "Asia/Ho_Chi_Minh", "cards": selected}
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
