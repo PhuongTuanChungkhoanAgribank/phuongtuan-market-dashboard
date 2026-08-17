@@ -14,7 +14,8 @@ st.markdown(
     .block-container { max-width: 1500px; padding-top: 1.1rem; }
     .brand { margin:0; padding:0; }
     .brand-title { font-size: 1.75rem; font-weight: 900; line-height: 1.05; color: var(--red); margin: 0 !important; padding: 0 !important; }
-    .brand-sub { color: var(--orange); font-size: .95rem; font-weight: 800; margin-top: .28rem; letter-spacing:.02em; }
+    .brand-sub { color: var(--orange); font-size: .98rem; font-weight: 900; margin-top: .28rem; letter-spacing:.01em; }
+    .brand-tagline { color:#65707A; font-size:.76rem; font-weight:700; margin-top:.18rem; letter-spacing:.01em; }
     .section-title { font-size: 1rem; font-weight: 900; color: #2C3136; margin: .4rem 0 .6rem; }
     .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:14px; min-height:180px; box-shadow:0 2px 10px rgba(30,40,50,.035); }
     .card:hover { box-shadow:0 6px 20px rgba(30,40,50,.07); }
@@ -40,7 +41,7 @@ cards = data.get("cards", [])
 c1, c2 = st.columns([3, 1])
 with c1:
     st.markdown(
-        '<div class="brand"><div class="brand-title">PHƯƠNG TUẤN</div><div class="brand-sub">CHỨNG KHOÁN AGRIBANK</div></div>',
+        '<div class="brand"><div class="brand-title">PHƯƠNG TUẤN</div><div class="brand-sub">CHỨNG KHOÁN AGRIBANK CHI NHÁNH MIỀN TRUNG</div><div class="brand-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div></div>',
         unsafe_allow_html=True,
     )
 with c2:
@@ -96,5 +97,3 @@ else:
                     unsafe_allow_html=True,
                 )
                 st.write("")
-
-st.caption("V0 · Dữ liệu đọc từ data/daily_news.json · Bước tiếp theo: nối RSS/Web → xử lý → cập nhật tự động.")
