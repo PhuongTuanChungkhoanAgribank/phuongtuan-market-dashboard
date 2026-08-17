@@ -12,8 +12,9 @@ st.markdown(
     :root { --orange:#F7A21F; --red:#B81D2D; --bg:#F6F7F8; --line:#E4E7EA; }
     .stApp { background: var(--bg); }
     .block-container { max-width: 1500px; padding-top: 1.1rem; }
-    .brand-title { font-size: 1.75rem; font-weight: 900; line-height: 1.1; color: var(--red); margin: 0; }
-    .brand-sub { color: #65707A; font-size: .82rem; margin-top: .22rem; }
+    .brand { margin:0; padding:0; }
+    .brand-title { font-size: 1.75rem; font-weight: 900; line-height: 1.05; color: var(--red); margin: 0 !important; padding: 0 !important; }
+    .brand-sub { color: var(--orange); font-size: .95rem; font-weight: 800; margin-top: .28rem; letter-spacing:.02em; }
     .section-title { font-size: 1rem; font-weight: 900; color: #2C3136; margin: .4rem 0 .6rem; }
     .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:14px; min-height:180px; box-shadow:0 2px 10px rgba(30,40,50,.035); }
     .card:hover { box-shadow:0 6px 20px rgba(30,40,50,.07); }
@@ -38,8 +39,10 @@ cards = data.get("cards", [])
 
 c1, c2 = st.columns([3, 1])
 with c1:
-    st.markdown('<p class="brand-title">PHƯƠNG TUẤN</p>', unsafe_allow_html=True)
-    st.markdown('<div class="brand-sub">CHỨNG KHOÁN AGRIBANK</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="brand"><div class="brand-title">PHƯƠNG TUẤN</div><div class="brand-sub">CHỨNG KHOÁN AGRIBANK</div></div>',
+        unsafe_allow_html=True,
+    )
 with c2:
     st.markdown(f"<div style='text-align:right;color:#7B848D;font-size:.76rem'>Cập nhật<br><b style='color:#B81D2D;font-size:1rem'>{data.get('updated_at','—')}</b></div>", unsafe_allow_html=True)
 
