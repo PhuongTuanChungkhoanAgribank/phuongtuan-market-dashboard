@@ -1,8 +1,23 @@
 {
-  "updated_at": "18/08/2026 21:30",
+  "updated_at": "18/08/2026 22:04",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "SHB giảm lãi suất cho vay, thúc đẩy tăng trưởng kinh tế",
+      "summary_vi": "SHB giảm lãi suất cho vay, thúc đẩy tăng trưởng kinh tế Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdzIwS08tcnJienpjTXRIV3BYUXlQeDFUOGxnZGVfbDJvY3NPWVpsT2g5dk9fWmFBcnFfUG9mWjdtdWYzaGhhX09uNFZxRGxXRFF3WXpFcUlyODJ0b2JjeElqcnZkZnNhN0JIVW1wY1AxZjhteUhEMDNzeU5JSV9aWE1XTQ?oc=5",
+      "published_at": "2026-08-18T14:42:46+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "21:42",
+      "importance": 5
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -410,6 +425,23 @@
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
+      "ticker": "NCB",
+      "tickers": [
+        "NCB"
+      ],
+      "exchange": "",
+      "headline_vi": "NCB muốn phát hành cổ phiếu riêng lẻ đưa vốn điều lệ vượt 62.000 tỷ đồng, hướng tới top 10 toàn hệ thống",
+      "summary_vi": "NCB muốn phát hành cổ phiếu riêng lẻ đưa vốn điều lệ vượt 62.000 tỷ đồng, hướng tới top 10 toàn hệ thống thoibaotaichinhvietnam.vn",
+      "source": "thoibaotaichinhvietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWkZxNkFzZlJwVnlteUh5RUZ2UF91WjlrcDRObHZKOEVDeU16UTlGVHhJMy1fdm9WQXAxWGZNQmdqYjZRWm15RTVBcnZ6ZHBQQ2RjX0FuZTRJcmxCSUVPLTZnQWFpTDItUDdSX3Y4c3NDc2RLV0tpNldCeWkwX0h5T3BWdzNwTXNCNnN0Y3dwdE1WU3JyQVFHOEh2MXoxYjZUeGQxdy1wUmV5N1hsVExpWTNmMGRIRG5GU25NY1pRdWZkRGpTZndyZWpGOWhodURBN3BueHRfTTBiYXJvMEFJcThhWQ?oc=5",
+      "published_at": "2026-08-18T08:57:32+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:57",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
       "ticker": "LPS",
       "tickers": [
         "LPS"
@@ -670,21 +702,6 @@
       "published_at": "2026-08-18T07:47:56+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "14:47",
-      "importance": 5
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Kinh Tế - Đời sống - Nhiều ngân hàng giảm lãi suất cho vay - Đài Phát thanh",
-      "summary_vi": "Kinh Tế - Đời sống - Nhiều ngân hàng giảm lãi suất cho vay Đài Phát thanh",
-      "source": "Đài Phát thanh - Truyền hình Đà Nẵng",
-      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZHZEUUpSaDY4LVF6X3k0RnY3VjZzOUFjZmlrS1lkT1NRdUpYcVBraEI4aWdxMTc5bjVyX3FNdVg1bWhvMlp1YmhnT2VkdFZSREEzVVpR?oc=5",
-      "published_at": "2026-08-18T07:41:03+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "14:41",
       "importance": 5
     },
     {
