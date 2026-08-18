@@ -1,5 +1,5 @@
 {
-  "updated_at": "18/08/2026 22:04",
+  "updated_at": "18/08/2026 22:43",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
@@ -361,6 +361,23 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "16:13",
       "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "GAS",
+      "tickers": [
+        "GAS"
+      ],
+      "exchange": "",
+      "headline_vi": "PV GAS lãi hơn 12.600 tỷ đồng sau 7 tháng, vượt kế hoạch lợi nhuận cả năm",
+      "summary_vi": "PV GAS lãi hơn 12.600 tỷ đồng sau 7 tháng, vượt kế hoạch lợi nhuận cả năm MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR1NLRlY5REZtOEpDTXdXLU1Ta0FuTldhZmk5TjBOQVNXUlBkOElPc0JlUFl1ZUtHSUFDRTdzVXZicXN6VF90WTVWVlRPSl9kR3ZrMktSeVYydnFHWTVfUWRsRXk4NHRIOHh4ZFVRQ2dlemZkYWx0QVFINWtGeURiNnMwVQ?oc=5",
+      "published_at": "2026-08-18T09:13:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:13",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
