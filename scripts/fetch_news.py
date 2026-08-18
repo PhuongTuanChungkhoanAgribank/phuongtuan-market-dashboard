@@ -15,16 +15,30 @@ DATA_FILE = ROOT / "data" / "daily_news.json"
 ARCHIVE_DIR = ROOT / "data" / "archive"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
+# Broad news layer. Google News is used as the free RSS aggregator, with targeted
+# searches for Vietnamese listed-company coverage so the enterprise section is
+# not dependent on one media source.
 FEEDS = [
     ("THẾ GIỚI", "global markets OR world economy OR US stocks OR China economy"),
     ("VĨ MÔ", "Federal Reserve OR Fed OR inflation OR interest rates OR USD OR Treasury"),
     ("TRONG NƯỚC", "Việt Nam kinh tế OR Chính phủ OR NHNN OR tỷ giá OR lãi suất"),
-    ("DOANH NGHIỆP", "Việt Nam doanh nghiệp OR HOSE OR HNX OR kết quả kinh doanh OR cổ phiếu"),
-    ("QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư"),
+    ("DOANH NGHIỆP", "Việt Nam doanh nghiệp OR HOSE OR HNX OR UPCOM OR kết quả kinh doanh OR cổ phiếu OR M&A"),
+    ("DOANH NGHIỆP", "site:vietstock.vn cổ phiếu OR doanh nghiệp OR công bố thông tin OR kết quả kinh doanh"),
+    ("DOANH NGHIỆP", "site:vietnambiz.vn chứng khoán OR cổ phiếu OR doanh nghiệp OR kết quả kinh doanh"),
+    ("DOANH NGHIỆP", "site:cafef.vn cổ phiếu OR doanh nghiệp OR kết quả kinh doanh OR công bố thông tin"),
+    ("DOANH NGHIỆP", "site:ndh.vn chứng khoán OR doanh nghiệp OR cổ phiếu OR kết quả kinh doanh"),
+    ("DOANH NGHIỆP", "site:vneconomy.vn chứng khoán OR doanh nghiệp OR cổ phiếu"),
+    ("DOANH NGHIỆP", "site:24hmoney.vn cổ phiếu OR doanh nghiệp OR kết quả kinh doanh"),
+    ("QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư OR quỹ mở"),
+    ("QUỸ", "site:dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
+    ("QUỸ", "site:dautu.dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
+    ("QUỸ", "site:pyn.fi PYN Elite portfolio Vietnam"),
+    ("QUỸ", "site:vinacapital.com Vietnam fund portfolio holdings"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.3)"}
-FETCH_HOURS = 36
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.5)"}
+# Five-minute runs need a short overlap window to recover an item from a delayed feed.
+FETCH_HOURS = 8
 
 
 def google_news_url(query: str) -> str:
@@ -48,7 +62,12 @@ def translate_to_vi(text: str) -> str:
     if not text or re.search(r"[À-ỹĐđ]", text):
         return text
     try:
-        response = requests.get("https://translate.googleapis.com/translate_a/single", params={"client": "gtx", "sl": "auto", "tl": "vi", "dt": "t", "q": text[:4500]}, headers=HEADERS, timeout=15)
+        response = requests.get(
+            "https://translate.googleapis.com/translate_a/single",
+            params={"client": "gtx", "sl": "auto", "tl": "vi", "dt": "t", "q": text[:4500]},
+            headers=HEADERS,
+            timeout=15,
+        )
         response.raise_for_status()
         payload = response.json()
         return clean_html("".join(part[0] for part in payload[0] if part and part[0])) or text
@@ -73,25 +92,34 @@ def source_name(entry):
     return getattr(source, "title", None) or "Google News"
 
 
-def infer_ticker(title: str):
-    blocked = {"FED", "ETF", "GDP", "CPI", "PPI", "USD", "CEO", "AI", "ECB", "BOJ", "THE", "AND", "FOR", "NEW", "TOP", "IPO"}
-    for item in re.findall(r"(?<![A-Za-z])[A-Z]{3}(?![A-Za-z])", title or ""):
-        if item not in blocked:
-            return item
-    return ""
+def infer_tickers(text: str):
+    blocked = {
+        "FED", "ETF", "GDP", "CPI", "PPI", "USD", "CEO", "AI", "ECB", "BOJ",
+        "THE", "AND", "FOR", "NEW", "TOP", "IPO", "NAV", "M&A", "CEO",
+    }
+    found = []
+    for item in re.findall(r"(?<![A-Za-z])[A-Z]{3}(?![A-Za-z])", text or ""):
+        if item not in blocked and item not in found:
+            found.append(item)
+    return found
 
 
-def infer_exchange(title: str, source: str) -> str:
-    text = f"{title} {source}".upper()
-    for exchange in ("UPCOM", "HNX", "HOSE"):
-        if exchange in text:
-            return exchange
+def infer_exchange(text: str) -> str:
+    upper = (text or "").upper()
+    for exchange in ("UPCOM", "HNX", "HOSE", "HSX"):
+        if exchange in upper:
+            return "HOSE" if exchange == "HSX" else exchange
     return ""
 
 
 def importance_score(category: str, title: str, summary: str) -> int:
     text = f"{title} {summary}".lower()
-    keywords = ["lãi suất", "tỷ giá", "fed", "fomc", "inflation", "cpi", "pce", "nhnn", "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse", "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế"]
+    keywords = [
+        "lãi suất", "tỷ giá", "fed", "fomc", "inflation", "cpi", "pce", "nhnn",
+        "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse",
+        "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế", "phát hành",
+        "chia cổ tức", "mua lại", "sáp nhập", "m&a", "đại hội cổ đông", "hđqt",
+    ]
     score = 2 + sum(1 for keyword in keywords if keyword in text)
     if category in {"VĨ MÔ", "TRONG NƯỚC"} and any(x in text for x in ("fed", "nhnn", "lãi suất", "tỷ giá")):
         score += 1
@@ -110,7 +138,7 @@ def fetch_feed(category: str, query: str):
     feed = feedparser.parse(response.content)
     cutoff = datetime.now(timezone.utc) - timedelta(hours=FETCH_HOURS)
     results = []
-    for entry in feed.entries[:20]:
+    for entry in feed.entries[:40]:
         published = published_dt(entry)
         if published < cutoff:
             continue
@@ -121,13 +149,28 @@ def fetch_feed(category: str, query: str):
         title = strip_source_suffix(title_original)
         summary = strip_source_suffix(summary_original) if summary_original else ""
         if not summary or summary.casefold() == title_original.casefold():
-            summary = "Cập nhật thông tin theo nguồn công bố; không thêm nhận định, dự báo hoặc khuyến nghị."
+            summary = "Cập nhật thông tin theo nguồn; không thêm nhận định, dự báo hoặc khuyến nghị."
         title_vi = clean_html(translate_to_vi(title))
         summary_vi = clean_html(translate_to_vi(summary))
-        ticker = infer_ticker(title_original) if category == "DOANH NGHIỆP" else ""
-        exchange = infer_exchange(title_original, source_name(entry)) if ticker else ""
+        combined = f"{title_original} {summary_original} {source_name(entry)}"
+        tickers = infer_tickers(combined) if category == "DOANH NGHIỆP" else []
+        ticker = tickers[0] if tickers else ""
         local_dt = published.astimezone(VN_TZ)
-        results.append({"category": category, "tag": "", "ticker": ticker, "exchange": exchange, "headline_vi": title_vi, "summary_vi": summary_vi[:500], "source": source_name(entry), "source_url": entry.get("link", "https://news.google.com/"), "published_at": published.isoformat(), "published_date_vn": local_dt.strftime("%Y-%m-%d"), "published_time_vn": local_dt.strftime("%H:%M"), "importance": importance_score(category, title_vi, summary_vi)})
+        results.append({
+            "category": category,
+            "tag": "",
+            "ticker": ticker,
+            "tickers": tickers,
+            "exchange": infer_exchange(combined) if ticker else "",
+            "headline_vi": title_vi,
+            "summary_vi": summary_vi[:650],
+            "source": source_name(entry),
+            "source_url": entry.get("link", "https://news.google.com/"),
+            "published_at": published.isoformat(),
+            "published_date_vn": local_dt.strftime("%Y-%m-%d"),
+            "published_time_vn": local_dt.strftime("%H:%M"),
+            "importance": importance_score(category, title_vi, summary_vi),
+        })
     return results
 
 
@@ -173,7 +216,7 @@ def main():
         try:
             fresh.extend(fetch_feed(category, query))
         except Exception as exc:
-            errors.append(f"{category}: {exc}")
+            errors.append(f"{category} [{query[:45]}]: {exc}")
     now_vn = datetime.now(VN_TZ)
     today = now_vn.strftime("%Y-%m-%d")
     all_recent = dedupe(load_existing() + fresh)
@@ -181,17 +224,27 @@ def main():
     if not today_cards:
         print("No fresh news for today; keeping existing dashboard data.")
         return
-    limits = {"THẾ GIỚI": 8, "VĨ MÔ": 8, "TRONG NƯỚC": 8, "DOANH NGHIỆP": 30, "QUỸ": 8}
+
+    # Enterprise news is intentionally much larger than the other categories.
+    limits = {"THẾ GIỚI": 15, "VĨ MÔ": 15, "TRONG NƯỚC": 15, "DOANH NGHIỆP": 150, "QUỸ": 30}
     selected, counts = [], {k: 0 for k in limits}
     for card in sorted(today_cards, key=lambda x: x.get("published_at", ""), reverse=True):
         cat = card.get("category")
         if cat in limits and counts[cat] < limits[cat]:
             selected.append(card)
             counts[cat] += 1
-    payload = {"updated_at": now_vn.strftime("%d/%m/%Y %H:%M"), "timezone": "Asia/Ho_Chi_Minh", "date": today, "cards": selected}
+
+    selected.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    payload = {
+        "updated_at": now_vn.strftime("%d/%m/%Y %H:%M"),
+        "timezone": "Asia/Ho_Chi_Minh",
+        "date": today,
+        "cards": selected,
+    }
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     save_snapshot(all_recent, today)
+
     if errors:
         print("Some feeds failed:")
         for error in errors:
