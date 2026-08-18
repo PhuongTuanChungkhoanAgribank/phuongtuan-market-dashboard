@@ -3,6 +3,21 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Giá vàng hôm nay (19/8): Xuống dưới 4.400 USD/ounce",
+      "summary_vi": "Giá vàng hôm nay (19/8): Xuống dưới 4.400 USD/ounce Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLWlaMDRqUXZmbFEwUFpaY1d0d3dSTFpQX05MeHZLUEVBZGRQNlV5a0laTlpINnppeUU3VnNrak8wUWs5cG5fN0hMM3Jfa2tpOWFYQnZINzlvcXE4SzRhejFpT3A1MWF0ZlBfTWlUR2tmek1xVFZTM0EwQnVLMU1sR2lObzU4Zw?oc=5",
+      "published_at": "2026-08-18T22:26:54+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "05:26",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "NCB",
