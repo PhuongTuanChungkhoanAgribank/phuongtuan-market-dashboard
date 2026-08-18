@@ -1,8 +1,41 @@
 {
-  "updated_at": "18/08/2026 12:15",
+  "updated_at": "18/08/2026 12:49",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thấy gì khi Vingroup cùng ba ông lớn muốn vay 1,7 triệu tỷ đồng?",
+      "summary_vi": "Thấy gì khi Vingroup cùng ba ông lớn muốn vay 1,7 triệu tỷ đồng? BBC",
+      "source": "BBC",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KSUJ3Ujc2VHROSFRkQXpiNmxjU2gwQ3dUREFaYTQ1VVNSSmQwb3psMXpVdnZra0NJLWxXN21XRktLSHE5b1JWTXc1N3VjRDc3TFRVcG1mSFBiS2xsdnA0R3Fn0gFnQVVfeXFMTXVCQ3lqRS0yeDFHQk1oYkRwNXE0Ymg2NFJuNFFHb0hkWlFMd1d4ck1rTHViS3BFbjZsd2E2QU9LVkd6a1JVeTRQNHUyNTdyM1Y2Q2Nka2ZERXVMdU55QURUblRuVURxNA?oc=5",
+      "published_at": "2026-08-18T05:37:30+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "12:37",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "HTB",
+      "tickers": [
+        "HTB",
+        "VHF"
+      ],
+      "exchange": "",
+      "headline_vi": "Xây dựng HTB thoái toàn bộ vốn tại VHF cho người đại diện",
+      "summary_vi": "Xây dựng HTB thoái toàn bộ vốn tại VHF cho người đại diện Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObHBVVHotNXEtWThEQVBTcjgtRms1ZERhQ0J5dnlqUWpxTVJHZTBITzVveElSMG1EQWhkRWtNRlVEWWVydlJVa2dBS2NGQkFSSlo3dXpOU0kxR010ZTZUOUswSjk4NGVhWkFzdmh1dmItU3UzMzh0WEh6ZVBXNWxhalNaeDZBWUlZRWIyd2loUXFNREd3ZlFGUUpsc01jelhBa1U5Uw?oc=5",
+      "published_at": "2026-08-18T05:15:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "12:15",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -555,21 +588,6 @@
       "published_at": "2026-08-18T01:37:43+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "08:37",
-      "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Nguồn vốn đang chảy về đâu, khi tiền gửi ngân hàng tăng kỷ lục?",
-      "summary_vi": "Nguồn vốn đang chảy về đâu, khi tiền gửi ngân hàng tăng kỷ lục? VOV Giao thông",
-      "source": "VOV Giao thông",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzbXJhSWlqRU5OdlNCSDdRSnBwYm03eU1yUzZXVXFKUzhTQ1hzVGFEUkhLRDk3WXA2bEhRb2YxWjBUSzJpdWFIbVVTbE83S2xSbmtmX0lOUDJfTGJpbVA4amRwa01zN29Cc3RJV1JSYlI2U0toR0ZMYnVoZ1dHWDhOQ1lvbVkycGx4aGhrWU45SVRBd1FFcjlzem5FLUFHVzhkMGdEZVVFdnc?oc=5",
-      "published_at": "2026-08-18T01:32:00+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "08:32",
       "importance": 2
     },
     {
