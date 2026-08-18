@@ -1,8 +1,38 @@
 {
-  "updated_at": "18/08/2026 19:04",
+  "updated_at": "18/08/2026 20:04",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá, lãi suất nửa cuối năm và bài toán giữ “điểm cân bằng”",
+      "summary_vi": "Tỷ giá, lãi suất nửa cuối năm và bài toán giữ “điểm cân bằng” Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdW9qV2pKSXpKcVVGRzNoWGthVC0zaGpCeXk4YkZHSlAtR2ptM04zbGlnUnR3NWFJbU9jRmw2UHpkQ2VIWW1xSEFhQnh2RHV2TENvUEdNU0JMME9NdmFNRktuLTZZbnpsMkIzVWpGd0tLRkFhV1JkX3FCWHVFZGl3bHZsdGE2akpwRHRFd2l3c3ZINVA3RjR3T1lSYjY0M0F6?oc=5",
+      "published_at": "2026-08-18T12:55:07+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "19:55",
+      "importance": 5
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "SHB giảm lãi suất, bơm thêm 2.000 tỷ đồng cho lĩnh vực ưu tiên",
+      "summary_vi": "SHB giảm lãi suất, bơm thêm 2.000 tỷ đồng cho lĩnh vực ưu tiên baochinhphu.vn",
+      "source": "baochinhphu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcUxrUUtfZTk5UWhxbGFhLVdXTDluNmp2d3haa3BVOW5RRlhTZV9HcV9wYXZtdkNlYWlhVG4tLW5MbHRsbGVvT2huV1NVVkhqbTVMLTZkVlVSMU9ZRWhycXItUG92WFNFN0JGLUJUb2VOaS1IVkNHV1R3ZlM4UmRpREJ6M0dwYjM2TGxyWG5kNXRaS1U1eWVYdEd0SVVaUUJTdVdwRmxwcll4UQ?oc=5",
+      "published_at": "2026-08-18T12:35:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "19:35",
+      "importance": 5
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -632,6 +662,23 @@
       "importance": 2
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "PNJ: Báo cáo kết quả giao dịch cổ phiếu của người nội bộ Phan Quốc Công",
+      "summary_vi": "PNJ: Báo cáo kết quả giao dịch cổ phiếu của người nội bộ Phan Quốc Công Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR0RVZ2ZWTy1GOHN2MGQ2YUpNakRpcEc1c08tNnBxV1VON3JOVWlkUUxkZWlqSGdYYkdkZ1RqR0d0ejFNWm5HTzlObW9KVHlRZlEzN0tmT0F5dERIck84YUtiZU5ycWlZQ1FwYi1qNGM3bW5qeGlHdVR2NEdmbVZIRFZBSFI5UTRMN2FSVFFka283dnEwZkJ4MU5qSm5OYmlvWjNNNUgyUTJ1SXh5cUZ2UFRVZHdHdw?oc=5",
+      "published_at": "2026-08-18T07:13:49+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:13",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -692,21 +739,6 @@
       "importance": 2
     },
     {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Thêm nhiều ngân hàng giảm lãi suất cho vay",
-      "summary_vi": "Thêm nhiều ngân hàng giảm lãi suất cho vay Znews",
-      "source": "Znews",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT1p1VEhKazZ0UVE5MmdLc1YtRFJQa2lWRmFvcWxhbU1wR2I1eXpRTnBYcFBSZ0NqTzMzNDQ4UFUxeWlQOS1LVU95MGxvWjZrUC1DRXZWdktjbzRjZjVzdVdPNEpBUHpyLU9fYk82dEpWUWlDNnhJeEttWFh5Z2Z2QU1n?oc=5",
-      "published_at": "2026-08-18T06:58:41+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "13:58",
-      "importance": 5
-    },
-    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "",
@@ -719,21 +751,6 @@
       "published_at": "2026-08-18T06:55:00+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "13:55",
-      "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Hơn 11 triệu tỷ đồng nằm trong ngân hàng, vì sao vốn vẫn khó vào sản xuất?",
-      "summary_vi": "Hơn 11 triệu tỷ đồng nằm trong ngân hàng, vì sao vốn vẫn khó vào sản xuất? thuonghieucongluan.com.vn",
-      "source": "thuonghieucongluan.com.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZXlicGpJVzQzUEFfTWU0LTF0OEZMckZiVkljZ3RjamxPWVR0cngtNDV2YlcxN0tRNmxFdzVFeWZYTjB5cG1aTndkRE1BMWxlSW4tdU5LaVVqN01BcGFMTVd5NTRNRW5icFpLQS1QODFGTFJLT1Ytc1F0R3JqX0VwSEYyVlR2YzhaYnR2YmpYaEpmbTRzVld0TXJjVjEzZ1N0eEQ0RUl0WXhrMmtPX3c4T1loR1ZrVFBfekgw?oc=5",
-      "published_at": "2026-08-18T06:49:00+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "13:49",
       "importance": 2
     },
     {
