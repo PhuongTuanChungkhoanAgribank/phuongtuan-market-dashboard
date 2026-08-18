@@ -1,8 +1,23 @@
 {
-  "updated_at": "18/08/2026 22:43",
+  "updated_at": "18/08/2026 23:04",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xác suất cao VN-Index có thể dần tìm lại điểm cân bằng quanh khu vực 1730",
+      "summary_vi": "Xác suất cao VN-Index có thể dần tìm lại điểm cân bằng quanh khu vực 1730 VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVFGemQwdHp5SlRTVjZGNnRtUDRsUWJJVW9kN3N1TTc1OEhHbEpTMHJHNDNpQ3JUYUJnNEh0RTRlU0U4SGRnVXhVY0xkOGJOUENFNVNJeWpORllBcXhsQU13dEt3T1ZfdFNnb2U0SWpHYm16c2JEdU5iYmw0MXRWcXlvU0xaczU4VE9IOGloQWZRTFB5ZWJLRlg2STJvNU0?oc=5",
+      "published_at": "2026-08-18T16:01:23+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "23:01",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -139,6 +154,21 @@
       "importance": 3
     },
     {
+      "category": "QUỸ",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Danh sách các quỹ ETF tại Việt Nam và cách so sánh",
+      "summary_vi": "Danh sách các quỹ ETF tại Việt Nam và cách so sánh Dragon Capital",
+      "source": "Dragon Capital",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdGlqZU9DNHU1X3hMZ3Bsc3ptaG9PMS1DUThyTGc3TXVXdkxFeVphUkRkZDhkTHBjQ0YzWjdWb1lKS2RnX1JLLVREOTd3aEloel83ZmxoM3h0MmVtUzZlUDY0bFh3R0RBd3NlWndLZ0haZms5a0liRWJBOTVtYURnWQ?oc=5",
+      "published_at": "2026-08-18T12:28:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "19:28",
+      "importance": 3
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "",
@@ -151,6 +181,21 @@
       "published_at": "2026-08-18T12:19:39+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "19:19",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "UBCKNN phạt nhiều doanh nghiệp vì lỗi công bố thông tin, giao dịch với bên liên quan",
+      "summary_vi": "UBCKNN phạt nhiều doanh nghiệp vì lỗi công bố thông tin, giao dịch với bên liên quan Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV1otc1FaSVdDWWptWVRzbFE1VEhaNnBQYjNJY0VWYXl2ZWthemFpRDdPd1d0QjAwYnd4OW1mSjltOTgxUlFLT19ZRkRlSDJ2X3BSWVpGRjJxWEFkMDl5ZkdidGFrTjk4NENaT2ZZeTNlZF9jWV9ZWEpwTVMza0VyX3NTZHVlYVItLUZ5UnBYQVVjYkI5MFR6anpEeXV3eGxPeUFhYWhQSmhWQmwtWHJ0RWp3VVIwN3p1aVBCaGlWZXo5T0N3Y1Zn?oc=5",
+      "published_at": "2026-08-18T12:05:23+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "19:05",
       "importance": 2
     },
     {
