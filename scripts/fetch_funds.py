@@ -2,16 +2,16 @@ import html
 import json
 import re
 from datetime import datetime
+from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "fund_portfolios.json"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.0)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.1)"}
 
 SOURCES = [
     ("Dragon Capital - DCDS", "https://dautu.dragoncapital.com.vn/dcds"),
@@ -24,6 +24,18 @@ TICKER_RE = re.compile(r"\b[A-Z]{3}\b")
 WEIGHT_RE = re.compile(r"(\d{1,2}(?:[\.,]\d+)?)\s*%")
 
 
+class TextParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+    def text(self):
+        return re.sub(r"\s+", " ", html.unescape(" ".join(self.parts))).strip()
+
+
 def clean(text):
     return re.sub(r"\s+", " ", html.unescape(text or "")).strip()
 
@@ -31,41 +43,27 @@ def clean(text):
 def fetch_source(name, url):
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-    text = clean(soup.get_text(" ", strip=True))
+    parser = TextParser()
+    parser.feed(r.text)
+    text = parser.text()
     holdings = []
 
-    # Prefer HTML tables when the site exposes structured holdings.
-    for table in soup.find_all("table"):
-        rows = []
-        for tr in table.find_all("tr"):
-            cells = [clean(x.get_text(" ", strip=True)) for x in tr.find_all(["th", "td"])]
-            if cells:
-                rows.append(cells)
-        for row in rows:
-            joined = " | ".join(row)
-            tickers = TICKER_RE.findall(joined)
-            weights = WEIGHT_RE.findall(joined)
-            for ticker in tickers[:3]:
-                if ticker in {"NAV", "USD", "EUR", "ETF", "THE", "AND"}:
-                    continue
-                weight = weights[-1].replace(",", ".") if weights else ""
-                holdings.append({"ticker": ticker, "weight_pct": weight, "raw": joined[:400]})
+    # The official pages expose the ticker and, on some pages, the weight near it.
+    # This fallback is intentionally conservative: it never invents a percentage.
+    for match in TICKER_RE.finditer(text):
+        ticker = match.group(0)
+        if ticker in {"NAV", "USD", "EUR", "ETF", "THE", "AND", "PYN"}:
+            continue
+        window = text[match.start():match.start() + 260]
+        weight_match = WEIGHT_RE.search(window)
+        holdings.append({
+            "ticker": ticker,
+            "weight_pct": weight_match.group(1).replace(",", ".") if weight_match else "",
+            "raw": window[:300],
+        })
+        if len(holdings) >= 30:
+            break
 
-    # PYN/modern pages can expose cards rather than tables. Search text around
-    # explicit portfolio-weight phrases as a fallback.
-    if not holdings:
-        for match in re.finditer(r"([A-Z]{3})", text):
-            ticker = match.group(1)
-            if ticker in {"NAV", "USD", "EUR", "ETF", "THE", "AND"}:
-                continue
-            window = text[match.start():match.start() + 220]
-            weight_match = WEIGHT_RE.search(window)
-            holdings.append({"ticker": ticker, "weight_pct": weight_match.group(1).replace(",", ".") if weight_match else "", "raw": window[:300]})
-            if len(holdings) >= 20:
-                break
-
-    # Deduplicate while preserving first occurrence.
     unique, seen = [], set()
     for h in holdings:
         if h["ticker"] in seen:
@@ -83,8 +81,7 @@ def fetch_source(name, url):
 
 
 def main():
-    result = []
-    errors = []
+    result, errors = [], []
     for name, url in SOURCES:
         try:
             result.append(fetch_source(name, url))
