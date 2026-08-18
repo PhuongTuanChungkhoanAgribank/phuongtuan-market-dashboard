@@ -3,6 +3,21 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cá nhân mua ròng gần 1.000 tỷ, cổ phiếu nào được gom nhiều nhất?",
+      "summary_vi": "Cá nhân mua ròng gần 1.000 tỷ, cổ phiếu nào được gom nhiều nhất? VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObEFRRDlieUl4SjhwVTN6SWVqenNqTEcwcDBubFU5WVJiLUFVTVM4YVpEa0h4ajRiODlvdGZOcHZUdjBOWlhUaXlyZnhDOG1DZmZmeFhuTTg0MmdPNTM2cGxqXzhqTnQxamdpMnFQSmZaYU9hQ0U0Zld0NjBRLXBLd2xZQlg0NW1kRDVHbUJNZw?oc=5",
+      "published_at": "2026-08-18T14:02:40+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "21:02",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -46,6 +61,21 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "20:15",
       "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá, lãi suất và bài toán giữ điểm cân bằng cho kinh tế Việt Nam",
+      "summary_vi": "Tỷ giá, lãi suất và bài toán giữ điểm cân bằng cho kinh tế Việt Nam baochinhphu.vn",
+      "source": "baochinhphu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVJRRkN0aFRuNEU0RkRTZk1vV01fN0d1UUZ3RTBJOW9oa3pBRi1nME1ZWF9JYWUtQ1pzXzZsVDBTVGwtSGV6SVlZUGk3ZVJHUVFQeUtpTGxJWUlVZl9DOW90TmluREV4R1pXZ19zNERyN0Y1YzZRZ2lMbWU4MFhQMkx3eEJTQjFqbEx5by1hTEo4N1FhV1RXNVNjNTVJM2dSVkloN3JWU0N2OXRhaGZPZA?oc=5",
+      "published_at": "2026-08-18T13:05:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "20:05",
+      "importance": 5
     },
     {
       "category": "TRONG NƯỚC",
@@ -424,6 +454,21 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "15:27",
       "importance": 5
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Giảm dấu chân carbon để nâng giá trị xuất khẩu cao su Việt Nam - Tạp chí Kinh tế",
+      "summary_vi": "Giảm dấu chân carbon để nâng giá trị xuất khẩu cao su Việt Nam Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSUJRcTFUekZtbk9ra19ROWJoNExSTm1ZOEttSGlhTkd6TzBPOWhVWG9hRmFTN0o4V3hBN01JNG1XWm1OZEJUZWxfa0hWR014U0VaWlQ4bDg5WGxrNGhLU2hKVkNWY3dwVzdSVE1RVnF5TUluaGVneDNKZVJNdGpnX2JvOVJRbFIyVXFIN19qMGNSTG5xLXFaMFd2clMtQmE3Z1d3ZUtES0t0QQ?oc=5",
+      "published_at": "2026-08-18T08:22:41+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:22",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",

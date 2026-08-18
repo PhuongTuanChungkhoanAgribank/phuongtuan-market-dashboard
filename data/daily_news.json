@@ -1,8 +1,23 @@
 {
-  "updated_at": "18/08/2026 20:54",
+  "updated_at": "18/08/2026 21:30",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cá nhân mua ròng gần 1.000 tỷ, cổ phiếu nào được gom nhiều nhất?",
+      "summary_vi": "Cá nhân mua ròng gần 1.000 tỷ, cổ phiếu nào được gom nhiều nhất? VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObEFRRDlieUl4SjhwVTN6SWVqenNqTEcwcDBubFU5WVJiLUFVTVM4YVpEa0h4ajRiODlvdGZOcHZUdjBOWlhUaXlyZnhDOG1DZmZmeFhuTTg0MmdPNTM2cGxqXzhqTnQxamdpMnFQSmZaYU9hQ0U0Zld0NjBRLXBLd2xZQlg0NW1kRDVHbUJNZw?oc=5",
+      "published_at": "2026-08-18T14:02:40+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "21:02",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -47,6 +62,21 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "20:15",
       "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá, lãi suất và bài toán giữ điểm cân bằng cho kinh tế Việt Nam",
+      "summary_vi": "Tỷ giá, lãi suất và bài toán giữ điểm cân bằng cho kinh tế Việt Nam baochinhphu.vn",
+      "source": "baochinhphu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQVJRRkN0aFRuNEU0RkRTZk1vV01fN0d1UUZ3RTBJOW9oa3pBRi1nME1ZWF9JYWUtQ1pzXzZsVDBTVGwtSGV6SVlZUGk3ZVJHUVFQeUtpTGxJWUlVZl9DOW90TmluREV4R1pXZ19zNERyN0Y1YzZRZ2lMbWU4MFhQMkx3eEJTQjFqbEx5by1hTEo4N1FhV1RXNVNjNTVJM2dSVkloN3JWU0N2OXRhaGZPZA?oc=5",
+      "published_at": "2026-08-18T13:05:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "20:05",
+      "importance": 5
     },
     {
       "category": "TRONG NƯỚC",
@@ -427,6 +457,21 @@
       "importance": 5
     },
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Giảm dấu chân carbon để nâng giá trị xuất khẩu cao su Việt Nam - Tạp chí Kinh tế",
+      "summary_vi": "Giảm dấu chân carbon để nâng giá trị xuất khẩu cao su Việt Nam Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSUJRcTFUekZtbk9ra19ROWJoNExSTm1ZOEttSGlhTkd6TzBPOWhVWG9hRmFTN0o4V3hBN01JNG1XWm1OZEJUZWxfa0hWR014U0VaWlQ4bDg5WGxrNGhLU2hKVkNWY3dwVzdSVE1RVnF5TUluaGVneDNKZVJNdGpnX2JvOVJRbFIyVXFIN19qMGNSTG5xLXFaMFd2clMtQmE3Z1d3ZUtES0t0QQ?oc=5",
+      "published_at": "2026-08-18T08:22:41+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:22",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "",
@@ -673,21 +718,6 @@
       "importance": 2
     },
     {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "NCB tiếp tục kế hoạch tăng vốn thêm 33.000 tỷ đồng, tiến tới Top 10 ngân hàng vốn lớn nhất Việt Nam",
-      "summary_vi": "NCB tiếp tục kế hoạch tăng vốn thêm 33.000 tỷ đồng, tiến tới Top 10 ngân hàng vốn lớn nhất Việt Nam baodautu",
-      "source": "baodautu",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd3RVS2lWMHh0QUctQ3dxdkhHWlpNbGRtR3RfaWtiajQ4NW01N3oxN2tSU2VFYzgxcXh4YzFhUC1pSFRVaWpEb19PV2dpb2E1aUJua2gyX0FlWXFNMzRUMHZFcVNQZWp2VHl1R1kxelB5N0cwRWFhNHVFelJpQjRxN09ZUHA0ZW9pWkloXy1NVDdsTWVpbUp6V0hJWmdpNDhwQm9mZFNzbVZ6LVlfUkgzMzVraWJjNGY4ZC12OW1uY0R4OWhWTHpIVVpn?oc=5",
-      "published_at": "2026-08-18T07:35:00+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "14:35",
-      "importance": 2
-    },
-    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "",
@@ -701,21 +731,6 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "14:29",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "HSBC: Tăng trưởng cao, tỷ giá và lãi suất tìm “điểm cân bằng” giai đoạn cuối 2026",
-      "summary_vi": "HSBC: Tăng trưởng cao, tỷ giá và lãi suất tìm “điểm cân bằng” giai đoạn cuối 2026 VnEconomy",
-      "source": "VnEconomy",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTm9rTUVYYkh3dUNvS0IzNW5YOFdJVGV5cmFia0VBTFJzU2dDclR4NlMzVGJfbzdkLUttZGlLRTBaSWt2LTFiNEg2WHloUDFKb1FFYXBLRUpyc3FTTC05eGR4bEk0VldxU2JyR2hCUU53TDIwSEVpZmJrNEdCckRqUnNlV1VNQVdfaFdaOWF5WTRURHdUNnZWLUQyNEhna2JZMmZuRQ?oc=5",
-      "published_at": "2026-08-18T07:19:02+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "14:19",
-      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
