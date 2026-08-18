@@ -3,6 +3,87 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "CII",
+      "tickers": [
+        "CII"
+      ],
+      "exchange": "",
+      "headline_vi": "CII sắp huy động 6.720 tỷ đồng từ cổ đông: Trái phiếu 25 năm, lãi suất lên tới 14,5%/năm",
+      "summary_vi": "CII sắp huy động 6.720 tỷ đồng từ cổ đông: Trái phiếu 25 năm, lãi suất lên tới 14,5%/năm nhipsongkinhdoanh.vn",
+      "source": "nhipsongkinhdoanh.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTmMxbWlxVXBYMFFfTVRDSnVianlKRTRkbFJ2dDllaUhra1pBV0EyckNVZW54Z29YRUlOVWtGMmhXRnlvV2YyZ1BDVExBRXdDTnZ5TEtjWXNNdlBTUVllUmdwV2pDWUdiV1N1NmlaSU9rcTJMMjdBbnl4X3puVjI3YUw5ZHRFQXRHQ1MwbWJybmlxU1kyNEtJWU1ZX3FmWk1SZWdVRWtWS3hLX3A3UzZhakZSLXBZWE5TM3hsMm4xOHg3VFFHR3c?oc=5",
+      "published_at": "2026-08-18T04:26:08+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "11:26",
+      "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thêm nhà băng giảm lãi suất cho vay, hưởng ứng chỉ đạo của Thủ tướng",
+      "summary_vi": "Thêm nhà băng giảm lãi suất cho vay, hưởng ứng chỉ đạo của Thủ tướng Nhadautu.vn",
+      "source": "Nhadautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSmltNDZaYzI4b0FyWDk1OGJwdEM2ajA5ZzliUWI3UUt0d1ZDdW1HRjBpNHB4a3NZV0MtSU1WUThZVGxfQ0FQYS1lVkw5N0hJaDFkczMyVnc1M1YtTlYwNWtyTUhJV3lmWVE5UFo4Vy1yTFJ5QVBvSHk2UmxTX294QTZDc2xlUVF5UmtxR0FHZW00d2M5RG1qOFZ0cXh0b1pEVkE?oc=5",
+      "published_at": "2026-08-18T04:18:57+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "11:18",
+      "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VAFIE họp Ban Chấp hành: Thực chất hóa vai trò kết nối đầu tư - kinh doanh",
+      "summary_vi": "VAFIE họp Ban Chấp hành: Thực chất hóa vai trò kết nối đầu tư",
+      "source": "Nhadautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaGtYWTlPWkVoMHNybjVaMGh1VFFDUUE4OXRjZ3ItODNNN01TbndoU256OVBBV0lzTVE1dm50c29fRFprTklIZlFwMHZYMUdvQlF4VU1QMGpSektWTXZ5eWI2cXN1a2hLeVpmNzdkUkpiZ2l1NFNrdmJIcmM5RkxxNF9ZanZRVkpDeW1HOU5wVWo?oc=5",
+      "published_at": "2026-08-18T04:18:40+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "11:18",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "DIC",
+      "tickers": [
+        "DIC"
+      ],
+      "exchange": "",
+      "headline_vi": "DIC Group chốt ngày phát hành gần 48 triệu cổ phiếu trả cổ tức",
+      "summary_vi": "DIC Group chốt ngày phát hành gần 48 triệu cổ phiếu trả cổ tức VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX3BfX0ZfekJXYmVKamwwYldJdnZrWnZadWpvYnhwUV8xVW9LUTRPUWxFSkN5RHF3QTkwREpwakdLTEdfd2ZQOFBob29qSDFCZUJZVnVWZEZ1RFp6WjRXcVFFSEJyQ3BjXzhRVk0tdGcwTDR2SDlRbkN3QVI0Y2ZrdHJVeFFUSVZzbWVtMmJaNWJIbkZOWHFuYkRvOFR3alFIUFRzLWhaTQ?oc=5",
+      "published_at": "2026-08-18T04:15:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "11:15",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "NCB",
+      "tickers": [
+        "NCB"
+      ],
+      "exchange": "",
+      "headline_vi": "NCB tiếp tục kế hoạch tăng vốn thêm 33.000 tỷ đồng, tiến tới lọt Top 10 ngân hàng vốn lớn nhất Việt Nam",
+      "summary_vi": "NCB tiếp tục kế hoạch tăng vốn thêm 33.000 tỷ đồng, tiến tới lọt Top 10 ngân hàng vốn lớn nhất Việt Nam CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS3ZsMkJ6S2UzTTZpdEtYQW1TSW1sRERxRUVLUzFBenZHSFhzS1ZyTW44aVV5Q0pYRWRrMkVFU0FkaEpBQ2l0RFhpWFUxd2JGbFRiMlhHRmNYYkNUNWVMTDBRbDFIMXBUdl9lN3hKQ1VoQXJUX01kZGxfdEE1WklpS1RHN3U3dzhsd2QzTmlkZDZyRWVBOXhtSEcyM1ppWG1hRzZqaHh2RlhETXM4RVBvSWFnSVBmMnFQekJMUHFUOXNjSDlVOEU0eGRJQTJUMjliTjlhTXNvRlA?oc=5",
+      "published_at": "2026-08-18T04:06:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "11:06",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -219,23 +300,6 @@
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
-      "ticker": "NCB",
-      "tickers": [
-        "NCB"
-      ],
-      "exchange": "",
-      "headline_vi": "NCB tiếp tục kế hoạch tăng vốn thêm 33.000 tỷ đồng, tiến tới lọt Top 10 ngân hàng vốn lớn nhất Việt Nam",
-      "summary_vi": "NCB tiếp tục kế hoạch tăng vốn thêm 33.000 tỷ đồng, tiến tới lọt Top 10 ngân hàng vốn lớn nhất Việt Nam Báo Dân Việt",
-      "source": "Báo Dân Việt",
-      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQll0ZDZ2WVRqTXRJTGlVN29DSlV0a255X2cxem5nY21pWkxCdEV1Y0ExeUpYWVBvVWRudzJUOXhTRG9NTWVfcUFhamtsaE85bW5yWFd3cEtLVmtzb1M4R0tHT3hCMkIydnhSVk5vUkNrV2Z3ZUdUZjI3WVZSSGhTWm1pQVdrTVotUFRuVjZmNWwxVm1LNEM4LWZzSi1LZjFOLWE3YmhXSG1senMtU2RmTnhPOFJoZGhCdWhsNFlKc0xYLWJOVlhGVlVNelR1dHJLQWxmNUdsZw?oc=5",
-      "published_at": "2026-08-18T03:10:22+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "10:10",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
       "ticker": "",
       "tickers": [],
       "exchange": "",
@@ -391,6 +455,21 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Điểm lại thông tin kinh tế ngày 17/8",
+      "summary_vi": "Điểm lại thông tin kinh tế ngày 17/8 Thời Báo Ngân Hàng",
+      "source": "Thời Báo Ngân Hàng",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQVByV1ZoLXlpSVphZl9LWGpMbUk3Mm5jWEJlaHA2aVlsNmM4aU1RYVFnOHg5bHRPN2NtOFBaNjhwX0szSW9yYjF4UTJiZ3F2YTY0c3NacnZCMWRkZ2RKbTdnOXltTlRndEM3V1B3WTJnUGtFMS00aE1QZjBRZ0ExMnlVMnRsa0Nr?oc=5",
+      "published_at": "2026-08-18T01:37:43+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "08:37",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Nguồn vốn đang chảy về đâu, khi tiền gửi ngân hàng tăng kỷ lục?",
       "summary_vi": "Nguồn vốn đang chảy về đâu, khi tiền gửi ngân hàng tăng kỷ lục? VOV Giao thông",
       "source": "VOV Giao thông",
@@ -431,6 +510,36 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "08:14",
       "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vietcap đứng sau 7 thương vụ vốn lớn: Từ VPBankS, Masan Consumer đến “bom tấn” Điện Máy Xanh",
+      "summary_vi": "Vietcap đứng sau 7 thương vụ vốn lớn: Từ VPBankS, Masan Consumer đến “bom tấn” Điện Máy Xanh MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNkxxaXBLdlZzYXg0akRIRnV2Zm85U2dHUkg3cXBxamE0UUlCX2RXVF9lS2pRbkIyYUFzdHl5aUttbENfWFJpNjltWG5xeHBZSjRsSHJMMlRzMFM0dHNpSXZwR1lVN25VT3RWaURkVk02NUk4OFhzMkJOdVBoV05jNzNRRQ?oc=5",
+      "published_at": "2026-08-18T01:14:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "08:14",
+      "importance": 2
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá ngoại tệ, tỷ giá USD/ VNĐ hôm nay 18/8: Đồng USD giảm nhẹ do kỳ vọng nhà đầu tư về việc tăng lãi suất giảm.",
+      "summary_vi": "Tỷ giá ngoại tệ, tỷ giá USD/ VNĐ hôm nay 18/8: Đồng USD giảm nhẹ do kỳ vọng nhà đầu tư về việc tăng lãi suất giảm. Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOFV2WlVnUDJmT1BYakZaMXBCT1MwNDR2OW5hU0VQSElKdGtuQ1dVbjM2aXRUTjVDTlVwLUN1aWE2aWhSSTA3NEJUUTBjZWRQWWR1ZFFPcXNIM1RwME1zaVFRNm1MbldnVGlHREtSRzlIQ1JkTWZTSEhRZS1vRWl2MGp4TnVCTDJuMFlvUTFxeXhiR3c5TFpXRExwM25iWGNpM3lUNWxnbWIwc05ORU9pRVkwTG0wZ3lVOVVENmJxUDNyYUxyTUp4YWwxc3BYVFU?oc=5",
+      "published_at": "2026-08-18T01:13:28+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "08:13",
+      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
@@ -505,6 +614,21 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "08:01",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Dòng tiền khổng lồ đổ vào ngân hàng, sao doanh nghiệp không thể tiếp cận?",
+      "summary_vi": "Dòng tiền khổng lồ đổ vào ngân hàng, sao doanh nghiệp không thể tiếp cận? Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlN1ZjloUDVWVjRDSEFNcWtpSXduWmNFS2ZEem1KeTExcDZ0eGl3bDVyRzVXMHNudjA3ZlB3N2tEa0dGeTBJYV84elhkd1ExdDVMOHAzb0ZXYVdIS3dDRm5FNWNsRzNIS0V6d016Vnd5cGdTNGw1R3dRcHVuc1ZwNTNlNjhHcllzMWo3cUxsaTFld29iSGZlOGY3OEc3ZVZMeHV1X01oUzRzeFp0eTJVSzlqU3NGUmc?oc=5",
+      "published_at": "2026-08-18T00:52:18+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "07:52",
+      "importance": 2
     },
     {
       "category": "TRONG NƯỚC",
