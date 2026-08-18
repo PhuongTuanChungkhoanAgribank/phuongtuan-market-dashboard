@@ -5,6 +5,23 @@
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
+      "ticker": "HSC",
+      "tickers": [
+        "HSC"
+      ],
+      "exchange": "",
+      "headline_vi": "Profile “khủng” của Tổng giám đốc HSC nhận lương 800 triệu đồng mỗi tháng",
+      "summary_vi": "Profile “khủng” của Tổng giám đốc HSC nhận lương 800 triệu đồng mỗi tháng MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ3hEY3VxSzNrVG9Jb1c4czMwbVM4OVNBaE91X0tNNzJHU2JOTXdOcURxSkpqcXpmS0M5bmsyZFVZeVVSTTVHTnJEQ1I5cHV5V1pNZFY0N05xMFY4OVBuSVJ0ZlNoYkNSN0pYc1lGRlJXWWVZNWNNNFNnamNNcDc5cWtRcw?oc=5",
+      "published_at": "2026-08-18T11:06:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "18:06",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
       "ticker": "MBB",
       "tickers": [
         "MBB"
@@ -316,6 +333,21 @@
       "published_at": "2026-08-18T08:18:11+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "15:18",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cuộc họp công bố kết quả kinh doanh Q2 2026 của XP: Doanh thu tăng 8% khi tăng trưởng mảng doanh nghiệp tăng tốc",
+      "summary_vi": "Cuộc họp công bố kết quả kinh doanh Q2 2026 của XP: Doanh thu tăng 8% khi tăng trưởng mảng doanh nghiệp tăng tốc TradingKey",
+      "source": "TradingKey",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83dTRiUWJSTmJILTNmSjZVS0JsZUNHMmJCdURqUEdGZE1seDU3Z0ZZSU5pN3lLak9TTG1uQk1iTS1sUmlvUVFyc3FCYTA1anNUUFpmanBoU2JlRmJMYlNYRm1PVEQ4dFM2QTJ6eUl6SzNkb2V4VUE?oc=5",
+      "published_at": "2026-08-18T08:17:21+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:17",
       "importance": 4
     },
     {
