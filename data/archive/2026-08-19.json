@@ -3,6 +3,39 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá USD hôm nay (19-8): Đồng USD đi ngang khi thị trường giảm kỳ vọng Fed tăng lãi suất",
+      "summary_vi": "Tỷ giá USD hôm nay (19-8): Đồng USD đi ngang khi thị trường giảm kỳ vọng Fed tăng lãi suất Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVnZ3bklTYWI3cDdMQkEzNEE4OU9FY2k2U25OQXVsZkdseUpQZnJESS1KWHZJUVVYcVNKeTJEVEVTaW9HS0Y2WVZHSTJ6bVI2Q2M0Zlg2VzkzeEpBcmRyUVFjZ2MtNWpZZFlacmtHWVZ2TDRQTnFJblNraEdxTk5md2tCNktDWjdUUFRaUkRrNElHMzYyZjhQRnRlXzFCVlA4RlVab0xvTEFiVlUwX3pn?oc=5",
+      "published_at": "2026-08-18T23:23:36+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "06:23",
+      "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "VHM",
+      "tickers": [
+        "VHM",
+        "NLG"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu đáng chú ý ngày 19/8: VHM hưởng lợi từ doanh số, NLG được đánh giá thấp về định giá",
+      "summary_vi": "Cổ phiếu đáng chú ý ngày 19/8: VHM hưởng lợi từ doanh số, NLG được đánh giá thấp về định giá thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVWowVmxscjdpWmYwRi04MkRCRkh0dVVqdUFiRWJydncyVzNjUGt1QjZ6TU1HMFN5RGd4ekdIeXJZMGtqSjlyT0hJWWVyOHhNZDZicUFVUXZEMTg5SUdOeEhramd2MDgyVG9OYktzMEdFanZpUVk3ZnBqa19va1JNdnJJR1ppM1RUU3JQalhlUjlUUDNoZnRnX1ZNQlV5S0NXUWoyWGl3elpxdUQwSC1mbGc2TC1JUW00OGFzYmVDU2xBRkdtekVjWWp0bXJjd3dVNlZJ?oc=5",
+      "published_at": "2026-08-18T23:03:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "06:03",
+      "importance": 2
+    },
+    {
       "category": "VĨ MÔ",
       "tag": "",
       "ticker": "",
