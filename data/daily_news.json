@@ -1,8 +1,117 @@
 {
-  "updated_at": "18/08/2026 14:10",
+  "updated_at": "18/08/2026 14:54",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kinh Tế - Đời sống - Nhiều ngân hàng giảm lãi suất cho vay - Đài Phát thanh",
+      "summary_vi": "Kinh Tế - Đời sống - Nhiều ngân hàng giảm lãi suất cho vay Đài Phát thanh",
+      "source": "Đài Phát thanh - Truyền hình Đà Nẵng",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZHZEUUpSaDY4LVF6X3k0RnY3VjZzOUFjZmlrS1lkT1NRdUpYcVBraEI4aWdxMTc5bjVyX3FNdVg1bWhvMlp1YmhnT2VkdFZSREEzVVpR?oc=5",
+      "published_at": "2026-08-18T07:41:03+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:41",
+      "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nâng hạng đến gần, cổ phiếu nào đủ sức giữ chân vốn ngoại? - Tạp chí Kinh tế",
+      "summary_vi": "Nâng hạng đến gần, cổ phiếu nào đủ sức giữ chân vốn ngoại? Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWjNLaGtqdmFwSVdfM041MENOdGtCdVFGYmFhX1ZROXRHc3NybmE2TDZZY1Z5amFmZWpPdGItYW1nc2V5Yk5oR1JRZjBrRUxLMTdmVGozZ3hyX1dfUUhEWE1FN1llbC14eE95OFd0bHFpUzl3cm1UNDlkRUJ5WmRCbHlYVTlHeDRBMkxGcFp2eXFfQWNENGlWdGlVX1I1NGJla3c?oc=5",
+      "published_at": "2026-08-18T07:39:23+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:39",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "P/E nhiều nhóm ngành xuống dưới trung vị 10 năm, chứng khoán Việt Nam về vùng hấp dẫn",
+      "summary_vi": "P/E nhiều nhóm ngành xuống dưới trung vị 10 năm, chứng khoán Việt Nam về vùng hấp dẫn MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOHZuT0hYQnE1RUxPTlJpdUdvM3BDYnpqM1BGbF82NHF0aHdidUQtSzNERU9FRTk3VG1RWTMxN3lPMW5scWdKZlhfOUkzRHhxLWRmeHRnakpJYUgyOVoxVjF6QkNRNzNocGwySDV1RExERlYyNEhROU1kRzB5TUxBckdJOA?oc=5",
+      "published_at": "2026-08-18T07:37:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:37",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "HSBC: Tăng trưởng cao, tỷ giá và lãi suất tìm “điểm cân bằng” giai đoạn cuối 2026",
+      "summary_vi": "HSBC: Tăng trưởng cao, tỷ giá và lãi suất tìm “điểm cân bằng” giai đoạn cuối 2026 VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTm9rTUVYYkh3dUNvS0IzNW5YOFdJVGV5cmFia0VBTFJzU2dDclR4NlMzVGJfbzdkLUttZGlLRTBaSWt2LTFiNEg2WHloUDFKb1FFYXBLRUpyc3FTTC05eGR4bEk0VldxU2JyR2hCUU53TDIwSEVpZmJrNEdCckRqUnNlV1VNQVdfaFdaOWF5WTRURHdUNnZWLUQyNEhna2JZMmZuRQ?oc=5",
+      "published_at": "2026-08-18T07:19:02+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:19",
+      "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "HCM",
+      "tickers": [
+        "HCM"
+      ],
+      "exchange": "",
+      "headline_vi": "Dragon Capital dự chi 850 tỷ mua hơn 85 triệu cổ phiếu HCM",
+      "summary_vi": "Dragon Capital dự chi 850 tỷ mua hơn 85 triệu cổ phiếu HCM VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUnhUdE9sbEdvZlIzMzI1RjVvejJ6bTRUNVRfVWdpZXlMRGh6VDlzc21aTkx6R0NVZk56N1hCbk9lTUJXNHZFQWlmMjVyOGZEZEhDUkhfbHZYZDVNdlVzQmtxaHR0Z1lta0djUzMyMDV2N2puUDcxakU1UE44RVEweHRSSW1YOWM2R2lF?oc=5",
+      "published_at": "2026-08-18T07:18:30+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:18",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "VBB",
+      "tickers": [
+        "VBB"
+      ],
+      "exchange": "",
+      "headline_vi": "Mẹ Chủ tịch Vietbank mua xong gần 22 triệu cổ phiếu VBB",
+      "summary_vi": "Mẹ Chủ tịch Vietbank mua xong gần 22 triệu cổ phiếu VBB VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEVsNHVIZUVxZll5M3ltaEpCdC04alM4aFFySjJEYnlsT1hjRHlvYmZtV1dhbFh3Nnl5SUxlR1hMVjhIRmlYLWxXM2c4bWhBWEprZXZGclBqX2VCeE4wRWtfRzJCNnBRcjBVTm1WMjl6a3ZVWmM2ekJRVGg4Y0E4bGlMM2lrOWxCSXJsY0cza0FmU2FEazc3RU9SMU1MUQ?oc=5",
+      "published_at": "2026-08-18T07:18:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:18",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nửa cuối năm 2026: Lãi suất sẽ đi theo hướng nào?",
+      "summary_vi": "Nửa cuối năm 2026: Lãi suất sẽ đi theo hướng nào? cafeland.vn",
+      "source": "cafeland.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQamthZzl2NmpvZnNranM4X2E0TkVSWG4zT3JLOU5aSFotZFJsei1MRkNhbUh0QTk1VWZLb0dzV2hQZ0dVTVVzVDJCeHRuOEF4Y1NUYzJPNUpxSmRjLWNjelNkbkZqVGUzVkhzRXFhYmpsZzE1N2wwWTZXTTM4YzhzWVJpWmE3TFN6dmo4SGN6dWg?oc=5",
+      "published_at": "2026-08-18T07:10:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:10",
+      "importance": 4
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -179,6 +288,21 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Nửa cuối 2026: Giữ cân bằng trong một môi trường nhạy cảm hơn",
+      "summary_vi": "Nửa cuối 2026: Giữ cân bằng trong một môi trường nhạy cảm hơn Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWWNZbEdkSmFMZ1plRnFRQnM4QktKcWVzT1RDTTRqZzVkeDJJN3NSQzRYQ2dBTWk5d0FpNGozblN3M2cxY3BTS3lqTHZvb0MxRFZpcno2bnJrZ3lVWlh6b0E5aV93aU1JZEVkMGM2ck5JNkRmbnVTRWlnVWNCTW5HbFNZMTNyMTdWMWdUbDUyalFobTdscm1OYmFn?oc=5",
+      "published_at": "2026-08-18T05:07:11+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "12:07",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Hơn 10 ngân hàng đồng loạt giảm lãi suất cho vay",
       "summary_vi": "Hơn 10 ngân hàng đồng loạt giảm lãi suất cho vay thuonghieucongluan.com.vn",
       "source": "thuonghieucongluan.com.vn",
@@ -253,6 +377,21 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "11:26",
       "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cập nhật ngày 18/8, hơn 10 ngân hàng tuyên bố giảm lãi suất, tung gói tín dụng ưu đãi",
+      "summary_vi": "Cập nhật ngày 18/8, hơn 10 ngân hàng tuyên bố giảm lãi suất, tung gói tín dụng ưu đãi CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNzJfeTFiOFROQ1pJemNPYzRYbjhIdHNfUDNLN1hERHlEVDYwenVoZmZlWXFuOEx0US1ybjctRHdaUHBLQ1dPOUVRX2tlMUlJQlhoal9NNGhBdVVxODltOVlEOVFRcFBWT1l3NXpUUTd5UUpKajRIaFM0aERUWUh2ZWFIT0JOa0xoZlg1Q2pXQXhjdHhjbUNfc3NjMlZjVFZFWHNDb3hoQWN6T09xbm9RcHN5OXloQ2pWaHJCTzlNamQ?oc=5",
+      "published_at": "2026-08-18T04:23:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "11:23",
+      "importance": 5
     },
     {
       "category": "TRONG NƯỚC",
@@ -428,21 +567,6 @@
       "importance": 2
     },
     {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Thành phố phải giở bản đồ mới tìm ra và cú đặt cược gần 2,6 tỷ USD",
-      "summary_vi": "Thành phố phải giở bản đồ mới tìm ra và cú đặt cược gần 2,6 tỷ USD Báo VietNamNet",
-      "source": "Báo VietNamNet",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnotZjRmZENRLXg5RXNPQWRQa0dIb2xPOUdaZ1BrclQ2SWRtS2lySmdQeXNxSVQ0bVNnSUE2ZURWeHEwV0VmN0RYNnpDMm1Tb29FU1M1TTA4QnBaTG8yY0VDSzRzNFZCM0w0QWNNcFRDQjJ1QTFLSHYwV3ZNQXE2a2RJSXItdlBrQnJ3QlNJcmlBTWlnVGhYU1QtQVRyZTJWQ3Vv?oc=5",
-      "published_at": "2026-08-18T03:35:00+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "10:35",
-      "importance": 2
-    },
-    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "",
@@ -456,21 +580,6 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "10:22",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Lãi suất hạ nhiệt",
-      "summary_vi": "Lãi suất hạ nhiệt Vietnam.vn",
-      "source": "Vietnam.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HN3lrZS15bDUtMm5tbDMxMDI0UjY2MnNuN25IN3JiN04xME5jaW54MkZmLVhKOW5nMU1fLUNDQm9Ud0twYThNZi1XUzI3QzJmaGc?oc=5",
-      "published_at": "2026-08-18T03:21:21+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "10:21",
-      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
@@ -518,21 +627,6 @@
       "importance": 2
     },
     {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "SHB giảm lãi suất cho vay, góp phần thúc đẩy các động lực tăng trưởng của nền kinh tế",
-      "summary_vi": "SHB giảm lãi suất cho vay, góp phần thúc đẩy các động lực tăng trưởng của nền kinh tế Thời báo Tài chính Việt Nam",
-      "source": "Thời báo Tài chính Việt Nam",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVzhjT1lxNTliZnNGakN3SV85cmNwLXFuRVFxN0NFRTlSZGRuMHVxdkZCREg2Z0FFUl9ZOFlpZHBseW9tRXo0b3pFM0JaWGRlbDdBWTZrbzNPX3NEOFpKNUUzcnlmQUY2N2FMQTN4ZWR0ejFvQ1JPRThYN3M1MDNHeHRWUlJSY3BBdVA0aDIxMFlwQ2hfN2VQaE5QYmxPeGd5LTJOSzNoTjVxV2tSbllPRW8tdzF6WF91dTBNbDZyRThwVk5oZHZwNkx3?oc=5",
-      "published_at": "2026-08-18T03:13:41+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "10:13",
-      "importance": 5
-    },
-    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "",
@@ -546,21 +640,6 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "10:07",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Tỷ giá USD hôm nay (18/8): USD diễn biến phân hóa, dữ liệu kinh tế Mỹ hạ nhiệt kỳ vọng Fed nâng lãi suất",
-      "summary_vi": "Tỷ giá USD hôm nay (18/8): USD diễn biến phân hóa, dữ liệu kinh tế Mỹ hạ nhiệt kỳ vọng Fed nâng lãi suất Thời báo Tài chính Việt Nam",
-      "source": "Thời báo Tài chính Việt Nam",
-      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUktiTlh5bDludy1HZGw4dElhY1J4dEJ1V2dBRDljMGJ4c0JQN19CdFkyQk1wN25sY2dzamYtMUNNS05Ebl9SR01vNWVETTFiRnVTejJJZlFBMXpVLWdMY3h2dTNSdVM2dURoX1RraWpiTWtoZDlqX1dOdDF0NTZSTkphazlNclhJU25KLVREcnJNX3cwdmZpVmpDd0xRdm9oTU9lUHdzTjYzMm4wanBBdGIwM25kQmJ5bFd2aTdMSU1nRXJwUkd3YmNZaXN0N1EzMWlPcTRYZWxzYmY0WE1R?oc=5",
-      "published_at": "2026-08-18T02:39:38+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "09:39",
-      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
@@ -621,21 +700,6 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "09:22",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Nhiều ngân hàng thương mại chủ động hạ lãi suất theo gói tín dụng",
-      "summary_vi": "Nhiều ngân hàng thương mại chủ động hạ lãi suất theo gói tín dụng BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
-      "source": "BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVFRPUE5neklHQmlDekllRGtwNVAwWS11NEcxaEQ3ZTdYMnNlS0tjZXpNN200YmRpazZBbHlBVHVjbVhPR0V6SlNSWHRqUjQ3Q0VncEdCT0JfcGo2cUNaZ0pSUmZCdTdrc2VWaUJMd2pXR0xCQkdkM0JRcGJjeWxnLUtGVTQxTnF1YTgwY0lTNTZKdjFiRDA0b0YzblZuRXhra05xeVpNT1dkam1Ba0MtYg?oc=5",
-      "published_at": "2026-08-18T02:17:00+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "09:17",
-      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
