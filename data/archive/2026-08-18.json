@@ -3,6 +3,66 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu công nghệ Trung Quốc vượt xa đối thủ Mỹ về định giá",
+      "summary_vi": "Cổ phiếu công nghệ Trung Quốc vượt xa đối thủ Mỹ về định giá Bloomberg Businessweek Vietnam",
+      "source": "Bloomberg Businessweek Vietnam",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcHZkcWVGdGpySG5fZGhrRUcycHNIenJrR01DZWZGdEcxQXA2WUNmdlJfbV8zNlB0QWwySlNYUTdlOW45NXd0eWZ5VWIxdU00S3hESUlEM3d4UmFVSllvWDlTNkMxZkZlSURGU0ZmR25aUXNoZDUyMERaS0M2T3lMZndPaXFMSnJaekEyZ0tYWQ?oc=5",
+      "published_at": "2026-08-18T09:30:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:30",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "HOSE cắt margin 3 cổ phiếu do lỗ quý 2/2026",
+      "summary_vi": "HOSE cắt margin 3 cổ phiếu do lỗ quý 2/2026 VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPQzVremEwVkNQUFNhWG40MnFMU0RwNWZEN3EyaDg0MU9YdzRoN25OLWZkTklpOEdlZEhlOVNlLUZ3S2pjcWVkRHZ4dzlXOWhmNzQwd29zaXlrZjBCSlFzdjJRWkw0NHFMbk50SG5nR1REVFFXdUE?oc=5",
+      "published_at": "2026-08-18T09:29:24+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:29",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Blog chứng khoán: Cân bằng mong manh",
+      "summary_vi": "Blog chứng khoán: Cân bằng mong manh VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1US2dPX2RZNXBFbV9EVzBxeEc3b24xcWxURERaT3I1Q1ZkZFZKbWZvWWVCWHZPWm5wNERPbG1CTkxha0RKNjdWd1RDZUYwWVVVQWRXVk1YQkJ1MWF0amJjUXdrWFZKME9zOUs5YQ?oc=5",
+      "published_at": "2026-08-18T09:23:11+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:23",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "TS. Lê Xuân Nghĩa: 19 tập đoàn lớn của Việt Nam ‘lụi tàn’ một nửa, nguy cơ tiếp tục biến mất vì không chịu M&A",
+      "summary_vi": "TS. Lê Xuân Nghĩa: 19 tập đoàn lớn của Việt Nam ‘lụi tàn’ một nửa, nguy cơ tiếp tục biến mất vì không chịu M&A nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWDRZMFBJQ25iT3pIeHc2M2RfcnhQRE5qeEFPZEphM3FIWW1wNGJMWk9XSGZ0MTQtUnRwSEZBeVl5ZXowdFVWYVl4VFZob0xOdVJVaUFTUFNNT3QtSGN4SFNTZFVhR05zeUtyRzNaTVFuZ3hhX0lPTzB3TWtZU1NRWTFxblE1Wkp5SjJsdm80V0NfM0M4ZFk0amQ1clluWld1dUNKaUVjUEs3ZHB0YXZNVUcwZ0JiLUlqa240NEJXbFFuNmFnQjVkYjk4VE5BX19zQW9WNU9kRGM?oc=5",
+      "published_at": "2026-08-18T09:11:01+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:11",
+      "importance": 3
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -47,6 +107,23 @@
       "published_at": "2026-08-18T08:53:01+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "15:53",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "NCB",
+      "tickers": [
+        "NCB"
+      ],
+      "exchange": "",
+      "headline_vi": "NCB muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới",
+      "summary_vi": "NCB muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới CafeBiz",
+      "source": "CafeBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnQ4WUd0eXhMM0wxeU5wNlU0eDdSWkpfVm5sRHc3b0NBN2cwMDNndzExcEo0U00tb1VJN2JzeERubDRjeU5pR080YXduVlNMOWJXX3MwR1ZVOWJKcVI4TmVveUFSNVh3ZXZPS3F6aGJ1UWp4dTYwQncza0FHMVlSVFdHYVEtY1FiYW5IN3h4MnIzRE5jZGw3ZjN0VUQ3eTBnWENRUGZpd3c0Mm5odkhnRA?oc=5",
+      "published_at": "2026-08-18T08:42:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:42",
       "importance": 2
     },
     {
@@ -107,6 +184,23 @@
       "published_at": "2026-08-18T08:17:00+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "15:17",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Tổng Giám đốc Phan Quốc Công vừa mua vào 1 triệu cổ phiếu PNJ",
+      "summary_vi": "Tổng Giám đốc Phan Quốc Công vừa mua vào 1 triệu cổ phiếu PNJ Người Đưa Tin",
+      "source": "Người Đưa Tin",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOVVQSGVhYnI0RGNRWDRhUlQ1TGllYTFkWDJ0VFU5clRTSDlCUTZOVFFNbDR2aEpZX21mazd3QzFfRXdzV2VhZEhieVB1WXMxWXpkcVBGb0VoZUdURFpFVjNyYlpoTTZFbEF0Q2tfaHJ5cDktZ3dxLXYzZVFXdk54Tk03MGpCYVV3NHd2TG1vY0V1WWwwMzFuTGJDalJibk1BXzdMNlZFTzZkdEJveWR1NQ?oc=5",
+      "published_at": "2026-08-18T08:05:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:05",
       "importance": 2
     },
     {
@@ -247,6 +341,21 @@
       "importance": 2
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Agriseco điểm tên nhóm cổ phiếu tiềm năng từ kế hoạch thoái vốn doanh nghiệp Nhà nước",
+      "summary_vi": "Agriseco điểm tên nhóm cổ phiếu tiềm năng từ kế hoạch thoái vốn doanh nghiệp Nhà nước Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTTNEOHpaSVdMWjNYRmw0eUVZNG44eEdlMHdfNW5QNXRBOHA2aE9waG1kMmkwRDRsRVN6YnlmQlBnWm1PSTlrN241Qmt0VzRnVHVsSFJ4NldPTFFKU1JtNl9OXzhuLWw4Q0FCV2xZOVJPOHNQTTRLUkZ1TktkeS1PQUMwc1RUaDZ4cXl3Sk9Ob3RMYXFkSEx1eUZvYkwzRzlMVjhYU0hCejRLWndoT1ltUFVVNTBYQ1FCVVVROTA3T21lSnFEVG9TcHhHUjBZU2Vt0gHMAUFVX3lxTFBabXVLTFROSVBNYndiWVBsODJjMFlQTDZUNkhFdklZUXA3ZmRHMXpkeUNneVFOVllmTW1HUG9sdllpTjRNS1ZwaWRrUjVYb0lJTS11SlpOVUwwU2hiUVJ1bGpjQ3RHQWxHSzhlb2lCcU10Mlg5bG5adzhhVUlna1RoUkxuczIyMzJ4REVWSTdMNTVSdW5Vb3JQZmFkb0RHVzlpZ0pqWFlfR0IzRWdGRlJMTG1uemlNTDBtb04xd1Z3Y01YRkRuTk94NXE4UQ?oc=5",
+      "published_at": "2026-08-18T07:29:29+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "14:29",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -369,23 +478,6 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "13:58",
       "importance": 5
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "ticker": "NCB",
-      "tickers": [
-        "NCB"
-      ],
-      "exchange": "",
-      "headline_vi": "NCB muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới",
-      "summary_vi": "NCB muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới VietnamBiz",
-      "source": "VietnamBiz",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT1FwVG9mZFhLS1JYVUlRdWR4Z3lnRFZIUXo3bkxoaGNCQjN6bkNmNExGSFhxcE4wSmVHZHBhMG5BZ1JFbmo3eE1WUmZ6RjgtZDJGRFFnYzBWQ05uRHV4OUFNRjVmYzdZOXhnV0RwT2lIdGNOeVNPWmx6N3FPWmFxTHJQVGY4cXh3UEJyTVlwTnJsbzJDWjliNGRWcG1rV1FNamRlbDJZT09vVzdpYXpHQm1B?oc=5",
-      "published_at": "2026-08-18T06:57:00+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "13:57",
-      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
@@ -928,6 +1020,21 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "10:13",
       "importance": 5
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hơn 100.000 tỷ đồng trái phiếu bất động sản được phát hành trong quý II - Tạp chí Kinh tế",
+      "summary_vi": "Hơn 100.000 tỷ đồng trái phiếu bất động sản được phát hành trong quý II Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1NfYWc5V0Nzd0lwRThUUVNLd1NFaVRROXd6cmhpYW5HS3FZRWxkeW41aW9vc082UGtmR1NSbEc0eElra1lzVEdGM2NKV2U3TXVpT21IVFF5TlRoY0N5dEtLbUo5WWk3OGtUR1haMTJ5VTl6R1o2b3lYNGMwb1N0dEpxM0RxZUtaWEpQVmpFZnhGSGRadlI1UTBTSi05cWJFZjREYkJzWUN5dzc1REFOenhpT1RMdw?oc=5",
+      "published_at": "2026-08-18T03:10:20+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "10:10",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
