@@ -1,8 +1,77 @@
 {
-  "updated_at": "18/08/2026 17:13",
+  "updated_at": "18/08/2026 17:49",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "MBB",
+      "tickers": [
+        "MBB"
+      ],
+      "exchange": "",
+      "headline_vi": "MBB: Báo cáo kết quả phát hành cổ phiếu để trả cổ tức",
+      "summary_vi": "MBB: Báo cáo kết quả phát hành cổ phiếu để trả cổ tức CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOWVWcVRrNnd6Qk9fT2RScEFvRU05Yzl5NjJiemV5Qk82cEpUeFJNakdRUmt2TklxcEVWQmtYdVdzOGphc2VXOEhqdDBYeEdsZEtOS1BqZ3RqU25INVhSMDRuMDBXMnFYUjA0NENNVGV0NzNzZ1VFcnhnazBxRVZnZlQ2U284MzF4SWIybkViNGlTZEd2RWMzTmJLWjhZb2lDanI0U1pJQV9MODkzLTdxVHVR?oc=5",
+      "published_at": "2026-08-18T10:39:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "17:39",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "VNG",
+      "tickers": [
+        "VNG",
+        "HCM"
+      ],
+      "exchange": "",
+      "headline_vi": "VNG muốn mua lại công ty sở hữu khu đất hơn 2,5 ha tại TP HCM",
+      "summary_vi": "VNG muốn mua lại công ty sở hữu khu đất hơn 2,5 ha tại TP HCM Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2N3Uk5GTERoTzg0bnd4RzdlSTVCaVpiMzFNazJ1bWtCQWdYX0I0X2xmTHZaTlcwYVgxa2xMVUNZN0RsQV9jdUFLblJYUHcyWWlRU3QyQ1I0Ymdial9qTGxDZGx6SVNzaGtLa1B3SVRwNnZJaFRYYmwyMWZXaUgzRUI1ZTRSUVpPblg0Y0xvVkh6VFVpN0dyUmFR?oc=5",
+      "published_at": "2026-08-18T10:35:44+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "17:35",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "ANT",
+      "tickers": [
+        "ANT"
+      ],
+      "exchange": "",
+      "headline_vi": "ANT: Báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty",
+      "summary_vi": "ANT: Báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQM1h6am83VFIyU2ZIUlloZjBVYTluX0Y1SmhZLWFKbmVuNV9iOUgtX1R0WFlpYzgyNV9ySXM3Vk5TOWlTZHd1V2lBbTZjMGtuc18yMmgzSkJQSFpVSnlROFhCVGFMV25zY0p3MmhELXZiXzgzZ0E3ejZST3FNaU5lbHF0b0ZfVUtxdG43M3JUN2VBTWZNblk4NWJlVEotN1R5cTFNS3dRVkpCOEV3TV9nNVY3Z1lhTzh1Rk14b1dIc01mME5RNjRYOG9qaVNGNmVQX2dPd3ZyNTU0bjhJQS1RdHM2c3BvQUo1eEdpaExRTQ?oc=5",
+      "published_at": "2026-08-18T10:32:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "17:32",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Tổng Giám đốc PNJ hoàn tất mua 1 triệu cổ phiếu",
+      "summary_vi": "Tổng Giám đốc PNJ hoàn tất mua 1 triệu cổ phiếu Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSG5IUmkwRWRQY1ZhVjFONlI3bHlpZ0RJR01RaEt4UFhwZ2lEQ214a2VBTjRlMmVoQmpUcUpGNnlMWWVKSmpjWDdBaFF1Qmp3NGhweFBoZnVsMENqdlRqRHptMWxoQVp2dlR3bnVEWV9EZHZJZWdKS25MMnN5UFZ3MWVsS3pHTHpTQkYwMzB3SE5fS0F1U19J?oc=5",
+      "published_at": "2026-08-18T10:24:50+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "17:24",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -127,6 +196,21 @@
       "importance": 3
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "TS. Lê Xuân Nghĩa: 19 tập đoàn lớn của Việt Nam đang thu hẹp quy mô, nguy cơ mất vị thế nếu không chịu M&A",
+      "summary_vi": "TS. Lê Xuân Nghĩa: 19 tập đoàn lớn của Việt Nam đang thu hẹp quy mô, nguy cơ mất vị thế nếu không chịu M&A nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUzJKRG42dWhHZFk4Ung5SUxmMURGakRaUVQ2V21IcFduc2lJQVRWWDNZNUcyTjN1TVI3b1Z6SmdzeElzOUw0Y1U4bGFTakFPa0diQ1RmUmwzQ0JWNGJVcGV0TVYxZXhHbTkxNGROSlN1eEFIM0paUFIxYkx6NXdsYzBJQWtYb192b3U2cXp5NTM0MjR6aVpwVmpoNDdkelBlbHYzLUZHWmoxbm94WElGTzBzcjRVbktXdjlfZ1BjZHhVdzRfdVYzdUZuWERwWEJINUw3Zktn?oc=5",
+      "published_at": "2026-08-18T09:11:01+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:11",
+      "importance": 3
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -236,6 +320,23 @@
       "importance": 4
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "LPS",
+      "tickers": [
+        "LPS"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Hơn 1,4 tỷ cổ phiếu LPS chính thức giao dịch trên HoSE - Tạp chí Kinh tế",
+      "summary_vi": "Hơn 1,4 tỷ cổ phiếu LPS chính thức giao dịch trên HoSE Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMmNISHhINlg0eW8xV21uSUE0LUxZRUZ2WUhOcndZQjJKWUZyX0VJSU4ycG1oVGFrbHc1bXpWeUVLR3p3d19tdUs4dHFPSmlVcmJCQ2Rpa0REaW5IVnlmWm9ObnlOTXY2NzB5MVlIRFczd205Vk1WVFM1LXkzLWgzZm9nNFBwdElCbzl0N29pTmthRzBGV1p6YWs4djB3dVk?oc=5",
+      "published_at": "2026-08-18T08:17:03+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:17",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -281,6 +382,21 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "15:04",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "SHB giảm lãi suất cho vay, góp phần thúc đẩy các động lực tăng trưởng của nền kinh tế",
+      "summary_vi": "SHB giảm lãi suất cho vay, góp phần thúc đẩy các động lực tăng trưởng của nền kinh tế VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUHU1a0JpWVM4S3NBVm4tVGtMNzBJekdYU3htQnhQWGFCdDFnNkFTcnU5cWY4VXdqVWhWWTE2c2NTOWUyaG1wSDFNajZNZ2ZpNnBGVXJrdnFWdDRhdzY3anlocmNwanBjTmxaWGl3WFBMX3VJMFk0enp0d1ZxOWM1ZGQtTUNuZmZYS093RzlVanNRZ3VVdW9tZHhnLXJGdnAzQ1NuZ2Vqb21WNmZCRVptanRlX1J3U0hyMTl6OFJtRFk?oc=5",
+      "published_at": "2026-08-18T08:01:05+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:01",
+      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
@@ -587,21 +703,6 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "13:44",
       "importance": 3
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Thấy gì khi Vingroup cùng ba ông lớn muốn vay 1,7 triệu tỷ đồng?",
-      "summary_vi": "Thấy gì khi Vingroup cùng ba ông lớn muốn vay 1,7 triệu tỷ đồng? BBC",
-      "source": "BBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KSUJ3Ujc2VHROSFRkQXpiNmxjU2gwQ3dUREFaYTQ1VVNSSmQwb3psMXpVdnZra0NJLWxXN21XRktLSHE5b1JWTXc1N3VjRDc3TFRVcG1mSFBiS2xsdnA0R3Fn0gFnQVVfeXFMTXVCQ3lqRS0yeDFHQk1oYkRwNXE0Ymg2NFJuNFFHb0hkWlFMd1d4ck1rTHViS3BFbjZsd2E2QU9LVkd6a1JVeTRQNHUyNTdyM1Y2Q2Nka2ZERXVMdU55QURUblRuVURxNA?oc=5",
-      "published_at": "2026-08-18T05:44:42+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "12:44",
-      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
