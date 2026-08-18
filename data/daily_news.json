@@ -1,8 +1,100 @@
 {
-  "updated_at": "18/08/2026 13:18",
+  "updated_at": "18/08/2026 14:10",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "HSBC: Giữ “điểm cân bằng” cho kinh tế Việt Nam nửa cuối năm 2026",
+      "summary_vi": "HSBC: Giữ “điểm cân bằng” cho kinh tế Việt Nam nửa cuối năm 2026 Vietnam+ (VietnamPlus)",
+      "source": "Vietnam+ (VietnamPlus)",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRm9aU0R6VkNVM0lacHp4UzV1ZFltQzh1R0NDMmdJUGdlbUlSNE4ydWNhMkFhZnU5alJIREo0bFQ1QWNKU3A0ckljWFQ2RnVuZGMzTm1lV2ExS0lTUmRyQUQ3eXlWWXBFdE1Nc284Tk5kS3p4N29YNTMyb2xaQjZrc0JtZ0RYYU0tcjd6QnlsWUV1cjd1NmZCTEhUaEp6RGNQRDJpLXNtOA?oc=5",
+      "published_at": "2026-08-18T06:59:36+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "13:59",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thêm nhiều ngân hàng giảm lãi suất cho vay",
+      "summary_vi": "Thêm nhiều ngân hàng giảm lãi suất cho vay Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT1p1VEhKazZ0UVE5MmdLc1YtRFJQa2lWRmFvcWxhbU1wR2I1eXpRTnBYcFBSZ0NqTzMzNDQ4UFUxeWlQOS1LVU95MGxvWjZrUC1DRXZWdktjbzRjZjVzdVdPNEpBUHpyLU9fYk82dEpWUWlDNnhJeEttWFh5Z2Z2QU1n?oc=5",
+      "published_at": "2026-08-18T06:58:41+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "13:58",
+      "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "NCB",
+      "tickers": [
+        "NCB"
+      ],
+      "exchange": "",
+      "headline_vi": "NCB muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới",
+      "summary_vi": "NCB muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT1FwVG9mZFhLS1JYVUlRdWR4Z3lnRFZIUXo3bkxoaGNCQjN6bkNmNExGSFhxcE4wSmVHZHBhMG5BZ1JFbmo3eE1WUmZ6RjgtZDJGRFFnYzBWQ05uRHV4OUFNRjVmYzdZOXhnV0RwT2lIdGNOeVNPWmx6N3FPWmFxTHJQVGY4cXh3UEJyTVlwTnJsbzJDWjliNGRWcG1rV1FNamRlbDJZT09vVzdpYXpHQm1B?oc=5",
+      "published_at": "2026-08-18T06:57:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "13:57",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "2 Gen Z nắm khối cổ phiếu hơn 12.000 tỷ đồng",
+      "summary_vi": "2 Gen Z nắm khối cổ phiếu hơn 12.000 tỷ đồng CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN3FRS2t6RmRORzRnOVowNGRKb0E4Z0ozQWNSV1B0cVhZR2VPVFBBNkE5bElCakgxZDMxT2oxM3F4UUZFVEFPQTAyLXZpYlJWRlFNaWFNTTlMVDJaeWU1WmNYSXQ3U1RWZzFOMFB6VUFTdjJaSjNpNDJnNUlyQzJJUWJmOE9HUkpGbzVv?oc=5",
+      "published_at": "2026-08-18T06:55:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "13:55",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hơn 11 triệu tỷ đồng nằm trong ngân hàng, vì sao vốn vẫn khó vào sản xuất?",
+      "summary_vi": "Hơn 11 triệu tỷ đồng nằm trong ngân hàng, vì sao vốn vẫn khó vào sản xuất? thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZXlicGpJVzQzUEFfTWU0LTF0OEZMckZiVkljZ3RjamxPWVR0cngtNDV2YlcxN0tRNmxFdzVFeWZYTjB5cG1aTndkRE1BMWxlSW4tdU5LaVVqN01BcGFMTVd5NTRNRW5icFpLQS1QODFGTFJLT1Ytc1F0R3JqX0VwSEYyVlR2YzhaYnR2YmpYaEpmbTRzVld0TXJjVjEzZ1N0eEQ0RUl0WXhrMmtPX3c4T1loR1ZrVFBfekgw?oc=5",
+      "published_at": "2026-08-18T06:49:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "13:49",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "FTSE sắp công bố rổ cổ phiếu: Giữ tiền hay bắt đáy cùng dòng tiền “cá mập”?",
+      "summary_vi": "FTSE sắp công bố rổ cổ phiếu: Giữ tiền hay bắt đáy cùng dòng tiền “cá mập”? Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSk1SdjRfVWowUzl2RE1jUVB4VUZURERsTE5SbEppRjVfcmZtSW9zM0duVW5uU0pDVjE0SHJ4clNibzU4LTVDRFItNGh2bTgtcDNOVkJfUkdxcUFXOEtVM3djUEhycFhPSTNXWERUSGgxZkxGbFVIZW1EcnBZQllVT0oycWx1TlpMaTdmRHF4YTREa1I5SXp1Sk0ya0pwYUloN2U2X1BWVnRFVmlySEJNcmVGS2tWc2twc0hJbEV0eGlHXzlF?oc=5",
+      "published_at": "2026-08-18T06:44:15+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "13:44",
+      "importance": 3
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -127,6 +219,23 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "11:36",
       "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "BSR",
+      "tickers": [
+        "BSR"
+      ],
+      "exchange": "",
+      "headline_vi": "Lợi nhuận BSR đạt 25.300 tỷ, cổ phiếu dư địa 3,4%",
+      "summary_vi": "Lợi nhuận BSR đạt 25.300 tỷ, cổ phiếu dư địa 3,4% VnBusiness",
+      "source": "VnBusiness",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeVZaVUFTOXNUMktTVkZYV2RpejMzaVp0OVRZVWNyMExMSjZyTmRFcEpZcC10SWRlT2NlcGc4SVgtRkx4NVVaYnFPWVE3OG5kOXBGdU1TajB4cVZwWUY3bFI1eEF2YU16c1NTQjdSZ0tDbFBDdEliaVl4WnQ5LWJsSlhhVGZwelZ3S1F3?oc=5",
+      "published_at": "2026-08-18T04:29:26+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "11:29",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
@@ -499,6 +608,21 @@
       "importance": 2
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Doanh nghiệp thủy sản nặng gánh lãi vay trong quý 2",
+      "summary_vi": "Doanh nghiệp thủy sản nặng gánh lãi vay trong quý 2 Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNjJSRk5fMUh6Qk9Sa0dlbGIwUzZpVVU2Z2tkcUJub3l0R3hRT1VCc1VOU0haelBsTkdXM19mcFhUcHk4SWRTTXQ4MHVTQXlwcTYyTUZZOXJ3SEdJYkdrcVlUdllNMDl2dWZMZkZkZWhsMHo4d09BR0o5Q0JGNV8wSG5EeHVHX3FxdWVna2w3c1EzZEszUEdHWkNDS08?oc=5",
+      "published_at": "2026-08-18T02:22:19+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "09:22",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -511,21 +635,6 @@
       "published_at": "2026-08-18T02:17:00+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "09:17",
-      "importance": 4
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "VDSC: Tăng tỷ trọng tiền gửi Kho bạc, lãi suất cần thêm 2 - 3 tháng để hạ nhiệt",
-      "summary_vi": "VDSC: Tăng tỷ trọng tiền gửi Kho bạc, lãi suất cần thêm 2",
-      "source": "nguoiquansat.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc0oxdjhBY1p3TWFaUnBPTlVlRnc0LW1RUUJuNHBMbmxfWmlieElmR093QXZVNktVYklrbjFWUGNSNlByOGxIYV9BZFFvX2gtRDdhWUpfNUdfUDB3TmQ4Y1R4REdPc29aczNYZmRkdG01SDc4ZHF6WUNfNlRrQ2taREQ2Y2ZWTDQ3OF90LWFEQnJyTDBKbUVuX1JqYUpuRDJUdFJXZGV5ZzU5UEZjT3FuQg?oc=5",
-      "published_at": "2026-08-18T02:03:01+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "09:03",
       "importance": 4
     },
     {
@@ -546,21 +655,6 @@
       "importance": 3
     },
     {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Thanh khoản chứng khoán mất hút",
-      "summary_vi": "Thanh khoản chứng khoán mất hút Laodong.vn",
-      "source": "Laodong.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4dXdOYUk5SS1yZ0NnVnVNbjNQUHdmU242TjRZZFZvckNnTnNyMVBJTkdxMXphRlpUYXVwZnZRSTM5SE55TUVZbGpfNkF6WlZnWlBWREViTmVkaThRYTNDdTlHTkpEdnhUbGYwSEtyMzRLZmVKU1ZBcTZsLVZ0Zw?oc=5",
-      "published_at": "2026-08-18T01:44:02+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "08:44",
-      "importance": 2
-    },
-    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "",
@@ -573,21 +667,6 @@
       "published_at": "2026-08-18T01:44:00+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "08:44",
-      "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Điểm lại thông tin kinh tế ngày 17/8",
-      "summary_vi": "Điểm lại thông tin kinh tế ngày 17/8 Thời Báo Ngân Hàng",
-      "source": "Thời Báo Ngân Hàng",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQVByV1ZoLXlpSVphZl9LWGpMbUk3Mm5jWEJlaHA2aVlsNmM4aU1RYVFnOHg5bHRPN2NtOFBaNjhwX0szSW9yYjF4UTJiZ3F2YTY0c3NacnZCMWRkZ2RKbTdnOXltTlRndEM3V1B3WTJnUGtFMS00aE1QZjBRZ0ExMnlVMnRsa0Nr?oc=5",
-      "published_at": "2026-08-18T01:37:43+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "08:37",
       "importance": 2
     },
     {
