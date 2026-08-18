@@ -1,8 +1,55 @@
 {
-  "updated_at": "18/08/2026 15:40",
+  "updated_at": "18/08/2026 16:07",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "SHB giảm lãi suất cho vay tới 2%, thúc đẩy tăng trưởng kinh tế",
+      "summary_vi": "SHB giảm lãi suất cho vay tới 2%, thúc đẩy tăng trưởng kinh tế Tạp chí Doanh nghiệp & Kinh tế xanh",
+      "source": "Tạp chí Doanh nghiệp & Kinh tế xanh",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYUM4LW1JRnRsd3lwZFJvbzZIUVZmUXhIZTdSMWtQMHFva3pvRzdHZ0hXeHBuSHJnUjIyRUh0YTVWSDlwVUVyUDhhMWNGT2lVQmV1aWVkMHdFWEQ2dkZ2UTVKLUhTZ0FNWllxTzR3a2xrLTlHcWUzNFU1YlZiLW02YVhPU19hU3ZnRWdGcTY0b0VMaDlVcDY4V0V0ZWFjOG51Si0zWjhFWDE?oc=5",
+      "published_at": "2026-08-18T09:01:46+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:01",
+      "importance": 5
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nửa cuối năm 2026: Lưu ý rủi ro khi áp lực cùng hội tụ một thời điểm",
+      "summary_vi": "Nửa cuối năm 2026: Lưu ý rủi ro khi áp lực cùng hội tụ một thời điểm Báo Đấu thầu",
+      "source": "Báo Đấu thầu",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZFNsT2E2eHdmcldLQ0E5b3VsVm8ydjdBUHdWQ3VpaEZ6NUpMX1IzajV2cG15Z2tEeE1oV2VpbkxOSVlMeUQzUUI5Q2FKbU5jd0x1MXZlQ1ZjNlJiNV9rOUhYeXgxcW53dHdIS2VVNUpTcERMVFVIdFBWaHc3cE15cDg3LU9LbWJiaVJsMVR0UEM4RFRNYl9mMl8yWDVOaFpCc3BwcGJpUUk?oc=5",
+      "published_at": "2026-08-18T08:59:34+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:59",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "LPS",
+      "tickers": [
+        "LPS"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Hơn 1,4 tỷ cổ phiếu LPS chính thức lên HoSE, Chứng khoán LPBank gia nhập nhóm vốn hóa lớn nhất ngành",
+      "summary_vi": "Hơn 1,4 tỷ cổ phiếu LPS chính thức lên HoSE, Chứng khoán LPBank gia nhập nhóm vốn hóa lớn nhất ngành Tạp chí Nhịp sống thị trường",
+      "source": "Tạp chí Nhịp sống thị trường",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaXN1TWpLTDZ6cVVaak03aVE2MUtNeG5WVlhpc29uR3c2VWVvVWJyODk4OTRINlJxLWR1eHFyanZNYnN3bXYybjU0Yl9LWDRmM2VmdERlV1gtR1dwRHdBM3lHSWRDZWNUQ0RHb3ZQdlBNZ3NWcXFxV1FWeUxYaEZTbHNUdVZxdGRKMmJySXRFdkxnZGVobFFjSEV0QXA1YUtETjYxR2NRcS1qQUFxd3ZtMEExb3ZOOVdIYk1rdUtxblZpNFhXRFNqaEk3RTRYRlE?oc=5",
+      "published_at": "2026-08-18T08:53:01+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "15:53",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -418,36 +465,6 @@
       "published_date_vn": "2026-08-18",
       "published_time_vn": "12:15",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "SHB dành 47.000 tỷ đồng giảm đến 2% lãi suất cho doanh nghiệp, cá nhân",
-      "summary_vi": "SHB dành 47.000 tỷ đồng giảm đến 2% lãi suất cho doanh nghiệp, cá nhân Vietnam.vn",
-      "source": "Vietnam.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTFBZT0ZNblc2U0VCUzFsWTJEN19yZWJWS0Y5ZWpENFAwTG5GTHNEVzJpbFZGYXRSQjJDZmsxaWhONkVUOWFKZklpMmIzWl9ycUJfWXAzcDBzdjJoZzdrZDRVa1RwX254NVF1Q1YtTnZJLWV1TUNTUTdHUnhoQlBaQlFsYURYUWJSSS1MV0Z6eTZ2clZLN0E?oc=5",
-      "published_at": "2026-08-18T05:10:22+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "12:10",
-      "importance": 4
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Goldman Sachs: ‘Rất khó xảy ra’ việc Fed tăng lãi suất vào tháng 9",
-      "summary_vi": "Goldman Sachs: ‘Rất khó xảy ra’ việc Fed tăng lãi suất vào tháng 9 Vietnam.vn",
-      "source": "Vietnam.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdVQ2QkhvUGFISnFvS0JvNzZ2elh4cmh2YXBZV2d6S09WSThtT3R2MnBwWHFtRmRmWnRvcFRGQkEwSnI1dTJETGJzT2Vob0RSZzJRc0kzN1g2OXh0N3o2QllBVlhqZnh6WXhkNXMwMTYwM3M5X3U1RXY0cDJ6bDlRV08xdFdqWTNRczc2OTFYYw?oc=5",
-      "published_at": "2026-08-18T05:10:22+00:00",
-      "published_date_vn": "2026-08-18",
-      "published_time_vn": "12:10",
-      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
