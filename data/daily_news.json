@@ -1,8 +1,53 @@
 {
-  "updated_at": "18/08/2026 16:47",
+  "updated_at": "18/08/2026 17:13",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-18",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Con trai Chủ tịch Licogi 14 ‘bắt đáy’ cổ phiếu L14?",
+      "summary_vi": "Con trai Chủ tịch Licogi 14 ‘bắt đáy’ cổ phiếu L14? VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdTZlOS1kWnZfbVFMcHBvVzVuMHNqMG1yUFRlaWRWYl94bVBma0JKZ1lCWkpDU2ZVZS1zbUl2STR5ejc4TVJCMU5JMWloTEljMlhGRnctSVlMQW5RZmVwM2JmWng4OGt4Z2dCeUhBYmNUc0F1TnQxRjlGaHdvU1FlUjRqVUVYdC1QS1hvTUFCTW1HYTlYM3c?oc=5",
+      "published_at": "2026-08-18T10:02:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "17:02",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xem trước kết quả kinh doanh của Target: Cổ phiếu đã tăng hơn 50% trong năm nay, liệu kết quả kinh doanh Quý 2 có thúc đẩy đà tăng tiếp theo?",
+      "summary_vi": "Xem trước kết quả kinh doanh của Target: Cổ phiếu đã tăng hơn 50% trong năm nay, liệu kết quả kinh doanh Quý 2 có thúc đẩy đà tăng tiếp theo? TradingKey",
+      "source": "TradingKey",
+      "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTmk5TEFvUEZHRno3bnd2Nlc4UlhfZmJnWHJzdUJEbFB6OWM5NjNERnl1THVNWUpiS1h1UWR4QThFWUZOWXNmSmxIVVdNUDJoMFk2XzItX1hsbjVyaHBZUGRscmJhSDRXaHZKYnlud2wyb2RFMFMzaXRscFFNdC15ZXpBNnd0dko5Um5TcFdFaU8zdWVaeXZiQVRHWWdKZmxtV2RFcmpwdlo0UHVjMVBucnJLSUptQ3JsM1R0cUV5T2RYa0c2Nk1SSlplWUlMTmZJVk5WdXlfY1VKMnpKOVdGaF9YVU00aW9aTkd6dA?oc=5",
+      "published_at": "2026-08-18T10:01:53+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "17:01",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "3 cổ phiếu bị HOSE cắt margin vì báo lỗ",
+      "summary_vi": "3 cổ phiếu bị HOSE cắt margin vì báo lỗ VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelEzeXBwNDN5c1l0RHhyT04zVnptNXA5Um9vRThoV3Q0OEMzNlkxc1o0MlZKTVRxb0Y0Y08xVElEWUVWSUJkM25zS3pLUHN4Snd4VVdpVWMwSk5nNHR3cEJfczZ2RHFVa1NVSHk0NDdHSHVCblo4YUw0NXlUaFFrYWRoZmdZVWZmM0E?oc=5",
+      "published_at": "2026-08-18T09:48:00+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:48",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -46,6 +91,24 @@
       "published_at": "2026-08-18T09:23:11+00:00",
       "published_date_vn": "2026-08-18",
       "published_time_vn": "16:23",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "NCB",
+      "tickers": [
+        "NCB",
+        "NVB"
+      ],
+      "exchange": "",
+      "headline_vi": "NCB (NVB) muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới",
+      "summary_vi": "NCB (NVB) muốn tăng gấp đôi vốn điều lệ lên gần 62.280 tỷ đồng trong năm tới Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb2xac3pNcGtNellkNzd5czJ2cXdnRE5QVHZZS0dhQllMZmZBZzJzemZncjZDNEx6ME1SZ01WV29OcEZEUlllYklkUUw0cldiQXlsdnU3Q0RORVZ3RVhEa3Q0NkZsSXdhVG5SNVZldGRGLVBCbGw5YlV6VWdFb2xxQS1XTlhPbllxX0hfbS16T3FKQmtkd2NoRzJUNUhXYzBGX3J2b3ZVRWc1MHp1RVphZWM2LWxvbjZCLTFaNU5tbWLSAbwBQVVfeXFMTmFHbGxkR3hSTHNGaHZTeVpFZ05POVRpSHJxY0pMUWhmZXJ4Szh3M0tXVTMxUUdOT19XQl9pSEFBeGZFdkRMSWxUd2N2akJrV3laTVFPUVFNV2lzMVVKOFVzSS1ZQ0VWUE04TkJQV2dvaldHa2drUUNhRnEzbjFuT01IdVZvWGF0N0tMSjR4QjQ1SFdlRzB4S1lxWjkxZUNicVBpQ1VuOFVubVJiUFQ5SVhrQkNETGtyMnAzRmk?oc=5",
+      "published_at": "2026-08-18T09:13:39+00:00",
+      "published_date_vn": "2026-08-18",
+      "published_time_vn": "16:13",
       "importance": 2
     },
     {
