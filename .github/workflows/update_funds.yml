@@ -1,0 +1,32 @@
+name: Update Fund Portfolios
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-funds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - name: Collect official fund data
+        run: python scripts/fetch_funds.py
+      - name: Commit fund data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fund_portfolios.json
+          if git diff --cached --quiet; then
+            echo "No fund changes to commit."
+          else
+            git commit -m "chore: update fund portfolios"
+            git push
+          fi
