@@ -1,8 +1,38 @@
 {
-  "updated_at": "19/08/2026 19:41",
+  "updated_at": "19/08/2026 20:22",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-19",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tài sản GenZ trên sàn chứng khoán: Thêm hai gương mặt sở hữu gần nửa tỷ USD giá trị cổ phiếu",
+      "summary_vi": "Tài sản GenZ trên sàn chứng khoán: Thêm hai gương mặt sở hữu gần nửa tỷ USD giá trị cổ phiếu VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbjM0QWhaR2l2dEJSWnVhcThQQlc2ODBGRHlvUkNCZEJLN0NlRnhtSC1RcVNsWTRwUE1xMVJ6ZUxZb2RuWlVrYkRBVlVZb2dud3MzQllocVNzMmJOcE1UZ2NXLUtBbWJabzhSRjFJcGpIelRWMnBCR3gySU1TRGtILTVNbHRoTUhyZWxYejN0Rnl2UGxMQ0NEZWF2Y3ZHd1lfQlA2SW53VkRTNjNwbkpGZG53YW1rVHhJX21JVzdNN3ZaZk9UTkVGX2s3OHc?oc=5",
+      "published_at": "2026-08-19T13:00:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "20:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "FPTS muốn vay 1.500 tỷ đồng để đầu tư trái phiếu",
+      "summary_vi": "FPTS muốn vay 1.500 tỷ đồng để đầu tư trái phiếu VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZT3Jwci1qZUJHblBicS1WR1U2dUhaaDhDN2hqeTg5dG52Z1dqSGpkcmIyWWV3NGNjQU1GRC1MbFlZNkZBVVo0Qms2ZDVuWG50THNPUm44WEhabV9QeHU4cER2OGhEcUpmeVZxdmh0UGVfalg4NUxINFhwMUI?oc=5",
+      "published_at": "2026-08-19T12:54:51+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "19:54",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -269,6 +299,23 @@
       "published_at": "2026-08-19T08:23:14+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "15:23",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "LPB",
+      "tickers": [
+        "LPB"
+      ],
+      "exchange": "",
+      "headline_vi": "Công bố thông tin về tình hình thanh toán gốc, lãi trái phiếu LPB12502",
+      "summary_vi": "Công bố thông tin về tình hình thanh toán gốc, lãi trái phiếu LPB12502 Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUpDNWZjXzRIMG1lblVlMy1ZSDMxUl81TTF4emQxcWhYQUdQTEx2V3R6ajR4ZE5lYm1hcV81aVdUUXFneUxuUkwzX3pFdXVxaTJsU3ZmTGQ3Y3VUYWhzVV9TejJPWnlfaV9XTjVoSWhwTXIweWFuOGpvaVo0X25NN0Q2SWVKYjhvY3hGTm42MVdJYnNsdWJiZ3NYeF83YUtzdnQyZnpfVlRkWFhZLV9ndnNhUndDQQ?oc=5",
+      "published_at": "2026-08-19T08:22:37+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "15:22",
       "importance": 2
     },
     {
