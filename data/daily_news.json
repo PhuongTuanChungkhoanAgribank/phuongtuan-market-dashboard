@@ -1,5 +1,5 @@
 {
-  "updated_at": "19/08/2026 21:09",
+  "updated_at": "19/08/2026 21:42",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-19",
   "cards": [
@@ -76,6 +76,21 @@
       "published_at": "2026-08-19T12:04:06+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "19:04",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hôm nay, 'kho tiền' 1.600 tỷ USD sắp được khai thông, gần 180 triệu người ở láng giềng Việt Nam đứng trước thay đổi lớn",
+      "summary_vi": "Hôm nay, 'kho tiền' 1.600 tỷ USD sắp được khai thông, gần 180 triệu người ở láng giềng Việt Nam đứng trước thay đổi lớn CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZlVXdjNKS2VjUzNwWHVWRWRfblVBNTN3TTVjejlUZ3dLd0ZfTVNNTEFtUWpLTnVTaWZ2SzFJcFZPU0dVaG1aVUgwSmVLamtTN3g1QllUaFJiazQ5TGJQZ25Fd3VpVUlTLXBkckRmUGo1ZFc1V1NBM1NTejFhRVF1RnczczZGMDl1aDdTSXd1UDBYZjR2MkhmWEZUVWVmX3REOG5yd2kzNU93ZEpkWUdwZjhSaFpweGxyR21xNU44VTg1akJfWUJEZUlZeXNXbVpyYXBnM3dILXlhR3A5S2wyd2dHZTZhdklS?oc=5",
+      "published_at": "2026-08-19T12:02:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "19:02",
       "importance": 2
     },
     {
@@ -1153,21 +1168,6 @@
       "published_date_vn": "2026-08-19",
       "published_time_vn": "08:37",
       "importance": 5
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Điểm lại thông tin kinh tế ngày 18/8",
-      "summary_vi": "Điểm lại thông tin kinh tế ngày 18/8 Thời Báo Ngân Hàng",
-      "source": "Thời Báo Ngân Hàng",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaXFibzRacmlySFBWRHJKOG9GQ2FtUHlKRHBlSGZ4UXlRREwyUGd0VnFIb2x4aGEwZ3hQaGY3Z1pGNHpERGZRUUwwRHFtUUJmNDVTUXl3YlgwY3VMTWVZT2luaFZ6clU2RDU1ZV9Ja2NjWE9tM0pKbjU0ZkV3a1BfdVREMmc2XzA5?oc=5",
-      "published_at": "2026-08-19T01:32:05+00:00",
-      "published_date_vn": "2026-08-19",
-      "published_time_vn": "08:32",
-      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
