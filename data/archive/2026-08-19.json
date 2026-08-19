@@ -5,6 +5,23 @@
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
+      "ticker": "KBC",
+      "tickers": [
+        "KBC"
+      ],
+      "exchange": "",
+      "headline_vi": "Kinh Bắc (KBC) dự kiến phát hành 700 tỷ đồng trái phiếu để cơ cấu lại các khoản nợ",
+      "summary_vi": "Kinh Bắc (KBC) dự kiến phát hành 700 tỷ đồng trái phiếu để cơ cấu lại các khoản nợ index.vn",
+      "source": "index.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS3d5M3NoYmxjbi01RWtjRmlQQ3pBQ0Zrb19hdXpCRm44djA1U0VVRG1EbzRsazM4Rml1cEZLUzd5WVg4dW0xbFhhSVp5cFZyTHhhMUxvSkdPVllUa1Z3UlVqcld1UkNtUVlXOU9VMUw3LUZQM1JrVVQycXZXdXhXdzAzOWNhQmhWOTlUSjhJRWY2c3VuMGcwT1J5R05kOEFjaU5BQm5ZVlY?oc=5",
+      "published_at": "2026-08-19T03:59:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "10:59",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
       "ticker": "",
       "tickers": [],
       "exchange": "",
