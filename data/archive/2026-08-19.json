@@ -5,6 +5,53 @@
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Viet A Bank chốt thời điểm phát hành 85,7 triệu cổ phiếu thưởng, tăng vốn lên hơn 9.000 tỷ đồng",
+      "summary_vi": "Viet A Bank chốt thời điểm phát hành 85,7 triệu cổ phiếu thưởng, tăng vốn lên hơn 9.000 tỷ đồng VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMnpZR0pOZEVoV2FsVjMtSUMzNEZTcHBRLXpVOGZVNzAyM2dJRzBpcGNDUkNQbWxFWUQ2ZHhwSEtqdUZ0RFowaFV0RkJScWgxWS1tZmQ4NTFzTXdTQ2haNGFJSXozMTJFR3JZVzN2WVdJbTB0NnFfYVFRQzhsVEI3clFBbFhqVHpKcHZvME9DWUtsS1dDdU92Q0RfU3RvNlp0dVRsWDdrMy1WbC04ZFFnM2gtajZiSnZHRklvOXhwMlQxSlI2U0xBMzZpM1J2UXF2?oc=5",
+      "published_at": "2026-08-19T10:47:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "17:47",
+      "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Dòng vốn tín dụng đang ưu tiên những lĩnh vực nào?",
+      "summary_vi": "Dòng vốn tín dụng đang ưu tiên những lĩnh vực nào? Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT2E4T1NKZFZwbjBnbjM4VkFwenhuWWxMOWJwX2pLSGxCZkFTZUl2dkFlYVl5T1JNMzR0YUpGcVJEMGhSLXNPU2J5bkltUWo2VTdMV2JwWk1xa1RZQmN0RUFYRzJMNjZVQWU0NjFUaEx2RV9aMElIbUNsSklMcFoyWlZQTWtkSU5nbnZR?oc=5",
+      "published_at": "2026-08-19T10:36:57+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "17:36",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "TSA",
+      "tickers": [
+        "TSA"
+      ],
+      "exchange": "",
+      "headline_vi": "TSA: Báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty",
+      "summary_vi": "TSA: Báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWlByUGtPdGxUN2RYbThZVUJtdkNsYl9uZGV3WTZHenV1TV84M0xXNXRla2x6ZWt5bUlhUkZKcVBPeV9YblN4VmNLcG1yODFlUUlDVUlkOHUyeTc4S2lkUG1Jb3c4UjdUOUJxRWRnOTVtakpFdVBILVAyU0NxeUxXYXBQRUNHZTRldS1QajJTZlZKc2kzS3hnVFF6V3k2MEttNmpBY0IyVDk2dExCZzZQbFB0SGlzVVh1NDhScDFRbmRybk9vYi0ybTVSM0tOamNqVXdtZnQxTjFwQ0JrZXEzM25XLUNfWDR2R0MzMFRKVQ?oc=5",
+      "published_at": "2026-08-19T10:18:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "17:18",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
       "ticker": "SSI",
       "tickers": [
         "SSI",
@@ -612,6 +659,23 @@
       "published_at": "2026-08-19T04:22:13+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "11:22",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "PNJ đón cổ đông lớn nước ngoài mới trước kỳ họp điều chỉnh kế hoạch kinh doanh",
+      "summary_vi": "PNJ đón cổ đông lớn nước ngoài mới trước kỳ họp điều chỉnh kế hoạch kinh doanh VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS2Etdmo4Z3dRLVBaaXFubUNyd2d6bVc4STUxS1J5RDNWY2t4cVVvaGJ4XzBqMGxHQnBGOHU1c2pEdllkeGE0OTZZNjh2ZDdjWkV6WGlRN2R5SW9RMk5LYVRKNGxSOTMwS01MTExZTWxBUFZyNjFzakNUOXZrdDJ0cTNBbHMxMXVxVEVBRTVuQVNlbWNLZnNDN2Ftdzh3ckZweFlfMWdOVGVzaVFaQzIzSE43Z0IyU0FfVzln?oc=5",
+      "published_at": "2026-08-19T04:17:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "11:17",
       "importance": 2
     },
     {
