@@ -1,8 +1,26 @@
 {
-  "updated_at": "19/08/2026 16:58",
+  "updated_at": "19/08/2026 17:24",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-19",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "SSI",
+      "tickers": [
+        "SSI",
+        "VPB"
+      ],
+      "exchange": "",
+      "headline_vi": "SSI Research: VPB thành tâm điểm nhóm ngân hàng sau nâng hạng",
+      "summary_vi": "SSI Research: VPB thành tâm điểm nhóm ngân hàng sau nâng hạng CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTWtjaHVnVkF6c1RDR0NKTnlKU1pDNEpkeDNSNG5xbTRnamNBaHVRekNHYWg2cWtPc2ZZWldrRm01OVU5V21RS0ZzcERLLWJwM3B2RnY4R3oyS2J5S2tidHpiZllfdlFvcFBPc3N0U1Q5c1FpTDJwZ0Jya2JLNjVhV0l2SDAtV2JGbUdnczRXWHBnSW5jd3ZaeHdsMmxmcWo1dHc?oc=5",
+      "published_at": "2026-08-19T10:00:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "17:00",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
