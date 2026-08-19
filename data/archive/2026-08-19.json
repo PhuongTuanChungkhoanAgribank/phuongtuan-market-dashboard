@@ -3,6 +3,21 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất tăng gây sức ép lên ngân sách Pháp",
+      "summary_vi": "Lãi suất tăng gây sức ép lên ngân sách Pháp baotintuc.vn",
+      "source": "baotintuc.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZU5DWDBoX09mM2NlM1NMTGctSF9nWXpCMnpYS190T3pwU2RuSjE2aUVCUzZVajBlSlE1RjU1UzBTaG1pb1RKZUw3Z25IRnRUOUdrTGJFSTVBS0M2eU1TeGZOeGR3SGhFQmFBeWlBZUtTNF8wckV6OVFjOWtWNGhhVGNQWWZjNmNaQW9qbXlVa1RkZnhYeDNCM21xYw?oc=5",
+      "published_at": "2026-08-19T15:26:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "22:26",
+      "importance": 4
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "ticker": "CII",
@@ -427,6 +442,23 @@
       "published_date_vn": "2026-08-19",
       "published_time_vn": "15:13",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "DIG",
+      "tickers": [
+        "DIG"
+      ],
+      "exchange": "",
+      "headline_vi": "DIG sắp phát hành gần 48 triệu cổ phiếu trả cổ tức",
+      "summary_vi": "DIG sắp phát hành gần 48 triệu cổ phiếu trả cổ tức Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa0RNdm92NWtGLTMxeUhILThGWG9xVVI0amtGYjFLaFN1aFgzN3dEdVBoTVhiVE5fWmk0M3ZqbTFyMjFOTUVMMG9hWk5UbmVhODU5UzZmbmJQTnBkb0hkNkxSdnR2REpraUc1bkJMc09sRF90SFZ0U01xbUMxVFJJdldCTFBOZVJhZVNuZjdWazQwdGFxX0xYZjF4MA?oc=5",
+      "published_at": "2026-08-19T07:53:43+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "14:53",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",

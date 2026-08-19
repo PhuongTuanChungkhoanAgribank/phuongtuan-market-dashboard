@@ -1,8 +1,23 @@
 {
-  "updated_at": "19/08/2026 22:25",
+  "updated_at": "19/08/2026 22:41",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-19",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất tăng gây sức ép lên ngân sách Pháp",
+      "summary_vi": "Lãi suất tăng gây sức ép lên ngân sách Pháp baotintuc.vn",
+      "source": "baotintuc.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZU5DWDBoX09mM2NlM1NMTGctSF9nWXpCMnpYS190T3pwU2RuSjE2aUVCUzZVajBlSlE1RjU1UzBTaG1pb1RKZUw3Z25IRnRUOUdrTGJFSTVBS0M2eU1TeGZOeGR3SGhFQmFBeWlBZUtTNF8wckV6OVFjOWtWNGhhVGNQWWZjNmNaQW9qbXlVa1RkZnhYeDNCM21xYw?oc=5",
+      "published_at": "2026-08-19T15:26:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "22:26",
+      "importance": 4
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -428,6 +443,23 @@
       "published_date_vn": "2026-08-19",
       "published_time_vn": "15:13",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "DIG",
+      "tickers": [
+        "DIG"
+      ],
+      "exchange": "",
+      "headline_vi": "DIG sắp phát hành gần 48 triệu cổ phiếu trả cổ tức",
+      "summary_vi": "DIG sắp phát hành gần 48 triệu cổ phiếu trả cổ tức Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa0RNdm92NWtGLTMxeUhILThGWG9xVVI0amtGYjFLaFN1aFgzN3dEdVBoTVhiVE5fWmk0M3ZqbTFyMjFOTUVMMG9hWk5UbmVhODU5UzZmbmJQTnBkb0hkNkxSdnR2REpraUc1bkJMc09sRF90SFZ0U01xbUMxVFJJdldCTFBOZVJhZVNuZjdWazQwdGFxX0xYZjF4MA?oc=5",
+      "published_at": "2026-08-19T07:53:43+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "14:53",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
@@ -1170,21 +1202,6 @@
       "published_date_vn": "2026-08-19",
       "published_time_vn": "08:46",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "SHB dành 47.000 tỷ đồng tín dụng ưu đãi, giảm lãi suất vay tới 2% cho doanh nghiệp và hộ kinh doanh",
-      "summary_vi": "SHB dành 47.000 tỷ đồng tín dụng ưu đãi, giảm lãi suất vay tới 2% cho doanh nghiệp và hộ kinh doanh Vietnam.vn",
-      "source": "Vietnam.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSmZpUmNEcUN6aC1tY1VyV2hUSWRMTGJBSC1KYTZZT3FSZTdzZnlieTU4MGhuUUYzS1o1alc2UEs3aWNlcE5RdUN0SHVyNHdSV2xLQXVseVZuRnExa3FNSnBKNWN4RzdsLVR0Z3NHeEtHdlJsQ0dZRFBubVU2VTVYYkFkVGp4dW9YMmF5aVFFUTRzdUVKTkpMYnBqM2kyZGU4b0duSUp2Q2FBUENKWWVpUExGYUVFZEtTaDFFMQ?oc=5",
-      "published_at": "2026-08-19T01:37:30+00:00",
-      "published_date_vn": "2026-08-19",
-      "published_time_vn": "08:37",
-      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
