@@ -1,8 +1,55 @@
 {
-  "updated_at": "19/08/2026 16:28",
+  "updated_at": "19/08/2026 16:55",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-19",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xem trước kết quả kinh doanh của Walmart: Liệu kết quả quý 2 có tiếp tục thúc đẩy giá cổ phiếu tăng?",
+      "summary_vi": "Xem trước kết quả kinh doanh của Walmart: Liệu kết quả quý 2 có tiếp tục thúc đẩy giá cổ phiếu tăng? TradingKey",
+      "source": "TradingKey",
+      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVnE0bUZhTlAtZkxfc1NUTlJBYXprYmpNcUwwaVhpS3otczg3U05tQUNqSUl5NkdsZlRqa3Itb3FHMkQwQlZOMmJIZ0l4dGkyUUduM1VSV013V3ZpS0RrZTNRaEphTXAxR2hLM1ltNGxFNV9Qc1dXNXRxZ2tmRUY2d2wwWHEzZ2tmSURkWFVlOURsa0ROY2hFRm8zdlptT2xlTlNrbXZYd29LZWpGZVZYRk9NTjdvTi1iLXNIb2E5ZHVOTXhhY0FIMG9mS0VPN1hQMlVGUU9raDZQYWRBaXpybWZoUDU?oc=5",
+      "published_at": "2026-08-19T09:45:27+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "16:45",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "NVL",
+      "tickers": [
+        "NVL"
+      ],
+      "exchange": "",
+      "headline_vi": "NVL dự chi hơn 8.000 tỷ đồng để tất toán nợ trái phiếu",
+      "summary_vi": "NVL dự chi hơn 8.000 tỷ đồng để tất toán nợ trái phiếu VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY2Qtb05KdF9kVHZuaE1Ma0JRb29WaXo0Y21LclRDMXY2WWdHVTdKejMxaFIxbXFmWEs1MVZjR2lsdW80YUo1c1V5OE41Z2ZPSENDUHpBQURfNFdiaFVHMkFXTFlkYXJzY0JtVWdHZXBidFlMSi1wb0F3Mi1iWU1uNDlGUlM?oc=5",
+      "published_at": "2026-08-19T09:26:11+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "16:26",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Blog chứng khoán: Chỉ số tích lũy “ảo”",
+      "summary_vi": "Blog chứng khoán: Chỉ số tích lũy “ảo” VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kVE5keHc5djcycDY1WXZRSzVQLU5OQW1jLUtYMnRueTdQczR0OTd2NUNVOEZrTVVqWDFaemdINjR4ZVRuNVdWaU1yWkRZbDZPTWlqUmRicjhzMlZnOTN1X3pYTEdORW5jY3cxeg?oc=5",
+      "published_at": "2026-08-19T09:24:32+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "16:24",
+      "importance": 2
+    },
     {
       "category": "VĨ MÔ",
       "tag": "",
@@ -660,6 +707,21 @@
       "published_date_vn": "2026-08-19",
       "published_time_vn": "10:44",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "PVOIL rót thêm 300 tỷ đồng cho công ty con",
+      "summary_vi": "PVOIL rót thêm 300 tỷ đồng cho công ty con VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdzRIMGs1SWhBbXZJWVVndFVwVnJzakhlbGZoazZwVTlyVU9ZWm0xekhMWUhQVHBna2RLMnVCbFZHWTkzR0twNG1aMGlFZTBvblJ4Ti1ZM3E0UjJzZDRZSW5vNDR0Ql9wRnVTYVZkSEJBVjFiUFJGTlVoQTdvVnJnbUtxZ0dRV1ZrT21N?oc=5",
+      "published_at": "2026-08-19T03:38:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "10:38",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
