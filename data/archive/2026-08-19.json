@@ -5,6 +5,23 @@
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
+      "ticker": "CII",
+      "tickers": [
+        "CII"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "HoSE thông báo ngày chốt quyền mua gần 67,2 triệu trái phiếu chuyển đổi của CII",
+      "summary_vi": "HoSE thông báo ngày chốt quyền mua gần 67,2 triệu trái phiếu chuyển đổi của CII CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMC1xWTN3MkEyLW1YVDVsYmllQUFZZ0ZRNHd0NExtUk5IbENLQ0dEMy1IRTJSTFd3U295YnZUR0hmdzZZZDQxaVRPbkFLbHZQeFNVZGU5c3JSd0pMSUZCQy1EOUJyYk0zWWZoUXBWRC0xdk5HREVtblVUTjNCdldqOElDMjd1UnlMSzNUSFZfMmNiU2dyWTdZVWRJWEE3ejR2aDdxQjBEWkJPLU9kVmJIZUI2RjRaU0hvZkE?oc=5",
+      "published_at": "2026-08-19T15:09:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "22:09",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
       "ticker": "",
       "tickers": [],
       "exchange": "",
