@@ -1,5 +1,5 @@
 {
-  "updated_at": "19/08/2026 15:02",
+  "updated_at": "19/08/2026 15:18",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-19",
   "cards": [
@@ -155,6 +155,21 @@
       "published_at": "2026-08-19T06:46:00+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "13:46",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Quốc tửu “sa sút” kể câu chuyện gì về nền kinh tế lớn thứ 2 thế giới?",
+      "summary_vi": "Quốc tửu “sa sút” kể câu chuyện gì về nền kinh tế lớn thứ 2 thế giới? CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNzg3SzN6S0dZXzlIQ3REZzRXcEVNSHRBUXZhdTJxQmZVY2xfaWJDUVpnQzFWM2sxXzAtNVpuaHF6Y3RKRlViUW96b0NyUjB2MkJKY3dZSFNpTEhaYTJEbXA5V20xYU1KenNtVkVkYWozMVoxZGNBQklNZ1BOVnNzME1wZmFCdTZreFRUNGotRGNuRk9YemRLamNQS1hoNzhVNFlzMW9ucU0xdw?oc=5",
+      "published_at": "2026-08-19T06:34:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "13:34",
       "importance": 2
     },
     {
@@ -351,13 +366,13 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
-      "headline_vi": "Quốc tửu “sa sút” kể câu chuyện gì về nền kinh tế lớn thứ 2 thế giới?",
-      "summary_vi": "Quốc tửu “sa sút” kể câu chuyện gì về nền kinh tế lớn thứ 2 thế giới? CafeF",
+      "headline_vi": "FPTS muốn vay ngân hàng hạn mức 1.500 tỷ đồng",
+      "summary_vi": "FPTS muốn vay ngân hàng hạn mức 1.500 tỷ đồng CafeF",
       "source": "CafeF",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNzg3SzN6S0dZXzlIQ3REZzRXcEVNSHRBUXZhdTJxQmZVY2xfaWJDUVpnQzFWM2sxXzAtNVpuaHF6Y3RKRlViUW96b0NyUjB2MkJKY3dZSFNpTEhaYTJEbXA5V20xYU1KenNtVkVkYWozMVoxZGNBQklNZ1BOVnNzME1wZmFCdTZreFRUNGotRGNuRk9YemRLamNQS1hoNzhVNFlzMW9ucU0xdw?oc=5",
-      "published_at": "2026-08-19T04:20:00+00:00",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS1h5YkdlOHNSNGJKYlk5Y0FJNHNtdHBpVnlJUjVuYjFZZm9vd1JaYU9UQVFfQ0l0MUQ5NFhIeU9IdlgzeGtXVVlkME85aENvTmV4WVFGZDNaVzBLeUY0ZXM4aGRCTmJlMm1ySWVFV0pmNTg0NmNJZkdfMW5vZEhRZHBMQUxXbUgxd2tF?oc=5",
+      "published_at": "2026-08-19T04:16:00+00:00",
       "published_date_vn": "2026-08-19",
-      "published_time_vn": "11:20",
+      "published_time_vn": "11:16",
       "importance": 2
     },
     {
@@ -484,21 +499,6 @@
       "published_at": "2026-08-19T03:12:01+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "10:12",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "FPTS muốn vay ngân hàng hạn mức 1.500 tỷ đồng",
-      "summary_vi": "FPTS muốn vay ngân hàng hạn mức 1.500 tỷ đồng An ninh Tiền tệ",
-      "source": "An ninh Tiền tệ",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYkM2RnFqT3AxbG9SdXdxQ0NfbGZpcl9YWnZ0NktmN2pOZ1lmSkFBTWhBWW8tR003c2xKQzRFcFNNUFNmZGZnV1l4SWFnZUlpS1daU0tuSFhISDZrdnRTbDRFU0xBX0hGLWl5T0pYN1lYdExxOFgzTENZU1REcW4wODlNeWZRRWpJYUVJQUhZSk4yNmRVc2M1X0F3?oc=5",
-      "published_at": "2026-08-19T03:07:00+00:00",
-      "published_date_vn": "2026-08-19",
-      "published_time_vn": "10:07",
       "importance": 2
     },
     {
