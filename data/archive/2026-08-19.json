@@ -3,6 +3,53 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Giá vàng châu Á tăng cao hơn, chờ đợi manh mối từ Fed.",
+      "summary_vi": "Giá vàng châu Á tăng cao hơn, chờ đợi manh mối từ Fed. Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jbWN5MXBpN3RGWkRXQVNQNWpRVGFMNlh4WGEydnpTNVMxZVBQMmx5YVRrOHFuNERWUTlkZVI1U2dqZDh5aUJ6Y2RmbXl2U1NHbTc2LVhxRnRFSmx0WVJwOG5XbzJxZm1JelFkNl8zcms3VzhvNUJjNFV3?oc=5",
+      "published_at": "2026-08-19T09:17:24+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "16:17",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "HBS",
+      "tickers": [
+        "HBS"
+      ],
+      "exchange": "",
+      "headline_vi": "Diễn biến mới tại HBS: Phó Tổng muốn thoái hết vốn, cựu Chủ tịch làm Kế toán trưởng",
+      "summary_vi": "Diễn biến mới tại HBS: Phó Tổng muốn thoái hết vốn, cựu Chủ tịch làm Kế toán trưởng Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWE1BZ0hMNHRtRC1NbEtkbGR1Sk5hS0tqYm9xRXowTFNraDFaTGhmYlBRaFhQeldPNnhMN2pfd2c3VnZGcHpzNWR0TXByelVwT1hKQ3F5Rjc2b2dFM01uVFJETzJTNUtLYjNQT1FMMW5JMnh4Q2JwUEVkMTYyaGQ5amRHSFpWUnFObUdnNlZqQ3ppSlNydTVqMy1aTVpPVldLLUhoX1ZnWTZHSXAtN2VRb0ZRRGFlLXNlMVdaQVRjd0p2b1hp?oc=5",
+      "published_at": "2026-08-19T08:45:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "15:45",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phó Thủ tướng Thường trực Chính phủ: Xây dựng FTA Index thành công cụ quan trọng quản trị hội nhập kinh tế quốc tế",
+      "summary_vi": "Phó Thủ tướng Thường trực Chính phủ: Xây dựng FTA Index thành công cụ quan trọng quản trị hội nhập kinh tế quốc tế Tạp chí Công Thương",
+      "source": "Tạp chí Công Thương",
+      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWi1jdmF3ZGhOeEdvUFFSUDJ4YVRySUxERlZrTzVVaDB3VmRhMDdtZ1Y5OXZkMEZzeGdQZFI3SWMzcl9Nb0ZKWFlIRk1vYVdKZ2tCV2JndGg0Z0dTTnRlUWcyZ1M0aTRmanpqa0w2Q2RIc0JIVXNyN1FWSGd3QjJQaERxc1JXVWRHSGxTd3RCU0hZRkpUU0FlbWN6amFDWWNWOURBRjVIYzhwRkpLeU5VdWhxTE1tQkd2d3JIQUxZWGgwTEJuR3RaRUlRcUhzTl9FUG5ZdXBwWFlkZFRXbVhJTlpVSmhuX2hL?oc=5",
+      "published_at": "2026-08-19T08:36:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "15:36",
+      "importance": 3
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -32,6 +79,21 @@
       "published_at": "2026-08-19T08:30:00+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "15:30",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Ngân hàng Việt đẩy mạnh huy động vốn quốc tế để đón nhu cầu tín dụng",
+      "summary_vi": "Ngân hàng Việt đẩy mạnh huy động vốn quốc tế để đón nhu cầu tín dụng Vietnam+ (VietnamPlus)",
+      "source": "Vietnam+ (VietnamPlus)",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOTl5Z19BUVl2cC1yU1JUYUZnckhKUlhJenVQQ1NELTdfUEtQX1VqYmZ4djB6MHNDVzQ5d0t2MmRYSnE0akp4eVVsY2RsWDFPaFBmVlNJN1Z6eklQaEtuaGZFeXltTjR4eGlXVUozM0F6ejBwd0V6VTJYcXZBLWpDWHpfaGlIdlhTbXplTjM0eDRkXzhoR3FLWGF6SHAzRGNGeGhhV0dQRzlnMFRZRzQ0bw?oc=5",
+      "published_at": "2026-08-19T08:23:14+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "15:23",
       "importance": 2
     },
     {
@@ -424,6 +486,23 @@
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
+      "ticker": "SHS",
+      "tickers": [
+        "SHS"
+      ],
+      "exchange": "",
+      "headline_vi": "Chuyên gia SHS: Thị trường ưu tiên vị thế bán, chỉ nên mua khi dòng tiền tăng mạnh",
+      "summary_vi": "Chuyên gia SHS: Thị trường ưu tiên vị thế bán, chỉ nên mua khi dòng tiền tăng mạnh VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZHVxLUlROHhoT0Z6QTZKNExjWEdjYV9aUmVVcW12bTZWZk5zV3U4X2trbkxfeG1mMXNpV1p0Y2RFcGxhczAtZlNRRHRHYk9RckZaSUtEbENTT0NwMTRUY1RTdWotVy01dkdEMmxGdm5IZV9LN2NFcEljMDZCTTdGQ1RWbFk4ZlVOV1FYY0hZczhiUGJo?oc=5",
+      "published_at": "2026-08-19T04:30:27+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "11:30",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
       "ticker": "PNJ",
       "tickers": [
         "PNJ"
@@ -684,6 +763,21 @@
       "published_at": "2026-08-19T02:18:52+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "09:18",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kinh Bắc muốn chào bán 700 tỷ đồng trái phiếu nhằm cơ cấu lại nợ",
+      "summary_vi": "Kinh Bắc muốn chào bán 700 tỷ đồng trái phiếu nhằm cơ cấu lại nợ An ninh Tiền tệ",
+      "source": "An ninh Tiền tệ",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOektRSVdVbmE1XzQyTWdBV2l3aTBKb1pQQjJ6d1B3R3hUOFZ4bzVxdTRvOXBIUjcxZjRHaHhPSDRicG96OGJHRktqVFluME9Pd2dxVjVqN253ZzdOUnNrbXRJUHZGODFuTWJQSGROVVJCX0Nrdi1wdkFiTXBuQkcxcmt1d2FnUjRtOWRVaHBtN280U2k4Q21TU0hzRnZkMHQ1UHlKdGZXQVRuN1pMbHp3cGl3NG1LQQ?oc=5",
+      "published_at": "2026-08-19T02:07:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "09:07",
       "importance": 2
     },
     {
