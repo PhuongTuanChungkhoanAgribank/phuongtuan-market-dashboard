@@ -8,6 +8,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="Phương Tuấn - Chứng khoán Agribank Chi nhánh Miền Trung",
@@ -80,11 +81,35 @@ def display_time(value: str) -> str:
 
 # Header locked; refresh action lives immediately below it.
 data=load_data(); cards=data.get("cards",[]); updated_at=data.get("updated_at","—")
-st.markdown(f'''<div class="hero"><div class="hero-glow"></div><div class="hero-content"><div class="hero-title">PHƯƠNG TUẤN <span class="accent">- CHỨNG KHOÁN AGRIBANK</span><br>CHI NHÁNH MIỀN TRUNG</div><div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div><div class="hero-note">DAILY MARKET</div></div><div class="update-box">CẬP NHẬT<br><b>{html.escape(str(updated_at))}</b></div></div>''',unsafe_allow_html=True)
+st.markdown(f'''<div class="hero"><div class="hero-glow"></div><div class="hero-content"><div class="hero-title">PHƯƠNG TUẤN <span class="accent">- CHỨNG KHOÁN AGRIBANK</span><br>CHI NHÁNH MIỀN TRUNG</div><div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div><div class="hero-note">DAILY MARKET</div></div><div class="update-box">DỮ LIỆU CẬP NHẬT<br><b>{html.escape(str(updated_at))}</b></div></div>''',unsafe_allow_html=True)
+
+# Real-time clock: this runs in the browser and does not confuse client time with data-update time.
+clock_col, refresh_col, history_col = st.columns([1.55, 1.25, 2.2])
+with clock_col:
+    components.html(
+        """
+        <div style="font-family:Arial,sans-serif;color:#F7F8FF;text-align:left;padding:2px 0 0;background:transparent;">
+          <div style="font-size:10px;letter-spacing:.08em;color:#B7B9D0;">GIỜ HIỆN TẠI · VIỆT NAM</div>
+          <div id="clock" style="font-size:16px;font-weight:800;color:#FFBF45;line-height:1.35;"></div>
+          <script>
+            function tick(){
+              const now = new Date();
+              const text = new Intl.DateTimeFormat('vi-VN', {
+                timeZone:'Asia/Ho_Chi_Minh', hour:'2-digit', minute:'2-digit', second:'2-digit',
+                day:'2-digit', month:'2-digit', year:'numeric', hour12:false
+              }).format(now);
+              document.getElementById('clock').textContent = text;
+            }
+            tick();
+            setInterval(tick, 1000);
+          </script>
+        </div>
+        """,
+        height=42,
+        scrolling=False,
+    )
 
 # Manual update: run the same free fetcher used by GitHub Actions.
-# It updates the current Streamlit filesystem immediately, then reloads the page.
-refresh_col, history_col, spacer = st.columns([1.15,1.15,5.7])
 with refresh_col:
     if st.button("🔄 Cập nhật tin ngay", use_container_width=True):
         if not FETCH_SCRIPT.exists():
@@ -102,7 +127,7 @@ with refresh_col:
                 except Exception as exc:
                     st.error(f"Không thể cập nhật: {exc}")
 with history_col:
-    st.caption("Tự động: 07:00 · 11:00 · 15:00")
+    st.caption("Tự động cập nhật tin: mỗi 5 phút · GitHub Actions")
 
 m1,m2,m3,m4,m5=st.columns(5)
 m1.metric("Tổng tin",len(cards));m2.metric("Doanh nghiệp",sum(1 for x in cards if x.get("category")=="DOANH NGHIỆP"));m3.metric("Vĩ mô",sum(1 for x in cards if x.get("category")=="VĨ MÔ"));m4.metric("Thế giới",sum(1 for x in cards if x.get("category")=="THẾ GIỚI"));m5.metric("Quỹ",sum(1 for x in cards if x.get("category")=="QUỸ"))
