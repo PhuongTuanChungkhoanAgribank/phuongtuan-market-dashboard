@@ -3,6 +3,38 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "TRC",
+      "tickers": [
+        "TRC"
+      ],
+      "exchange": "",
+      "headline_vi": "Cao su Tây Ninh (TRC) chính thức chốt ngày trả cổ phiếu thưởng “khủng” tỷ lệ 1:3",
+      "summary_vi": "Cao su Tây Ninh (TRC) chính thức chốt ngày trả cổ phiếu thưởng “khủng” tỷ lệ 1:3 CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2xsMVlxNnBqYVI3bExJa2hEeFpzMmYwLU12RVlNYnVuOVpwRnVJbFU4T3IwRUZ0dEcwdEtMbEZhc0RQbjVIVTFfa3lwajg5ZWdVTXBrdEZ4X2ZDOXN6UERwd1BFNklEM1VIeXNIekszREJPVVZKWEcwSEZwX01ESDA5d0VKZkVla043cGZ2N0N5Sk1GTnh2X0Z1dXpfUWxKUTJWTVBQTTRiVjc4SUV6OHhHcEUtQQ?oc=5",
+      "published_at": "2026-08-19T07:16:00+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "14:16",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kinh Bắc muốn huy động 700 tỷ từ trái phiếu khi nợ vay lập đỉnh",
+      "summary_vi": "Kinh Bắc muốn huy động 700 tỷ từ trái phiếu khi nợ vay lập đỉnh Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYTFVS3l4eTBybDNneXI2c1JkZE1uSVJfSGpfcmRWRmZ0ajFDM09hY25KVXBqN3FzZTU0Y2FaMnN2YTVBN3dINUVHWUV5cUxiMDVqbEZDa01jd0ZrUGRlektFVTM3WDkyM1FMVDVBLWVuMXNjMmlqX3Q4NUx4a2VnS0pyRmFaV0k1UmdYc21JbEVaYW1jbmE0MFUxaGE3aG1mZ0lpVHFvSHJ1bFllS2c?oc=5",
+      "published_at": "2026-08-19T07:08:47+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "14:08",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
