@@ -2,11 +2,14 @@ name: Update Daily Market News
 
 on:
   schedule:
-    # 07:00, 11:00 and 15:00 Vietnam time (UTC+7) every day.
-    - cron: "0 0 * * *"
-    - cron: "0 4 * * *"
-    - cron: "0 8 * * *"
+    # GitHub minimum scheduled interval is 5 minutes.
+    - cron: "*/5 * * * *"
+      timezone: "Asia/Ho_Chi_Minh"
   workflow_dispatch:
+
+concurrency:
+  group: daily-market-news
+  cancel-in-progress: true
 
 permissions:
   contents: write
