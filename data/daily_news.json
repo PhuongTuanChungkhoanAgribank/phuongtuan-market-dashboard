@@ -1,5 +1,5 @@
 {
-  "updated_at": "19/08/2026 12:20",
+  "updated_at": "19/08/2026 12:47",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-19",
   "cards": [
@@ -97,6 +97,21 @@
       "published_at": "2026-08-19T04:25:01+00:00",
       "published_date_vn": "2026-08-19",
       "published_time_vn": "11:25",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán toàn cầu lao dốc khi hy vọng về hòa bình ở Trung Đông mờ nhạt",
+      "summary_vi": "Chứng khoán toàn cầu lao dốc khi hy vọng về hòa bình ở Trung Đông mờ nhạt vietnam.vn",
+      "source": "vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa3RuSktMQjIteGNQOFhnVW9WS3M4TGt4V0NYOEEzejloTEFhMnZQamN5YXdOT2Nxb21wY2pDWUhGN3RGUmFzNkNxeGhwdXZubEtCZkVSUk1RV0UyWmplV2NTRGYwbGpiYlVMUmE0R1NZNGtHdFhhV0lobi1JM0NabmVrbFpXOG5EcTY2dVZ4VjhtNC1tbjdaOWtLX0RPVEVkZmhTZmxn?oc=5",
+      "published_at": "2026-08-19T04:22:13+00:00",
+      "published_date_vn": "2026-08-19",
+      "published_time_vn": "11:22",
       "importance": 2
     },
     {
