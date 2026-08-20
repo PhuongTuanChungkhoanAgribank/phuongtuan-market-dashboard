@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá, lãi suất và bài toán giữ điểm cân bằng cho kinh tế Việt Nam",
+      "summary_vi": "Tỷ giá, lãi suất và bài toán giữ điểm cân bằng cho kinh tế Việt Nam VTV Money",
+      "source": "VTV Money",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdnhjZUQtN3hBNVpGejY4czhJVXRZUThKN1FUYmNsbV9NTnFxRzdjblJqaXh5LUNaZ0lwdzFjdlJta2dibnNsYnRfUEtzS05fYVdjaVBYTklWVEtZcUVPWTJPZXZmeEZnYWNaODQxZVpzVVBtY0hjcFFvcWdpODRTTVVWcHF2Q2gxajBIeU5UamNuQkQybHVaV2NQREQzREVzVU9rOFlvNF9RM1lod00w?oc=5",
+      "published_at": "2026-08-20T11:04:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "18:04",
+      "importance": 5
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -16,6 +32,24 @@
       "published_at": "2026-08-20T10:54:28+00:00",
       "published_date_vn": "2026-08-20",
       "published_time_vn": "17:54",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "ANT",
+      "tickers": [
+        "ANT"
+      ],
+      "exchange": "",
+      "headline_vi": "ANT: Nhắc nhở chậm công bố thông tin thông báo thay đổi số lượng cổ phiếu có quyền biểu quyết",
+      "summary_vi": "ANT: Nhắc nhở chậm công bố thông tin thông báo thay đổi số lượng cổ phiếu có quyền biểu quyết CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYnRhYjNzZWh4VW1hNnlTdjdITVc3SkYxRHZRSW9Fd2VzbzhxOGFYOGpkUWYxVlNnYUpQTDVET2dfcVd2cEh5dmc3UkhHT1BjY0txYkdKWXdRb0dUNEZKS1JBNGpQRG03aVVfT1dURVNoZjBNR05XVFY0d2x0d2taRWRUSFZZVkZQeVpRdFJucGZVNG9oUDlpVjlrY2lDaXZ3bHV3bVA0d0ZoYk5vQmJhOEczNE05V0hZSmlJVmpzcGFQX3Itek1VSnBiUUI5OGVIVmk1RTkyb19EUUx4V3RtUW5kV3V6ZDQ?oc=5",
+      "published_at": "2026-08-20T10:49:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "17:49",
       "importance": 2
     },
     {
@@ -225,6 +259,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Giám đốc của VinaCapital: Nhiều yếu tố hỗ trợ thị trường phục hồi",
+      "summary_vi": "Giám đốc của VinaCapital: Nhiều yếu tố hỗ trợ thị trường phục hồi VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVGRqRlJNQklkX1pacUVtbG5xcDNuTmRRQXh3X0VscFZwOVhkeXpma2FFLVBvMWVJclBfaVBfdllZdHFYalRyR2l1ZlNKZUVTMnNYaHpSNm1FQ3NudkJuc3dMWGItRVBQRUNiV01GNDJHZUFZeHp5UFB3c0xVa3A5NE1zTEpSRGRnRGRMVDhxT2FQYjg?oc=5",
+      "published_at": "2026-08-20T06:41:12+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "13:41",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Hai ETF ngoại gần 1 tỷ USD sắp mua mới hàng triệu cổ phiếu chứng khoán",
       "summary_vi": "Hai ETF ngoại gần 1 tỷ USD sắp mua mới hàng triệu cổ phiếu chứng khoán VnEconomy",
       "source": "VnEconomy",
@@ -385,6 +435,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Thiếu tiền, nỗ lực tăng nhanh chóng bị “dập tắt”",
+      "summary_vi": "Thiếu tiền, nỗ lực tăng nhanh chóng bị “dập tắt” VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EYVpIRGloWFJKOHl0eWlfWmhkRnloRzRYa1BiRXVHUllHenFyYlhCOENCYVVodzhjNWhSMTJVb3RZZ0x0N2VaU005RlVMY19LUlhCWWo2LVVBTzlhNjdTaGxlbGFsZ19xMUN4X1drOVNDMzVmeVRnc0V3?oc=5",
+      "published_at": "2026-08-20T05:02:29+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "12:02",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "FTSE sắp công bố danh sách cổ phiếu Việt Nam vào rổ mới nổi, tiền sẽ chảy vào đâu?",
       "summary_vi": "FTSE sắp công bố danh sách cổ phiếu Việt Nam vào rổ mới nổi, tiền sẽ chảy vào đâu? Vietstock",
       "source": "Vietstock",
@@ -476,6 +542,22 @@
       "published_date_vn": "2026-08-20",
       "published_time_vn": "10:59",
       "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vinhomes nhân đôi vốn điều lệ sau khi hoàn tất đợt phát hành hơn 4.1 tỷ cp trả cổ tức",
+      "summary_vi": "Vinhomes nhân đôi vốn điều lệ sau khi hoàn tất đợt phát hành hơn 4.1 tỷ cp trả cổ tức Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQmR1WFdvWDZVRS03RUJQajFVenRjejBXOGt1dVdYVHJSek5SY0ljV2lYNnQ4bDF3dzFlZnkydXdNVzloc09vTnFOM25waUdIc3R3Qm45aDg5am1JSExPMVNVb3VKeDNZQjltb1JYbWNSeHhjdS1nLUV4NnZ1dERFalE4cXZKSV9YQlUxRmJ5QkN0OEVILTMxZHl1cUw3R1FYaFJneHJucWVQcnJZdHNXa2ZVeVlFSUtGcE9iU0dyS0xQcHlUZkVDNQ?oc=5",
+      "published_at": "2026-08-20T03:48:14+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "10:48",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
