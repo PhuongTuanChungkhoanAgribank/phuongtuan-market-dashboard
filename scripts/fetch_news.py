@@ -15,13 +15,56 @@ DATA_FILE = ROOT / "data" / "daily_news.json"
 ARCHIVE_DIR = ROOT / "data" / "archive"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
-# Broad news layer. Google News is used as the free RSS aggregator, with targeted
-# searches for Vietnamese listed-company coverage so the enterprise section is
-# not dependent on one media source.
+# Broad world-news layer. Google News RSS is the free aggregation layer.
+# We deliberately split World into regions/themes so one weak query cannot
+# make the entire category disappear.
 FEEDS = [
-    ("THẾ GIỚI", "global markets OR world economy OR US stocks OR China economy"),
+    # ===== WORLD / REGIONS =====
+    ("THẾ GIỚI", "global markets Reuters OR Bloomberg OR CNBC OR WSJ OR Financial Times"),
+    ("THẾ GIỚI", "US markets Wall Street stocks bonds Treasury dollar Fed"),
+    ("THẾ GIỚI", "US Iran Israel Middle East conflict oil sanctions geopolitics"),
+    ("THẾ GIỚI", "FOMC minutes Federal Reserve meeting minutes Fed rates inflation"),
+    ("THẾ GIỚI", "site:federalreserve.gov FOMC minutes statement Federal Reserve"),
+    ("THẾ GIỚI", "site:cnbc.com markets Fed stocks bonds economy"),
+    ("THẾ GIỚI", "site:bloomberg.com markets economics Fed stocks bonds"),
+    ("THẾ GIỚI", "site:reuters.com world markets Fed Iran oil bonds"),
+    ("THẾ GIỚI", "site:wsj.com markets Fed economy stocks bonds"),
+    ("THẾ GIỚI", "site:ft.com markets economy Fed global markets"),
+
+    # Japan / Korea / Asia
+    ("THẾ GIỚI", "Japan markets BOJ yen Nikkei inflation GDP exports"),
+    ("THẾ GIỚI", "site:reuters.com Japan BOJ yen Nikkei economy"),
+    ("THẾ GIỚI", "site:cnbc.com Japan BOJ yen Nikkei economy"),
+    ("THẾ GIỚI", "Korea KOSPI Bank of Korea won semiconductors exports"),
+    ("THẾ GIỚI", "India RBI rupee Sensex Nifty inflation GDP economy"),
+    ("THẾ GIỚI", "ASEAN Singapore Indonesia Thailand Malaysia markets economy"),
+    ("THẾ GIỚI", "Australia RBA AUD jobs inflation commodities economy"),
+
+    # Europe / UK
+    ("THẾ GIỚI", "Europe ECB euro STOXX inflation GDP Germany France economy"),
+    ("THẾ GIỚI", "site:ecb.europa.eu ECB monetary policy interest rates"),
+    ("THẾ GIỚI", "UK Bank of England sterling inflation GDP economy"),
+    ("THẾ GIỚI", "Germany DAX Bundesbank inflation industrial production economy"),
+    ("THẾ GIỚI", "France Italy Spain Europe markets sovereign bonds economy"),
+
+    # China / Taiwan
+    ("THẾ GIỚI", "China markets PBOC yuan property exports imports GDP inflation"),
+    ("THẾ GIỚI", "site:stats.gov.cn China NBS GDP CPI PPI industrial production"),
+    ("THẾ GIỚI", "Taiwan TSMC semiconductors exports economy"),
+
+    # FX / rates / commodities / tech / geopolitics
+    ("THẾ GIỚI", "dollar DXY Treasury yields global bonds FX currencies"),
+    ("THẾ GIỚI", "gold silver copper oil Brent WTI commodities"),
+    ("THẾ GIỚI", "AI semiconductors Nvidia TSMC Microsoft Amazon Google Meta capex"),
+    ("THẾ GIỚI", "OPEC oil production energy LNG natural gas Middle East"),
+    ("THẾ GIỚI", "US China tariffs trade war sanctions supply chain geopolitics"),
+    ("THẾ GIỚI", "Ukraine Russia Europe NATO sanctions oil gas geopolitics"),
+
+    # ===== VIETNAM / MACRO =====
     ("VĨ MÔ", "Federal Reserve OR Fed OR inflation OR interest rates OR USD OR Treasury"),
     ("TRONG NƯỚC", "Việt Nam kinh tế OR Chính phủ OR NHNN OR tỷ giá OR lãi suất"),
+
+    # ===== CORPORATES =====
     ("DOANH NGHIỆP", "Việt Nam doanh nghiệp OR HOSE OR HNX OR UPCOM OR kết quả kinh doanh OR cổ phiếu OR M&A"),
     ("DOANH NGHIỆP", "site:vietstock.vn cổ phiếu OR doanh nghiệp OR công bố thông tin OR kết quả kinh doanh"),
     ("DOANH NGHIỆP", "site:vietnambiz.vn chứng khoán OR cổ phiếu OR doanh nghiệp OR kết quả kinh doanh"),
@@ -29,6 +72,8 @@ FEEDS = [
     ("DOANH NGHIỆP", "site:ndh.vn chứng khoán OR doanh nghiệp OR cổ phiếu OR kết quả kinh doanh"),
     ("DOANH NGHIỆP", "site:vneconomy.vn chứng khoán OR doanh nghiệp OR cổ phiếu"),
     ("DOANH NGHIỆP", "site:24hmoney.vn cổ phiếu OR doanh nghiệp OR kết quả kinh doanh"),
+
+    # ===== FUNDS =====
     ("QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư OR quỹ mở"),
     ("QUỸ", "site:dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
     ("QUỸ", "site:dautu.dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
@@ -36,8 +81,8 @@ FEEDS = [
     ("QUỸ", "site:vinacapital.com Vietnam fund portfolio holdings"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.5)"}
-# Five-minute runs need a short overlap window to recover an item from a delayed feed.
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.6)"}
+# Five-minute runs use a short overlap window to recover delayed feed items.
 FETCH_HOURS = 8
 
 
@@ -119,8 +164,12 @@ def importance_score(category: str, title: str, summary: str) -> int:
         "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse",
         "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế", "phát hành",
         "chia cổ tức", "mua lại", "sáp nhập", "m&a", "đại hội cổ đông", "hđqt",
+        "iran", "israel", "middle east", "hormuz", "opec", "oil", "brent", "wti",
+        "ecb", "boj", "japan", "eurozone", "europe", "china", "pboC", "tariff",
     ]
     score = 2 + sum(1 for keyword in keywords if keyword in text)
+    if category == "THẾ GIỚI" and any(x in text for x in ("fomc", "fed", "iran", "israel", "oil", "ecb", "boj", "china")):
+        score += 1
     if category in {"VĨ MÔ", "TRONG NƯỚC"} and any(x in text for x in ("fed", "nhnn", "lãi suất", "tỷ giá")):
         score += 1
     return max(1, min(score, 5))
@@ -138,7 +187,7 @@ def fetch_feed(category: str, query: str):
     feed = feedparser.parse(response.content)
     cutoff = datetime.now(timezone.utc) - timedelta(hours=FETCH_HOURS)
     results = []
-    for entry in feed.entries[:40]:
+    for entry in feed.entries[:30]:
         published = published_dt(entry)
         if published < cutoff:
             continue
@@ -216,7 +265,7 @@ def main():
         try:
             fresh.extend(fetch_feed(category, query))
         except Exception as exc:
-            errors.append(f"{category} [{query[:45]}]: {exc}")
+            errors.append(f"{category} [{query[:55]}]: {exc}")
     now_vn = datetime.now(VN_TZ)
     today = now_vn.strftime("%Y-%m-%d")
     all_recent = dedupe(load_existing() + fresh)
@@ -225,8 +274,8 @@ def main():
         print("No fresh news for today; keeping existing dashboard data.")
         return
 
-    # Enterprise news is intentionally much larger than the other categories.
-    limits = {"THẾ GIỚI": 15, "VĨ MÔ": 15, "TRONG NƯỚC": 15, "DOANH NGHIỆP": 150, "QUỸ": 30}
+    # World gets a much larger allowance so regional coverage is not crowded out.
+    limits = {"THẾ GIỚI": 80, "VĨ MÔ": 20, "TRONG NƯỚC": 20, "DOANH NGHIỆP": 150, "QUỸ": 30}
     selected, counts = [], {k: 0 for k in limits}
     for card in sorted(today_cards, key=lambda x: x.get("published_at", ""), reverse=True):
         cat = card.get("category")
