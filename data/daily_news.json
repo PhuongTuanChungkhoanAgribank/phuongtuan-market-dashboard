@@ -1,8 +1,38 @@
 {
-  "updated_at": "20/08/2026 08:15",
+  "updated_at": "20/08/2026 08:58",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất đã \"hạ nhiệt\", tín dụng bất động sản thế nào?",
+      "summary_vi": "Lãi suất đã \"hạ nhiệt\", tín dụng bất động sản thế nào? Cổng thông tin đài tiếng nói Việt Nam",
+      "source": "Cổng thông tin đài tiếng nói Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHByVmpaZURFYVJ5RjNSZ1I1ZERaOUFPVDZkTFNDQ2hxbXNyNXllMmhLSFpyLTYzTl9BakFRN3NMcGJFdml6S1NmM1pvelVReU15eVBZZWFuLUQtMDZNbWZjclZqbFlfX3FiYzM1TFNBN0dJZ0s3VDU3MHprSlIzdjZoMXJqYk5VdGRQVm5wY3BDcms?oc=5",
+      "published_at": "2026-08-20T01:49:29+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "08:49",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "InnoEx 2026 chuyển từ kết nối sang tạo kết quả cho doanh nghiệp",
+      "summary_vi": "InnoEx 2026 chuyển từ kết nối sang tạo kết quả cho doanh nghiệp CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNal9oNFRZT1pxajdSS0FQem51QUl3WUJZbkhjSVZVMzgxbjhVTHBPTDBrRmJtLVc5MHZnWVEzbTE0enBzdnBrMENaWC0tZ0ZMV2JLcHFPTktzVUtjbldOc3Zjd2RHQXJlbERPSk1JUENlZXFQeVhUQzRjLXdUd0kzVXlpV2gxLVdoY1FrTUJRWlJwU0NCS1Y2QXBDX0NNTEp6UnRZV1ln?oc=5",
+      "published_at": "2026-08-20T01:16:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "08:16",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -96,21 +126,6 @@
       "published_date_vn": "2026-08-20",
       "published_time_vn": "07:05",
       "importance": 3
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Lãi suất đã \"hạ nhiệt\", tín dụng bất động sản thế nào?",
-      "summary_vi": "Lãi suất đã \"hạ nhiệt\", tín dụng bất động sản thế nào? VOV.VN",
-      "source": "VOV.VN",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOei1FZHY1OFVLcW5mamQwNnhTYkJqOURySkJsOXR2dllkMTFXYW0zbXBZSUotcV9yejBzZGpmUnlIM3pobHZZZFZRcnFHSjBod0ZXTXNqaGxTTGdGdy13a01jZEJhM1E5ZU0zOEt0ZUp3dUV0Z05fNXgxRDhPaE5Nc1V5Q21QbFNUREZUS2pSZnE2dw?oc=5",
-      "published_at": "2026-08-20T00:00:00+00:00",
-      "published_date_vn": "2026-08-20",
-      "published_time_vn": "07:00",
-      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
