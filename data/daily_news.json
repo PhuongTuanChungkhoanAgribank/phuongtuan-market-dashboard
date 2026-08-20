@@ -1,8 +1,26 @@
 {
-  "updated_at": "20/08/2026 15:20",
+  "updated_at": "20/08/2026 15:50",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Quỹ ngoại T. Rowe Price Associates Inc quay lại làm cổ đông lớn của PNJ",
+      "summary_vi": "Quỹ ngoại T. Rowe Price Associates Inc quay lại làm cổ đông lớn của PNJ VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTk1YLUtINzY5a3BMWTVCX09NckExQV9RQlJYZmRTUHJ5dlh5TjFfRndYWVl3Q2hVQUhxdkxpdEstbnhHMXlkSW9kSTlLbjlLSmRmV2xKZ0VHeVhWUDJmVFFJVEdFTFhsUUxNRXh4aktNYnVRTDRCak1zN09PczZlTTk5MUgtZENzdkpyNmIxdmwyVTk2ZEVsQ1J0WQ?oc=5",
+      "published_at": "2026-08-20T08:37:35+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "15:37",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
