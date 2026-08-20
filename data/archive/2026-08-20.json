@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hàn Quốc trước khả năng tiếp tục tăng lãi suất cơ bản",
+      "summary_vi": "Hàn Quốc trước khả năng tiếp tục tăng lãi suất cơ bản bnews.vn",
+      "source": "bnews.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdWI2S09pQlVYcDZOck1TMWhVTHJkQW9OSWVQRGRGTGlvSFJJcXQ0dXJQc01BOElzbVlZdDlScndVcTVaVzcwc2hnazFHdXpKSTdpWEVKMkgzcnhaMFNOVlJmZUpKTGNjVS1sMHVqaWxtMURuVlJqOU5aSUhUOXNDVlNYTk5YWkVfMmc?oc=5",
+      "published_at": "2026-08-20T14:16:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "21:16",
+      "importance": 5
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",

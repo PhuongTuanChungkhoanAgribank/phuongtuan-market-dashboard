@@ -1,8 +1,24 @@
 {
-  "updated_at": "20/08/2026 21:08",
+  "updated_at": "20/08/2026 21:39",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hàn Quốc trước khả năng tiếp tục tăng lãi suất cơ bản",
+      "summary_vi": "Hàn Quốc trước khả năng tiếp tục tăng lãi suất cơ bản bnews.vn",
+      "source": "bnews.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdWI2S09pQlVYcDZOck1TMWhVTHJkQW9OSWVQRGRGTGlvSFJJcXQ0dXJQc01BOElzbVlZdDlScndVcTVaVzcwc2hnazFHdXpKSTdpWEVKMkgzcnhaMFNOVlJmZUpKTGNjVS1sMHVqaWxtMURuVlJqOU5aSUhUOXNDVlNYTk5YWkVfMmc?oc=5",
+      "published_at": "2026-08-20T14:16:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "21:16",
+      "importance": 5
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -1320,21 +1336,6 @@
       "published_at": "2026-08-19T23:21:00+00:00",
       "published_date_vn": "2026-08-20",
       "published_time_vn": "06:21",
-      "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Tổ chức quốc tế nâng dự báo tăng trưởng GDP của Việt Nam",
-      "summary_vi": "Tổ chức quốc tế nâng dự báo tăng trưởng GDP của Việt Nam Laodong.vn",
-      "source": "Laodong.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHN6QTdhZzdfTGFhb2lwMUlLVkF4RS1wd3NYR0dyU0FHRTRId1Z1Vnd5WXV6Z0tocVdGcFdFQ0MzWEZ1ajdsRU1oZm9nbDZ0dDRyWDhCVFJIbGFHejhrejZBcElpZVVsbTJ5aC1vbHhERmFoRzA3UkpUcS1vTkl1eXhYckVBVE0tdGJKMFRNNnR4YjB3S04wb1FGZVdLbU0?oc=5",
-      "published_at": "2026-08-19T23:15:00+00:00",
-      "published_date_vn": "2026-08-20",
-      "published_time_vn": "06:15",
       "importance": 2
     },
     {
