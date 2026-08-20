@@ -3,6 +3,38 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lợi suất trái phiếu Mỹ giảm, giá kim loại quý đồng loạt tăng",
+      "summary_vi": "Lợi suất trái phiếu Mỹ giảm, giá kim loại quý đồng loạt tăng Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN3dvZ3ZLLXBSLUd5enBITkN1U05hZzB1SHl0eUNSMFExaVFmOUFmbzhXN3FBQnhtSVVBbkYtTFN4ZklKWHBjNlY3c2dIMXVtb01oNGptTWdaVW50Y1NnUVZWZUExNldTbGpOdFo5NTJTSmJjVEk2Mms3a1NjZWpfZzlvSHVOSmlzMVE?oc=5",
+      "published_at": "2026-08-20T06:09:15+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "13:09",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phát hiện loại thuốc trị ung thư đạt kết quả tốt ở thử nghiệm giai đoạn cuối, cổ phiếu doanh nghiệp tăng gần gấp 3 chỉ trong 1 phiên",
+      "summary_vi": "Phát hiện loại thuốc trị ung thư đạt kết quả tốt ở thử nghiệm giai đoạn cuối, cổ phiếu doanh nghiệp tăng gần gấp 3 chỉ trong 1 phiên CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQT0FIeHcyeWhaQURXV3oyeGtfdXc3dlNpd1c0NGM3TlctZXRRbTZJTVNlc2cyTVNHUUhaRENfRHJxZUlRS0k3VUJXUHU1em4waG1HQnM1b2ZhNTRod2hoMEVLY0ZmLWlMbUgzV3NSU0RPc2Q2VGZpam5Wa3NPVFpKWTZ1TkdiT1A4U3BZdGJoMGM1Sk0xZUJjOEpyUnAydjZzREYycG1lMTFJTUtULWJJS0o0amhUSFFMOXpVMWxkVXFXT0ZTWlpjVVFuS19DandUN1pmOEo0cUxLOVR3QkV2NDNsSGVXRmk2MVpDMjh5QWltemZFN0p3U002VGxHN3U1?oc=5",
+      "published_at": "2026-08-20T06:00:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "13:00",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -64,6 +96,25 @@
       "published_at": "2026-08-20T05:07:16+00:00",
       "published_date_vn": "2026-08-20",
       "published_time_vn": "12:07",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "FPT",
+      "tickers": [
+        "FPT",
+        "LAI"
+      ],
+      "exchange": "",
+      "headline_vi": "FPT — GIÁ vs GIÁ TRỊ: QUÁ KHỨ, HIỆN TẠI VÀ TƯƠNG LAI",
+      "summary_vi": "FPT — GIÁ vs GIÁ TRỊ: QUÁ KHỨ, HIỆN TẠI VÀ TƯƠNG LAI Cộng đồng Kinh doanh Việt Nam",
+      "source": "Cộng đồng Kinh doanh Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcC1xenZLWUdCOHF1LUJjanJ6MlZSbFVxQkdhTmZnd2RLUi1LZDdDNVAtVlBhQ3l5cGtsMzN1Qkd1SVpwMFBLdVlwOE12U0U2al9SZ2hpaGFHcVpFYUZqcmJ1akVFSkMwbjR6Wl94ZTR2MGUxTGNaZXhsMGNPY1lXREprdGNCRHllNGJsTlc3OFZKV3I0Ml9HYjJR?oc=5",
+      "published_at": "2026-08-20T04:51:06+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "11:51",
       "importance": 2
     },
     {
