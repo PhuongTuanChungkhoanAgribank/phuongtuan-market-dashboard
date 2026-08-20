@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-20T14:40:32.168827+07:00",
+  "updated_at": "2026-08-20T15:38:15.781182+07:00",
   "funds": [
     {
       "fund": "Dragon Capital - DCDS",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-08-20T14:40:27.170085+07:00",
+      "fetched_at": "2026-08-20T15:38:12.209369+07:00",
       "holdings": [
         {
           "ticker": "GTM",
@@ -13,13 +13,13 @@
         },
         {
           "ticker": "CCQ",
-          "weight_pct": "",
-          "raw": "CCQ má»i nháº¥t Äang táº£iâ¦ Lá»ch sá»­ NAV Danh má»¥c Giao dá»ch & phÃ­ 1 nÄm 3 nÄm 5 nÄm Tá»« khi thÃ nh láº­p Äang táº£i dá»¯ liá»uâ¦ GiÃ¡ trá» chá»©ng chá» quá»¹ cÃ³ thá» tÄng hoáº·c giáº£m. Hiá»u suáº¥t trong quÃ¡ khá»© khÃ´ng Äáº£m báº£o"
+          "weight_pct": "0.10",
+          "raw": "CCQ má»i nháº¥t 92.560,39 â« â¼ 0,10% Â· NgÃ y Äá»nh giÃ¡ 18/08/2026 Hiá»u suáº¥t trong quÃ¡ khá»© khÃ´ng Äáº£m báº£o cho káº¿t quáº£ Äáº§u tÆ° trong tÆ°Æ¡ng lai. GiÃ¡ trá» chá»©ng chá» quá»¹ cÃ³ thá» tÄng hoáº·c giáº£m theo thá» trÆ°á»ng. Xem NA"
         },
         {
           "ticker": "UTM",
           "weight_pct": "",
-          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":112},[\"Map\",2,3,33,34],\"{\\\"from\\\":\\\"d7bb453d-89d2-428f-a87f-f6ede13e49b2\\\",\\\"limit\\\":{\\\"type\\\":\\"
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,112,113],\"{\\\"from\\\":\\\"e72bf58f-cfe4-4814-a12e-afdef67ac6c3\\\",\\\"limit\\\":{\\\""
         },
         {
           "ticker": "DOM",
@@ -47,7 +47,7 @@
     {
       "fund": "PYN Elite",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-08-20T14:40:28.785711+07:00",
+      "fetched_at": "2026-08-20T15:38:12.887344+07:00",
       "holdings": [
         {
           "ticker": "URL",
@@ -130,7 +130,7 @@
     {
       "fund": "VinaCapital - VOF",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-08-20T14:40:32.167874+07:00",
+      "fetched_at": "2026-08-20T15:38:15.780247+07:00",
       "holdings": [
         {
           "ticker": "GTM",
