@@ -3,6 +3,40 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tín hiệu từ biên bản họp Fed mới nhất",
+      "summary_vi": "Tín hiệu từ biên bản cuộc họp mới nhất của Fed Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1US2hlSUpQY01tT09UZ29nUkxIbGk4YVlNbktYaDJabXhKXzEtdVhwUzc3SzJFalhkbGo5Zzh6MG96QmludXJ0Z1Z2ZzE2WHF3MVFDN2pDaTZrbld4bjB4Z0VJQS1vTDJ3aC05dEZwLVFZeWFjN2c?oc=5",
+      "published_at": "2026-08-20T09:06:35+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "16:06",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "BSR",
+      "tickers": [
+        "BSR"
+      ],
+      "exchange": "",
+      "headline_vi": "Phân tích cổ phiếu BSR: CTCP - Tổng Công ty Lọc Hóa dầu Việt Nam",
+      "summary_vi": "Phân tích cổ phiếu BSR: CTCP",
+      "source": "index.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQTZNVFlLVzExaEUyM0tsUVJUVVY5S0lzN01MbUNfa0xvT3R4TENVVkFkQzlhNlUwQVdxM2hma3NROGNXa0EtTGJzQ0NVb3hwZTZDRENFZTlseF9yV05YeVozazNDNHM5WFRsOWhDRnBnSFQtaUpkSExVM0JsNUtKSFVOSTE2N1RkVnNjSnpoVQ?oc=5",
+      "published_at": "2026-08-20T08:52:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "15:52",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -361,6 +395,24 @@
       "published_at": "2026-08-20T03:21:00+00:00",
       "published_date_vn": "2026-08-20",
       "published_time_vn": "10:21",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DGW",
+      "tickers": [
+        "DGW"
+      ],
+      "exchange": "",
+      "headline_vi": "DGW: Báo cáo kết quả giao dịch cổ phiếu của người nội bộ Nguyễn Thu Hoài",
+      "summary_vi": "DGW: Báo cáo kết quả giao dịch cổ phiếu của người nội bộ Nguyễn Thu Hoài CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUVhrTllzMjJOdUROVjlYRWNPUlpSOWh0cGdXM2hFQlZFR1A3SFprR2taZHFVUVc5ZTVkREpXWDZDZGVYc05VWlNHOWlnMDRheEpzdGlyeHBtYTJienExY2xYNEppclNvQkFnZTE1Y1hldG55YmZpcHJ0cmRlTlNROENjZlNMRVlyUndaUDdFckt1M0lJVmV1NktORkx0anBTa1VFeFJVMDRJajRudU5WX2M0NmtYRmF1NkVuakE3WmFlSU1aNDZJTUY2cw?oc=5",
+      "published_at": "2026-08-20T03:20:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "10:20",
       "importance": 2
     },
     {
