@@ -1,8 +1,24 @@
 {
-  "updated_at": "20/08/2026 22:53",
+  "updated_at": "20/08/2026 23:17",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VN-Index tăng 7,55 điểm: Dòng tiền đang tìm đến cổ phiếu nào?",
+      "summary_vi": "VN-Index tăng 7,55 điểm: Dòng tiền đang tìm đến cổ phiếu nào? Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU1Utbzd0Wno1bk9IVllVb2d6VUdIcXViMXc0a1hnVzVDaHNBY3BuSS1USTFNTENGMVJNVTlFVURuNV9zaFlOTXdPbWVRa2dEeW1SZ0pMcFdjb3pEaU00bDJBY0RzVThMTnVCT2RVMk1pTkE0SEpmaDF3S2c5SVVQa2VNSTh2NDFJOEE?oc=5",
+      "published_at": "2026-08-20T15:44:42+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "22:44",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -53,6 +69,24 @@
       "published_at": "2026-08-20T13:26:00+00:00",
       "published_date_vn": "2026-08-20",
       "published_time_vn": "20:26",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "HNX",
+      "tickers": [
+        "HNX"
+      ],
+      "exchange": "HNX",
+      "headline_vi": "HNX: Kết quả giao dịch tự doanh theo mã chứng khoán ngày 20/08/2026 (Niêm yết)",
+      "summary_vi": "HNX: Kết quả giao dịch tự doanh theo mã chứng khoán ngày 20/08/2026 (Niêm yết) Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZS0yLVFhcGQ1U3BHZGVPeW5CaElTdjAtUTc2UTY3bGtXOW5DU013dXpGUGdTanNJYmFoZVJnRXlPRHI4VjFwQmxCS0tfOE5sSXNFOGk3dGdDbmNCWlBvLVZEc2F3bEszejJXREhyN3V1V2Zjai1zdVZKSEJrOUZJbXRETGNPOFJRaXVSRTA2TGxHLXVORjZfT18tUWY5c3pqRW01LUY1d004aWdwOGZPUnBHaUtaUlZxa0Jfbw?oc=5",
+      "published_at": "2026-08-20T13:16:53+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "20:16",
       "importance": 2
     },
     {
