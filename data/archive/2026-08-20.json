@@ -3,6 +3,21 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kinh Bắc dự kiến phát hành 700 tỷ đồng trái phiếu để cơ cấu nợ",
+      "summary_vi": "Kinh Bắc dự kiến phát hành 700 tỷ đồng trái phiếu để cơ cấu nợ cafeland.vn",
+      "source": "cafeland.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUGhURjJsb0VSc0VIME02dFk0UkFSbTRVcWFmT3RmS3F5VUNxN3QyeVhwbmdLNzl2UjF3UXFoZ3VIdDJ3VlhqRlFnSkNqVE5HVU50LWRDdVBSdmVEUlVHQ2NoZTJNdHlzVFp1SWdtMUJUSkZsRTVFSFhfdXBJT0R4WFQ4X3MzRXJ3REEwT1pXVG8wM0RBSXBfTk5qWjdicTdKWTFwRw?oc=5",
+      "published_at": "2026-08-20T02:14:55+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "09:14",
+      "importance": 3
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "ticker": "",
@@ -16,6 +31,21 @@
       "published_date_vn": "2026-08-20",
       "published_time_vn": "08:49",
       "importance": 4
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cấu trúc lại nguồn vốn nền kinh tế: Khó, nhưng vẫn phải làm",
+      "summary_vi": "Cấu trúc lại nguồn vốn nền kinh tế: Khó, nhưng vẫn phải làm baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZURJaWF1bmNua1JuVGh4NDE5MVRtV3FKRmNfb0MtYXFRbUZJVEFUOW9yZTFtN3U4cVJpUzJUS0FEVFVMWjk2WnV5dXZIcVE4d1VlU19iYVprdlJkSEVUNjEzeVFTNVAxNi1wdmJBQVNqVTBKSlhUNVdkLW5tcUFWaU1BT182dk4zdkpaSGxuRmx4SElJ?oc=5",
+      "published_at": "2026-08-20T01:36:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "08:36",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
