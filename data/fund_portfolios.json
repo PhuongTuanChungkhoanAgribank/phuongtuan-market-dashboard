@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-20T21:36:06.809954+07:00",
+  "updated_at": "2026-08-20T22:33:39.489912+07:00",
   "funds": [
     {
       "fund": "Dragon Capital - DCDS",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-08-20T21:36:02.332807+07:00",
+      "fetched_at": "2026-08-20T22:33:34.932944+07:00",
       "holdings": [
         {
           "ticker": "GTM",
@@ -52,7 +52,7 @@
     {
       "fund": "PYN Elite",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-08-20T21:36:03.056044+07:00",
+      "fetched_at": "2026-08-20T22:33:35.747489+07:00",
       "holdings": [
         {
           "ticker": "URL",
@@ -135,7 +135,7 @@
     {
       "fund": "VinaCapital - VOF",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-08-20T21:36:06.808810+07:00",
+      "fetched_at": "2026-08-20T22:33:39.488828+07:00",
       "holdings": [
         {
           "ticker": "GTM",
