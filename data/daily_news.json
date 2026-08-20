@@ -1,8 +1,58 @@
 {
-  "updated_at": "20/08/2026 10:25",
+  "updated_at": "20/08/2026 10:55",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hãng dược vừa công bố đột phá vaccine ung thư, cổ phiếu tăng vọt 180% sau một đêm",
+      "summary_vi": "Hãng dược vừa công bố đột phá vaccine ung thư, cổ phiếu tăng vọt 180% sau một đêm CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOGVFbXZjM1ZuMlRuVUFmOVRyR0ZLU0ZEa3VhMHJLcHVtMFpjZks0T0l5TkNGRFNoLUdyQ2NYZG5PdHozTnVrTnBEbnNZOEFzMFVGTkVoaWVCd3BzWmFxNDl3NWo3d0VXc05SREh3a3BudFBFWmh3UjdCY3NUU1RRdTZTSE9RVmtSSnNoYk5GUldDNkpuaGZPVkF5ZTV6ZWJWLVhCQUdNNWNuRmdEREozUmczNF9oTnZQYnFR?oc=5",
+      "published_at": "2026-08-20T03:37:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "10:37",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DGW",
+      "tickers": [
+        "DGW"
+      ],
+      "exchange": "",
+      "headline_vi": "DGW: Báo cáo kết quả giao dịch cổ phiếu của người nội bộ Đặng Kiện Phương",
+      "summary_vi": "DGW: Báo cáo kết quả giao dịch cổ phiếu của người nội bộ Đặng Kiện Phương CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcU1fNDJFbWV6enV5d1ZsOFRmaVdtSk1qOE1NTjNCd0hHQnZPTDRwS250aExTc3RDV1BfU0dQYVlvNEdjQm5lOGV5Z0lhRGJkU3VVSnV2ZGZHczlvdEZ4M2RtNFdINlg5a3k2LWdVZ19VUFk3YkxFQnVHUHo0Q2hlWmhzaUJKcWxJSmc0UVBQbC1kcXFrNlZOM0wxRWJDTThKeDM0a3FmNHcxZDRzUkZ2cDZ3b0JCT2tMWVBGQWtpNnM3WG1EQWFyZ1lBdTU?oc=5",
+      "published_at": "2026-08-20T03:21:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "10:21",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Viettel Construction báo lãi 470 tỷ trong 7 tháng",
+      "summary_vi": "Viettel Construction báo lãi 470 tỷ trong 7 tháng VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLUFCZ0FaaG9FdUhyeUE0VTJCUVRNNlpQRWJqbG1FMXgySzBIODM3YldEUGlYQy1LZVVZTEhpdTFlTmdueGwxVlItdXZjZHdZUmFxOVNFMUdraWtvWFptSURJMkFmSjE0RjJNQ3UyN09hWDIza00tWHpuX2R6U25uNGc4Z29PWHJELXJwZmVoUFdkOHgzX2c?oc=5",
+      "published_at": "2026-08-20T03:10:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "10:10",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
