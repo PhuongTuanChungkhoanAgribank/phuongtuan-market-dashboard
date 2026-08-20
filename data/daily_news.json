@@ -1,8 +1,60 @@
 {
-  "updated_at": "20/08/2026 20:28",
+  "updated_at": "20/08/2026 20:56",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SSI",
+      "tickers": [
+        "SSI"
+      ],
+      "exchange": "",
+      "headline_vi": "Sếp SSI đăng ký mua 5 triệu cổ phiếu ngay trước thềm nâng hạng",
+      "summary_vi": "Sếp SSI đăng ký mua 5 triệu cổ phiếu ngay trước thềm nâng hạng CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY1pMNWZOeHUzdnNrWE1DWVpkNURwYWx6dU9XTE9GSW9fejA2cVhnNHQ3enhwU3piZ0d4WTB3dmwwRGRDRDRBcGRkRHlLTFJfSkVWYnF2VC1qM05jaTNlRWNuZ28wejBPcnJrbW1FMHk0dm8yTDVIczVGY1dPOUc2UGFaWFloQU5TdDNNTVlsSWJFbUhja2JtbHFuRFQ0MWNOYXQzTg?oc=5",
+      "published_at": "2026-08-20T13:49:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "20:49",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SSI",
+      "tickers": [
+        "SSI"
+      ],
+      "exchange": "",
+      "headline_vi": "Lãnh đạo SSI dự chi gần 100 tỷ đồng mua thêm 5 triệu cổ phiếu",
+      "summary_vi": "Lãnh đạo SSI dự chi gần 100 tỷ đồng mua thêm 5 triệu cổ phiếu VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWm5fS19GVHVWZjl0cy1NMm4wSy1FbllSUzRZaWhfOEhmWDcwOE1KZUxIaGdiVlJiMG94NzY3MThFRVpwR0lZYmZoT0w2czBnRk05d1g3R2FWUkJmQ0FZVzFhNTZ6WjN6Umw2bEJGX3l5UllnUms1b1YtbU5HdWVOWE9TZXd2eDYwMVJoblZSemxJMjZUQUFsRDdReXdHc3F6Rzk5Y0RsTQ?oc=5",
+      "published_at": "2026-08-20T13:26:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "20:26",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kinh tế phục hồi, Hàn Quốc vẫn để ngỏ khả năng tiếp tục tăng lãi suất",
+      "summary_vi": "Kinh tế phục hồi, Hàn Quốc vẫn để ngỏ khả năng tiếp tục tăng lãi suất Vietnam+ (VietnamPlus)",
+      "source": "Vietnam+ (VietnamPlus)",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa3psYkpYa1BvcjVDd2VXc1FTX3dXbldVWVBwUlY0bl9kaF9Rb2E0dEJWX0hpSHI1TVQ3eGJtLWJFNXRnejRVc0MzSnV2RWROMmYzWkhFR1NoOENXSi1kR01MaTQzVFIzRWxYY3gyMnNBNU1aOWlHOVhmbE9pMzg3NTlLVkFFaWltazhFNlFJVlF5ODlwbWFXUUpmajJyX0lmMlBPNllaa2RuOFF3R20tbA?oc=5",
+      "published_at": "2026-08-20T13:11:49+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "20:11",
+      "importance": 5
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -200,6 +252,22 @@
       "published_date_vn": "2026-08-20",
       "published_time_vn": "16:30",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán: VN-Index tăng nhưng dòng tiền vẫn quay lưng đứng ngoài",
+      "summary_vi": "Chứng khoán: VN-Index tăng nhưng dòng tiền vẫn quay lưng đứng ngoài Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ0dEUWJXUENrZUJJYTJUVzBaQmJEbzJXS2MtaElIdTF3WHJNRTRYQUZKTExwMDFtSkFvOUhDdnFQblBDb1hDY3JfYlFVbzliR0UxM01OQ3FTVDI5Y1M5T2FUSV9WUjd1cy1oSy1mc0Y0UUFNTEhCUkU4TFhYeFpweGR5MnZNelVyc1ZTbEtIMks1TWtOaWRKNXc4NEYtcS00cGp1cHpHSXRrOFZl?oc=5",
+      "published_at": "2026-08-20T09:29:48+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "16:29",
+      "importance": 2
     },
     {
       "category": "THẾ GIỚI",
@@ -1312,21 +1380,6 @@
       "published_at": "2026-08-19T23:00:00+00:00",
       "published_date_vn": "2026-08-20",
       "published_time_vn": "06:00",
-      "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Agribank triển khai gói tín dụng ưu đãi, tạo động lực cho tăng trưởng kinh tế - Tạp chí Kinh tế",
-      "summary_vi": "Agribank triển khai gói tín dụng ưu đãi, tạo động lực cho tăng trưởng kinh tế Tạp chí Kinh tế",
-      "source": "Tạp chí Kinh tế - Tài chính Online",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZll2T3NBMklXcm05aUtxY3dkdl9vV05UVDhFczhJcm5YTFN4SmJnU19kSk9fcFY3Z2d5Qno2eTR4ODQyMHdqaUtrdW5hS0dIRUVNcVpLelFfUzB0QVpRcFNjOXZXbFFDbTh1NC1yaElvallXWkNHU2x2aW9OMTRabUphc3VSTENQUGdkcG05WDVNVHRkSnlGVlN0NXVmTDRkcDlaTUNoZWROX1FlWGlRZWRKSFpaRzBoY18tRg?oc=5",
-      "published_at": "2026-08-19T22:13:42+00:00",
-      "published_date_vn": "2026-08-20",
-      "published_time_vn": "05:13",
       "importance": 2
     },
     {
