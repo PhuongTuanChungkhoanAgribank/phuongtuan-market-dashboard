@@ -1,8 +1,24 @@
 {
-  "updated_at": "21/08/2026 06:24",
+  "updated_at": "21/08/2026 06:35",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Ngành điều xuất khẩu gần 3 tỷ USD nhưng vẫn “khát” nguyên liệu",
+      "summary_vi": "Ngành điều xuất khẩu gần 3 tỷ USD nhưng vẫn “khát” nguyên liệu thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX0ZfOFkwLWJ6VzY3akZ2M3EyeGI2dGVaLUZoR3hETmVSS0xuUWZTNDBkOVE0QWFvY1NsSXUtN0t2cVE5TWlOV0pwaE90MzE3RTN1YXhhVVRvYlVDVUE4MGlEbzZ2S2sxNDJseWJmaVhDaWV1anFIaUxVLWUwa292VWNWMTVoSTg5S2ZHc2pkWktmV3pCX2FTMVAxNWtibzYzLWxuWjBRR1pCU2M?oc=5",
+      "published_at": "2026-08-20T23:27:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "06:27",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
