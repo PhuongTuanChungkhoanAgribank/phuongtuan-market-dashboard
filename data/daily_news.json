@@ -1,8 +1,43 @@
 {
-  "updated_at": "20/08/2026 10:05",
+  "updated_at": "20/08/2026 10:25",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Elcom sắp tăng vốn thêm 77 tỷ đồng qua hai phương án phát hành",
+      "summary_vi": "Elcom sắp tăng vốn thêm 77 tỷ đồng qua hai phương án phát hành Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNanQteTJpU0hzYnRXaDBaV0JKZHBxN29MMnVVN1NsbUM4N1FrRjd0S1o5NThnVENqMXVicWZ2Zm85RlJrby1rSGttYk4tODVrYTJaV2V1blhPZFczZ3Q0VkpPemFRNXBhekJvTTNLMjc0NU1UaDJud2ZsS2pNYnptRGNkWFRBbzJQOUtxSUtCOW1xUlFlYTU2TTlUSVI?oc=5",
+      "published_at": "2026-08-20T02:50:31+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "09:50",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SSI",
+      "tickers": [
+        "SSI",
+        "FPT"
+      ],
+      "exchange": "",
+      "headline_vi": "SSI chỉ ra yếu tố có thể gây sức ép lên định giá FPT",
+      "summary_vi": "SSI chỉ ra yếu tố có thể gây sức ép lên định giá FPT MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTXZvaDU4eWF0Y3RYRmVoVWxOdTBGZVB3SXFoUk9PZ0hzSHM3RVVQRGFXVFZHTzRkSTlreC1ucWtNYXhMTjE4WWdGTWkteDV6Q2lSOU0talpNV1lUdlM0SXluY2I0dUdTNUVPbWFvNGozOHF5aGhucmtuYmNzYW9aenJWOA?oc=5",
+      "published_at": "2026-08-20T02:50:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "09:50",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -267,6 +302,58 @@
       "published_at": "2026-08-20T00:05:00+00:00",
       "published_date_vn": "2026-08-20",
       "published_time_vn": "07:05",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VSC",
+      "tickers": [
+        "VSC"
+      ],
+      "exchange": "",
+      "headline_vi": "Viconship (VSC): Báo lãi kỷ lục, thế chấp 100% vốn tại công ty con để huy động 500 tỷ đồng trái phiếu",
+      "summary_vi": "Viconship (VSC): Báo lãi kỷ lục, thế chấp 100% vốn tại công ty con để huy động 500 tỷ đồng trái phiếu Tạp chí Kinh tế chứng khoán Việt Nam",
+      "source": "Tạp chí Kinh tế chứng khoán Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU1UxTGZnS2VVdWNRTF9Hc3A2R20tUXo4RzBQTmRiSFpwcFNOcVE1ZVlWYzg2ZHl1ZTRYSzB5dVpKMU1iVENxOGd2UW5IOUV2VUt4QWw0TFlsR0F0Q1htbW9ZVVlDVHdwbTROQUxhclRvRlo0UExydFhXX1JiV1A0UXhQcjRzMVpWOEVFWkgtTjRLd3B5XzdxZUhFNFFuN3NKeUJaV1o3NnpDek5IbDR0WndraG9kNEtVRVZmcU1xbHBNdw?oc=5",
+      "published_at": "2026-08-20T00:00:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "07:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cú huých từ nguồn cung tiềm năng",
+      "summary_vi": "Cú huých từ nguồn cung tiềm năng Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTEZMdlo4RUxQV1VLc1doM0pyVF9Camk4b0hPbzN1RVBPRjM3cFByOV91TnJVME9lRml4NEhTS1E4cUlwRUJUZk9IbG94NjNlT090ZW50SlkyMkFkUF9EMkI0TUJ0aHg2WU1QLUhfeEpkTWpGaW5JeDRGS1pkdWl5U1pNbDNrV01JbVHSAYYBQVVfeXFMTjZlTTZ4eDl5UXB1elZPVWJaNTlfUHlUc0VIcExERGJWTDB5b0tJTnp0ZmVHejdHZlQwUW10VzZZa0wwVWVpQVdJQVlyM1ZVczBZdjZzWVdSOEpreVN6YVlRaV9wSmtUa2dITlNPMW55bUZubklnVFVtTGlEVVlkYm82SER6TFE?oc=5",
+      "published_at": "2026-08-19T23:44:27+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "06:44",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VSC",
+      "tickers": [
+        "VSC"
+      ],
+      "exchange": "",
+      "headline_vi": "Viconship (VSC) muốn phát hành 500 tỷ đồng trái phiếu",
+      "summary_vi": "Viconship (VSC) muốn phát hành 500 tỷ đồng trái phiếu Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOejJzX3V4ZzhYM1YwcHRzLVI3djd0OVUyMENhRDBORVhkX19IYS1rVHBtMWpiZHY3S19nT1RKMEZmaU9lUTBERmhQS0VyQzhhSEtlUGh1V1lsajhlTl90SEtxT0ZUaVMzNGRmMkl6U1ZRLW9PeWhtWGlWcVFwQ1plQ2VwX3lqTmx6bXZqLURVRHpwVnJJQUdCT1doQ0laNUNqX2U40gGfAUFVX3lxTE52R3BTa3NvQldkN1ZwVFFoeHQ4T01lTjFSbGtYYURMbUt3eGxwYzNhZUdXcTlkOVQzZkE5VGNFV3ZNbmticWt5djB3T1RublpHYUpaaW13TjE4YXZsZ1VveC1OZjBLY2pKN2NBaWMtMklzWHdtVVhWbmw1Rk13NXdPVXpBaElKMWhNanZvdTRRSVhVdFBBMVpFRzY4MGd3bw?oc=5",
+      "published_at": "2026-08-19T23:41:43+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "06:41",
       "importance": 3
     },
     {
