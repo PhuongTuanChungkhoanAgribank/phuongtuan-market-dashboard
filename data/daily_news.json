@@ -1,8 +1,42 @@
 {
-  "updated_at": "20/08/2026 17:40",
+  "updated_at": "20/08/2026 18:02",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-20",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thanh khoản ảm đạm, cổ phiếu hàng tiêu dùng Masan, Vinamilk gây chú ý",
+      "summary_vi": "Thanh khoản ảm đạm, cổ phiếu hàng tiêu dùng Masan, Vinamilk gây chú ý Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOXdrRTQ0NUVpdFhkTWZoYUthV3ZqbnY5NW51LVZtcklOemY2SDdHX2tZSlJQd1ctMmx0cXVQUXM5NmtjM1JCX20ycy1leHhBekNKUWVFd2lJa2c2LUdRZFRxYWRyc09ocmJoaGQ0WlVxX0h3dU9MVmNZWWpHQVpLQk9tYlVnc3FBQVJPMXJNTG1MTHp1UTVWajhsYS04bXJnNFc4VGszZ3UyeTMwdWFjeVhJWHZwczNfTUZlbmtGdw?oc=5",
+      "published_at": "2026-08-20T10:54:28+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "17:54",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "REE",
+      "tickers": [
+        "REE"
+      ],
+      "exchange": "",
+      "headline_vi": "REE: Báo cáo kết quả phát hành cổ phiếu ESOP",
+      "summary_vi": "REE: Báo cáo kết quả phát hành cổ phiếu ESOP CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY1BVUG9BaDZla0xfamQ0RTRTMDNUQmxldGtXUGRfckluTVR5T0JFWVIwbEtwZkNfNmI1XzJDR29QSXMxeHg3eFNfSGNZZzUzb3dHeW54YlVfVXJuWEFBRlZGaHkxVUFPWDZZb2hpU05NNEJzSWNEMXV6aUNheXp4YXpldzdRS2l6aVdfSkF4M2RyVFQ3VENlSEhzZ1d0NXVkNHllZG5B?oc=5",
+      "published_at": "2026-08-20T10:36:00+00:00",
+      "published_date_vn": "2026-08-20",
+      "published_time_vn": "17:36",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
