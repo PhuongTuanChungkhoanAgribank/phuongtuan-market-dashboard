@@ -1,5 +1,5 @@
 {
-  "updated_at": "21/08/2026 06:35",
+  "updated_at": "21/08/2026 06:45",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
@@ -34,6 +34,22 @@
       "published_date_vn": "2026-08-21",
       "published_time_vn": "06:15",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "21/08: Đọc gì trước giờ giao dịch chứng khoán?",
+      "summary_vi": "21/08: Đọc gì trước giờ giao dịch chứng khoán? Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbWVUalc2MzREYV91Qk1IaGdaX3ZLOEs0SjJ6R3ZUdWlJTUlYY084N1pvNVZ6ODZGWUtGdTZTSnZGaENOYzVyVFlHN05CMi1keElJSzNNYllnZHRYYVBIdW5waEJMUFVkZWVCdE5ZY0Vrc1o4VkUzOXNSVVIyd2hWeWtwM0FEOWc3WUxkVlhraGFpdw?oc=5",
+      "published_at": "2026-08-20T23:00:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "06:00",
+      "importance": 2
     },
     {
       "category": "THẾ GIỚI",
