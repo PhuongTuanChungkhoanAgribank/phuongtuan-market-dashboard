@@ -6,6 +6,92 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Doanh nghiệp dược lớn nhất sàn chứng khoán chốt ngày trả cổ tức 5.000 đồng/cp",
+      "summary_vi": "Doanh nghiệp dược lớn nhất sàn chứng khoán chốt ngày trả cổ tức 5.000 đồng/cp CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZFM4N0FsZ202cTVXcFBkMXpwdWEyR0JNcnFvdk1yaU9vclh0OGg3Q25RclNNV05RN0tTRkJ3cC1IM2tFeFRmQmtBZXI4WTVUZXBaR2pqY1phTHJUVDY2WDZneW16REFFWVBqenRSZWR6SU9abnl3MW1zT21ZR2RjNGthVTZTa2JlZUdrS2ZDSkdCYWtKTFNHY0xka3JkOEtzY2lKYU9BbmJlX1lXcjJMdzRVTE5GVDg?oc=5",
+      "published_at": "2026-08-21T03:33:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:33",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "MSR",
+      "tickers": [
+        "MSR"
+      ],
+      "exchange": "",
+      "headline_vi": "Doanh thu tháng 7 của MSR gấp 16 lần cùng kỳ",
+      "summary_vi": "Doanh thu tháng 7 của MSR gấp 16 lần cùng kỳ VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc2pVcFFjYUF6TlQxM3lienVwS3VYRjN0NWdkaDVEQXpSb3E1czJzTmQtTms4NnU1M2xFTEFuaXZMdlk3VUxZYy1FZHFNVWU2ZWQ2RU5LNHU3T2FGSVA5dHZ4dnY0Tm14WWd4QnpWbDNNMVJ1Z1F1dEFVM3U5a1BGTzNaNE50UW1iblVkZXFn?oc=5",
+      "published_at": "2026-08-21T03:09:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:09",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Công an công bố kết quả giám định kim cương của PNJ, cổ phiếu tăng “bốc đầu”",
+      "summary_vi": "Công an công bố kết quả giám định kim cương của PNJ, cổ phiếu tăng “bốc đầu” CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZE5TYVVULV9EeWJkV1dielAwRVFxWWQ5Zllpa19CRVhyRXBBWlpSTFhSTTFhWFZTQzZmR21LZXFuUTl6NHBnSi05QUxZckpPLVZ6RWVJLXladTlhSWxZMno4NTMzdDEwNldObVRLQ0x1WnFsWnk1WW1rM2JXa05xOUxfZ2ROQXBqMEdhTUNsR08wZzVCUzF0SDl4dm1QNnpOSk5wOEwtbS1Ob1lELWg3dm9xNA?oc=5",
+      "published_at": "2026-08-21T03:07:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:07",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu PNJ tăng trần sau kết quả giám định kim cương trong vụ án buôn lậu xuyên quốc gia",
+      "summary_vi": "Cổ phiếu PNJ tăng trần sau kết quả giám định kim cương trong vụ án buôn lậu xuyên quốc gia Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWThpSEhnMzJtNGItN3BSeTBzZFpxSFVHbU8tUmYyQjJsYVExMzBpaE0xNk5FT1BkMnRETzF2bUt0ZE1pbURlMUE4V3dZRndMaUZGcUUzQTJnZUpCSTFoUkJCcV9lRnlsYWljd0RibEJOUTBQOHZ1dnlxaTl0RnJILWZsazlQVHNXa1RLSlBYRkMzQ3Rxbi0yeHl1ckhQYWxSTHM2czg5ZFoyRWVMd3VNX1hMZGxoSGtmYTE2U2p2SlZBVzhQelVRWEU4cnVmdFZadXBpRnNVQ0x1ZWFpckE?oc=5",
+      "published_at": "2026-08-21T03:03:55+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:03",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Mặt bằng lãi suất duy trì trạng thái ổn định, cổ phiếu ngân hàng tích cực trong dài hạn",
+      "summary_vi": "Mặt bằng lãi suất duy trì trạng thái ổn định, cổ phiếu ngân hàng tích cực trong dài hạn VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPemZDXzNwZmwySVNDY1Rva21wb3l0TGNFMGhZU0tGMDlpUGgzaGVuNDB6RW01THdISjhCOGh2cjg1WTkwbmZWOUhNenloVnh2N3MxcnJZWnFvTHZwajQzMnZkOGxoNnZnY19HR0ZqU0NyUkNzOV9WYk5aNVVTWVRqVDRIX2tiNlZzNktSZEdEVVFvcXFSbVVSVldkdkRKbXFISEhFVmtsSWhTSFJwTzliYQ?oc=5",
+      "published_at": "2026-08-21T02:33:11+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "09:33",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "ABS",
       "tickers": [
         "ABS"
@@ -130,6 +216,22 @@
       "source": "Vietnam.vn",
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVDY4QXNfeWtIaGxXQklQSGtLejJpakNzRGJhdWlNS2JpYkhDQUNlV3VTQVBHaURhR0tudm9PY1owS3dYOHVOQkEtcXpIdWhIU2U3N3pFcGw0SmtfSlhTWTJOdG4tcTdkRVJ3aDNRWW9UTG13OTc2aXNneTc2aHdnYVFoc2ptbGZn?oc=5",
       "published_at": "2026-08-21T01:49:59+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "08:49",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "“Ông lớn” cao tốc VEC trước áp lực trả nợ 1.647 tỷ đồng",
+      "summary_vi": "“Ông lớn” cao tốc VEC trước áp lực trả nợ 1.647 tỷ đồng VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObmswQ1pmTUFxUWJQWjZhbFllV1dvWHJTaEEtODlTSmRKTHNoQS1Gb1A1WURWbXphMzhhODR2Z09HbUl0RGg3Y1ZUbzBFUGx3TzNkOW9VY2FxYTJWcFJsMHZYS1V5d0Y3UWUtdk9XMVA1WWhaOE9QX1F5anNscjVNMnhDVQ?oc=5",
+      "published_at": "2026-08-21T01:49:20+00:00",
       "published_date_vn": "2026-08-21",
       "published_time_vn": "08:49",
       "importance": 2
