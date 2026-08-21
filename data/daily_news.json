@@ -1,8 +1,42 @@
 {
-  "updated_at": "21/08/2026 12:58",
+  "updated_at": "21/08/2026 13:19",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Fed thận trọng trước động thái can thiệp vào thị trường trái phiếu của Bộ Tài chính.",
+      "summary_vi": "Fed thận trọng trước động thái can thiệp vào thị trường trái phiếu của Bộ Tài chính. Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUpfWnBzWGozejBjcE43MHpOT251ZGNfVldKNnNFaU4yM0s4bW5Ca0gzdk1nMm9NaUNOeWpzb0VlUWNhSWtWUnh1REd6ZWJDM21RWTd5S3BVMFdJZjlaNmVEUTFyUFBtaTlCR2JSNUFaV1NPM2lOTXpSb0UweTVSZl9mTVhBQ09LRERQb25halF4M1ZKOUt5cDRucjFtUGE4VzRsNEgzTVA?oc=5",
+      "published_at": "2026-08-21T06:12:09+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "13:12",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Xác định kim cương lậu không vào PNJ, cổ phiếu lập tức 'cháy hàng'",
+      "summary_vi": "Xác định kim cương lậu không vào PNJ, cổ phiếu lập tức 'cháy hàng' CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNFlZSDhhNm4xOG10RHhLdXR5MTZkT1M5dUxYcDI1ZTRFSUJzQlBGNG4zbzczSENqVzJSc2dtVS1pSzR3aU0xMURkcC1WUU4yREZ4TmNDWmxKYjRmUkZ5YVVReHlrUFh5aTlBX1EtS3N0V3BUc3drWDRndmZXQkJteEJLVVJPS1Y0a0lsaFNLODFwdXdnbWhaWXRfQ1JWdUdySFhLNXZB?oc=5",
+      "published_at": "2026-08-21T06:10:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "13:10",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
