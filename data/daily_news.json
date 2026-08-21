@@ -1,8 +1,24 @@
 {
-  "updated_at": "21/08/2026 11:58",
+  "updated_at": "21/08/2026 12:03",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Một cổ phiếu ngành may tăng gấp đôi sau 7 phiên",
+      "summary_vi": "Một cổ phiếu ngành may tăng gấp đôi sau 7 phiên VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNDJRRlBUd0ZaTmt5cmpMR29oMXI2RTFJNXB3QktsLUE5TWhpdndENzh2SjJMTTduU1otSm1yUnNqd2NBSk1oeXF2b00tcGhkcUh0VGJZTVNacHdOUHowajl6Y2c5eEdFMmhGV2lmYU0zbU5pYmhYQ0pXZWlwY1JQT3NkdEFUbHJzT2F6ODlIdGExa00?oc=5",
+      "published_at": "2026-08-21T04:54:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "11:54",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -19,6 +35,22 @@
       "published_at": "2026-08-21T04:53:00+00:00",
       "published_date_vn": "2026-08-21",
       "published_time_vn": "11:53",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Huy động trái phiếu doanh nghiệp: Đầu tư hay trả nợ?",
+      "summary_vi": "Huy động trái phiếu doanh nghiệp: Đầu tư hay trả nợ? VnBusiness",
+      "source": "VnBusiness",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUUNmc1RGNTlRRGVlTUdBQWdmT1VrWWpHTkwzVElpbnk2X2xLSHJKUTAzZnhORjZnV19oSFo0Sjc1bk9QMmRqV3kyc2pRRkRJLUc5dHZ3WEZHTkNjZFV0RHMzQWNHUkE3WGpwbkczeDBVZURNSnR5Zm9Ed3NXa3RFbExTUjF5QkJPLVZnZ2s4YnEzMllMbUxrWVB4MmNOT3h5S1VmZ0tURDdocDdrV3ZLMWNicw?oc=5",
+      "published_at": "2026-08-21T04:23:16+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "11:23",
       "importance": 2
     },
     {
