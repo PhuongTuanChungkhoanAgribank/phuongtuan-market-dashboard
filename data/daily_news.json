@@ -1,5 +1,5 @@
 {
-  "updated_at": "21/08/2026 14:27",
+  "updated_at": "21/08/2026 15:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
@@ -54,6 +54,22 @@
       "importance": 2
     },
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xuất khẩu đạt gần 6,9 tỷ USD: Thủy sản Việt Nam tăng tốc trong cuộc đua nâng cao giá trị",
+      "summary_vi": "Xuất khẩu đạt gần 6,9 tỷ USD: Thủy sản Việt Nam tăng tốc trong cuộc đua nâng cao giá trị VOH",
+      "source": "VOH",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhJeGl2VF80LWJubElvU2E1NDJlVXJzcWRiZ29DdjQySnp2bDlLcmFpR3pOOWZJQnk2MTVfbXoxb0tkTmRTU2lKdDV1T0Q0dEFNcEZQN2pFQkpZdUxaNmRlWEpxeE1ldmo5RlBVTEh4TThlOGw2ZllsRzRjb2xySW8yb3lIN3R6aGg4UjNIVHQ4RUZzeTQyakUyMjZpbzdEOVM0UndZcFQ0RjRxenB3WkF4TVhmU1VDbDFibExIYS1pUFp5?oc=5",
+      "published_at": "2026-08-21T06:59:03+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "13:59",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -88,19 +104,21 @@
       "importance": 4
     },
     {
-      "category": "TRONG NƯỚC",
+      "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
-      "ticker": "",
-      "tickers": [],
+      "ticker": "SSI",
+      "tickers": [
+        "SSI"
+      ],
       "exchange": "",
-      "headline_vi": "Xuất khẩu đạt gần 6,9 tỷ USD: Thủy sản Việt Nam tăng tốc trong cuộc đua nâng cao giá trị",
-      "summary_vi": "Xuất khẩu đạt gần 6,9 tỷ USD: Thủy sản Việt Nam tăng tốc trong cuộc đua nâng cao giá trị Đài Phát thanh và Truyền hình TP.HCM",
-      "source": "Đài Phát thanh và Truyền hình TP.HCM",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOGs1emQ1NDZ2N1FrN2lkbzU4WWc5ckV3Y1NPN0NRTUxIemZ4QlV0aE10MktmMWo3WXBiQ0VuWklmUTlRbTVkWkFOSk9uS0drbTJyQ3F4cmF3SjZmTU5mdHVaTWZKX293bXRuVWZhT2RCa29aU3NVYVJZTmdvUHpjX0h0akhiV3VZeGJuV2tkUVBpMHFtel81aE4yTkw0ZE9qTVlVazE4TGp1aUprSU9iRDNyd2ZENVhGc2pXdHNscU5KUQ?oc=5",
-      "published_at": "2026-08-21T06:11:00+00:00",
+      "headline_vi": "Lãnh đạo SSI dự chi 97 tỷ đồng để mua 5 triệu cổ phiếu SSI",
+      "summary_vi": "Lãnh đạo SSI dự chi 97 tỷ đồng để mua 5 triệu cổ phiếu SSI Đời sống pháp luật",
+      "source": "Đời sống pháp luật",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMUx1MXV2RTRpQ3JiREpsVDlQR25FZGkzZEFSNFhaN1FjMDJVMXBzMjVHd3BVRm9FVktob0lpTlRlT3dLZ1dCVGs1M1FxUFNJS2RxWW43RVkxekluZExFemFIUmJ6Y3FUbEg0d1dwdkFGSkYwQzg2RkUwelVYOEIzOURpQ2lSSWZOUEhEVS0yY1lRcWZPaWdibDZSTm15cWJRYWpUd9IBqgFBVV95cUxQdmdNbk5fWVNIbXY3MEQyYU5XYTFzUUx4VnJBMTFYdDJHcncyczVsZ1NMbldCUmZrX0c3YXM1VGlEcFJmaHZXdmM3UFRzODZBbG9JOVlDWUZNRXctYU9LZFhsZERYWUg3VGtUbEoxUEs5ampKX09ZZVRXc2dyNkpwdGM1NDFIa212UWM4ZVZQZ1ljd2NsVlF1SmpyVE92cXdhRE1BZ1BKV0gxQQ?oc=5",
+      "published_at": "2026-08-21T06:00:00+00:00",
       "published_date_vn": "2026-08-21",
-      "published_time_vn": "13:11",
+      "published_time_vn": "13:00",
       "importance": 2
     },
     {
@@ -134,6 +152,24 @@
       "published_date_vn": "2026-08-21",
       "published_time_vn": "12:48",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu PNJ tăng trần ngay sau kết quả điều tra của công an liên quan vụ buôn lậu kim cương",
+      "summary_vi": "Cổ phiếu PNJ tăng trần ngay sau kết quả điều tra của công an liên quan vụ buôn lậu kim cương Đời sống pháp luật",
+      "source": "Đời sống pháp luật",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFZrTms1MW5ra2Y4eUVKc2RhYlcxY1VxenZUN2Z0N2xpVjNKbC1xS2ktd25tOGxwcFl4c3RGWmszWnp5Z1V0cURhRzc2OGVSbDNwWDA0c0REN0EtSXNSOHNIQ0czSW5Fc2xyMEhkbWYzOHRKclR2S3lRYmU3dzdtOURCRUZ4OHZJY3ZMSmp1SlpQWjZBSzdBc1llS3VES2RDc3ZiekdOOUhKYkl4cEV4Sjc0SWFiRXc0YVlHMng0MGk0dGt4M0h3eVN3N1pwd0k4OVHSAdcBQVVfeXFMUER2LVMxdExhOFdoNEZ3SXo5YVBrLVpwYmNJdF9PWFFacFpyRGp2RzhUM0tNaEl2RWc1NkZ4TEVPOUpJRFIwSHA2dzY0NGd3czQzclBXRVdRdnJ6Qm1tMk9XUmkzZzVzT3REQm81aG5aOEUwQTVtS0FDNjBqNktpd2RueGE0WEpoUmdUWElaWVR0enVEYnFXU3pXcGRycUdNLVNFcnZWVEloVFM0bnZjTVZmbENqRWVodi14WEE3bEptemdvTmo0dUpyaFRsamdQbHNTc0hMOGs?oc=5",
+      "published_at": "2026-08-21T05:30:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "12:30",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
