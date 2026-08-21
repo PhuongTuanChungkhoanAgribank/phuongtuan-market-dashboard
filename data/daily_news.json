@@ -1,8 +1,40 @@
 {
-  "updated_at": "21/08/2026 12:45",
+  "updated_at": "21/08/2026 12:58",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thị trường 32.000 tỷ USD trái phiếu Kho bạc Mỹ chi phối nền kinh tế thế nào?",
+      "summary_vi": "Thị trường 32.000 tỷ USD trái phiếu Kho bạc Mỹ chi phối nền kinh tế thế nào? Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTWFPZTdEUEdpQV9nN0tKWW9ueXdzYUFxd1lDdDZ4RmJGb1p6cFN6NW9VVnk5NF9NNlA3NFhZYWVXSXc4bGNDei1UVGJrZDlpZ0JtSG5lSWQyTFBJcnJZTGczdjExNXpGVWdXX1NRbnRPdzZNem5GbGtYY2FOczAtQzFLd2UxRGlJbnpNZjNsdlJIc29WY0FqOE52U1k3YUVBWTFxcUF1OWl2ZU5iTkZQbHh1bmJjOFdFM1VQY1c3b0x4cnNXM29jNA?oc=5",
+      "published_at": "2026-08-21T05:48:50+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "12:48",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất giảm diện rộng: Doanh nghiệp và người dân mong đợi gì?",
+      "summary_vi": "Lãi suất giảm diện rộng: Doanh nghiệp và người dân mong đợi gì? VOV.VN",
+      "source": "VOV.VN",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZkFVU0JMV0ZfZHZDcVUxVGVoVUtFNk5ReEkwOFZtNDFFdGZ5a2txZWlSYWhyWTlyX0tFc09kU2d6SnlnSlNRTGtOSUt2bDVQeTVVZUVhS2xtbDc2eTg2bnhOZHJlN0dfVkg3ZkhLMnhJM19XRnUzMTg2Qk9WVFBmS1hXc3JxOTd4ZEVEeER0T1Y0WlU3NWhXOHhEaEJweEhi?oc=5",
+      "published_at": "2026-08-21T05:48:41+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "12:48",
+      "importance": 4
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -20,6 +52,22 @@
       "published_date_vn": "2026-08-21",
       "published_time_vn": "12:17",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá USD hôm nay (20/8): Tỷ giá trong nước phân hóa, DXY sụt giảm do Mỹ tăng mua lại trái phiếu",
+      "summary_vi": "Tỷ giá USD hôm nay (20/8): Tỷ giá trong nước phân hóa, DXY sụt giảm do Mỹ tăng mua lại trái phiếu Thời báo Tài chính Việt Nam",
+      "source": "Thời báo Tài chính Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS3VVUFZZc0M0cVdkUkJCT2k0MS1sVEpMbUYwbEc5RnU4MGJ0RzgteUhiSzBFOVdkUGlrV2NORTNMQXVRaWVLQWdaQnBZdEZQazkxU2FBb09uSUU1YmZUblQxYVUwMGZyQUZyNVRON1F4My03bWRKOWFaRVVSSnNvWmdGNzdGTWViaUJROW1mOW9adDlkZnYwbnZwaXlEaGR2YmJsWDVsQVNObi1aUmk2OVpZZ1lKWXBmN0F0c3hKZ284d0thbWZVTmlnQmZuamVHVXp0UXNB?oc=5",
+      "published_at": "2026-08-21T05:11:39+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "12:11",
+      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
