@@ -1,8 +1,42 @@
 {
-  "updated_at": "21/08/2026 13:38",
+  "updated_at": "21/08/2026 14:13",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu chứng khoán đồng loạt hút tiền, VN-Index tăng gần 30 điểm",
+      "summary_vi": "Cổ phiếu chứng khoán đồng loạt hút tiền, VN-Index tăng gần 30 điểm VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMDFzckczcjNuOWlYZVMwS19jOXJlMFpDa2lsLXp2UU9MWXE0QWhmSkt6Z0dRNXNSd0k3OThOT2V4ek45Zjh2X3NvOGhzNWJqamM5Slhyd0NtVEtWclJDVTE0anpUVU5zdEV6UmNoYXV2MWhaTjdISHBaMlFQeWJuX1lRZVdkR3A2ZzhMcXRtaHZxOVlHRHBEbHNadmJQMlJEbHo2a2ZFTkZIQQ?oc=5",
+      "published_at": "2026-08-21T07:07:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "14:07",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SMC",
+      "tickers": [
+        "SMC"
+      ],
+      "exchange": "",
+      "headline_vi": "SMC tính phương án hoán đổi gần 300 tỷ đồng nợ bằng cổ phiếu",
+      "summary_vi": "SMC tính phương án hoán đổi gần 300 tỷ đồng nợ bằng cổ phiếu VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY0lvLW5HSmtMVW5vMkZENkh0Ny04cXZUMmNmTVJPdW05QTZQWTV6emQxWEtTRUVldXM4SmJKWFh3M2ExOFIwaHp6VEM2VzFCaFZiMXNwWF9SNzh6LWRGZHp6clJqLXlJejdTN2czSUQwdlVEWVBRa0VIZnhZYnFHaHFpbF9WMWViNHZOTl9NSDlUc09XMEt4WVlPSGJYSnBSZWFPRU5n?oc=5",
+      "published_at": "2026-08-21T07:00:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "14:00",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
