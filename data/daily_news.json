@@ -1,8 +1,40 @@
 {
-  "updated_at": "22/08/2026 06:08",
+  "updated_at": "22/08/2026 06:28",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Seaprodex chốt ngày chia cổ tức tiền mặt tỷ lệ 5%",
+      "summary_vi": "Seaprodex chốt ngày chia cổ tức tiền mặt tỷ lệ 5% An ninh Tiền tệ",
+      "source": "An ninh Tiền tệ",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkxzc1dHcENnTlNMbFA3UDR2ZU1Ial9ZY0Z4TlRvVEJLcjF3djdlZGEtVjBCdmdpN2I3T3o0Smc0cklra2xFUXFsV0NXd3Q5NHh1LWFySE0ya3ZQb0wzQXpaUUVLMG8xRERKN0xqR0otVkNTcEQ2OEl5OVJteE1WRnNObHlDb09BNVRUalEyaGxQUjRMczREUzVtQ3pFTThF?oc=5",
+      "published_at": "2026-08-21T23:12:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "06:12",
+      "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Giá USD hạ nhiệt, vàng mất sức hút",
+      "summary_vi": "Giá USD hạ nhiệt, vàng mất sức hút Báo Thanh Niên",
+      "source": "Báo Thanh Niên",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmp3UWpDZXNoQ0J4X3FvQzFQR0N2R2NwZkx5NVdVV0RxWG40X19oMnVzTlA4TzdrVm5HUl8waG8zUW5KR0UyTG90RmMtVXpEakxHdU5NUjFWQko1LU00WVgzbTk0c25BLVRQLUtJRC15Y2pSMkZ0TFQzT3hmUEhCMTM5VQ?oc=5",
+      "published_at": "2026-08-21T23:05:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "06:05",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
