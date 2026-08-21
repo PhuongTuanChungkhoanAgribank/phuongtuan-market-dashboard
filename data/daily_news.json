@@ -1,8 +1,76 @@
 {
-  "updated_at": "21/08/2026 10:38",
+  "updated_at": "21/08/2026 11:20",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "PNJ tím lịm và đã ‘thở phào’?",
+      "summary_vi": "PNJ tím lịm và đã ‘thở phào’? CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VOTJsMG1OaEFkT3ZqMDcxM25BYkNNSkdHS1RXeGY2Tjcyb0F5bUUtZlRtTnIzcGJvWTZpaTF0Q3JfcWlObkdMOThSQjU1djlZYy1oRkZESGZjRzRicWxIcHY0YmpsazZqZFJrZGhpUVVFR1lh?oc=5",
+      "published_at": "2026-08-21T04:12:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "11:12",
+      "importance": 2
+    },
+    {
+      "category": "QUỸ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "91/91 quỹ cổ phiếu cùng giảm trong tháng 7, hơn 4.200 tỷ đồng bị rút ròng",
+      "summary_vi": "91/91 quỹ cổ phiếu cùng giảm trong tháng 7, hơn 4.200 tỷ đồng bị rút ròng MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPakxxSDRjcllka1NaMGl6NE1zeE9RMWVUcTFoNnVjd2ljYWV3aUU1VmhseEpUTWNKY1c1UkdYUHlIX2NaU3NYVDRXbVNRTHB3UnpnTGgyWU9uUWRReFBaR1RDTEVCazZPQ1U0bWc2QlVJY0tuUTdPY185QndUMEQ5V3RGaw?oc=5",
+      "published_at": "2026-08-21T04:06:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "11:06",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu PNJ tăng trần khi cơ quan điều tra xác định PNJ có đầy đủ hồ sơ nhập khẩu kim cương",
+      "summary_vi": "Cổ phiếu PNJ tăng trần khi cơ quan điều tra xác định PNJ có đầy đủ hồ sơ nhập khẩu kim cương Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdFUwTzlwTlk0VmJULVl2X2lPazEzR1VtR1pEZ1FoVGNKYnlGOHZuQlhGQTJBSWhEdURScTFZRDY0Uy14eDNXQ2ZmTGk1MWNoR09LenBkdFdzdnlBc3VZd1R5cWNhYkRFN3dETmJSa2lNYnR4MWQwdkpmcmFMc1VTNUZzUlA0QUx5LU5USVA4aS0xb1hrZ3J3dk91ZXYwTXM1eDF5YVk3Q09zNWhNZGRER084Vjd0VDdUN1RORjRoSWczcmpGUFctcHVCUQ?oc=5",
+      "published_at": "2026-08-21T03:51:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:51",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Có nên mua cổ phiếu IPO?",
+      "summary_vi": "Có nên mua cổ phiếu IPO? Chứng khoán DNSE",
+      "source": "Chứng khoán DNSE",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ISUZ1ZzNvT0FqajBOcklYQ09yVHBLNTRUTU1OYkxoejZGcUlOTGQwLS1XNmNHV01JRHN6QW1vc2l5eER0VHdOWWU2M3Jwbkp6eTg4M2VKQ05BWDFYT2tucVhkUFdQZUMxYmxSRy0wQi0tbThYVVJDa0JKQQ?oc=5",
+      "published_at": "2026-08-21T03:49:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:49",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
