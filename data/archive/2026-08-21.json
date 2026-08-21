@@ -6,6 +6,24 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "FDI",
+      "tickers": [
+        "FDI"
+      ],
+      "exchange": "",
+      "headline_vi": "Tín dụng bất động sản được kiểm soát, trái phiếu và vốn FDI phục hồi",
+      "summary_vi": "Tín dụng bất động sản được kiểm soát, trái phiếu và vốn FDI phục hồi bnews.vn",
+      "source": "bnews.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRlpvQlVuNFk2d3JwR1p0NEhrMHdyTU1PdEZlcFJ4N0lDaXE2ZDhjckthVERycEJSeFg4a0l5SEh2ck4yQzM4YjR5SlRsNk84RXZHS21Wcnlya1k0V0lRUDEybEVNeUtlRXdTM1lPd2RXNElSZDktR2NfaERGalFBQzlWVTJJczZvVm5qRmJfNFpIZlFFc0lMQWhkbDI?oc=5",
+      "published_at": "2026-08-21T04:53:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "11:53",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "PNJ",
       "tickers": [
         "PNJ"
@@ -34,6 +52,24 @@
       "published_at": "2026-08-21T04:06:00+00:00",
       "published_date_vn": "2026-08-21",
       "published_time_vn": "11:06",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "CAN",
+      "tickers": [
+        "CAN"
+      ],
+      "exchange": "",
+      "headline_vi": "Phân tích cổ phiếu CAN: CTCP Đồ hộp Hạ Long",
+      "summary_vi": "Phân tích cổ phiếu CAN: CTCP Đồ hộp Hạ Long index.vn",
+      "source": "index.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KbWlpQlhjOFZ6ZEFVd1B5MGJFOVJCdUdQTnhZazJRNzE0MXRMWllTZFNPdlpaLU5ReDlhVkdsbDNSbWxhaEtHeGMtTDAxbGluXzhSYVdibkUyVGhhYTgtUGY5ZWdPb09oV2V1M1p6OWtCQW5udXc?oc=5",
+      "published_at": "2026-08-21T03:55:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:55",
       "importance": 2
     },
     {
@@ -155,6 +191,22 @@
       "published_date_vn": "2026-08-21",
       "published_time_vn": "09:33",
       "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá USD hôm nay (21/8): Tỷ giá trung tâm lần đầu chạm 25.600 đồng, USD ngân hàng đi ngược chiều",
+      "summary_vi": "Tỷ giá USD hôm nay (21/8): Tỷ giá trung tâm lần đầu chạm 25.600 đồng, USD ngân hàng đi ngược chiều Thời báo Tài chính Việt Nam",
+      "source": "Thời báo Tài chính Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLUx0amlwNk5zQTliQm8tOENqSHVzclFTd2E5WW44SWMwQ2t2N0FWUmg4LVp2aEhoXzlQMGJ2QUdUNHhDS2cxdmlOSnVfdk1TdlVVZE1tOGRtVzVFQkxyMXRsMkZRc2JJVFVmZDQwOGdycEpXdkQ5WHB1VXhTUlpmNUVTaFpDMl9yVUtnRFo0alA4QzROZHBycVN3c2x0bmFPYWpiVVZMa2h4bkh6azJ6UDBFcnBxeTM5QWotcUhPSzZQMFBBLTkzbXkxdXFnWGhUUnl6VU94VQ?oc=5",
+      "published_at": "2026-08-21T02:32:53+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "09:32",
+      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
