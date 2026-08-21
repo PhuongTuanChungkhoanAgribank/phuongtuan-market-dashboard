@@ -1,8 +1,26 @@
 {
-  "updated_at": "21/08/2026 13:19",
+  "updated_at": "21/08/2026 13:38",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Xác định kim cương lậu không vào PNJ, cổ phiếu lập tức 'cháy hàng'",
+      "summary_vi": "Xác định kim cương lậu không vào PNJ, cổ phiếu lập tức 'cháy hàng' Tin tức 24h",
+      "source": "Tin tức 24h",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOXk5cTB2Sk4xcDdIbXBma3BzNU1kR18yWUNQUm8tSTZ3Z0tidzhkN1VzQXh0Z1ZvT29zQ3FVTnFpdGZwRG50N0psRmdCSVBad0ZLemxMd0ZFTUVyUDNyN0RFWXhlN05QQklVekRJaXNaNEE4TFdaeHRlTmdyR1pkcGVEbS1nXzlrcEdBcUVCU3RacGRmc1NiNlhfbUlDT2dZRWhHdVlfSGdVSlAwVVNTR1J0VUhXUQ?oc=5",
+      "published_at": "2026-08-21T06:32:08+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "13:32",
+      "importance": 2
+    },
     {
       "category": "VĨ MÔ",
       "tag": "",
@@ -20,21 +38,19 @@
       "importance": 4
     },
     {
-      "category": "DOANH NGHIỆP",
+      "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
-      "ticker": "PNJ",
-      "tickers": [
-        "PNJ"
-      ],
+      "ticker": "",
+      "tickers": [],
       "exchange": "",
-      "headline_vi": "Xác định kim cương lậu không vào PNJ, cổ phiếu lập tức 'cháy hàng'",
-      "summary_vi": "Xác định kim cương lậu không vào PNJ, cổ phiếu lập tức 'cháy hàng' CafeF",
-      "source": "CafeF",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNFlZSDhhNm4xOG10RHhLdXR5MTZkT1M5dUxYcDI1ZTRFSUJzQlBGNG4zbzczSENqVzJSc2dtVS1pSzR3aU0xMURkcC1WUU4yREZ4TmNDWmxKYjRmUkZ5YVVReHlrUFh5aTlBX1EtS3N0V3BUc3drWDRndmZXQkJteEJLVVJPS1Y0a0lsaFNLODFwdXdnbWhaWXRfQ1JWdUdySFhLNXZB?oc=5",
-      "published_at": "2026-08-21T06:10:00+00:00",
+      "headline_vi": "Xuất khẩu đạt gần 6,9 tỷ USD: Thủy sản Việt Nam tăng tốc trong cuộc đua nâng cao giá trị",
+      "summary_vi": "Xuất khẩu đạt gần 6,9 tỷ USD: Thủy sản Việt Nam tăng tốc trong cuộc đua nâng cao giá trị Đài Phát thanh và Truyền hình TP.HCM",
+      "source": "Đài Phát thanh và Truyền hình TP.HCM",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOGs1emQ1NDZ2N1FrN2lkbzU4WWc5ckV3Y1NPN0NRTUxIemZ4QlV0aE10MktmMWo3WXBiQ0VuWklmUTlRbTVkWkFOSk9uS0drbTJyQ3F4cmF3SjZmTU5mdHVaTWZKX293bXRuVWZhT2RCa29aU3NVYVJZTmdvUHpjX0h0akhiV3VZeGJuV2tkUVBpMHFtel81aE4yTkw0ZE9qTVlVazE4TGp1aUprSU9iRDNyd2ZENVhGc2pXdHNscU5KUQ?oc=5",
+      "published_at": "2026-08-21T06:11:00+00:00",
       "published_date_vn": "2026-08-21",
-      "published_time_vn": "13:10",
+      "published_time_vn": "13:11",
       "importance": 2
     },
     {
@@ -670,6 +686,22 @@
       "published_at": "2026-08-21T00:14:00+00:00",
       "published_date_vn": "2026-08-21",
       "published_time_vn": "07:14",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán Mỹ giảm mạnh, lợi suất trái phiếu và giá dầu cùng gây sức ép",
+      "summary_vi": "Chứng khoán Mỹ giảm mạnh, lợi suất trái phiếu và giá dầu cùng gây sức ép Tạp chí Kinh tế chứng khoán Việt Nam",
+      "source": "Tạp chí Kinh tế chứng khoán Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUzlUZDZiTGFUTjYxV0xEOWZnU2Z2R05LSm9LNHdSeVVuYVFicktYSTlHQnRQYTA4RDhtdGgyd2NwR1pHVkJMUkJMblVEY2o5RW5NRXZDV2xlVW14YzBHY3Y5dml1SXlrakRTS0NsYWpPM243bnhJS2ZwWFpqdGZhU0hVVnZRdVZ6STUydl9kQjhYUnpxVzVJWmN0cUFWMGpC?oc=5",
+      "published_at": "2026-08-21T00:10:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "07:10",
       "importance": 2
     },
     {
