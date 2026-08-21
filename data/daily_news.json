@@ -1,8 +1,26 @@
 {
-  "updated_at": "21/08/2026 17:03",
+  "updated_at": "21/08/2026 17:20",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "ANT",
+      "tickers": [
+        "ANT"
+      ],
+      "exchange": "",
+      "headline_vi": "ANT: Đính chính báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty",
+      "summary_vi": "ANT: Đính chính báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQkljdF80OHZTR1RZUmI2M0hsV0o5SzB4ZkdNaHo4ZDQyZENBNDRqNkhib2dHRS1EX3k4aEJRczQxS0RVT2ZnN0EyeVhzU1dLR2d0MjA2TEZHZnlQWUZTUG5tT2hKanhBY29XUmM3blVUUDJ1c2MyTDd3YWdCVjhOeUVSSGdiUmZuaGY2MlBQZFdRVlFJZVR4a2o2SUF4UWFvMzdYZTdxbVpPSjlNZ0tfNVVaTVVpQVdjUkpMWnlNRkFIOGwzM0FtVURSRFF4Z0owSEVaSXA2SlRPX2w4V3VPdFo0NTZLeHNvaGljSkpCNHlXdVdjLVBZS043VEVvQQ?oc=5",
+      "published_at": "2026-08-21T09:42:00+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "16:42",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
