@@ -1,8 +1,26 @@
 {
-  "updated_at": "21/08/2026 17:20",
+  "updated_at": "21/08/2026 17:42",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-21",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DBD",
+      "tickers": [
+        "DBD"
+      ],
+      "exchange": "",
+      "headline_vi": "Bidiphar (DBD) sắp chi gần 189 tỷ đồng trả cổ tức, nợ phải trả cuối quý II gần chạm mốc 1.100 tỷ đồng",
+      "summary_vi": "Bidiphar (DBD) sắp chi gần 189 tỷ đồng trả cổ tức, nợ phải trả cuối quý II gần chạm mốc 1.100 tỷ đồng Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc0hBUWUxam9wSkszeXFfdkQ4alRGS3VHY1VZTmNkSklfMndsRlhBbUVKN0JFeUt6aG1ReFMxYkF4Y3ZhOWQ1MmhfUlNhRU83MXJTZWU5N1RMN2xWaDBEbkJseFg1WkcyZ08yQnVfY1MtZGRrSExRbDBJenJYT0h4bVdLc1JuVDN6T1FnY2p4UFhuVTRLSy1HbXhWZHVDRHA1UjJ4OTR2LVFqNl9NSUp6ZHdseXNHSHhFbEZHN1Zn?oc=5",
+      "published_at": "2026-08-21T10:34:50+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "17:34",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -626,6 +644,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Tín dụng tăng, thanh khoản chưa hết áp lực",
+      "summary_vi": "Tín dụng tăng, thanh khoản chưa hết áp lực Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOEF2UmphZVlZRFJrX0xURWZHb09PVmZCVFFJWm5MbnJzWlNRYl91aWRscHlyck96ODJCLTZRU25kSWpqRDctSjJtWVdjRVl1eUN3ZW1IN0VKUExVbTU1X2lQN3E2YzhvZEs3WWpPQklkRi15ME9EeGxERVlsS3hvemdwVDhrd1Q4S2Jaa1o4cW1ZTEcyOEHSAZIBQVVfeXFMUGdLeHdicm9IWFZRNVZSMTJzMnZlUnZESkptY1RiNjdmX0lXSllhWG9hYXhBcVhvSFFBSEt5T1ZEYU9lX1FjbnJBbEk0RG1kdUI2NWdqU0VYeVJmV0hDMDdUSW5WZmJGYW04SXBoTlhhMkNyMHMyc1VHcXpwUUdKZjIyTHVxN1IwX09OT2pQc0ZtNHc?oc=5",
+      "published_at": "2026-08-21T03:30:02+00:00",
+      "published_date_vn": "2026-08-21",
+      "published_time_vn": "10:30",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Khơi thông dòng vốn tín dụng bất động sản: Từ hạ nhiệt lãi suất đến bài toán phân bổ trúng đích",
       "summary_vi": "Khơi thông dòng vốn tín dụng bất động sản: Từ hạ nhiệt lãi suất đến bài toán phân bổ trúng đích reatimes.vn",
       "source": "reatimes.vn",
@@ -789,22 +823,6 @@
       "published_at": "2026-08-21T02:25:00+00:00",
       "published_date_vn": "2026-08-21",
       "published_time_vn": "09:25",
-      "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Tín dụng tăng, thanh khoản chưa hết áp lực",
-      "summary_vi": "Tín dụng tăng, thanh khoản chưa hết áp lực baodautu",
-      "source": "baodautu",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwRFRGaEFfUjVUQVdFS0hNT0I2STFKVUdIUzhiS3hiUkVXbEpjUVpwVlhOeW9tMFc1TmlhVUw3R01pWlYwckozamd2bDlvektOdnE1WGp0VjVaMHRDZVpEdWNYdmFzaWd1MzRxSkxZNUlCWGgxV1NyTDRscndYeGs?oc=5",
-      "published_at": "2026-08-21T02:04:00+00:00",
-      "published_date_vn": "2026-08-21",
-      "published_time_vn": "09:04",
       "importance": 2
     },
     {
