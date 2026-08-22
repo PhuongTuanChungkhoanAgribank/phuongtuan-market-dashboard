@@ -1,8 +1,24 @@
 {
-  "updated_at": "22/08/2026 13:04",
+  "updated_at": "22/08/2026 13:26",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán Mỹ ghi nhận mức giảm hàng tuần dù phục hồi vào cuối tuần.",
+      "summary_vi": "Chứng khoán Mỹ ghi nhận mức giảm hàng tuần dù phục hồi vào cuối tuần. Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeVF4Y3hxM2kxWm82WUNMN3lZa2luWkZub0p2ak5vdGlxc3h4Q2syWGNKY3RRVUg3NnVRdm0wX01wZjlfMG02dzNQSGtlaWNSVHJmUFZ3X0h6UzBkNHF4ajlRdGtGSXlHV3pZXzFDdWJfZ04tSkdpYTRCSVhKVTZmd0IyS0VKUFJMMGRaWGlRN2NMNDhIQXlMMnJUaw?oc=5",
+      "published_at": "2026-08-22T06:18:46+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "13:18",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
