@@ -1,8 +1,26 @@
 {
-  "updated_at": "22/08/2026 19:31",
+  "updated_at": "22/08/2026 19:55",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "KBC",
+      "tickers": [
+        "KBC"
+      ],
+      "exchange": "",
+      "headline_vi": "Pháp nhân liên quan ông Đặng Thành Tâm gom thêm 10 triệu cổ phiếu KBC",
+      "summary_vi": "Pháp nhân liên quan ông Đặng Thành Tâm gom thêm 10 triệu cổ phiếu KBC VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb1RKeWxPNFdYaUxUZTF1ajcwYURhUnd3U0szWThfUTRtRmVGbG5HUU1CWEthd2E4S0ozVUthZE9TMXNXeHUzUE16OUZRQkRLVGFQUldZZE0xVXN2WjgyN2d1ckJLOHdtdV90WVhRRU5LY1poTl9SakxxUWdXdVRHdnJWSWxYM3VIeEtqZHpta3BOZHdCSnNzSzFPam1xNWxHT0czclFIQUttWGk2NVN1V09B?oc=5",
+      "published_at": "2026-08-22T12:30:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "19:30",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
