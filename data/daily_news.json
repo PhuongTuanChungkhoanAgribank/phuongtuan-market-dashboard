@@ -1,8 +1,24 @@
 {
-  "updated_at": "22/08/2026 16:46",
+  "updated_at": "22/08/2026 16:59",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Trái phiếu doanh nghiệp bước vào giai đoạn sàng lọc mới",
+      "summary_vi": "Trái phiếu doanh nghiệp bước vào giai đoạn sàng lọc mới baotintuc.vn",
+      "source": "baotintuc.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVngtM3BXQkRIbV81RFZpRG5vdXNueS03LXZ4cTk4MzExSnlGR1JVc0dfUWNLUHlqelhzODZEaEJJaWhEdTNMWkY0dGJXZ21rb1Y5Sjd5OGNsZjlzVjZqVzBpZWN6VEUwUFBqdWhIdlZtTHNzSThiUWdSM1FRNkZqS1RHTmdiYTFxYS01U3YwcnhhMzhMa0dnSll6Q09IU1Bpd3VQMmJTSnBCdw?oc=5",
+      "published_at": "2026-08-22T09:46:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "16:46",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
