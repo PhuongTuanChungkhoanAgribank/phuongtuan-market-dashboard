@@ -3,6 +3,56 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu vào rổ FTSE GEIS và bài toán định giá - Tạp chí Kinh tế",
+      "summary_vi": "Cổ phiếu vào rổ FTSE GEIS và bài toán định giá Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdmxGRXNuQ0xzMzJrVnFhZk1MWldPdUI3ZVl0bDFXalVfclFQQlBGRUlsRmFPdE9IdmpzNDNQOUllWlNqYkNzeVVhQVlZWnRkbGJHQkZNSmdXeFkyQk1peksxOHJLNDBRSll2d3lCNEoxbVBnWUZPa09ZMGdmcGYyMkFsdFBDUjFsMXN2MWtyTTlldVJO?oc=5",
+      "published_at": "2026-08-22T08:20:05+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "15:20",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán Capital sắp IPO 12 triệu cp với giá 12.000 đồng/cp",
+      "summary_vi": "Chứng khoán Capital sắp IPO 12 triệu cp với giá 12.000 đồng/cp VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORUlCRlJ5clQteEtpWXZSWXRkOGJHemNSemlNY0Q2MnR3amhvNUVVV1o4YVVCYjZjbXZ6NVJFUjFsQWhxNkJOWWFHQ1pQU2tkWFhyVGZzV3BUaHNXNTZ5MTdBc1hJQUFfZHhMT1RBbDhMdVBSTi1zLUpMSlhYN1pxaks2UXVVN3BINElTWDdPWjVDdlFlbHpjT3VpeVBIdWI2cU8xdTdn?oc=5",
+      "published_at": "2026-08-22T08:00:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "15:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "CLB",
+      "tickers": [
+        "CLB"
+      ],
+      "exchange": "",
+      "headline_vi": "CLB Doanh nhân trẻ Doanh nghiệp Gia đình Việt Nam kết nối giao thương \"Bạn – Bàn – Bán\"",
+      "summary_vi": "CLB Doanh nhân trẻ Doanh nghiệp Gia đình Việt Nam kết nối giao thương \"Bạn – Bàn – Bán\" Tạp chí Doanh nhân trẻ",
+      "source": "Tạp chí Doanh nhân trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYWhpakFQdy0teEtKYnhvTll2UDBjVUNNN05UNGRrRThMbzZ3MVpkdlpWeTJJV1lUVTNwcjNBZWVQSmtlR1EtUTR5eVVjYjM3TUpXQ3N0YTB1VFpMMDFzUWllRDdHSGQ1djFvVzBmSFRXTW5wcm5FSHdMeU9HekNQSkw0THB1b2Nsa0U5MXljRzZTZ0FxakJoc2N5TkZ2NVVtT0Z3LUxFOTdhN3I5QUloSlJ4d1FpRFN1cEI4azdHNmV0QQ?oc=5",
+      "published_at": "2026-08-22T07:55:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "14:55",
+      "importance": 2
+    },
+    {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
       "region": "Mỹ",
@@ -51,6 +101,24 @@
       "published_date_vn": "2026-08-22",
       "published_time_vn": "13:53",
       "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VNB",
+      "tickers": [
+        "VNB"
+      ],
+      "exchange": "",
+      "headline_vi": "Sách Việt Nam (VNB) dồn hơn 1.000 tỷ đồng cho vay, doanh thu thuần 6 tháng chỉ hơn 13 tỷ đồng",
+      "summary_vi": "Sách Việt Nam (VNB) dồn hơn 1.000 tỷ đồng cho vay, doanh thu thuần 6 tháng chỉ hơn 13 tỷ đồng Tạp chí điện tử Thương Trường",
+      "source": "Tạp chí điện tử Thương Trường",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNHV0cF9JTEZOOERuWFVwM1VMQy1TenFwQmM0Zm5wczhuR3hDNjNkRE5MYTB1VHhGeVVKUHlwcllTM2RDWnlTeUpZd3pJREU4UDRmV2VUaWo5dkZKeTR0SktncHdYaGFMcktvcDNhbzE1dExSdFVTa0U4TUViazZCZ0lRcGpfMzVOT0ZoZ0JRRDVTNF9KSWxQWHBwd0M3a1lYMk13YmstcDc1a3U0X2Etd1pIeFNyMlFJdXBwTHp0TU10WHpKRVFVRG1aUi1MZw?oc=5",
+      "published_at": "2026-08-22T06:51:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "13:51",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
