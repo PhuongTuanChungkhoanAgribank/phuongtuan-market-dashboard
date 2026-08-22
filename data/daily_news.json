@@ -1,8 +1,40 @@
 {
-  "updated_at": "22/08/2026 08:40",
+  "updated_at": "22/08/2026 09:40",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán Mỹ hồi điểm, giá dầu chững lại sau tín hiệu tích cực từ Iran",
+      "summary_vi": "Chứng khoán Mỹ hồi điểm, giá dầu chững lại sau tín hiệu tích cực từ Iran VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc2phelllYTBYNUZHX1ZmRFVFS040bWJFQnFnem5EbUpjY2hiOTZldnoxWUtrOFM4dXlWdU5nUXp0XzFPdC1lNVJkUGhMQURsQ1VfRUZxTFN4S3hZUjJqSmhJaGtkc0hzZmJkNExvd0Rod1VLZ2d4WWpyODlKOHR2aTBQcFFJTHdQZmhwLWxJQk9RTmFIWnA5UVVFaHg?oc=5",
+      "published_at": "2026-08-22T02:23:14+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "09:23",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Sắp chia thưởng tỷ lệ 50%, cổ phiếu Hưng Thịnh Incons hồi mạnh",
+      "summary_vi": "Sắp chia thưởng tỷ lệ 50%, cổ phiếu Hưng Thịnh Incons hồi mạnh Nhadautu.vn",
+      "source": "Nhadautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX190MkFnSUNZYjZCMllmeVNqUkdWdFRYQmVCaExkeVRMYmhOR0VwZTEwNG9qR3F2Y3hkQ2ZZVVhUMTlLYW9ac1JMUndLenlZeEVZWE8xRXZ2cmhqSFlKSVdFX0hueWJzM29xM0R6Rjk2cDlURE9ESl9yV25RS1pvYUJUazcxa0pYOVFvNldNa2VlUGJiN1Rtaw?oc=5",
+      "published_at": "2026-08-22T01:43:08+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "08:43",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -132,6 +164,22 @@
       "published_date_vn": "2026-08-22",
       "published_time_vn": "04:01",
       "importance": 3
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Fed và Kho bạc bất hòa: Xung đột chính sách với hậu quả thị trường",
+      "summary_vi": "Fed và Bộ Tài chính bất hòa: Xung đột chính sách với hậu quả thị trường",
+      "source": "CryptoRank",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRN0FTNUlyWVhHWUtkSVNGRUg5WlJZNEhxaDlOelc3TGRfLXRvYWRDSWxnd3daTUxTRTZDcE1GMjl5LTlwRzd2TDVUdml3Z1hDdk0xNTByY28yeWhjLWxaTGdMZVFSYlpvUERacmJNSEZjbWhT?oc=5",
+      "published_at": "2026-08-21T20:17:35+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "03:17",
+      "importance": 4
     }
   ]
 }
