@@ -1,5 +1,5 @@
 {
-  "updated_at": "22/08/2026 23:29",
+  "updated_at": "22/08/2026 23:42",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
@@ -99,6 +99,22 @@
       "published_at": "2026-08-22T11:33:00+00:00",
       "published_date_vn": "2026-08-22",
       "published_time_vn": "18:33",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kế toán Anpha - Đơn vị cung cấp dịch vụ thành lập, kế toán doanh nghiệp trọn gói đáng tin cậy",
+      "summary_vi": "Kế toán Anpha",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaHJweVBxVFdxUnJRRl9mSGI3WWNQMXdibS11bVNXczJLdndGbUhmWmdSR05xQ3B1d3ZNU1ZUWk9ydTA0bXFYLVFRTl9FY1BnMEJXZ010SFJ3eVhRNE9Jc1Zqa0VwdXoxQko4RFdJVWY2TjFoaHlJRXRvMWNSSjJqYjFHTWZGTFNrZTNuMzFYbHRrRnNEYkRPb3RiRENaakFrQmV2MW1JSW14czBSWmpmeFFrRlZiRHV3Y085V2RtRXJndk1qTndtbnBzemJ6QQ?oc=5",
+      "published_at": "2026-08-22T10:30:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "17:30",
       "importance": 2
     },
     {
