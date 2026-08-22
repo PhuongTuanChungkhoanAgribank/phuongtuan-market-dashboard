@@ -1,8 +1,58 @@
 {
-  "updated_at": "22/08/2026 10:25",
+  "updated_at": "22/08/2026 11:01",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "17 cổ phiếu chứng khoán được FTSE Russell gọi tên, hàng trăm triệu USD chờ đổ vào",
+      "summary_vi": "17 cổ phiếu chứng khoán được FTSE Russell gọi tên, hàng trăm triệu USD chờ đổ vào CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWWF3UWFaSmNjRFlUVERSTXFzZzBncnNBazJBWm1uNGVDOWhVcURsVVNfZ0J3NGJvVlF1ejRtWHhhWU9fWTNxOUhUcWxjakp6ZzVDWG1wWElOVXVGZExRZEF4S3Awc0Zxd0ZRNEsxdzRPbU5Xd0tsU1RqU0pCcExuM1h3NWRuODRjY1hVS3o2aldwUmVQQlNmOXhDaHJYdVhKT1VXZC0tWUdJQnV0cGQ1OW1kMkt6WFNJUndKcA?oc=5",
+      "published_at": "2026-08-22T03:47:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "10:47",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SHB",
+      "tickers": [
+        "SHB"
+      ],
+      "exchange": "",
+      "headline_vi": "SHB chính thức vào rổ chỉ số toàn cầu FTSE Global All Cap",
+      "summary_vi": "SHB chính thức vào rổ chỉ số toàn cầu FTSE Global All Cap CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOHUzVTZ5TTdQNmVuaElwUzV0Wm0xU2lKaGhLenJRdDEwT2dKUS1Lemo2Z1d0RXVvbUtJOWU1UDV6aExSdFZ6Q2pJWUhLcktRTi1kTXc1Wml0YS13c0tmWGhseFBWSzhTYTVlcjltM1YzRFZCbTVlQjhjVlFGUnFCRGhiYXFncXNDOThCcnM5Q3ZRRWF3M2VXWF9aWXZjZw?oc=5",
+      "published_at": "2026-08-22T03:41:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "10:41",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tại sao ngành dầu khí ở châu Á - Thái Bình Dương ít bị ảnh hưởng bởi cuộc khủng hoảng Hormuz?",
+      "summary_vi": "Tại sao ngành dầu khí ở châu Á - Thái Bình Dương ít bị ảnh hưởng bởi cuộc khủng hoảng Hormuz? Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTd4VE54dHB4Y2U3cEtqWm9MV0xqY2JFOXBqcVo1SHQ0MDh2aUR3bVhNMl9EX2FEbmhtc2gxOU0zbVBQSVJJQzFSSElUZGwyME16cEQxd1JoZjdmQVdYbUtlT2k3bVh4RzFucldWa2NDNldiWGxZYkRtc0liRVU0YW84LXEzY2dqTS04YlNfTTUxVF9zUnlzRE9xWWxKeHFvT2hTYkJn?oc=5",
+      "published_at": "2026-08-22T03:30:41+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "10:30",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -50,24 +100,6 @@
       "published_date_vn": "2026-08-22",
       "published_time_vn": "09:58",
       "importance": 5
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "SHB",
-      "tickers": [
-        "SHB"
-      ],
-      "exchange": "",
-      "headline_vi": "SHB chính thức vào rổ chỉ số toàn cầu FTSE Global All Cap",
-      "summary_vi": "SHB chính thức vào rổ chỉ số toàn cầu FTSE Global All Cap baodautu",
-      "source": "baodautu",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeW1Tc2xFTzZoYmZhU042NDBqdzZqcVBsdFdiSVRYVWFVZk5EVTZKMDBzRzZreUFoYi1OYTJCTEZpa0FsQ2hnUzlyTG1jSTVMLXhNRmdnbm9aRTFyUWN6WnV4YXkzeFNIQXBVaTFLVXUtcUc4N1lXYmpxY0hhMW9ENnlIZndlUnhqLURrVlg5bHp2SXFt?oc=5",
-      "published_at": "2026-08-22T02:41:00+00:00",
-      "published_date_vn": "2026-08-22",
-      "published_time_vn": "09:41",
-      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
