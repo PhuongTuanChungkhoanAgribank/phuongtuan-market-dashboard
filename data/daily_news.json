@@ -1,8 +1,92 @@
 {
-  "updated_at": "22/08/2026 09:40",
+  "updated_at": "22/08/2026 10:24",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Một Phó Tổng Giám đốc Nhà Khang Điền mua vào 20 triệu cổ phiếu",
+      "summary_vi": "Một Phó Tổng Giám đốc Nhà Khang Điền mua vào 20 triệu cổ phiếu CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOWFkXzQtQXZIcVM2Y2c5TVpWeG5SZGdHVnE0SUhhT092MlYwWXpUUGhOem1hbHl3bzZzcXBQa2RxM3R3UWV0dWMwTUFac2pydEI4VkxqREk2TlgyQmhHUHIyWTNFR3p0M254U0tVY3I2dkFyTWNuVU5HeVdGMldsWjM3R25ydE9FVkRZdTNnRnpBbWs5SGFWVFVJWjBxeVU0U19z?oc=5",
+      "published_at": "2026-08-22T03:07:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "10:07",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Doanh nghiệp khai khoáng phân hóa lợi nhuận",
+      "summary_vi": "Doanh nghiệp khai khoáng phân hóa lợi nhuận Nhadautu.vn",
+      "source": "Nhadautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUDJMYWg4S2pTNFFndXRaZHI0NVY5bk50UjhuUWNieEdCeUhzRUR1T0FCQmRtQlZrVzBHT1FGdEZQUHA1aFdaTXZKb1Vucmh6eW5UWXh3ZnJXaXVfTVl1LU5xdFp5UTNkSklyYjJVbFUxR1o2OE9hNmpNNllCd0hMQWlyZHJKTURsc0ZPSXlGTDI5MTJz?oc=5",
+      "published_at": "2026-08-22T02:59:44+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "09:59",
+      "importance": 3
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Fed sẽ giữ nguyên lãi suất trong tháng 9.",
+      "summary_vi": "Fed sẽ giữ nguyên lãi suất trong tháng 9. Việt Nam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmYi1qOTJOZ3k4TkY1WkdBMGlfNFRsZnlRTVF6UGRkSURJMWdjMkVFcWkyWlYtZWtZcTgzV2FwcE8zT1V0Y0ZTc3N5bDE1WDdWZlA4T0plemRVUUVYZDl5d19BbEsyMERsTE01Z2MwU2dDUQ?oc=5",
+      "published_at": "2026-08-22T02:58:34+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "09:58",
+      "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SHB",
+      "tickers": [
+        "SHB"
+      ],
+      "exchange": "",
+      "headline_vi": "SHB chính thức vào rổ chỉ số toàn cầu FTSE Global All Cap",
+      "summary_vi": "SHB chính thức vào rổ chỉ số toàn cầu FTSE Global All Cap baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeW1Tc2xFTzZoYmZhU042NDBqdzZqcVBsdFdiSVRYVWFVZk5EVTZKMDBzRzZreUFoYi1OYTJCTEZpa0FsQ2hnUzlyTG1jSTVMLXhNRmdnbm9aRTFyUWN6WnV4YXkzeFNIQXBVaTFLVXUtcUc4N1lXYmpxY0hhMW9ENnlIZndlUnhqLURrVlg5bHp2SXFt?oc=5",
+      "published_at": "2026-08-22T02:41:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "09:41",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "NTP",
+      "tickers": [
+        "NTP"
+      ],
+      "exchange": "",
+      "headline_vi": "SCIC sắp thoái sạch vốn Nhựa Tiền Phong: Chuyên gia nói về triển vọng cổ phiếu NTP",
+      "summary_vi": "SCIC sắp thoái sạch vốn Nhựa Tiền Phong: Chuyên gia nói về triển vọng cổ phiếu NTP index.vn",
+      "source": "index.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVC1uaGlDQjdhWC1RdVc1TU45R1gwY1YyRDkwdWRrUjc3RlBBWk4wUVR2b1ByZHlQd2Jkb25fckhCSVFKRkpoX1JEMGdFeVMycHhQZHNPVUVnWkpRWGV5cnBFMWhMQ0tORG1qVkR2c1daQm50Z1c0bmdkRkN4V0xfVnk1aTNoTEJjQ2dBa083SFQ2VkJQc1RrNms1VWlHMzlCdFh1VVM0TWlVdw?oc=5",
+      "published_at": "2026-08-22T02:29:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "09:29",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
