@@ -1,5 +1,5 @@
 {
-  "updated_at": "22/08/2026 11:42",
+  "updated_at": "22/08/2026 11:47",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
@@ -11,12 +11,44 @@
       "tickers": [],
       "exchange": "",
       "headline_vi": "17 cổ phiếu chứng khoán được FTSE Russell gọi tên, hàng trăm triệu USD chờ đổ vào",
-      "summary_vi": "17 cổ phiếu chứng khoán được FTSE Russell gọi tên, hàng trăm triệu USD chờ đổ vào CafeF",
-      "source": "CafeF",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWWF3UWFaSmNjRFlUVERSTXFzZzBncnNBazJBWm1uNGVDOWhVcURsVVNfZ0J3NGJvVlF1ejRtWHhhWU9fWTNxOUhUcWxjakp6ZzVDWG1wWElOVXVGZExRZEF4S3Awc0Zxd0ZRNEsxdzRPbU5Xd0tsU1RqU0pCcExuM1h3NWRuODRjY1hVS3o2aldwUmVQQlNmOXhDaHJYdVhKT1VXZC0tWUdJQnV0cGQ1OW1kMkt6WFNJUndKcA?oc=5",
-      "published_at": "2026-08-22T03:47:00+00:00",
+      "summary_vi": "17 cổ phiếu chứng khoán được FTSE Russell gọi tên, hàng trăm triệu USD chờ đổ vào Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSzlDVTJlQ0NlemVhMkRiLWN5ODVpM3B2bmdVTGl5cnlLM3hsN2NuSnRfaVN5dUV0dTNBamZKdE50VFJkNzNfc1ZTRTZKWERabmluM3V6S1l1Q1NJaEVreThWMUVjQk8ybVRWQkRZNmx6bmQtakltX3hsb1JFTWhzNGJLZTNNaDg5LTh0MWVlN2l0XzUteC1NZ0drU01QamFEdldzNkpMdGhIMTR1Y2E5dGsycEZuQVhCS1NsZA?oc=5",
+      "published_at": "2026-08-22T04:41:03+00:00",
       "published_date_vn": "2026-08-22",
-      "published_time_vn": "10:47",
+      "published_time_vn": "11:41",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán tuần qua: Thị trường “bùng nổ” phiên cuối tuần, 27 cổ phiếu được thêm mới vào FTSE All-Cap",
+      "summary_vi": "Chứng khoán tuần qua: Thị trường “bùng nổ” phiên cuối tuần, 27 cổ phiếu được thêm mới vào FTSE All-Cap Tạp chí Nhịp sống thị trường",
+      "source": "Tạp chí Nhịp sống thị trường",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUE9HOUJVcVN5REZmSGk3TnBxUW9UYWZVdDhMN28wQmowSEJSRGF3Sm9pWWd6d2hMT3NHaklDZW9SN0xKa196VHFMT3gyRHNDREFrRy1WRWlEZDN5LTQzZTdqZ3dPZFIzLXhHcVNGNjZULXJ6bjN2OHIya19naHR4LVV2ZTQ3X2dsanpjaFdxZkNpZmxTMFJnV19fTXd1akY0WE5iRnNOSmVBWlNtenJkc2JTMUhhX2hPNHNvenFJeVh6NWVlc2x0cm94Y0dadw?oc=5",
+      "published_at": "2026-08-22T04:32:01+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "11:32",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "TCBS sắp phát hành gần 555 triệu cổ phiếu",
+      "summary_vi": "TCBS sắp phát hành gần 555 triệu cổ phiếu VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHh5dU5Mb0Jtbm5kVTZ6Nl93Q0M2b05mMURxT1hfbzhkZGRPSkJBSm5nNFJhY0x0R0Z0LWI3b0VKX00zRHpvYWwtV212amd5OTRvM0tldHotYUdRTWYyOXBGekRBVjZRdUV2TVRadVF5NUt5VjYtOHN0TXpYbXhtaFY0QWJrZ2E1UURVRQ?oc=5",
+      "published_at": "2026-08-22T04:11:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "11:11",
       "importance": 3
     },
     {
@@ -35,6 +67,22 @@
       "published_at": "2026-08-22T03:41:00+00:00",
       "published_date_vn": "2026-08-22",
       "published_time_vn": "10:41",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Việt Nam có 27 cổ phiếu vào rổ chỉ số mới nổi của FTSE",
+      "summary_vi": "Việt Nam có 27 cổ phiếu vào rổ chỉ số mới nổi của FTSE Tạp chí Tài chính Doanh nghiệp",
+      "source": "Tạp chí Tài chính Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTmtfZUVSUkM1ZjBFeF81aHFNRUpkbWhTYjFva1NoWmJtRzhyZzFLSlY0QmFKbFRlYkxTOTZVVXoyWHB4bVV1SnBYRElOSi1JVmMxeFpYblkzLWhfOEZKa3lTUHVmMXNnZnJDTWZpazlVajNPeHZ4TC1hUDdlMU9RRV9vQnljUzVQTW5xQzRLdUI3N1dSTW9jdUd3RXNkMERzSHhn?oc=5",
+      "published_at": "2026-08-22T03:33:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "10:33",
       "importance": 3
     },
     {
@@ -149,6 +197,22 @@
       "published_at": "2026-08-22T01:43:08+00:00",
       "published_date_vn": "2026-08-22",
       "published_time_vn": "08:43",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tiến sát mốc 1.100 tỷ USD, cửa lớn cho hàng hóa xuất khẩu Việt Nam - Tạp chí Kinh tế",
+      "summary_vi": "Tiến sát mốc 1.100 tỷ USD, cửa lớn cho hàng hóa xuất khẩu Việt Nam Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWGxfRVBFNS1qdU9QcnRpVXgwb1g1SFZHWldBTFRuNmxFelpENm9vU0QtbTdXVVpOcXFyRnUzeGt4T3VpSW82ZlpHNlJWNXVRajkwTUIyRXJMbnZvdFQ4TmxqWnlFcHNCQ2FHZGlGVmxaMkY4ekJ4WjJVVlkwQWx1aDFwbTZpUDRfeTVkOXM2SE9pdlliejRUOUpEWGh2Q0pGd3AwQ2xaVQ?oc=5",
+      "published_at": "2026-08-22T01:29:26+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "08:29",
       "importance": 2
     },
     {
