@@ -1,8 +1,42 @@
 {
-  "updated_at": "22/08/2026 13:56",
+  "updated_at": "22/08/2026 14:07",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Một công ty chứng khoán phải giải trình UBCK vì vốn chủ sở hữu thấp hơn vốn điều lệ tối thiểu",
+      "summary_vi": "Một công ty chứng khoán phải giải trình UBCK vì vốn chủ sở hữu thấp hơn vốn điều lệ tối thiểu VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSzVJdC1EU1EzZ0h5RUF2TERiaGhxNUpIc1B6YUx6TGZ1VHI1R2s5Qk9CRHhyTV9icURKVDNqXzZ1aTVwempHT2RSUmpmS1FWeWdDa0p0dzdQdWlZQzUzOXRBT3pSLW9Ud2J3d3hkR3RMU0VWckpTelgzMGhHZzlBd1c5RFVvbHhadlJ0RnNEX293cFd2elUzR1BDNHBJUG0zQ2tLelc3WFVMb3ZsQ05UdUlGdm1FNHhKM2NkZEZpOWpvbElZbE1QUzhHZFhNZFRxb2c?oc=5",
+      "published_at": "2026-08-22T06:54:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "13:54",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PHS",
+      "tickers": [
+        "PHS"
+      ],
+      "exchange": "",
+      "headline_vi": "PHS: Báo cáo kết quả giao dịch trong đợt chào bán cổ phiếu riêng lẻ",
+      "summary_vi": "PHS: Báo cáo kết quả giao dịch trong đợt chào bán cổ phiếu riêng lẻ CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbTM0eGxlTDJnNjFpbFEtVzlzd2dUWFpmNEx4dGYyUVVCb0I4MS1OLWg5clJoelljYzl3Z0s5QWhuZk9TNVI4M2lLNkNJSVprbXJyTVdUZ25tX3plZFdESTVEaHhsck54VVdOM012WFBYaTVWcTJMSnRIdGtUOG5YcE5wV1lJa1lRUEFrajBscGxabE9QX2pYZXViejhNbkVCeF9XRndpT0o0MF9RZ1I1d3JqUHctNl9sS24yR3NBNmI1NkU1?oc=5",
+      "published_at": "2026-08-22T06:53:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "13:53",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
