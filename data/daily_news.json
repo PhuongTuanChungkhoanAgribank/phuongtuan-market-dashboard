@@ -1,8 +1,26 @@
 {
-  "updated_at": "22/08/2026 13:26",
+  "updated_at": "22/08/2026 13:56",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-22",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SMC",
+      "tickers": [
+        "SMC"
+      ],
+      "exchange": "",
+      "headline_vi": "CEO SMC đăng ký bán gần 5 triệu cổ phiếu",
+      "summary_vi": "CEO SMC đăng ký bán gần 5 triệu cổ phiếu thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZml1MVRhN1ZUTnBXaXlyd0VQd0x5bGlQQjBnOXFva1RNMFB4Y3F5WE8yVlJRclU4R2FkbExjbHEtcWFsWHVXTkJ5aGVtaU9jV0VTNU9iSnhFRzloUzE0MWk0bjF4RHlTQUVXaUp2bUx3NXhOc1daUGZBRTJOT1EteFVqVDc2LTNxZ09XMGg2Vks?oc=5",
+      "published_at": "2026-08-22T06:37:00+00:00",
+      "published_date_vn": "2026-08-22",
+      "published_time_vn": "13:37",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
