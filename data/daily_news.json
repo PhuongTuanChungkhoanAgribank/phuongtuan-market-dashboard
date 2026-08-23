@@ -1,8 +1,24 @@
 {
-  "updated_at": "23/08/2026 17:38",
+  "updated_at": "23/08/2026 17:55",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-23",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán ra sao trước kỳ nghỉ 2/9?",
+      "summary_vi": "Chứng khoán ra sao trước kỳ nghỉ 2/9? CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEFoMjBRUnlVOWh0Rl9wcUxGY2ozVHNIZ3JUaEZRNmd4Tk5kOXl5MXlPUkxkTHZOVEp3MnVuTUx4R1daU20ybkFLWlZXcVp4bkY5NUZ3OVJBTHR3Wl9UU1I0SGV0SURUNHpNVFEzWnVpTi1LQWlnTGpnQ05aeXlVVzlB?oc=5",
+      "published_at": "2026-08-23T10:35:00+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "17:35",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -17,6 +33,22 @@
       "published_at": "2026-08-23T09:08:16+00:00",
       "published_date_vn": "2026-08-23",
       "published_time_vn": "16:08",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Novaland chậm thanh toán gần 8 triệu USD lãi trái phiếu quốc tế",
+      "summary_vi": "Novaland chậm thanh toán gần 8 triệu USD lãi trái phiếu quốc tế Đời sống pháp luật",
+      "source": "Đời sống pháp luật",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYzVsdXIwOHVEU1dKYzBRYl8wX2JSREQ4UW9SMG02R3V2RHloSHlKQnVXelozc2FwcnJ6U0MxZ0NWcmdQMGw2akdhRTBLOHNmRVhKdHBJNWhXczFQbjgwaXNvekdBVE9jUkQ1SzNYQ3J0d1N2cDVlTmZWREFqeE9Oa1JNRWxHSkl5R0JZYXFPQUhBLTY5cHh5VGdvZUpFOVNzTWxPU1BpZjZ3cWvSAbABQVVfeXFMTUZYMWdvNG1NcU5FU3V5aWEzTFVJT1lTb2NvZkpZYnBXZnBVSEl6aTYyZVJhNWNMaFQ5VFBuUC1tQUNCdVNTLVJGWG1aLVYteUFEZF8wZ2twZzFNSGNhdDlOT1VEb1pudko1dzQxRFhUT0ZMQTd2WUl2NWhoY2VpdF9qczhFUnFIQndRU2lFaFJvLXNONjdsSGNGWFFZRFFhUGR2RWRhcFZpRVZ3eWM2a04?oc=5",
+      "published_at": "2026-08-23T09:02:00+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "16:02",
       "importance": 2
     },
     {
@@ -126,6 +158,22 @@
       "summary_vi": "Phân bón Bình Điền giảm lãi mạnh trong nửa đầu năm Nhadautu.vn",
       "source": "Nhadautu.vn",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNDBEMk1aWlJiWGlmNFlDWVhRRHBNZUhXeEZWdWVUSkMyZE9uT2VUNTI3blp3NEMtZ3dodDIyRHJCNnhnaFRqQmtLN0JycXoybDhrTERmU0U2UzA0cng1WW1ldEN3VHFqRXNldzdHZTVUZ3FFMDBJbG9aQ1hsYVduNjV1T25EZzItZlRJ?oc=5",
+      "published_at": "2026-08-23T03:49:44+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "10:49",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thu nhập lãnh đạo kiêm nhiệm Phân bón Bình Điền tăng vọt nửa đầu năm",
+      "summary_vi": "Thu nhập lãnh đạo kiêm nhiệm Phân bón Bình Điền tăng vọt nửa đầu năm Nhadautu.vn",
+      "source": "Nhadautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVE9uaUIydHZucmM0bmh4WDNCZk9MYTZ4SUhMTmhXendZN081U3ZsZU9ZTXk1UTJlRUJSaWUxYUlfYmpOWnAxT2FIOFZHcnJCdHdUMnZPSVAyYWo3ZDFLbU1WaHZwY3Q2ZzVpbF9rLUxWUnBoQ2UzZlNoV2gtUkZhellRSmtRWFZNejhXaW5OS1RERmtDMjd6R3hYXzZRZmJ4ekdn?oc=5",
       "published_at": "2026-08-23T03:49:44+00:00",
       "published_date_vn": "2026-08-23",
       "published_time_vn": "10:49",
