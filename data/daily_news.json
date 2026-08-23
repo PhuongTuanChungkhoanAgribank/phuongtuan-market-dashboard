@@ -1,8 +1,24 @@
 {
-  "updated_at": "23/08/2026 11:01",
+  "updated_at": "23/08/2026 11:23",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-23",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Công ty chứng khoán nhận định gì sau phiên tăng đột biến cuối tuần?",
+      "summary_vi": "Công ty chứng khoán nhận định gì sau phiên tăng đột biến cuối tuần? VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHRDYWpZNzMyemtoUm1BelZZZlVfck9EenlqdUYwSzNzbG03Ymk5RHBOdWxXMnU5T3JneFUyQ3hKN19PODM3Y2ZIYjJMaDAya0c5NW5EaVNfU2JnSlFfQmhBbFdGVU93WHg5VWM3WGM3bk1KeXh2SlF3V2ZnT1pzeFF2N1BMdWZzbjEzYWdoM21XbHhiQkE?oc=5",
+      "published_at": "2026-08-23T03:44:30+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "10:44",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
