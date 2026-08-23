@@ -1,8 +1,24 @@
 {
-  "updated_at": "23/08/2026 13:01",
+  "updated_at": "23/08/2026 13:56",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-23",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tín dụng bất động sản vượt 2,5 triệu tỷ đồng, dòng vốn tiếp tục phân hóa - Tạp chí Kinh tế",
+      "summary_vi": "Tín dụng bất động sản vượt 2,5 triệu tỷ đồng, dòng vốn tiếp tục phân hóa Tạp chí Kinh tế",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNHR5eE1jbWZQMGxLS2dndUhUOTdzdF92dXF6YkkwNHBUMEFOUEk4ZVd5VXNNeGYyTWY4dDBmUTFmNEtuQzJibnJtODZ2eDBya3RQalhMUERVa0hTeHZkeVh6Mjd2c3lZSGFjNGVyTG9ZVXkzU0YyV0NicFJ5bUNCbU0tNk52VExTMGdVaU1pWkVHa2FHSEgySmR0MnFRQnFYaVBFMzZmOGxxYUM5RzRKbGtleGFIdw?oc=5",
+      "published_at": "2026-08-23T06:15:43+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "13:15",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -98,6 +114,22 @@
       "published_date_vn": "2026-08-23",
       "published_time_vn": "10:25",
       "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "From a fallen 'tycoon princess' to a billionaire who turned the tables on a fashion empire.",
+      "summary_vi": "From a fallen 'tycoon princess' to a billionaire who turned the tables on a fashion empire. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeW5wZGJhdUVsU2VMdUZkcTNxVmJ4TWhhN19adGdFM1k4MVcxSGVEbUdZdUJoWGFjRWFkd3NYUnRWWTRGWFUxYkdfc04yeU04b3BZNFN4YXRINUZIUnFDem5PUExuU0VEeGpodEdjMHVjSlFCWWlpMDdnZjVBNks5bW5raHg2OUQxd05SS29abUZqTGVzc0VYMVUzQmVRUXBDY2c4R2Vraw?oc=5",
+      "published_at": "2026-08-23T02:52:54+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "09:52",
+      "importance": 2
     },
     {
       "category": "TRONG NƯỚC",
