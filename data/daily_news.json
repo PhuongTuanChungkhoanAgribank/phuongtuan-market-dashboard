@@ -1,5 +1,5 @@
 {
-  "updated_at": "23/08/2026 20:59",
+  "updated_at": "23/08/2026 21:21",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-23",
   "cards": [
@@ -17,6 +17,22 @@
       "published_at": "2026-08-23T13:31:00+00:00",
       "published_date_vn": "2026-08-23",
       "published_time_vn": "20:31",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xuất nhập khẩu đến ngày 15/8 đạt 712 tỷ USD, mặt hàng nào tăng mạnh nhất?",
+      "summary_vi": "Xuất nhập khẩu đến ngày 15/8 đạt 712 tỷ USD, mặt hàng nào tăng mạnh nhất? Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUjBMdk82MWg0Y1BoODB3MUw1SFlyTEVDeG5UQ01sNk15SDNxaDFOY3hDRlFmYjlnNGdGeWZhQVNPODlsYnNUTzdPRUtkMWhqQWNlQUhrazZzOGVwQ2YyQm5vOGxPSEgtNEh3RDZfT0hCbUh5MkhjTnJjSEFCcjBUR2lmeTNRSDdYZTg1MWxYWWh5RDN5SzUyZmhlRktlMTY0TDRCc2h1Yw?oc=5",
+      "published_at": "2026-08-23T13:00:58+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "20:00",
       "importance": 2
     },
     {
