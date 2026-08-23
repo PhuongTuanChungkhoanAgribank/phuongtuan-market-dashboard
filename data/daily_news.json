@@ -1,5 +1,5 @@
 {
-  "updated_at": "23/08/2026 19:56",
+  "updated_at": "23/08/2026 20:07",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-23",
   "cards": [
@@ -116,6 +116,22 @@
       "published_date_vn": "2026-08-23",
       "published_time_vn": "16:02",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất tiền gửi tiết kiệm tháng 8/2026: Tăng mạnh",
+      "summary_vi": "Lãi suất tiền gửi tiết kiệm tháng 8/2026: Tăng mạnh Tin tức 24h",
+      "source": "Tin tức 24h",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR3I4MnFiVlRIN29XMGI1djQ0bkcyRkhYb09ncHhwWk9EdmZzd0ZvT0pKZ0pkME5lTThReGJiVDZ0M3RZblBnYnlzWnNGLXNZdDJPeWJraFdGVGNXMFAtU2RkR1NiU2dqQ3kybGhEcHRuaTBCYVNmX1d6bWR4ekpjNTFNejR3ZGxCMG5BXzVoZ2poWXZfVUZ4ZVE2U2c3NHhQMkFjZw?oc=5",
+      "published_at": "2026-08-23T07:00:00+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "14:00",
+      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
