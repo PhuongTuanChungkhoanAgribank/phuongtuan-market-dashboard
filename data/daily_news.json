@@ -1,5 +1,5 @@
 {
-  "updated_at": "23/08/2026 17:55",
+  "updated_at": "23/08/2026 18:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-23",
   "cards": [
@@ -17,6 +17,24 @@
       "published_at": "2026-08-23T10:35:00+00:00",
       "published_date_vn": "2026-08-23",
       "published_time_vn": "17:35",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SMC",
+      "tickers": [
+        "SMC"
+      ],
+      "exchange": "",
+      "headline_vi": "Phó Tổng Giám đốc Nhà Khang Điền mua 20 triệu cổ phiếu, Tổng Giám đốc SMC muốn hạ sở hữu",
+      "summary_vi": "Phó Tổng Giám đốc Nhà Khang Điền mua 20 triệu cổ phiếu, Tổng Giám đốc SMC muốn hạ sở hữu Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRmpFZ2QtcVc0RU56aW5nTHhraFAzR2lMcXU1ZWczMHdrOGVMNzFlLXA4TWcySHAwQVJLeFB4bWZzUno5Ymh2cVU2VWVYRk1xeUZPeGs2a1ZZTUhJLW9IRnNpOU1hNjhSRmhkMzJYeThIS2dyOFE1OE01QXlKYWYzUHBtZm1JaDg5WENuak14VE9WRW5IYkpZWTRqZWJiRXpjTFJwNlNYNEJ1VXl6aloyb1gyNDAxQ1FNQ0RtTHJJZkxUUzBUOFE?oc=5",
+      "published_at": "2026-08-23T10:15:00+00:00",
+      "published_date_vn": "2026-08-23",
+      "published_time_vn": "17:15",
       "importance": 2
     },
     {
