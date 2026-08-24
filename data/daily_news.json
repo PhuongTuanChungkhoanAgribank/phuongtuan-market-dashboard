@@ -1,8 +1,40 @@
 {
-  "updated_at": "24/08/2026 12:09",
+  "updated_at": "24/08/2026 12:50",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất liên ngân hàng bất ngờ giảm mạnh",
+      "summary_vi": "Lãi suất liên ngân hàng bất ngờ giảm mạnh VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaUUwcENDb1RSZ2VLZGZZR1ozZ084dG9xOUNpZTdWVlJaTEloMVNVc3dfdXFlUlZOTm40TjJILW5ZQWVzRXdmX0FUOUIxWEE4b2N4c25xSDJGQWpHeVplT3hVQ3pJT2pjREN5X3dXNWY0WVBJTGt4bHJpaUdta0ZqOVpQRVNqaWc?oc=5",
+      "published_at": "2026-08-24T05:46:46+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "12:46",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VN-Index thử thách vùng cản 1800 điểm, thanh khoản duy trì tốt",
+      "summary_vi": "VN-Index thử thách vùng cản 1800 điểm, thanh khoản duy trì tốt VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUUyYUV4ODNuUmFmZldPSXpPbnJMX3JCc0VmNHVTWWR4bnZGVHB6b29YRnJVRVRRcldiRUV2QzU5VEE5N1BPSVdUcDNKekZLT2cwd0dfUy1kOFRHT0dldmM5MGNaSXpTNFNLOXFTSURndHpKUzRhQk5XM2g2cVV5c09kMy1oTXE2UmphVzNpNA?oc=5",
+      "published_at": "2026-08-24T05:11:28+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "12:11",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -568,6 +600,22 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "06:23",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá USD hôm nay 24/8: Đồng bạc xanh tiếp tục chịu sức ép",
+      "summary_vi": "Tỷ giá USD hôm nay 24/8: Đồng bạc xanh tiếp tục chịu sức ép thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemNwMzBmS2hTdk9yeHpOajZrOG1jdUpyNE1HT01tYlhQeEJxa0wyaXdLNGRGUE1IRjREaWV1ZTJhWFF5QlJ6ek9xcXhjZWRrazhyeTBzTHhEQTBiakF0Nm1RTnN5bVllN0JWVUJ2Q0xsajRBR2VtUTZxaHlSRDAxTGltS1RYenRabXRDODNRYW53eVBQc29HemtsUU05Z3ptOHVRTkZtWHE?oc=5",
+      "published_at": "2026-08-23T23:11:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "06:11",
+      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
