@@ -1,8 +1,58 @@
 {
-  "updated_at": "24/08/2026 10:16",
+  "updated_at": "24/08/2026 10:38",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VPL",
+      "tickers": [
+        "VPL"
+      ],
+      "exchange": "",
+      "headline_vi": "Báo cáo phân tích cổ phiếu VPL",
+      "summary_vi": "Báo cáo phân tích cổ phiếu VPL CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDFjcEd5ckVHdEFHcVYyNmQ1WElnd3ZjclVZeDVLSUI1QVp4VkhoUVBmNGgxa2hteTlCeUNLUjdSaGxCX3B4a1pwSDZKMm1iV2h6bFZGNHN3T01xcURnNV8wUXhpNjJoeHYyVVNDcTJhNDZKODdFb0hKdVFENUppWlBVOHVxcE9POFhQaVRvaWFyVHVnTmhKTnJSS1N2emVSbk9wbnRnUTFXa1g1X0U2R0xB?oc=5",
+      "published_at": "2026-08-24T03:26:32+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "10:26",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vì sao lãi suất chưa giảm dù Ngân hàng Nhà nước có loạt động thái hỗ trợ?",
+      "summary_vi": "Vì sao lãi suất chưa giảm dù Ngân hàng Nhà nước có loạt động thái hỗ trợ? CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb2YtejdQY0QzWkgwM2JsNldfT2VMNE9fRFRabGxqc0JmMkdXcHRraXk5dmhzSXRwdGVNX3FZanZnaXBBcEJJLWlmb2psSk9GUWRnOTF6TU4xRFBSaTJtMWlua3FxRl80X0ZMOWltTERxb0MyOUdlNnlaZ2xZcFdkSW84c3Z6UVh5UVp5c0hRdkR2M0ZjYUJhR3RoT2s4dFRzZnh0aC1KTU1pRXFXWUtZMmhB?oc=5",
+      "published_at": "2026-08-24T03:09:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "10:09",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kỳ vọng 8 cổ phiếu ngân hàng lọt rổ nâng hạng hút dòng vốn triệu USD",
+      "summary_vi": "Kỳ vọng 8 cổ phiếu ngân hàng lọt rổ nâng hạng hút dòng vốn triệu USD cafeland.vn",
+      "source": "cafeland.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNlhrUEZpNU8zY3g3ekVuOG1UMmY4V3dKbl9OVWN2NDFKcENzZVB3SXp0VHJnSXBGRjc1WS1tUUktZEx3Vm9pdG9jd2FKNGxTSkZndWl4MGdYV2VZZXY4ZVdyZ3BsTFdaaHVHR09fdkdnN3V1a0xEalFocFg2V1BuLVotaDRrWF9FRnVuY1FDb2w2Smo5eVRCZzFhYnJWb2EwQXNpTV9UREZWaUdY?oc=5",
+      "published_at": "2026-08-24T03:06:34+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "10:06",
+      "importance": 3
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -349,22 +399,6 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "06:02",
       "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Kỳ vọng 8 cổ phiếu ngân hàng lọt rổ nâng hạng hút dòng vốn triệu USD",
-      "summary_vi": "Kỳ vọng 8 cổ phiếu ngân hàng lọt rổ nâng hạng hút dòng vốn triệu USD diendandoanhnghiep.vn",
-      "source": "diendandoanhnghiep.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObXpfWXB3Ny1CekNiY3ByVG1wR3FSNXVteFdTREs5eGw5bmw3QUVfenptTWZxVXZ0Y1RxbkpINVNPdU5kcmpabDZLQXVOUlRkUlpoNzJhcm1RVTlSRzNtdHljQXZ2dHVITlJYLTJjellPazZiNm8wZGRheTFOd0tNbWZGZkhmRUZQNVZpSXFSNDdRNlo4MkJpZzEtckY4eldteU1KS3Awc1R6eTJSVXpiQW5R?oc=5",
-      "published_at": "2026-08-23T21:07:01+00:00",
-      "published_date_vn": "2026-08-24",
-      "published_time_vn": "04:07",
-      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
