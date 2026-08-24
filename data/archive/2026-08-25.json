@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "25/08: Đọc gì trước giờ giao dịch chứng khoán?",
+      "summary_vi": "25/08: Đọc gì trước giờ giao dịch chứng khoán? Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPblBlVnFSQjBOR0JaQXBZbmNOVThYTDlmSXNkWmZMQTZadXNteGRLa0xsbFp5ODNuZEhjeWFJeEtndDdIQVRqX0d6X21KYXI2bXB1MTkyQmsyTDBlV2ZtaGlxTWV4d2pWRWV1UTZJbnZETUh4MjQ3NERFX3hReGNvSHZ1YW1Jemxtbms5bTF0ellfUQ?oc=5",
+      "published_at": "2026-08-24T23:00:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "06:00",
+      "importance": 2
+    },
+    {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
       "region": "Mỹ",
