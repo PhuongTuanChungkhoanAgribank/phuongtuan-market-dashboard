@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tỷ giá USD hôm nay (24/8): Tỷ giá trung tâm đứng ở 25.600 đồng, USD chờ loạt dữ liệu Mỹ",
+      "summary_vi": "Tỷ giá USD hôm nay (24/8): Tỷ giá trung tâm đứng ở 25.600 đồng, USD chờ loạt dữ liệu Mỹ Thời báo Tài chính Việt Nam",
+      "source": "Thời báo Tài chính Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWGRubjk3anFlQjRURTVfbHp5N25NalVLSFBWWmVtbkxicDlsZUZWWTVtek11TV9SUzZLZkt4bjlfNDAyVEpwbnpENVFKTjFOdmFTSm9uOUh3SHp4UTFNWlo1SVA4NFZJbzJwZ1ZtZ0tWd0FhRU43aEwzTm5oekNHVGFqUnZuclA1YXRPUXVBRFVpUVJrVmkzZXZTS3d6RFZTdVQyYURhTEFGVnNzckE5V3Q1eTM0bnNzUEJXZHlZN1hQYjhTcnVodQ?oc=5",
+      "published_at": "2026-08-24T01:48:51+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "08:48",
+      "importance": 4
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -16,6 +32,22 @@
       "published_at": "2026-08-24T01:07:00+00:00",
       "published_date_vn": "2026-08-24",
       "published_time_vn": "08:07",
+      "importance": 2
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Today's USD exchange rate (August 24): The US dollar may continue to face downward pressure.",
+      "summary_vi": "Today's USD exchange rate (August 24): The US dollar may continue to face downward pressure. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdmcwc1ljYW1FZTByWmE3d3IyeDhmaHNjZ3BmSHNkYVhoRnA3Qy1XZV9iSm15YmZiR2U2X3RmOVpabVZiYm1xNFV2TlVTeWp0OFpXeFk5Wm03NGlTXzZuUnJocG9saTE4eVdyYjlpVENKb2dNMnlKSXBnV2V3bmFCRlBuWmdUZzF0MlZWdlV0dGtEb1RBcnJXSDF0cw?oc=5",
+      "published_at": "2026-08-24T00:55:13+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "07:55",
       "importance": 2
     },
     {
@@ -102,6 +134,26 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "MWG",
+      "tickers": [
+        "MWG",
+        "TCB",
+        "REE"
+      ],
+      "exchange": "",
+      "headline_vi": "Vì sao MWG, TCB và REE \"lỡ hẹn\" với FTSE?",
+      "summary_vi": "Vì sao MWG, TCB và REE \"lỡ hẹn\" với FTSE? 24HMoney",
+      "source": "24HMoney",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzFGRlBkZ3I3UTIxeHZXWmx1VnM1SWlyYWs1elRuc0FtTXpVM042OTJ0cGs1SGlnR1VUVV81M0hyT2ZmQVk2MG5NXzhSQVUzWmdPZWQzeC1qbVRiZFhUckhvQm1iSEpYSGUybnZzMzVwZXh6OGM0d0syODdsMmF4Q25zYmE?oc=5",
+      "published_at": "2026-08-24T00:04:18+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "07:04",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "HPG",
       "tickers": [
         "HPG"
@@ -115,6 +167,22 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "06:57",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Bạc và cổ phiếu khai thác bạc đều bứt tốc",
+      "summary_vi": "Bạc và cổ phiếu khai thác bạc đều bứt tốc PetroTimes",
+      "source": "PetroTimes",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZFBzM2sxc0tnaDdEUlQ2Q2xmMWhfemRFV2NHZFN5dTE5dnR0amtjTHVCd0x2bVhEOW9wM3d6bXFsOTg5dkdGSnNQSTBtN0VLaXAzSk1wWmdoNG5aSjVwWF9XOEotX1BDNThxb2VVUkU5WVF3LW0wLVBUZXQ3TWVTNA?oc=5",
+      "published_at": "2026-08-23T23:49:52+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "06:49",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
