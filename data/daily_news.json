@@ -1,8 +1,24 @@
 {
-  "updated_at": "24/08/2026 09:08",
+  "updated_at": "24/08/2026 09:42",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Gánh nặng huy động vốn cho nền kinh tế",
+      "summary_vi": "Gánh nặng huy động vốn cho nền kinh tế Báo Tuyên Quang",
+      "source": "Báo Tuyên Quang",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjVwQjFPWm1BTms1SWJQQTU5bnNhLUF0U3ZHOWxMOHJYUlczZkRsaUVBbHlqRDc0QkxmbENndlBmYUhOYWMzMWtzcTlsZEV6dmNXS041UTM5VlJDUFVvOHVpNWg0Q0NxWnNSNm5YeEtxMHFVeENYQnBITWt0RndfUVJDWG5oRk1IczNaWDQ0N05RclJaNUE?oc=5",
+      "published_at": "2026-08-24T02:25:44+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "09:25",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
