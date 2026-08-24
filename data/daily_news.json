@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/08/2026 14:35",
+  "updated_at": "24/08/2026 14:41",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
@@ -52,6 +52,24 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "14:16",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PDD",
+      "tickers": [
+        "PDD"
+      ],
+      "exchange": "",
+      "headline_vi": "Xem trước kết quả kinh doanh Q2 của PDD: Tăng trưởng doanh thu có thể không che giấu được áp lực lợi nhuận khi Phố Wall hạ giá mục tiêu xuống 80 USD",
+      "summary_vi": "Xem trước kết quả kinh doanh Q2 của PDD: Tăng trưởng doanh thu có thể không che giấu được áp lực lợi nhuận khi Phố Wall hạ giá mục tiêu xuống 80 USD TradingKey",
+      "source": "TradingKey",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOWpyeFZyaWgtMXg3bG1GcGF1NllXNWp6NGhuekRDak1hc1gtamd0YUUyUExZOUR2V2xxUVpVSUg4Wmd6NFowUS01bEhJZXVHYm0xbDNWR2p2VkFQeFprNWU3d04zUzVldUFNZ0Rtd05nTUl3UGIwRDBiRnI5ejEyOFZtaTl0RGFkNUU1clBqTy1IV2ZoY0lrbUR1WUVuaVJWQVR2aDVqOExGZGZjd3RHZjI5X3hrd2xTd2NPazczLVpuajl0RUNVNlNGemhpV2l1N2VmdmE3elVwWkll?oc=5",
+      "published_at": "2026-08-24T07:15:18+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "14:15",
+      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
@@ -181,6 +199,22 @@
       "published_at": "2026-08-24T05:11:28+00:00",
       "published_date_vn": "2026-08-24",
       "published_time_vn": "12:11",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "'Ôm' hàng triệu tỷ đồng BĐS thế chấp: Nhà đất giảm giá, ngân hàng có đối mặt rủi ro?",
+      "summary_vi": "'Ôm' hàng triệu tỷ đồng BĐS thế chấp: Nhà đất giảm giá, ngân hàng có đối mặt rủi ro? VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWE9naVN6cTFiZC12S3JfZGppOGNYZGUwX1FMU3FGa3preExXdlNwQmxEbzlFZjUtOEVQQlhjTHJJOEZxejVHaDdMNGY1eFFIczg5VjdpcU5vVFRRLU40WHVBQk8wc2dJcFNoQlBaMjhYUU5GWFVCbWJ4R0VpUnN3UzZqVzI3a0tQQXg0QmhuWG9TWEEwS0NDekhsQW5UeTBHRzE0aWVsYktZN0o2VXVIaDZLdnA3cEItVXc?oc=5",
+      "published_at": "2026-08-24T05:00:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "12:00",
       "importance": 2
     },
     {
