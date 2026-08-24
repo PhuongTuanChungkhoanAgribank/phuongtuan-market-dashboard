@@ -1,8 +1,24 @@
 {
-  "updated_at": "24/08/2026 18:25",
+  "updated_at": "24/08/2026 18:38",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vietcombank dành 20.000 tỷ đồng giảm 1% lãi suất cho vay mua nhà",
+      "summary_vi": "Vietcombank dành 20.000 tỷ đồng giảm 1% lãi suất cho vay mua nhà VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUnlHd1FlaEd0U0gyaG8wcVhNX0VnV2xla3liY0VfSm5MWVJrN2ZWUGJDdFJHWTJkMUtBNlItMXM3bThfbmpYVlBjbERNbzl5Q0JNNmNYZFpmWmc3VUhWaVZnQVNqMmlkZzFPSTlRSnEyM0M0SFNvV1RYSERvUFBEWVhuSU1EeEdmM2ZjNG9YcXJxUldjdXFHOC1TQWFHamNVY1VN?oc=5",
+      "published_at": "2026-08-24T11:21:56+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "18:21",
+      "importance": 4
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -931,22 +947,6 @@
       "published_at": "2026-08-24T01:41:50+00:00",
       "published_date_vn": "2026-08-24",
       "published_time_vn": "08:41",
-      "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Standard Chartered tăng tốc dòng vốn xuyên biên giới, Việt Nam là một điểm đến quan trọng",
-      "summary_vi": "Standard Chartered tăng tốc dòng vốn xuyên biên giới, Việt Nam là một điểm đến quan trọng VietnamFinance",
-      "source": "VietnamFinance",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSHc1bE1zbWRLajVqV3VVX1JuQjkxNF9Ka3lmVnJyZVJoeURJdnpEem1JOVFYNXp1YURweWNTRk5tdlN4c2gwWTVDbFExNmRNWVByY294Y3NhX25pTmpPNXo4LUh3cmdfa1RhYUlFX29fYVlMU1NnaXFUWjZ2U0FTZ2FpS0x1ZDhQaDI0RnlPbk1QZ3VuZjI3cEZsc1RDTmswMzNVaHpqN2tfRkRXRkY3N0YyNzg2TXZwTy15cU01Y0FLeV9qNUE?oc=5",
-      "published_at": "2026-08-24T01:30:00+00:00",
-      "published_date_vn": "2026-08-24",
-      "published_time_vn": "08:30",
       "importance": 2
     },
     {
