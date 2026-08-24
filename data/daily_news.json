@@ -1,8 +1,90 @@
 {
-  "updated_at": "24/08/2026 16:25",
+  "updated_at": "24/08/2026 17:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Liệu Hyperliquid có thể ra mắt hợp pháp ở Hoa Kỳ? Trump và CFTC đặt HYPE trọng tâm",
+      "summary_vi": "Liệu Hyperliquid có thể ra mắt hợp pháp ở Hoa Kỳ? Trump và CFTC đặt HYPE trọng tâm MEXC",
+      "source": "MEXC",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSUNMWEQ5WjBRb1JwY05jMktBaU5TaXVTMW8zTUR6eTlxTHNNRmFkRFYwUDd6RENhZmU0MlBONncySVoyQlh0MVNxTkN3NjRYbVdFX0xIekNTbmd6UlNiUXJrdlNWbjB0SjlZTXRwS2N6ZDBtMEZTT19US1hoMmo4cGl1aEN2UVdwUHFtc29PRXpTOGdBYU5Wczd5RkVRa08yVDhqV2dFMTFRakpleVpZT2JYRzVIbldYeTVJOXZaRkcybHpxWk15VzVsdkhFamZ3?oc=5",
+      "published_at": "2026-08-24T09:39:45+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "16:39",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Techcombank chia cổ tức bằng cổ phiếu để tăng vốn dẫn đầu nhóm tư nhân",
+      "summary_vi": "Techcombank chia cổ tức bằng cổ phiếu để tăng vốn dẫn đầu nhóm tư nhân Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS3VZMklsWk5vQ0tCdy1Tb2xKUi02djVRVkpwNGZYZTJpR01QYWJzcm5rNjlINWxocGwxN0QzblpxUFQ2eHRWLXNnbFByTXBlZDBZZW5vckhoNWVRT3NtWjZoMW5kQmpSekNuaEZOU29la0pXRllGMVhubmpNZ3RsMnRVR20zdFpwTmQ4bHFub1R2NEw3QTlnNlFUUjk2NnRrelFWUU5zdldlY3RmcW5pZlFn?oc=5",
+      "published_at": "2026-08-24T09:37:49+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "16:37",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PVI",
+      "tickers": [
+        "PVI"
+      ],
+      "exchange": "",
+      "headline_vi": "PVI hoàn tất trả cổ tức bằng cổ phiếu, chuẩn bị chi cổ tức tiền mặt",
+      "summary_vi": "PVI hoàn tất trả cổ tức bằng cổ phiếu, chuẩn bị chi cổ tức tiền mặt Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdjgweXJ1WnJKcXlKWTFlWmdaV1JmVkxiQTgwR0NvMTVKTTc0WFRlZkFmQzlsTFhwMVRJTVpja3ktdkl6NzJhNV8zbFpXcFVCSjlSemlHRUdGaDdpQVNTRjBsbFllTWduanVNNlVhNnZ1SFlWelFIU0ctc0U2YXFlNDdFSGRrN0lBWkwzckFRY2pGSnQ5UjROOHJLN2dIbHhMbkE?oc=5",
+      "published_at": "2026-08-24T09:37:27+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "16:37",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Techcombank dự kiến chia cổ tức tỷ lệ 50%, tăng vốn điều lệ vượt 100 nghìn tỷ, cao nhất hệ thống ngân hàng tư nhân",
+      "summary_vi": "Techcombank dự kiến chia cổ tức tỷ lệ 50%, tăng vốn điều lệ vượt 100 nghìn tỷ, cao nhất hệ thống ngân hàng tư nhân CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU01WelJUeG5TTHpneThtXzV4S29TQURfdy0xLTcyY0E1U1pyemVkVDFXb2pzbmlaUEwtcWllRWxqY2RYSWl0WHRpY09FOGJPWmtseFVzajhpR2hzd0ljTTl1d1lEUEJsSzJfVGFtYUpzc0tHbWx3ZmZhVmsweGMtNTJPMW9ocHcyd1lVU1lLWkFvOF9EUlFYWFZKRnFIbEpCT3NVNlp3UFVNbHpCRHBjRHFqODBCOEsxNFdIenl5QkNxWWdRT19xYllQMjlXZWtvTlgxT0xHNFV6d0hDTXFPd2VjYWQ0dw?oc=5",
+      "published_at": "2026-08-24T09:23:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "16:23",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Blog chứng khoán: Chờ đồng thuận để đột phá",
+      "summary_vi": "Blog chứng khoán: Chờ đồng thuận để đột phá VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PVGpnemFLWmNuM2hZU2NRem9TdVh0ZHFyaExvQl9pQ3g0eFlaU1ZHR0c0T0lYMU1majl5eGE2VnBKMGpJRHJWM1RQdHBRZVVUUGhpSk9BVWpwdDh2amg0OG9XclFlcGZHd01qSHVLdVdEeTE0VEE?oc=5",
+      "published_at": "2026-08-24T09:20:58+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "16:20",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -554,6 +636,24 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "11:19",
       "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "MCH",
+      "tickers": [
+        "MCH"
+      ],
+      "exchange": "",
+      "headline_vi": "MCH - Áp lực chi phí kìm hãm đà tăng lợi nhuận",
+      "summary_vi": "MCH",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUMxMUhBSHRkZHVlQXIyR0t0cG5vcTJPVzJCLVZKdFdsckl1YlhpeTJRc2padDdBbVZWUGVQOTN4d0ZFX1hoRER1MkR5TVhmQUc5QTRfMDdPZ1Bac1cxZ2cxZWdKQ2ZZN29PcUt1WWVyVXdhdktHNk9meTk4dzJZU29HZEp1bjZtT2dLRlhfZnJ1MTlqbi03ZWNkOFJTUEtiV2NjN0VISU8?oc=5",
+      "published_at": "2026-08-24T04:17:48+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "11:17",
+      "importance": 3
     },
     {
       "category": "TRONG NƯỚC",
