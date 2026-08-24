@@ -1,8 +1,40 @@
 {
-  "updated_at": "24/08/2026 17:00",
+  "updated_at": "24/08/2026 17:11",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "TPBank tung chuỗi ưu đãi lãi suất 8.000 tỷ đồng dành cho khối doanh nghiệp SME và khách hàng cá nhân",
+      "summary_vi": "TPBank tung chuỗi ưu đãi lãi suất 8.000 tỷ đồng dành cho khối doanh nghiệp SME và khách hàng cá nhân CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeGJpY0NtWnc0ZGVoYV9fcW0tM3hqRklZd2dhd29CYVl6bkVISUp6bE5rN3dSSXFldHdaSHpxeUdrRS14OWdtc1BUUm9nbG11ZkZGOTE4VGlSUzVieXJoTk9XTzB3dlBxNXdKZXI2cGptTzZqN1hnSHp5TExBaW9hT2tzdzBQd3JNN21oSE40X29BZ1JMQUFhMkt5MDRQRlNZZ1RfQ1ZLVUVLcHYySnhvVUhHU3FuNFRRTjNFRXJSMkhZLW9DRE1ZQ2ppS2NPS25jVHBvVTd3?oc=5",
+      "published_at": "2026-08-24T10:00:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "17:00",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Techcombank bất ngờ trình phương án chia cổ tức 50% bằng cổ phiếu",
+      "summary_vi": "Techcombank bất ngờ trình phương án chia cổ tức 50% bằng cổ phiếu VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVI3VmpyRUlmLVpYQl9Ub3FpZnNJdDFzY0hmby0tQXAwT2RydVR6cGtjNUVrUXlmUkZFRVFlUXk5U1pvbVVZN1ZXeDlPQnFGQ0pKZmZPM1NlNlA0UWFweVNscHNSRlJ3UWZMbVctM2NrSmhjQ1dwelVsYmRCcGtMOTdDN2UtaGl6NEUxWmZDanZlbURiajdOV0tJMVNyTl9XNHJIOThoNF9GUW8?oc=5",
+      "published_at": "2026-08-24T09:59:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "16:59",
+      "importance": 3
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
@@ -604,22 +636,6 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "11:27",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "TPBank tung chuỗi ưu đãi lãi suất 8.000 tỷ đồng dành cho khối doanh nghiệp SME và khách hàng cá nhân",
-      "summary_vi": "TPBank tung chuỗi ưu đãi lãi suất 8.000 tỷ đồng dành cho khối doanh nghiệp SME và khách hàng cá nhân baodautu",
-      "source": "baodautu",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeFdCdU1pWFV6X0NLTEdfdVNPMDBNc0ZRNkxEbXdNS1FkNVQ2NFlvS0llZFAxcml4N3hsR2NWNnRwT0tuZlBRb3p6X3ZxSUhob2lZcTQ0Umo2RUlfcnR1Ui03ekVDSXd1aXhpeUN1RzJ2azFuMDZjT1NCZHE0WFNtVW1yTk81bUZuSlo0NGN1Nk1CR3MwcUpEb2lxUHAzSzdybm5RczltU0p3ZThjbGRUVkUzWE96WWdKdnIzbHVMeTB4UTBKSy01VnZmYkQ?oc=5",
-      "published_at": "2026-08-24T04:25:00+00:00",
-      "published_date_vn": "2026-08-24",
-      "published_time_vn": "11:25",
-      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
