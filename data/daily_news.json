@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/08/2026 17:11",
+  "updated_at": "24/08/2026 17:38",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
@@ -260,6 +260,22 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "15:15",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "các mã cổ phiếu chứng khoán",
+      "summary_vi": "các mã cổ phiếu chứng khoán VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TTUtPWWJRN0t0YnBna0tDNkpWX2huNlF2b1gwWXkwSUU1NTJocjYtM1RuZF9jbWZIV0Jnc1pHWnVucm5pQmMxSmMwYlhGLXY5UVRsZ0x1REtpWHF1WlUySVZR?oc=5",
+      "published_at": "2026-08-24T08:04:39+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "15:04",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
