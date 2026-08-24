@@ -1,8 +1,24 @@
 {
-  "updated_at": "24/08/2026 12:50",
+  "updated_at": "24/08/2026 13:27",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VIB cố định lãi suất vay mua nhà tới 5 năm, thuộc nhóm kỳ hạn dài bậc nhất thị trường",
+      "summary_vi": "VIB cố định lãi suất vay mua nhà tới 5 năm, thuộc nhóm kỳ hạn dài bậc nhất thị trường Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeV85R3FsUEJnV1dpSFN0MlJ5TzZodXhzRGVIbWZLbkJlSy1sVDB2Z2lmc1FTby1zdjZZa0RVSjRsT2stWmpSU1JmTTFTai1NYTdBeWRJMllzZ1ZsSlR1Ti14VzNtWHY3NnRhN01aa3VNNUo4RXBsM0RRZ2lqWm8tdUpOVjNCemdrZ1k2NE8wWWlpTEVJQVlHT2xyYnBieGplZDNob3lVelV5UW8?oc=5",
+      "published_at": "2026-08-24T05:53:41+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "12:53",
+      "importance": 4
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -34,22 +50,6 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "12:11",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "VIB cố định lãi suất vay mua nhà tới 5 năm, thuộc nhóm kỳ hạn dài bậc nhất thị trường",
-      "summary_vi": "VIB cố định lãi suất vay mua nhà tới 5 năm, thuộc nhóm kỳ hạn dài bậc nhất thị trường Báo Xây dựng",
-      "source": "Báo Xây dựng",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRFNGck1HZHRwellielVjQklvaEJWTmR5SXJUNGZMREQwaXA2RFVCRnRGb2hyYUl1TGIxalZra3FzdUs2QzJMTU81c3lERVQzNjBTYWFmWVNWT25YSHRnQnlQWG16OF9uUXdEYnhjVGNxRlZsTHpOY2VJRWxQWFdzY2JkRHMxTGI1bGxiaVpOZ3hfdktqekFNNjlNc1hvbDE1TWxYaXNTRUNwaERfQUtZeUVGcW1EdEhlN0ZFc1dVVnNzUzNuT3MyWg?oc=5",
-      "published_at": "2026-08-24T04:32:00+00:00",
-      "published_date_vn": "2026-08-24",
-      "published_time_vn": "11:32",
-      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
