@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/08/2026 22:51",
+  "updated_at": "24/08/2026 22:57",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
@@ -187,6 +187,24 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "18:21",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VNL",
+      "tickers": [
+        "VNL"
+      ],
+      "exchange": "",
+      "headline_vi": "VNL: Báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty",
+      "summary_vi": "VNL: Báo cáo kết quả phát hành cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNDBFYXhEaVRYeHk3SUhNOVV4WkpDQUhWb1JDQzdhTTM1RFF3cEZTQjM5VERqa0hIdXN1ZjZwcnFmV2FkUDAtakVsRFpRcm9ieW1JM25oVGs1S0ZzclQxc2JxQU5BV3FYR3UxakwyNEF5a3ZxSWVadjBUS3EwN3BCR1daUGZiTXBvWWFDRUJjaEltSFVyQ0xsa2FXYVlxUEQ2YS1TdDAtNG0xZXZwSC1LX1RGSXl2THJKUDlJNkIzdEIxVWFJTTZscV9kVWlzX1lkZGV3dlJaZUNBbTV6aXRJWjNuQlNTM01pbnNrZG1Hcw?oc=5",
+      "published_at": "2026-08-24T10:29:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "17:29",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
