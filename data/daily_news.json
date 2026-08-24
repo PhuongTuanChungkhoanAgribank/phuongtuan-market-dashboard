@@ -1,8 +1,58 @@
 {
-  "updated_at": "24/08/2026 19:46",
+  "updated_at": "24/08/2026 20:38",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Một doanh nghiệp ngành cao su 'chơi lớn', dành 1.000 tỷ đồng phát hành cổ phiếu thưởng tỷ lệ 80%",
+      "summary_vi": "Một doanh nghiệp ngành cao su 'chơi lớn', dành 1.000 tỷ đồng phát hành cổ phiếu thưởng tỷ lệ 80% nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlRMOVV6MmZ4cDlSQlFfeVYxc3k4ZEFqZllEbm1GM3JmZVhMUHVycjNjZXVUU0s3Yi0zNXROSmdXbjViVm16a21MOExOelM3UnE1OFgwc2RHRm10S2cxQnp4VTh1ZDZrMzhGbWNjbHQ1SU4yTUE3UXRJdExIRldnOUp2ZzNiZFluUEwxU3dEYzEzOWZhZ21WMjRWWWd6TXRYcEJmX0ZOakVWTzhmRFB4NkVaQXpGMk1wRjlwV2NDVEJpTkljZjBN?oc=5",
+      "published_at": "2026-08-24T13:15:01+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "20:15",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "LPS",
+      "tickers": [
+        "LPS"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu chứng khoán LPS liên tục giảm mạnh",
+      "summary_vi": "Cổ phiếu chứng khoán LPS liên tục giảm mạnh Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmUwZUZRaTJSVnZHMHFFa3hjQWIzYkI0cVl0Z1ZzSkJPeHZzaHpvVGpoVmFGQWNoS1RxNVhsSjJvZW9pZVA4NHZiYzBxSkRTNHB3RXVtdERJTmRTYWMxOGJHZEgtM05KZjZyMWN0eTMyTENyLXhEVUYyNU8xMXR6WWRYbngyMzlzRVFGVUJB?oc=5",
+      "published_at": "2026-08-24T12:49:47+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "19:49",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ đông Techcombank sắp nhận thêm cổ tức bằng cổ phiếu với tỷ lệ 50%",
+      "summary_vi": "Cổ đông Techcombank sắp nhận thêm cổ tức bằng cổ phiếu với tỷ lệ 50% Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUUtMMFQ1VmhvSV9qNVN0eDVrM0c0NWpvcUJBZk0yRFlHVjFrLTk3ZEJIdmFJTDZ1dnhNZ3pJSW9LckJpQ2JZNVhUdWhOd0tUM3JRenctdUFGM1p2cEtNNlJvRFlqaUsxQktTNkN4dTVoaEFxeEJLal9iYVVDQmJhampqNlhKeEFNSEg1TXAzX2tiWkZ1RXotRDZHWmVnTXJyby1Yb2RYUU90cDNPV2wwcy1Senh5MmJHWE5jamN4dw?oc=5",
+      "published_at": "2026-08-24T11:51:21+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "18:51",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
