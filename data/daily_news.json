@@ -1,8 +1,24 @@
 {
-  "updated_at": "24/08/2026 10:38",
+  "updated_at": "24/08/2026 11:10",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Sửa đổi Luật Dầu khí được thông qua, cổ phiếu nào hưởng lợi lớn nhất?",
+      "summary_vi": "Sửa đổi Luật Dầu khí được thông qua, cổ phiếu nào hưởng lợi lớn nhất? VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV2VES0FrcG44cUdkVU1uUHl6ekxpNHV3VnYyY3lHNG1SazBoaTU2cTBkclRnY0lNSjJqOGtER2N4NWs2M0xPandfdmo4bUFaNUdYSVRlUlhLN0VDM2VhdnctQlkyaEd3SDRIS2NNOHdDZlBncnZzdzJJY2ZhOGdqaE1BRU5yMy1xSlp4MFBPa2pGcDBZZThoTV9PYjh2Tzd1MDlVV3NmWnVEeTlX?oc=5",
+      "published_at": "2026-08-24T03:42:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "10:42",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -15,10 +31,10 @@
       "headline_vi": "Báo cáo phân tích cổ phiếu VPL",
       "summary_vi": "Báo cáo phân tích cổ phiếu VPL CafeF",
       "source": "CafeF",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDFjcEd5ckVHdEFHcVYyNmQ1WElnd3ZjclVZeDVLSUI1QVp4VkhoUVBmNGgxa2hteTlCeUNLUjdSaGxCX3B4a1pwSDZKMm1iV2h6bFZGNHN3T01xcURnNV8wUXhpNjJoeHYyVVNDcTJhNDZKODdFb0hKdVFENUppWlBVOHVxcE9POFhQaVRvaWFyVHVnTmhKTnJSS1N2emVSbk9wbnRnUTFXa1g1X0U2R0xB?oc=5",
-      "published_at": "2026-08-24T03:26:32+00:00",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR0RlSGZHa2hZUVVDV0djVlE5cExMV25ydXg3bkNEb3pubkM2VVBEMTViY2g2N1BTUjNSMFRhUVZpSGQ3R0RtWEVzSmxFeGNRal9TQVItZGFMNkZMSjRlVHRTdWNJY3AwNkFRU2tMc296X0NIeXhpdmtkZ2swVmRqZTBMbXVsczZjeGV0SVoyVnNXYVJfY3c?oc=5",
+      "published_at": "2026-08-24T03:28:33+00:00",
       "published_date_vn": "2026-08-24",
-      "published_time_vn": "10:26",
+      "published_time_vn": "10:28",
       "importance": 2
     },
     {
@@ -281,6 +297,25 @@
       "published_at": "2026-08-24T00:04:10+00:00",
       "published_date_vn": "2026-08-24",
       "published_time_vn": "07:04",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "HRC",
+      "tickers": [
+        "HRC",
+        "HPG"
+      ],
+      "exchange": "",
+      "headline_vi": "Sản lượng HRC lập kỷ lục, Hòa Phát được dự báo lãi ròng hơn 24.000 tỷ đồng, cổ phiếu HPG kỳ vọng tăng 63%",
+      "summary_vi": "Sản lượng HRC lập kỷ lục, Hòa Phát được dự báo lãi ròng hơn 24.000 tỷ đồng, cổ phiếu HPG kỳ vọng tăng 63% nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUXlNbVByU1dRS0R0eTVZVTRxUlppOUs1a0R3RDZTeldWc0tWWGF5bjBFY0xIOHI2amhZS1g1QVNvV2dMMHhiN3ZHR2MtUjRMTW44SWtLVzZmRXRRa3FoTERBeTFhczBLcV80RllhZU5QLWVwMGdpWU8yVHlxdGlRQ05CbElIVWlPeWJHZnduZTVPbDdXeHRoaWFrcHRtS2VoaHZENnpLeDkwQ08zbzliUXZPVU10LVo5NEhkWmVpMG81NEpvRG5sOGNTVUdUcXhLbW5yZg?oc=5",
+      "published_at": "2026-08-24T00:03:01+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "07:03",
       "importance": 2
     },
     {
