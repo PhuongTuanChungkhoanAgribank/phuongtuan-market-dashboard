@@ -1,5 +1,5 @@
 {
-  "updated_at": "24/08/2026 17:38",
+  "updated_at": "24/08/2026 17:54",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-24",
   "cards": [
@@ -116,6 +116,22 @@
       "published_date_vn": "2026-08-24",
       "published_time_vn": "16:20",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hạn mức tín dụng 2027 gắn với giảm lãi suất, NIM ngân hàng đứng trước sức ép mới",
+      "summary_vi": "Hạn mức tín dụng 2027 gắn với giảm lãi suất, NIM ngân hàng đứng trước sức ép mới Tạp chí điện tử Thương Trường",
+      "source": "Tạp chí điện tử Thương Trường",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR0dqR2piMWxURm5WTkNoTnVyb194UTlDQXNwRl9jeEMtdDJyMWRsdEktR3ZFQlF1MjF2dWNIcUFfejNxRzBsZ04xcm1XWXIwTHVlajB4M3dwaExfTEVCeXF2S1dfVGhPWDR4emNoZmtfYTR0LVBudlJtM3gzUDM4dDFnczFwQU5hamExc2dmTUFVLVd4ZFNIS0FlQmVTSXl2eVRyUlJFTjVXd3Z0X2FrS2llV0IwOXJRUG43d2dWYlJ6QQ?oc=5",
+      "published_at": "2026-08-24T09:15:00+00:00",
+      "published_date_vn": "2026-08-24",
+      "published_time_vn": "16:15",
+      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
