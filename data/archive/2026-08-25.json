@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nhận cổ tức tiền mặt có thực sự hấp dẫn?",
+      "summary_vi": "Nhận cổ tức tiền mặt có thực sự hấp dẫn? Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd0lEZmFEd3RLVVk4V3h2VG5RY3gzQ2pCMVJ2Ym1zSW9VZklLTTBYdHR0X1dvUUc1ZkFYYUFIYndRRnZrUjFiNWFldVRkVUc1dlBfZzlqM0o5MndTblBWcXpjSVBWY255YUZlWS1XYTVjZkwxUFZiSnRjMGNRWHV3QWdKN1RXdw?oc=5",
+      "published_at": "2026-08-25T05:30:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "12:30",
+      "importance": 2
+    },
+    {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
       "region": "Mỹ",
@@ -268,6 +284,22 @@
       "published_date_vn": "2026-08-25",
       "published_time_vn": "09:12",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất tiết kiệm 9,4%/năm: Có 1 tỷ đồng, gửi ngân hàng nào để nhận lãi cao nhất?",
+      "summary_vi": "Lãi suất tiết kiệm 9,4%/năm: Có 1 tỷ đồng, gửi ngân hàng nào để nhận lãi cao nhất? VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjhScjhlSktpUDIzeVc0aWNlNEZkSW0zczAzUWNja0ZnaV9fdEFSdjQyTkh0WnJGWjE5aFREY0owbE5HdmdOOUJtTXJzXzFLblZkeTN0OWgwYXIxQVJqODNTWGxzRjNsVHFoekIwQ3ZVRjFjdFFYMVg5T0RIV1c3NldRQ2JTTVhfbVVrRVFjdi1WTW9Cbjh4dkptejl1Y0xfRDNlMzg3QjFzWl9LcG1vSUpWakpST2FyYUotNQ?oc=5",
+      "published_at": "2026-08-25T01:30:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "08:30",
+      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
