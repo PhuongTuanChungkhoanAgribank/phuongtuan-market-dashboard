@@ -9,6 +9,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Vinhomes muốn huy động 1.000 tỷ đồng từ trái phiếu để giải phóng mặt bằng Khu đô thị thể thao Quốc tế Hà Nội",
+      "summary_vi": "Vinhomes muốn huy động 1.000 tỷ đồng từ trái phiếu để giải phóng mặt bằng Khu đô thị thể thao Quốc tế Hà Nội nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOY3lUX3Bsc3VnZGFIdzljSkRGTGlTeVFBZ0pHZ0dLZDJYNEN5UVBsYnhvdVp3Mi1hZ1RQZkU3c1p4SVVEYll4a2VzUEUwOXc1a3ZjVzdaLVNTc3dMZnVIVzJlWVpuQlhOdXY1Z0tPUDk4cERwam1QNHNPaTFsS240NmRkaTB3UTBGSGV3ZGZWbkw0bzdmajZfejJRRWNkX2V3WlgxYWh2R0xfbXJOdHN2VXNOa3RsVEwyMmpvdjR0WjNqd1NHU1RReXBDaDNfNWNYVE9oUF9NeUVlZWlB?oc=5",
+      "published_at": "2026-08-25T10:47:01+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "17:47",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "95% nhà đầu tư thua lỗ và rời bỏ thị trường chứng khoán sau 2 năm",
       "summary_vi": "95% nhà đầu tư thua lỗ và rời bỏ thị trường chứng khoán sau 2 năm VnEconomy",
       "source": "VnEconomy",
@@ -144,6 +160,24 @@
       "published_at": "2026-08-25T07:57:01+00:00",
       "published_date_vn": "2026-08-25",
       "published_time_vn": "14:57",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "BIC",
+      "tickers": [
+        "BIC"
+      ],
+      "exchange": "",
+      "headline_vi": "Bảo hiểm BIC chốt mức chia cổ tức bằng tiền mặt cao hơn dự kiến",
+      "summary_vi": "Bảo hiểm BIC chốt mức chia cổ tức bằng tiền mặt cao hơn dự kiến Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMkxGRG5qS2UxTTRfWjYzQXlvTE5uS19LUFZBdENVcGZsbXZqNEM3TnlxTTVRQzBOZzEwRGtzUVFZallSRXBqd0k5ZnljN01ld1luU0hWelRoM01TeEJ2aExHa2lmRHZmVE5HTE9kckxmdmNOalkzYXNEVF92VzhMMzB2VHJKNGR4LUJXMEF3MVZEOUN4YVItazF3TUgtdw?oc=5",
+      "published_at": "2026-08-25T07:56:54+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "14:56",
       "importance": 3
     },
     {
