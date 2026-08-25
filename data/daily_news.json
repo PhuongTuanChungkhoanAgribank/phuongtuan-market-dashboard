@@ -1,8 +1,61 @@
 {
-  "updated_at": "25/08/2026 10:31",
+  "updated_at": "25/08/2026 11:09",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-25",
   "cards": [
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "World gold prices approached $4,700 on the morning of August 25th.",
+      "summary_vi": "World gold prices approached $4,700 on the morning of August 25th. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5IMzltMl9kcmRLLTZHU0hpRXdRY2J0NzVUd3ZBWENHNDFaelVEbHk3Um41WkoySjNKSTVOVmRYUXdjM2ZwZU9PZG5Ibk5KZ1JTN1JFZXZtekV4Z1I1OXF6ZDN1NkV6b3FXemNWSTBERTlvMVZkYXRPdmN3?oc=5",
+      "published_at": "2026-08-25T03:52:05+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "10:52",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "TDM",
+      "tickers": [
+        "TDM"
+      ],
+      "exchange": "",
+      "headline_vi": "TDM: Báo cáo kết quả đợt chào bán cổ phiếu ra công chúng",
+      "summary_vi": "TDM: Báo cáo kết quả đợt chào bán cổ phiếu ra công chúng CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRUZSeTZtRldadk45b0FMUEdkYWR5M1RuWTdNVUhDa0tkQ2hPdzBqVjlXM0d2MFJSU3lSY054bkxqVWhSNFlOMFhhR3BacktBYlBKNG1IVEhEekw4OG8ya0RFU1lmeW81VnRGRzA4a1RYV1lvV2tuRTVsUWU2UzJqLW1yQzJuQ0k4ZWJIb2s4OFhNNkltYy04TGRLbXU4bnhfWTVnLWVGd2hHT2V5ay1Yd3NzbXJjUQ?oc=5",
+      "published_at": "2026-08-25T03:46:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "10:46",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SSI",
+      "tickers": [
+        "SSI",
+        "VPB"
+      ],
+      "exchange": "",
+      "headline_vi": "SSI Research: VPB có cơ hội đón dòng vốn FTSE gần 5.000 tỷ đồng trong kịch bản tích cực",
+      "summary_vi": "SSI Research: VPB có cơ hội đón dòng vốn FTSE gần 5.000 tỷ đồng trong kịch bản tích cực baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTmdfd2lpbU9mSERLLTA0M25xMXd6dzdCX3BndklhSzlLa3ZGVmM5a2g5Z0FGZV94eWxWSGJaeTJBT0xBV0ZpdXZINGRWWk9KRHpnMGtTSVNmeXYtLTRCc1E0YTZMX2xzbHoxZUdZZktMYkpEcUlnN01jQ1hBRmp4MTJwTkZncnZ1bVFhOHlveno3dTdWdWVJaFlqWHBiOHF1N0NkQkg2T09zZWdtZlpFYXcxWkhESTdPdmc?oc=5",
+      "published_at": "2026-08-25T03:35:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "10:35",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
