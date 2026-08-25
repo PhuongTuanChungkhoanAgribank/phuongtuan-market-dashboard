@@ -3,6 +3,56 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VIB áp dụng gói vay với lãi suất cố định 60 tháng cho khách hàng cá nhân",
+      "summary_vi": "VIB áp dụng gói vay với lãi suất cố định 60 tháng cho khách hàng cá nhân Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaXN0N1pvYnVjb1lNdjM2N21keXlocC1PWjY5SHZkVDVvSjc0Tzl6MjNmUlVfQm1LR0l4bUVCNFd4R3RXTV81UE56R1hlbU5CdVBkbUxTSmZNb0pYLTFBQXBPU2VuVXlHMkNlemd5VkQ1eDFfTE1tc3NkbEhiOTRjQnIwZXctdm8xR0syZHhndk5CNlQxMEVLZ0ZTNA?oc=5",
+      "published_at": "2026-08-25T07:33:06+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "14:33",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DBC",
+      "tickers": [
+        "DBC"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu DBC bất ngờ kịch trần, thanh khoản cao nhất hơn 1 tháng",
+      "summary_vi": "Cổ phiếu DBC bất ngờ kịch trần, thanh khoản cao nhất hơn 1 tháng thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdExyb0hwZzd3M3RWWEd1THdxSk1kZ2U0S1RxTmlXZW9NZko2UUwzYjB6QXVHbmozNzVUTllqVWp4OWdlWUsyRzNzMmdRSDJpcld1dHdEWDk0Sll1dTVGS2xlcWRsT01xNG9WMlg3clRFdnQ0bXdGOEFfdmNLTjRoV2xNeWtDOS12VGZJcWZ4Z1VEWW1NMG13ZmFiejNjdW9rZl9BWUlBeUp4ZENzN1ln?oc=5",
+      "published_at": "2026-08-25T07:21:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "14:21",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thị trường cổ phiếu toàn cầu 158 nghìn tỷ USD qua một biểu đồ",
+      "summary_vi": "Thị trường cổ phiếu toàn cầu 158 nghìn tỷ USD qua một biểu đồ VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQXpJMm5MZm1wY1NGa1NnWUJZV0JEM1IxWmgwNng3ODl1TllSWHFuR0tDRkQyWWFOSlRGUTg1VW9ISWtFRjBjTG9UaWtDZk1DYzhrM3hlcTVMY0kxZlZwbGtNdDdtV3BsODlmeGJtYUQ1NktXVDJtZFMwazY5T2FGMVViY2JyWHl4Q1hXZlVfdw?oc=5",
+      "published_at": "2026-08-25T07:03:04+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "14:03",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -33,6 +83,22 @@
       "published_date_vn": "2026-08-25",
       "published_time_vn": "14:00",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vietbank triển khai gói tín dụng ưu đãi 2.500 tỷ đồng, giảm lãi suất hỗ trợ doanh nghiệp",
+      "summary_vi": "Vietbank triển khai gói tín dụng ưu đãi 2.500 tỷ đồng, giảm lãi suất hỗ trợ doanh nghiệp baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT3lzRlQyQlJ1cjAwR3BkRC1zNmJxSWhSTzBXNUkyWEowYlg2X0dsejc0U1pmSGpyZFhwQjF5T0ZuMUlYelNHb05uQjZOVkxrSVQ3LXJ5bmg5T3J2aGNjQW5PNlRsVjNKWXM2akhhQmhILTNKMnVJaXdmMGUwLS15Uk1neDluSlQ4eWNYVG9ZZ1ZSWExIN2hic2plR1FOMjRBVHZRaXpkZEtHVUw0b1BTc0hrTlFrdUhJbzV3?oc=5",
+      "published_at": "2026-08-25T06:56:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "13:56",
+      "importance": 5
     },
     {
       "category": "DOANH NGHIỆP",
@@ -160,6 +226,22 @@
       "published_at": "2026-08-25T04:34:47+00:00",
       "published_date_vn": "2026-08-25",
       "published_time_vn": "11:34",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hơn 538.000 tỷ đồng tài sản, 35.000 hợp tác xã hướng tới mục tiêu mới",
+      "summary_vi": "Hơn 538.000 tỷ đồng tài sản, 35.000 hợp tác xã hướng tới mục tiêu mới Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZFJUaV84Uk85a3ZFa1lkaWlyQk9RRnFGU3ByQkh4N3MzeGdrVWZidDZVbGViNmhpdnVpVFRWT2o2QmJRMDZCNFB4SEtpbHhCN3RBUlViVS16OUJLSW5zemhuODJKaTVacHhXVTZQYkZSUHo1emJnQWx5M3dLbkZFRkdyYkdxZHpKRHI2U1h3ZWRxYXR1VlRPT0JzeXhxcXZVSjBVMHVR?oc=5",
+      "published_at": "2026-08-25T04:27:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "11:27",
       "importance": 2
     },
     {
@@ -396,6 +478,22 @@
       "published_date_vn": "2026-08-25",
       "published_time_vn": "08:22",
       "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Điểm lại thông tin kinh tế ngày 24/8",
+      "summary_vi": "Điểm lại thông tin kinh tế ngày 24/8 Thời Báo Ngân Hàng",
+      "source": "Thời Báo Ngân Hàng",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR19faGR6Ynh6X3BjOFA1R2RMc2pEMDdtNjV2R19reTZiX0JwdzdNMkFIWGxlMGt0ZXdUa3NaN1Rkek9RV0NqcUQtYTBsX2FrcU04QUJrdnZYbVhtc2N5TDNKd3NsRjNIdWhZQjd0ZUszNnlXRWVfdmpLejU4ZFlwQ2ZJdUJRbnpM?oc=5",
+      "published_at": "2026-08-25T01:20:05+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "08:20",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
