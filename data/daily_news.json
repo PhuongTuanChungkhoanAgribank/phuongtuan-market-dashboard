@@ -1,8 +1,24 @@
 {
-  "updated_at": "25/08/2026 19:03",
+  "updated_at": "25/08/2026 20:04",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-25",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu",
+      "summary_vi": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu Tạp chí Nhịp sống thị trường",
+      "source": "Tạp chí Nhịp sống thị trường",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQalJjRE5pZHRMR1prNE9NcUpWR1RCX181aW9tSHJ6aUx6M2c1c2dQdkNraGlLQ0R3bS1XR0xOYklBWEg1UVpUa2paaV9xaGgzaEp1WjM0anBDbXRRdGt0YUhvd0JZWHhiOVRhSlJqOEpvOHE1dGMtQ25DT1RNNWxxNXFDWGVjWXZfbzh4VHFPcm5rbzlXYnNQekd5czdNelg2WWc0?oc=5",
+      "published_at": "2026-08-25T12:09:01+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "19:09",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -114,6 +130,22 @@
       "published_date_vn": "2026-08-25",
       "published_time_vn": "15:45",
       "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VN-Index: FTSE tạo cú hích, nhưng dòng tiền chưa thực sự bùng nổ",
+      "summary_vi": "VN-Index: FTSE tạo cú hích, nhưng dòng tiền chưa thực sự bùng nổ Báo Pháp Luật Việt Nam",
+      "source": "Báo Pháp Luật Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVV9KcEluUkp4QVBrY1dla2hYWnFXXzQ3UWVMeWVUZjN4UkZxa1UydzZ5UzdBQk0wdWZCU1RrZkxkZnU2ck1MZFlBZ2lINTB5YTR1VFo4aDdZSEtoeFdZTl9rN0I5ZndVb3lnUnVYWmllNnB3WFFWUjNxRV9Tam5ldnlwNHBNQjFKOENYM1NxdWpZeEJMZ3F3bUkzTnBqVUp2YXc?oc=5",
+      "published_at": "2026-08-25T08:28:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "15:28",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
