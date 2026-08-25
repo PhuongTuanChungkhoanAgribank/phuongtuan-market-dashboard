@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T11:38:54.980046+07:00",
+  "updated_at": "2026-08-25T12:31:39.033887+07:00",
   "funds": [
     {
       "fund": "Dragon Capital - DCDS",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-08-25T11:38:50.692236+07:00",
+      "fetched_at": "2026-08-25T12:31:32.839810+07:00",
       "holdings": [
         {
           "ticker": "GTM",
@@ -24,7 +24,7 @@
         {
           "ticker": "UTM",
           "weight_pct": "",
-          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,112,113],\"{\\\"from\\\":\\\"b40093cb-1dc5-4277-9b61-97a8395d121b\\\",\\\"limit\\\":{\\\""
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"6fca58ea-fd87-4925-9ee6-232b30ec2d89\\\",\\\"limit\\\":{\\\"ty"
         },
         {
           "ticker": "DOM",
@@ -52,7 +52,7 @@
     {
       "fund": "PYN Elite",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-08-25T11:38:51.538928+07:00",
+      "fetched_at": "2026-08-25T12:31:35.907642+07:00",
       "holdings": [
         {
           "ticker": "URL",
@@ -135,7 +135,7 @@
     {
       "fund": "VinaCapital - VOF",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-08-25T11:38:54.978884+07:00",
+      "fetched_at": "2026-08-25T12:31:39.032847+07:00",
       "holdings": [
         {
           "ticker": "GTM",
