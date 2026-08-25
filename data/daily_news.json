@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 06:39",
+  "updated_at": "26/08/2026 06:56",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán Mỹ chuyển xanh khi lợi suất trái phiếu hạ nhiệt",
+      "summary_vi": "Chứng khoán Mỹ chuyển xanh khi lợi suất trái phiếu hạ nhiệt VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc2E1MnVsalBldUxsU0hVYlFGTGpkV2dpTlRhdGdoVV81RjA5ZU8xdktSV0Z5SHBoZG9nZWp2Q18yb2hfQl9MSTRsYTVYQnJEUi1hZUJUSVZhTFU2X1l1QjFjMmdyR05tc25OLVlXTnJMNjE3T2s5QU1wQTJhbXNEZHpMRWtzT0RzZWNBd2JQRDRpcGVfS2stbzA0dVBEbHdIeVE?oc=5",
+      "published_at": "2026-08-25T23:35:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "06:35",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
