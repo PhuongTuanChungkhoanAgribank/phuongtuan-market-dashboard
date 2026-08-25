@@ -152,6 +152,24 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "PVI",
+      "tickers": [
+        "PVI"
+      ],
+      "exchange": "",
+      "headline_vi": "PVI chuẩn bị chi gần 539 tỷ đồng cổ tức tiền mặt",
+      "summary_vi": "PVI chuẩn bị chi gần 539 tỷ đồng cổ tức tiền mặt PetroTimes",
+      "source": "PetroTimes",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcmszMldSQUM4cDdzOG9ydGMwQjBiXzY1bWtOWl90Wkp4TjZjQ0JNbjJVaVgtSVU5ZWhRN2stR0F0bHZfclZDYm91X0tVOFpUVHdqZHlaaG13Rm52ODd0Uk1WMzh3MG1NMTU5Q09HNTQ5R1ZUWGZDZHdxTTlRaVdaZmZuWWltMll0QmlkLXphLWFfazJqTE1WMGozcw?oc=5",
+      "published_at": "2026-08-25T09:45:47+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "16:45",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "",
       "tickers": [],
       "exchange": "",
