@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T14:43:10.550352+07:00",
+  "updated_at": "2026-08-25T15:41:47.263578+07:00",
   "funds": [
     {
       "fund": "Dragon Capital - DCDS",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-08-25T14:43:07.221170+07:00",
+      "fetched_at": "2026-08-25T15:41:43.266434+07:00",
       "holdings": [
         {
           "ticker": "GTM",
@@ -52,7 +52,7 @@
     {
       "fund": "PYN Elite",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-08-25T14:43:07.914784+07:00",
+      "fetched_at": "2026-08-25T15:41:44.032622+07:00",
       "holdings": [
         {
           "ticker": "URL",
@@ -66,8 +66,8 @@
         },
         {
           "ticker": "YTD",
-          "weight_pct": "7.63",
-          "raw": "YTD -7.63 % 10 y +107.91 % Home PYN Elite PYN Elite Fund Performance Portfolio Responsible Investing Subscription Redemption Documents News About us Contact Suomeksi Subscription Home PYN Elite PYN Elite Fund Performance Portfolio Responsible Investing Subscri"
+          "weight_pct": "7.34",
+          "raw": "YTD -7.34 % 10 y +108.08 % Home PYN Elite PYN Elite Fund Performance Portfolio Responsible Investing Subscription Redemption Documents News About us Contact Suomeksi Subscription Home PYN Elite PYN Elite Fund Performance Portfolio Responsible Investing Subscri"
         },
         {
           "ticker": "CEO",
@@ -135,7 +135,7 @@
     {
       "fund": "VinaCapital - VOF",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-08-25T14:43:10.549318+07:00",
+      "fetched_at": "2026-08-25T15:41:47.262555+07:00",
       "holdings": [
         {
           "ticker": "GTM",
