@@ -1,8 +1,28 @@
 {
-  "updated_at": "25/08/2026 23:21",
+  "updated_at": "25/08/2026 23:50",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-25",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "MCH",
+      "tickers": [
+        "MCH",
+        "DBC",
+        "ANV"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu đáng chú ý ngày 26/8: MCH, DBC, ANV",
+      "summary_vi": "Cổ phiếu đáng chú ý ngày 26/8: MCH, DBC, ANV nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSlZDa3NmQkFNbUdkaFo1UWRzQndBeW4tNkJpU2tOcTlBYVpzRXNsa2RaUUJfU1lOc0Y3RGpaWUs0X29UcnNkZUJudVZRdWtra0pReEE1SXByZVNsSTdEZFdsd3RQSVJqTm9GTU8xSjJMM3N6cTVxeUFMaTVrRzV6R3hTaw?oc=5",
+      "published_at": "2026-08-25T16:32:01+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "23:32",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -147,6 +167,24 @@
       "published_at": "2026-08-25T10:26:00+00:00",
       "published_date_vn": "2026-08-25",
       "published_time_vn": "17:26",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DGW",
+      "tickers": [
+        "DGW"
+      ],
+      "exchange": "",
+      "headline_vi": "DGW: Báo cáo kết quả giao dịch cổ phiếu của người có liên quan đến Người nội bộ Tổ Tiểu Ngọc",
+      "summary_vi": "DGW: Báo cáo kết quả giao dịch cổ phiếu của người có liên quan đến Người nội bộ Tổ Tiểu Ngọc CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRFBYXzliRVlkaTJ1MkhsMjgyRXQ3MjNpdVJfdUpidHJjS2NRaDFtSWIxQUxZdWlBVUFkNURmTmFIT3Y4RkZOSHM4OXFHd01wemJBWDc5TTR6Vm1IZGpweVNTVUlEeFdaVnZRWGU0ZUNYTXhVVzRLWUxBbnJ1U1M0R2VCRnZ1Q2ZwVlNkWFh2Z2V0OEV5ZFpWeGdWb1dRR05YVHhaV2M5dHNVdWI5eFA1aGRrUEtxUFZpeVFfbFZGRzlXY1dGZjA0a0VBVXZXS3Rfa1drWUh2SmNtVzZDSUZBNktYVFdBZw?oc=5",
+      "published_at": "2026-08-25T10:16:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "17:16",
       "importance": 2
     },
     {
