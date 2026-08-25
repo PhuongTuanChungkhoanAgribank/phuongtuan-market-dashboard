@@ -1,8 +1,42 @@
 {
-  "updated_at": "25/08/2026 21:01",
+  "updated_at": "25/08/2026 21:37",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-25",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VDS",
+      "tickers": [
+        "VDS"
+      ],
+      "exchange": "",
+      "headline_vi": "Vừa tất toán lô nợ cũ, Chứng khoán Rồng Việt (VDS) tiếp tục huy động 390 tỷ đồng trái phiếu",
+      "summary_vi": "Vừa tất toán lô nợ cũ, Chứng khoán Rồng Việt (VDS) tiếp tục huy động 390 tỷ đồng trái phiếu Báo Pháp Luật Việt Nam",
+      "source": "Báo Pháp Luật Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ0Fya2V0eUd2ZWo1Tk9uTnd3TmVVekRyYjdObVdPZGFTeHpfS2EtQVpsbmVlblpSdUloV1c5Mjh1cnpSN2FFU1ZZdjROLWp5ZHJfRVNYcUt3MlVPeXZ6MHQ0eWtHSC1DNC1JUlMxMXBjelQ2UU4yS0x0QmYzd09qVnlFNUVyQzNTVFB5WjNhV3RLVm1BdE1qTVNWNzhpUVB5RWxoZXU1RVV1M1JiZ2cxU2NRMTlyRUoySC1pX2tTWDg1dGhZ?oc=5",
+      "published_at": "2026-08-25T13:40:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "20:40",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xử phạt ông Võ Bình Nguyên vì thao túng cổ phiếu của Tập đoàn Giáo dục Trí Việt",
+      "summary_vi": "Xử phạt ông Võ Bình Nguyên vì thao túng cổ phiếu của Tập đoàn Giáo dục Trí Việt baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ05DR05KYUNDb0R1Qi16cFBXYTE2MkR0eG1veFNsNnR4RkZmN0NzUXFKOEdTQnlCLUxiUlE2eGh2R0hZeFZsc0ZLZmhXQ3A5d2VHUGhBNXItZGpVUFpCVE03a045LV9ZWmVJM0ZocERROEJwbUR5aTdFVXVnWFJ1b2lMaThOdGY1anh0VHhOcEdvNkNmQ1Q2XzI5Q2ExbHRlZURsNGRQdHZ5Wjlma3hKSUln?oc=5",
+      "published_at": "2026-08-25T13:25:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "20:25",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -20,6 +54,22 @@
       "importance": 2
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu",
+      "summary_vi": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMDlkV1lqcjlGLUE2Y0lqVnc5Qk5JQjZxN05IRHFxbllZY0phd3oxNUVyU3JZSllpVzhUYmlGYlJSTmdvSWE4STMtY3JrT2hOMnBrbDZmRUFzZzYwdXZNVE5FTnBtX3J6SkZCemhXcEZMd2hMdktMTVRXSzJSbERkVDdJUWdjVGVjMk9hMWlrMnV3SUU4dW85N0dLY01WSTF0SkEzanN4VmRmZw?oc=5",
+      "published_at": "2026-08-25T13:09:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "20:09",
+      "importance": 2
+    },
+    {
       "category": "VĨ MÔ",
       "tag": "",
       "region": "",
@@ -33,22 +83,6 @@
       "published_at": "2026-08-25T12:10:59+00:00",
       "published_date_vn": "2026-08-25",
       "published_time_vn": "19:10",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu",
-      "summary_vi": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu Tạp chí Nhịp sống thị trường",
-      "source": "Tạp chí Nhịp sống thị trường",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQalJjRE5pZHRMR1prNE9NcUpWR1RCX181aW9tSHJ6aUx6M2c1c2dQdkNraGlLQ0R3bS1XR0xOYklBWEg1UVpUa2paaV9xaGgzaEp1WjM0anBDbXRRdGt0YUhvd0JZWHhiOVRhSlJqOEpvOHE1dGMtQ25DT1RNNWxxNXFDWGVjWXZfbzh4VHFPcm5rbzlXYnNQekd5czdNelg2WWc0?oc=5",
-      "published_at": "2026-08-25T12:09:01+00:00",
-      "published_date_vn": "2026-08-25",
-      "published_time_vn": "19:09",
       "importance": 2
     },
     {
@@ -162,6 +196,24 @@
       "published_date_vn": "2026-08-25",
       "published_time_vn": "15:45",
       "importance": 5
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DST",
+      "tickers": [
+        "DST"
+      ],
+      "exchange": "",
+      "headline_vi": "Chuỗi biến động liên tục ở DST từ khi DN liên quan ông Đỗ Thành Nhân xuất hiện",
+      "summary_vi": "Chuỗi biến động liên tục ở DST từ khi DN liên quan ông Đỗ Thành Nhân xuất hiện VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZlVQbzBaTnJpd0U1LWltb05VeVY0OVZDRzJ6Q1pFQ1ZBemRsM1NYTzRHTmlDdVM0bmxkT3prUVo1NkhSVjlNSi1ZMzh6V0hzMnA4S2xsZVVPTzhrRklBVUxKTFBsYVJFZmx4TWlxd0NPckh6ck5nWkJ0VkZJanhVSk5sTF9OMGZUMDhhYXRPVTliMWF6NXdHU01nWXBxdWVucDJPWGxtOHZsb0ZsanZpTXU0OThqaGk4?oc=5",
+      "published_at": "2026-08-25T08:30:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "15:30",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
