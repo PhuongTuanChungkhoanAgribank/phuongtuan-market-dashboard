@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 01:54",
+  "updated_at": "26/08/2026 01:59",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nearly half of the global oil flow passes through conflict zones.",
+      "summary_vi": "Nearly half of the global oil flow passes through conflict zones. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLWdkMVpIc2hWcmVkdnA0dU5LV2tyaVpQQ2YxRmZ1M0pEOGVoYURJWFVXd0JDRlBGbkdBZEE1aE8zNVJxeEZwb1VzS3M3SDZaRzBHeDBBS1pnNzNHNDNPbjByY0Y5QjFubWxYNngzTUp5d3pWWDlVVGU4NHVDRWZ4MFNSNzdDNVBQaUNBdnRSa0xoUQ?oc=5",
+      "published_at": "2026-08-25T17:28:57+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "00:28",
+      "importance": 4
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
