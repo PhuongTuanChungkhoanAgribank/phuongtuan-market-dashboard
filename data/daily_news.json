@@ -1,8 +1,40 @@
 {
-  "updated_at": "25/08/2026 09:44",
+  "updated_at": "25/08/2026 10:28",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-25",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán Mỹ giằng co trước loạt tín hiệu mới",
+      "summary_vi": "Chứng khoán Mỹ giằng co trước loạt tín hiệu mới Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZendnVTZJWUlKMFRMTWFfcUFfcUlfcE16bWJOQ2pySm5ubks3QVZOUnFRU0ZnQTl5Z2JYZjljNDRLeEJfN3oxaGYzd1RPdFZPLUk0bzhIOUpTVjlVVWNiQlRjMko0bEhHczdkTDQycWxpQkZkUUlGbkNn?oc=5",
+      "published_at": "2026-08-25T03:26:10+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "10:26",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VPBank lọt nhóm 6 cổ phiếu Việt Nam vào FTSE All-World, rộng cửa đón dòng vốn ngoại",
+      "summary_vi": "VPBank lọt nhóm 6 cổ phiếu Việt Nam vào FTSE All-World, rộng cửa đón dòng vốn ngoại CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN2gySF9ma2ppOEVyZVJCbGtrNU1hYlhIZjZtOUxGSTV3eF8zUl84aWlfY19HTTl0YmhtTUdmMHBlRGowQ1ZTRTRpcm14bTRmNEZyZjdySTdOaUFpcEVTcUJKdmV0ZjRHTWotYVVKSjhjUUJFNEd6ODF0UzkxQ3M4bzI1VzdlbFZackFfTHZZOV9Xd0cwRUNKZE9mRjlPbVNwcTUzdjBHMW53eW1kMEFXZTg4REx4aVdjUFMyQXY4OA?oc=5",
+      "published_at": "2026-08-25T03:00:00+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "10:00",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -34,6 +66,25 @@
       "source": "VnEconomy",
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeDFSOFR6NTVDVl9IQ1VISzI2akp2U3JNM3BsNVlybUg0dmhhWm43Qnd1c3JDb1YxNGtISk41SjNKdnUxX01iLUtOTVFhT3FfekRraEljYkZNUk4zSTJfakNDdlRwT05VaXpHcnNDWDl5QW1rNUZBaU8yQVZpVlNGNXBKZndyeW1L?oc=5",
       "published_at": "2026-08-25T02:32:39+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "09:32",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "TMS",
+      "tickers": [
+        "TMS",
+        "VNF"
+      ],
+      "exchange": "",
+      "headline_vi": "TMS đăng ký mua 1 triệu cổ phiếu VNF, nâng tỷ lệ sở hữu lên 61,05%",
+      "summary_vi": "TMS đăng ký mua 1 triệu cổ phiếu VNF, nâng tỷ lệ sở hữu lên 61,05% VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lNGpndnJlbnhBaHdFT3hKMDRBMnpCbnNyMWloY01jdUt0WjRpSjREQ1JTNDEwZzh2QVFqczhtbmdnN080UU50VUthRzdYS2VwZUFRSk5ocnRuVUxKcnFvQ2dnZ3o1WUlIZ01VWEJB?oc=5",
+      "published_at": "2026-08-25T02:32:03+00:00",
       "published_date_vn": "2026-08-25",
       "published_time_vn": "09:32",
       "importance": 2
@@ -183,6 +234,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Định giá thấp chưa đủ kéo dòng tiền?",
+      "summary_vi": "Định giá thấp chưa đủ kéo dòng tiền? 24HMoney",
+      "source": "24HMoney",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcWNwZmNWb2g3VERTYTVLeVJCaGdsOFA2TFIzRHExOWx1QlZaNk1jdExaeDA2NmJxSXJpWUVDUlg3Q2dranNYb0p4S2NMZkk3Zkt3dE0wZ205dTJ0RVFBUlRvajZGSGtkVHZGd0VOMHIzaEVLWkN4MmlmdFRKeC03ZEtR?oc=5",
+      "published_at": "2026-08-25T00:18:59+00:00",
+      "published_date_vn": "2026-08-25",
+      "published_time_vn": "07:18",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Lãi kỷ lục, một doanh nghiệp bảo hiểm chi 242 tỷ đồng trả cổ tức tỷ lệ 12%",
       "summary_vi": "Lãi kỷ lục, một doanh nghiệp bảo hiểm chi 242 tỷ đồng trả cổ tức tỷ lệ 12% nguoiquansat.vn",
       "source": "nguoiquansat.vn",
@@ -258,22 +325,6 @@
       "published_at": "2026-08-25T00:04:00+00:00",
       "published_date_vn": "2026-08-25",
       "published_time_vn": "07:04",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Chứng khoán Mỹ giằng co trước loạt tín hiệu mới",
-      "summary_vi": "Chứng khoán Mỹ giằng co trước loạt tín hiệu mới Thời Báo Ngân Hàng",
-      "source": "Thời Báo Ngân Hàng",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYXRkRllzbUN6RWxXblEwRTdJMEExZUY2bmJBRXVrUldtZzIxTk9Kb2x0Qnp3S1I4UXdpT1RHR0xyWXpiTUxjU24wTUptd2s4S3hESDdneEtlR0NfU2NQeDY5Qm9NeFNIVWpzdTByTFlvYTZ5S19yWFF3UlYzSFRVWmFiVGFFbWdtLWhULVAzcw?oc=5",
-      "published_at": "2026-08-25T00:00:12+00:00",
-      "published_date_vn": "2026-08-25",
-      "published_time_vn": "07:00",
       "importance": 2
     },
     {
