@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 23:25",
+  "updated_at": "26/08/2026 23:56",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Công ty chứng khoán lạc quan sau khi VN-Index đột phá qua ngưỡng 1800 điểm",
+      "summary_vi": "Công ty chứng khoán lạc quan sau khi VN-Index đột phá qua ngưỡng 1800 điểm VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWTFDV3NjT29KOVJjOEdNVFIxQnFxMlk5MGJzbG81MlVsZDlyT1U2VnZRMG1FS3Y4VDRzTEtGNzdPWmhRcUtMRW9aR3NSYUhxVXpRT3FxdlF1emMxbFlrTDlRVnc5bmVhUTJKMEJkUVh2dHBJZG0xWElWVmlPcWRLUjQtUC1rSG5kTkd4eVJFbnlYZ1VhWS1BTWdkbGd4NEds?oc=5",
+      "published_at": "2026-08-26T16:20:13+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "23:20",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
@@ -312,6 +328,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "17:28",
       "importance": 4
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu SSB của SeABank vào rổ FTSE Global All Cap",
+      "summary_vi": "Cổ phiếu SSB của SeABank vào rổ FTSE Global All Cap Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHRPMWNTb2l5N2NWMmc3SDhTTm94alptZzZBX2NRaV9ITHNWSjd3ZHpsRWdqQ2x2Y0d2ZzVGTVBJNHdVVEFJYk1LNkRJSXRmaG42Sk1IQ3NkbVl1YzVlTk9GeVhOZUtVaFJZZ0drRXZCR2FFekVUYXkwbVlhUWpOeDhnVU81OXJ1OVJGbDYzT2d3WGtWejNsZ3BLc08?oc=5",
+      "published_at": "2026-08-26T10:23:50+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "17:23",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
