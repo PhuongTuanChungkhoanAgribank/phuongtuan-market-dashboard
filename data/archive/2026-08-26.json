@@ -3,6 +3,56 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PHR",
+      "tickers": [
+        "PHR"
+      ],
+      "exchange": "",
+      "headline_vi": "Cao su Phước Hòa (PHR) sắp chi 190 tỷ đồng trả cổ tức, thưởng cổ phiếu tỷ lệ 80%",
+      "summary_vi": "Cao su Phước Hòa (PHR) sắp chi 190 tỷ đồng trả cổ tức, thưởng cổ phiếu tỷ lệ 80% CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWVFMXNyUk5CTWRhUGZmZnBBcGJsT2JqWUlwY0NOUTBBNXJWTElUd2dGSnlJaWlOWHNYTm1ETXRNSXVDdDNPNmRaRlJrNUd2aWVraWZBU1l1RGM3cDkxNHVhWUFLU2Z1cDZ3RlR6b05QNnRNaXlRbjhVb0JDdTBZMWIybXhta0llb1ItYXpzOTd1OFlsM1hQN0M4Sl9GdmVxODhfOWpYSXJDT2FWMm1kcnlpX3pDT0k?oc=5",
+      "published_at": "2026-08-26T10:11:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "17:11",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "408.000 tỷ đồng sẵn sàng “tiếp sức” cho các động lực tăng trưởng kinh tế",
+      "summary_vi": "408.000 tỷ đồng sẵn sàng “tiếp sức” cho các động lực tăng trưởng kinh tế Vietnam+ (VietnamPlus)",
+      "source": "Vietnam+ (VietnamPlus)",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSHM3ejFOdC12Q2RDVjJHSzJLaE5rbXo2M2hJUGJmbzR5eTZKQjZfaF9JQ3UwUVM1ell3ZWdTUERoRDdtNGNrOEpWRVJjLWdNdzNUTHNmelRQV0loc1ViTlFmMUU2YjV1YVhrM0tqNXdkSkVJVlBHUDNZMWoycXhUOUxUUEsyc05iRHg5eVpUdXl4cnctTVVmTzUxOWR1c0pjZ25Ec21TRGFlWW1RVzBWZ3dn?oc=5",
+      "published_at": "2026-08-26T10:05:25+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "17:05",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Từ nay, cá nhân đang dùng tài khoản ngân hàng, tài khoản chứng khoán, ví điện tử... vi phạm điều này có thể bị phạt tiền lên đến 100 triệu đồng",
+      "summary_vi": "Từ nay, cá nhân đang dùng tài khoản ngân hàng, tài khoản chứng khoán, ví điện tử... vi phạm điều này có thể bị phạt tiền lên đến 100 triệu đồng CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZ2NZWWRWR3c2RHcteGZPZGpnaXhEWFlHNml3RGJIQXZUMlNXWC1lQjd2NXY5bDRsRTdOZG4xWXhhN2c3V1JGLWxmbU9JR1l3SHlLWC1ScUZDZkFmMGliSTJZeWJCdWZGS05LQjdEWEJaVk8xcU95OUlKOHByVDdGZFhqMDFBaFR6WEtucXNmbnpueU05UE9QaTRMMlp6N0szTmh3bGkzWlE4QnBOdldsOXNTVTFFdzFaRTBhVTlCSWNZeTlUTlZOSkpQRUpHbW5XM2dQeUVWN1FnS0VXQUIwSV9CbHhVQmF5V0tVd290eTBBanYtc3RhQ2ZzY1BMNERrZzlUVndVUVk?oc=5",
+      "published_at": "2026-08-26T09:34:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:34",
+      "importance": 2
+    },
+    {
       "category": "VĨ MÔ",
       "tag": "",
       "region": "",
@@ -51,6 +101,22 @@
       "published_at": "2026-08-26T09:26:00+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "16:26",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu Techcombank 'cháy hàng'",
+      "summary_vi": "Cổ phiếu Techcombank 'cháy hàng' Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SVkRsQlVlenU5NjctUmVaQS1GWXBfMTB2c0piUndTNzdvVHBIdndHaWJhNF9BWnh4aUJOa0xzS3FHUDZybFJMbjU0ZldJcUIyXzNMd3JZNzF1LTJUemJYTjhLV1RnMDFTU1R0eER3VEU4QQ?oc=5",
+      "published_at": "2026-08-26T09:21:16+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:21",
       "importance": 2
     },
     {
@@ -165,24 +231,6 @@
       "published_at": "2026-08-26T08:10:52+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "15:10",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "PHR",
-      "tickers": [
-        "PHR"
-      ],
-      "exchange": "",
-      "headline_vi": "Cao su Phước Hòa (PHR) sắp chi 190 tỷ đồng trả cổ tức, thưởng cổ phiếu tỷ lệ 80%",
-      "summary_vi": "Cao su Phước Hòa (PHR) sắp chi 190 tỷ đồng trả cổ tức, thưởng cổ phiếu tỷ lệ 80% Tạp chí Nhịp sống thị trường",
-      "source": "Tạp chí Nhịp sống thị trường",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOVNDRlFidTgtYlU1ajFMS2hvVjJqWFI3Rkl4SVI4anA4RVV6RWtmVEQyc2dHdzNVUjJDOUh2c19mS2VoTVVaN0lIVGp2NWNQSDdFelBsdlNEU2tJampNQXdoeGhKUjZoc0h1d29TaEhpcW9tRi1HZm9VdUI2dlpiNXlrOV81UkZFV01QemxGUHdUTlhnbk9vbkcxaUhWTXVPTGVuakhiUlJTQmNRZTJTMQ?oc=5",
-      "published_at": "2026-08-26T08:06:01+00:00",
-      "published_date_vn": "2026-08-26",
-      "published_time_vn": "15:06",
       "importance": 2
     },
     {
@@ -410,6 +458,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "14:16",
       "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "RIA-Novosti: Mỹ-Iran đạt thỏa thuận ngừng bắn, Hormuz có cơ hội mở cửa trở lại",
+      "summary_vi": "RIA-Novosti: Mỹ-Iran đạt thỏa thuận ngừng bắn, Hormuz có cơ hội mở cửa trở lại CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX293NWZqWERHejdnLXhXMmhYR0s4bU5nNmdJb1Bad3ExR05NN19td3ZhOFRvTlc2NVMyNXdleVVHSG1LOHk5cmF2eWE5OHVHTEtLM0MySy1CNFBMc3U5RlJ1U1d5M2JrLVp3TXhQRC1zeEs0VUZLSWh4dlVaanFLUVZYbGJUZGRqOGxHVG1RdkoxdGNQOXM5UlB2Uzd2RHFqNzdxcFVxTGtXVkpkOWxBUG9lenItSUU?oc=5",
+      "published_at": "2026-08-26T07:12:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "14:12",
+      "importance": 5
     },
     {
       "category": "THẾ GIỚI",
