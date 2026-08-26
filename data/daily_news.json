@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 10:41",
+  "updated_at": "26/08/2026 11:06",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Quỹ ngoại: Định giá nhiều cổ phiếu Việt Nam ở mức thấp bất thường",
+      "summary_vi": "Quỹ ngoại: Định giá nhiều cổ phiếu Việt Nam ở mức thấp bất thường VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQklEUDAtYm9lUHBwcUpIV1R1MG9QTHh3a0lEbUtnczJ6SjVFbi01THhBYWVKN2tPNlNWYUJvOUVaeURQZ3oyRUJ2OFF3UDhmeVZKZnhWdUtiRy00ZmhsMUNQM3NJWDYwSk1hRHhKNHRuVWZPam9IZlplbnp5aU1zcTBWY0pkNk91LWozdHFOWlBGVXM?oc=5",
+      "published_at": "2026-08-26T03:57:40+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "10:57",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
