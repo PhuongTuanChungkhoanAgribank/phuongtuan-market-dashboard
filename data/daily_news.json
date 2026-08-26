@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 15:43",
+  "updated_at": "26/08/2026 16:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "USD holds its breath awaiting inflation data and remarks from Fed Chairman Kevin Warsh.",
+      "summary_vi": "USD holds its breath awaiting inflation data and remarks from Fed Chairman Kevin Warsh. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUUZWRmlZaFFsX1JYcUpMWHlzMkZ4MVdpcVJqSkJTWUp5QU5pZHVLQzQtTTF4RmNJM2VCWGYyM2htbzZlamRGZk4tRHNpTFRyWVAzS3AydUJJZUlaN1JBYXlxdTI2aVNQUnhqcV91NEN0VUxtMVhrd1Z0b3lRdzlzeTVxU1dYNV9VMHk0LXhSUTdjVVFoMnhtdUpIQ01EdjctLXc?oc=5",
+      "published_at": "2026-08-26T08:54:26+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:54",
+      "importance": 5
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -134,6 +150,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "14:22",
       "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Pound Steadies Near Six-Month Highs as Markets Brace for Key US Data and Fed Signals",
+      "summary_vi": "Pound Steadies Near Six-Month Highs as Markets Brace for Key US Data and Fed Signals CryptoRank",
+      "source": "CryptoRank",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSW1CYS1Wb09KeHlyVnVib0hiRHgtWUtRLVhqRXAzaHVQMmdlc3l5a1pLRlgyTDdJUE8yejJZd3pFYzNwSDRWQ2ZkMFVfX1hWLU0zeWw2Sml4U1NxajhoOHczYjVhVVA2WmI5Z1JRRmQweW5kN1Z4Snk0bTROLW5zOXJBOA?oc=5",
+      "published_at": "2026-08-26T06:34:18+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "13:34",
+      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
