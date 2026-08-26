@@ -1,5 +1,5 @@
 {
-  "updated_at": "26/08/2026 21:50",
+  "updated_at": "26/08/2026 21:59",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
@@ -17,6 +17,22 @@
       "published_at": "2026-08-26T14:17:26+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "21:17",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Đồ chay 'ba không' tràn chợ",
+      "summary_vi": "Đồ chay 'ba không' tràn chợ Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91V2NqVUppSnBHWWdPUXhlVXBMQkVqUXN1MEhKd1dZbnV3ZjFiNE1JZk84U29kVnd4bERYNklhRDNuTWlTb3EtYTlQOEp6UkRDdUN2dTNkN1ExWmQwYW1mM2NaOWpBank3TnRF?oc=5",
+      "published_at": "2026-08-26T14:02:37+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "21:02",
       "importance": 2
     },
     {
