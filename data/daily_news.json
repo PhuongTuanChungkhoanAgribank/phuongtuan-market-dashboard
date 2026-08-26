@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 20:12",
+  "updated_at": "26/08/2026 21:01",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Home Credit Việt Nam báo lãi nửa đầu năm tăng 15%, dư nợ trái phiếu 7.400 tỷ đồng",
+      "summary_vi": "Home Credit Việt Nam báo lãi nửa đầu năm tăng 15%, dư nợ trái phiếu 7.400 tỷ đồng CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2tCNGN6eHUwMTJiMEM4T1FQUC1DdVc3NE10bXhaZXdzV2RRVXJoNFVUbklCQXc1dG9TdVYzQVNnaDdYV2dEUnllOTlMOHJqWDE4Q3ZHOU1CV0NLYkg1eHh1RXotaklScTlMSTNaaGZscDJlOFdTR1BZSXY5b3diV1lPR1NOUXNtSFJjakhGZ2JSaFhobzk1cTVBRm94bUJfNnFuQzZyZ0JyZ216TmY2azNMRi1fOUtfaFE?oc=5",
+      "published_at": "2026-08-26T13:50:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "20:50",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "ASEAN",
@@ -240,6 +256,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Iran và Oman đàm phán thỏa thuận về eo biển Hormuz, dầu WTI về 80 USD/thùng",
+      "summary_vi": "Iran và Oman đàm phán thỏa thuận về eo biển Hormuz, dầu WTI về 80 USD/thùng Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSHBCX3Bma0V5WTdiY3ZQV1FjWWpWZDNKMVJOLUYtTTVPV2ZQVG1Tdkk2WmhPbkNfVm5JNFNoQ3JwWHozYjFPanJDcUtUT1o2a0MtczM4dXJQd2hfNEhEMkF4bXhuUlBrXzd4b2dwaXFteWlQODRMc2FVd1BfT0JKQm02c3VqQ3d0dEhncmZ5azZCT1UxNkxrWnp0TkxzRmVXTGk5bmZjX0pjN2tqOVBnbDg0UFhMb256?oc=5",
+      "published_at": "2026-08-26T09:47:30+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:47",
+      "importance": 5
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Từ nay, cá nhân đang dùng tài khoản ngân hàng, tài khoản chứng khoán, ví điện tử... vi phạm điều này có thể bị phạt tiền lên đến 100 triệu đồng",
       "summary_vi": "Từ nay, cá nhân đang dùng tài khoản ngân hàng, tài khoản chứng khoán, ví điện tử... vi phạm điều này có thể bị phạt tiền lên đến 100 triệu đồng CafeF",
       "source": "CafeF",
@@ -346,6 +378,24 @@
       "published_at": "2026-08-26T09:05:36+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "16:05",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DMX",
+      "tickers": [
+        "DMX"
+      ],
+      "exchange": "",
+      "headline_vi": "Hàng ngàn tỷ đồng chính thức 'đổ' về tài khoản, cỗ máy in tiền DMX bắt đầu sinh lợi cho nhà đầu tư",
+      "summary_vi": "Hàng ngàn tỷ đồng chính thức 'đổ' về tài khoản, cỗ máy in tiền DMX bắt đầu sinh lợi cho nhà đầu tư Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVXUtWHBTcmNwRmwxNjgwUnI3RjUzYVE3a1g3cnN3M0JYTjUyb2VFcFBOUDdqaHZuR1l3bkxSUzJOUUpmYWpodFBXWWhJVWhZMnN1UjRGd0R1MDdmdTdMS3VNYndXNFZHR3lHUGhISUpmRF92NmlXcmdSZDh3Y2Z2MlZ1QTVETEd5c3pGcDY0UGpORmFDWDZvVm5UWlBYVnpwcWJYZXJUdjZFRHcxQlBvSW9OWTU3dEQtMm1QVjdjMUNkdks5NjFoc2NDeS03bWRhLUNZRVNFNA?oc=5",
+      "published_at": "2026-08-26T09:02:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:02",
       "importance": 2
     },
     {
@@ -558,6 +608,38 @@
       "published_at": "2026-08-26T07:49:26+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "14:49",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Băng huyết sau sinh, sản phụ 23 tuổi nguy kịch vì căn bệnh quen thuộc",
+      "summary_vi": "Băng huyết sau sinh, sản phụ 23 tuổi nguy kịch vì căn bệnh quen thuộc Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMVdUOHU0NVI3cFFkY214VzVZbFBNQV9BcGJJWVJNRmJ6emRJdmdTVTNDdV9ZOVUyMmJrSFpxOG14ZHRNOGttMEVBa3pWMVBaaWp1QmNxX2hSeHJlSzdPQndCMTBPeHctR1FoVHRubDFCRmYtX2hNaUpWdDI0QmZKTEZiSklhOVY1UWJCdUcwRDVpSFlGWmNwWTBtTWpUSWEyLWtHcA?oc=5",
+      "published_at": "2026-08-26T07:38:44+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "14:38",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hà Nội và TP.HCM 'chạy nước rút' để tăng trưởng cả năm vượt 10%",
+      "summary_vi": "Hà Nội và TP.HCM 'chạy nước rút' để tăng trưởng cả năm vượt 10% Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSGpXY2dNQlZQLTNwYU9Ec2tnamhKeTVvWnhNcjg0Tjh3NWZyUUh1RzBoMVJQRG5yemNWbzdLSkhINjFMLWIzTTRKR3JLMjVWdk5BRHFWZE9BYy1MZlBnck9jdFktRmdJQjhhSTJUYUxXWkVCTE5NQ1lnWXRJa090ZmZDR19tUTBWMUEwRmVpTGU4X1NHOFBCRg?oc=5",
+      "published_at": "2026-08-26T07:35:51+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "14:35",
       "importance": 2
     },
     {
