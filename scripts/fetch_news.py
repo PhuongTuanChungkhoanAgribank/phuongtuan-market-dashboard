@@ -15,10 +15,11 @@ DATA_FILE = ROOT / "data" / "daily_news.json"
 ARCHIVE_DIR = ROOT / "data" / "archive"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
-# Broad world-news layer. Google News RSS is the free aggregation layer.
-# We deliberately split World into regions/themes so one weak query cannot
-# make the entire category disappear.
+# World-news layer: broad international coverage plus targeted Vietnamese media.
+# Google News RSS is the free aggregation layer. VnExpress also contributes via
+# its first-party World RSS channel.
 FEEDS = [
+    # Global / US
     ("THẾ GIỚI", "global markets Reuters OR Bloomberg OR CNBC OR WSJ OR Financial Times"),
     ("THẾ GIỚI", "US markets Wall Street stocks bonds Treasury dollar Fed"),
     ("THẾ GIỚI", "US Iran Israel Middle East conflict oil sanctions geopolitics"),
@@ -29,6 +30,8 @@ FEEDS = [
     ("THẾ GIỚI", "site:reuters.com world markets Fed Iran oil bonds"),
     ("THẾ GIỚI", "site:wsj.com markets Fed economy stocks bonds"),
     ("THẾ GIỚI", "site:ft.com markets economy Fed global markets"),
+
+    # Japan / Korea / India / ASEAN / Australia / Taiwan
     ("THẾ GIỚI", "Japan markets BOJ yen Nikkei inflation GDP exports"),
     ("THẾ GIỚI", "site:reuters.com Japan BOJ yen Nikkei economy"),
     ("THẾ GIỚI", "site:cnbc.com Japan BOJ yen Nikkei economy"),
@@ -36,20 +39,35 @@ FEEDS = [
     ("THẾ GIỚI", "India RBI rupee Sensex Nifty inflation GDP economy"),
     ("THẾ GIỚI", "ASEAN Singapore Indonesia Thailand Malaysia markets economy"),
     ("THẾ GIỚI", "Australia RBA AUD jobs inflation commodities economy"),
+    ("THẾ GIỚI", "Taiwan TSMC semiconductors exports economy"),
+
+    # Europe / UK
     ("THẾ GIỚI", "Europe ECB euro STOXX inflation GDP Germany France economy"),
     ("THẾ GIỚI", "site:ecb.europa.eu ECB monetary policy interest rates"),
     ("THẾ GIỚI", "UK Bank of England sterling inflation GDP economy"),
     ("THẾ GIỚI", "Germany DAX Bundesbank inflation industrial production economy"),
     ("THẾ GIỚI", "France Italy Spain Europe markets sovereign bonds economy"),
+
+    # China / geopolitics / markets
     ("THẾ GIỚI", "China markets PBOC yuan property exports imports GDP inflation"),
     ("THẾ GIỚI", "site:stats.gov.cn China NBS GDP CPI PPI industrial production"),
-    ("THẾ GIỚI", "Taiwan TSMC semiconductors exports economy"),
     ("THẾ GIỚI", "dollar DXY Treasury yields global bonds FX currencies"),
     ("THẾ GIỚI", "gold silver copper oil Brent WTI commodities"),
     ("THẾ GIỚI", "AI semiconductors Nvidia TSMC Microsoft Amazon Google Meta capex"),
     ("THẾ GIỚI", "OPEC oil production energy LNG natural gas Middle East"),
     ("THẾ GIỚI", "US China tariffs trade war sanctions supply chain geopolitics"),
     ("THẾ GIỚI", "Ukraine Russia Europe NATO sanctions oil gas geopolitics"),
+
+    # Vietnamese media: World
+    ("THẾ GIỚI", "site:znews.vn thế giới OR quốc tế OR Mỹ OR Iran OR Trung Quốc OR Nhật Bản OR châu Âu"),
+    ("THẾ GIỚI", "site:znews.vn Fed OR FOMC OR dầu OR vàng OR chứng khoán Mỹ OR chứng khoán thế giới"),
+    ("THẾ GIỚI", "site:vnexpress.net/the-gioi Mỹ OR Iran OR Trung Quốc OR Nhật Bản OR châu Âu OR Nga OR Ukraine"),
+    ("THẾ GIỚI", "site:vietstock.vn thế giới OR chứng khoán Mỹ OR chứng khoán châu Á OR chứng khoán châu Âu OR Fed OR Iran"),
+    ("THẾ GIỚI", "site:vietstock.vn vàng thế giới OR dầu thế giới OR giá dầu OR hàng hóa quốc tế OR USD"),
+    ("THẾ GIỚI", "site:cafef.vn thế giới OR chứng khoán Mỹ OR Fed OR dầu OR vàng"),
+    ("THẾ GIỚI", "site:vneconomy.vn thế giới OR Mỹ OR Trung Quốc OR châu Âu OR Nhật Bản OR Fed"),
+
+    # Vietnam macro / corporates
     ("VĨ MÔ", "Federal Reserve OR Fed OR inflation OR interest rates OR USD OR Treasury"),
     ("TRONG NƯỚC", "Việt Nam kinh tế OR Chính phủ OR NHNN OR tỷ giá OR lãi suất"),
     ("DOANH NGHIỆP", "Việt Nam doanh nghiệp OR HOSE OR HNX OR UPCOM OR kết quả kinh doanh OR cổ phiếu OR M&A"),
@@ -59,6 +77,8 @@ FEEDS = [
     ("DOANH NGHIỆP", "site:ndh.vn chứng khoán OR doanh nghiệp OR cổ phiếu OR kết quả kinh doanh"),
     ("DOANH NGHIỆP", "site:vneconomy.vn chứng khoán OR doanh nghiệp OR cổ phiếu"),
     ("DOANH NGHIỆP", "site:24hmoney.vn cổ phiếu OR doanh nghiệp OR kết quả kinh doanh"),
+
+    # Funds
     ("QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư OR quỹ mở"),
     ("QUỸ", "site:dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
     ("QUỸ", "site:dautu.dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
@@ -66,7 +86,11 @@ FEEDS = [
     ("QUỸ", "site:vinacapital.com Vietnam fund portfolio holdings"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.7)"}
+DIRECT_RSS_FEEDS = [
+    ("THẾ GIỚI", "VnExpress", "https://vnexpress.net/rss/the-gioi.rss"),
+]
+
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.9)"}
 FETCH_HOURS = 8
 
 
@@ -114,18 +138,18 @@ def published_dt(entry):
     return datetime.now(timezone.utc)
 
 
-def source_name(entry):
+def source_name(entry, fallback="Google News"):
     source = entry.get("source")
     if isinstance(source, dict):
-        return source.get("title", "Google News")
-    return getattr(source, "title", None) or "Google News"
+        return source.get("title", fallback)
+    return getattr(source, "title", None) or fallback
 
 
 def world_region(query: str, title: str, summary: str) -> str:
     text = f"{query} {title} {summary}".casefold()
     groups = [
         ("Mỹ", ["us ", "us markets", "federal reserve", "fed", "fomc", "treasury", "wall street", "cnbc"]),
-        ("Trung Quốc", ["china", "pboC", "pbo c", "nbs china", "chinese"]),
+        ("Trung Quốc", ["china", "pbo", "nbs china", "chinese"]),
         ("Nhật Bản", ["japan", "boj", "yen", "nikkei"]),
         ("EU", ["europe", "eurozone", "ecb", "germany", "france", "italy", "spain", "dax", "stoxx"]),
         ("Anh", ["uk ", "britain", "bank of england", "boe", "sterling", "london"]),
@@ -162,7 +186,14 @@ def infer_exchange(text: str) -> str:
 
 def importance_score(category: str, title: str, summary: str) -> int:
     text = f"{title} {summary}".lower()
-    keywords = ["lãi suất", "tỷ giá", "fed", "fomc", "inflation", "cpi", "pce", "nhnn", "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse", "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế", "phát hành", "chia cổ tức", "mua lại", "sáp nhập", "m&a", "đại hội cổ đông", "hđqt", "iran", "israel", "middle east", "hormuz", "opec", "oil", "brent", "wti", "ecb", "boj", "japan", "eurozone", "europe", "china", "pboC", "tariff"]
+    keywords = [
+        "lãi suất", "tỷ giá", "fed", "fomc", "inflation", "cpi", "pce", "nhnn",
+        "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse",
+        "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế", "phát hành",
+        "chia cổ tức", "mua lại", "sáp nhập", "m&a", "đại hội cổ đông", "hđqt",
+        "iran", "israel", "middle east", "hormuz", "opec", "oil", "brent", "wti",
+        "ecb", "boj", "japan", "eurozone", "europe", "china", "pbo", "tariff",
+    ]
     score = 2 + sum(1 for keyword in keywords if keyword in text)
     if category == "THẾ GIỚI" and any(x in text for x in ("fomc", "fed", "iran", "israel", "oil", "ecb", "boj", "china", "opec")):
         score += 1
@@ -177,6 +208,41 @@ def normalize_key(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def build_card(category: str, entry, fallback_source="Google News", query=""):
+    published = published_dt(entry)
+    title_original = clean_html(entry.get("title", ""))
+    summary_original = clean_html(entry.get("summary", ""))
+    if not title_original:
+        return None
+    title = strip_source_suffix(title_original)
+    summary = strip_source_suffix(summary_original) if summary_original else ""
+    if not summary or summary.casefold() == title_original.casefold():
+        summary = "Cập nhật thông tin theo nguồn; không thêm nhận định, dự báo hoặc khuyến nghị."
+    title_vi = clean_html(translate_to_vi(title))
+    summary_vi = clean_html(translate_to_vi(summary))
+    combined = f"{title_original} {summary_original} {source_name(entry, fallback_source)}"
+    tickers = infer_tickers(combined) if category == "DOANH NGHIỆP" else []
+    ticker = tickers[0] if tickers else ""
+    region = world_region(query, title_original, summary_original) if category == "THẾ GIỚI" else ""
+    local_dt = published.astimezone(VN_TZ)
+    return {
+        "category": category,
+        "tag": region if category == "THẾ GIỚI" else "",
+        "region": region,
+        "ticker": ticker,
+        "tickers": tickers,
+        "exchange": infer_exchange(combined) if ticker else "",
+        "headline_vi": title_vi,
+        "summary_vi": summary_vi[:650],
+        "source": source_name(entry, fallback_source),
+        "source_url": entry.get("link", "https://news.google.com/"),
+        "published_at": published.isoformat(),
+        "published_date_vn": local_dt.strftime("%Y-%m-%d"),
+        "published_time_vn": local_dt.strftime("%H:%M"),
+        "importance": importance_score(category, title_vi, summary_vi),
+    }
+
+
 def fetch_feed(category: str, query: str):
     response = requests.get(google_news_url(query), headers=HEADERS, timeout=25)
     response.raise_for_status()
@@ -184,40 +250,27 @@ def fetch_feed(category: str, query: str):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=FETCH_HOURS)
     results = []
     for entry in feed.entries[:30]:
-        published = published_dt(entry)
-        if published < cutoff:
+        if published_dt(entry) < cutoff:
             continue
-        title_original = clean_html(entry.get("title", ""))
-        summary_original = clean_html(entry.get("summary", ""))
-        if not title_original:
+        card = build_card(category, entry, "Google News", query)
+        if card:
+            results.append(card)
+    return results
+
+
+def fetch_direct_rss(category: str, source: str, url: str):
+    response = requests.get(url, headers=HEADERS, timeout=25)
+    response.raise_for_status()
+    feed = feedparser.parse(response.content)
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=FETCH_HOURS)
+    results = []
+    for entry in feed.entries[:50]:
+        if published_dt(entry) < cutoff:
             continue
-        title = strip_source_suffix(title_original)
-        summary = strip_source_suffix(summary_original) if summary_original else ""
-        if not summary or summary.casefold() == title_original.casefold():
-            summary = "Cập nhật thông tin theo nguồn; không thêm nhận định, dự báo hoặc khuyến nghị."
-        title_vi = clean_html(translate_to_vi(title))
-        summary_vi = clean_html(translate_to_vi(summary))
-        combined = f"{title_original} {summary_original} {source_name(entry)}"
-        tickers = infer_tickers(combined) if category == "DOANH NGHIỆP" else []
-        ticker = tickers[0] if tickers else ""
-        region = world_region(query, title_original, summary_original) if category == "THẾ GIỚI" else ""
-        local_dt = published.astimezone(VN_TZ)
-        results.append({
-            "category": category,
-            "tag": region if category == "THẾ GIỚI" else "",
-            "region": region,
-            "ticker": ticker,
-            "tickers": tickers,
-            "exchange": infer_exchange(combined) if ticker else "",
-            "headline_vi": title_vi,
-            "summary_vi": summary_vi[:650],
-            "source": source_name(entry),
-            "source_url": entry.get("link", "https://news.google.com/"),
-            "published_at": published.isoformat(),
-            "published_date_vn": local_dt.strftime("%Y-%m-%d"),
-            "published_time_vn": local_dt.strftime("%H:%M"),
-            "importance": importance_score(category, title_vi, summary_vi),
-        })
+        card = build_card(category, entry, source, "VnExpress World RSS")
+        if card:
+            card["source"] = source
+            results.append(card)
     return results
 
 
@@ -264,6 +317,12 @@ def main():
             fresh.extend(fetch_feed(category, query))
         except Exception as exc:
             errors.append(f"{category} [{query[:55]}]: {exc}")
+    for category, source, url in DIRECT_RSS_FEEDS:
+        try:
+            fresh.extend(fetch_direct_rss(category, source, url))
+        except Exception as exc:
+            errors.append(f"{source} RSS: {exc}")
+
     now_vn = datetime.now(VN_TZ)
     today = now_vn.strftime("%Y-%m-%d")
     all_recent = dedupe(load_existing() + fresh)
