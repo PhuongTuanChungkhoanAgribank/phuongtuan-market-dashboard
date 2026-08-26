@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Điện Kremlin xác nhận trùm CIA gặp giới chức tình báo Nga",
+      "summary_vi": "Điện Kremlin cho biết Giám đốc CIA Ratcliffe tới thăm Moskva, nhưng không gặp Tổng thống Putin mà hội đàm với các quan chức tình báo Nga.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/dien-kremlin-xac-nhan-trum-cia-gap-gioi-chuc-tinh-bao-nga-5113824.html",
+      "published_at": "2026-08-26T15:57:40+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "22:57",
+      "importance": 2
+    },
+    {
       "category": "VĨ MÔ",
       "tag": "",
       "region": "",
@@ -17,6 +33,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "22:29",
       "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tiệc fine dining ở sân Mỹ Đình xem trọn chiến thắng của Việt Nam",
+      "summary_vi": "Tiệc fine dining ở sân Mỹ Đình xem trọn chiến thắng của Việt Nam Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLWFMS3hvNXZhcnpMdTl1djY5TGtMZE1tZFY5amZibnpfMk5IVXVuR0ZxZGpzSm8wbmlTWTJOdzdWcmEzNldBNGlDOTEzRm5aQlJGNm1hdUN1aTEtVmtlMEx3LUxPcThBWTFweDNuYmpNWVdrdk0xYmJNcGZPYWp0cDMzVlU1Zkd3dG16Zkl6dWZ0OXhTclhaREpGd0JQMjA?oc=5",
+      "published_at": "2026-08-26T15:26:48+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "22:26",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
@@ -66,6 +98,22 @@
       "published_at": "2026-08-26T14:02:37+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "21:02",
+      "importance": 2
+    },
+    {
+      "category": "QUỸ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "\"Hai trong một\" từ quỹ DCBA: Cơ hội tăng trưởng và sự ổn định trong một danh mục",
+      "summary_vi": "\"Hai trong một\" từ quỹ DCBA: Cơ hội tăng trưởng và sự ổn định trong một danh mục Dragon Capital",
+      "source": "Dragon Capital",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWmJsWXpQS2xaQkF1YklZYjZBUXdjaVc0NVQzelZOajJHQnZKby1OcS13alFDNGlkYWV1R0M4TVZXbFg1Q2NaUTUzOXVDZ0w0NnpmWTRCaVFFV0tTZmNlOS1UWVdMdnV1eTFWa0U3Y3k5OGozWDIzdHJ1SDlzOExUMjFCdDB3YldDVzBxNFhHMGVFU0RKVW0xb1FaaWpIWmJ3clFaMQ?oc=5",
+      "published_at": "2026-08-26T14:00:52+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "21:00",
       "importance": 2
     },
     {
