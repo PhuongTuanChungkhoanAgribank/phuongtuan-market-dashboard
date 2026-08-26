@@ -3,6 +3,57 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Gold prices cool down as the market awaits US inflation data.",
+      "summary_vi": "Gold prices cool down as the market awaits US inflation data. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWXdDVlgzUjhBTnRGUzRyZTdvZ0VnZ19YdXdITFU4MU9PelgyM0pwaE1TRFd4cVF2TnRCS016NEVXcW9tT2VOQmpnSFpjM1F3OGU1VzRTdXZlay1TY0piVkRkYktQYjhSeE9YV2Mwa1V6UUdSNW5oWkpzNVJIQzF4SlNEYzJtU0N2aXRibEdpWQ?oc=5",
+      "published_at": "2026-08-26T09:31:26+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:31",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Blog chứng khoán: “Điểm nổ” cổ phiếu ngân hàng",
+      "summary_vi": "Blog chứng khoán: “Điểm nổ” cổ phiếu ngân hàng VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVQ29udTlXZDVDVzhsMGZqTnZmaDhmOGkxdVFmTFpSMlN4cDFqQ2xSVnV2TDU2M0ZDMHUzS3FfaC15ZGJVRE1fSkZPR1FpWldaSjJIWGRhNERvU0g5akZwTmpTNnY5MF9oZmg0R3ZPNkM5WE1LdHdz?oc=5",
+      "published_at": "2026-08-26T09:29:03+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:29",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VIX",
+      "tickers": [
+        "VIX",
+        "TCB"
+      ],
+      "exchange": "",
+      "headline_vi": "VIX nắm hơn 1.000 tỷ đồng cổ phiếu TCB",
+      "summary_vi": "VIX nắm hơn 1.000 tỷ đồng cổ phiếu TCB VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSjNpTGQ0d2MybVlDLXlNbmFDdnpDTl9tV0duSkhSTTBiQWRnMlF2S0hzRDl3X21GNlZKcUptZ3VpWlFzYVl6RHZNUno0TlFEYTVhS2dyM2ZSQmc4U285MWpZdzByaUdCM0RnVWgxQ3FhZjVZZjV0OEJZYi1sZXZENGpvTXJRR1E?oc=5",
+      "published_at": "2026-08-26T09:26:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:26",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -70,6 +121,24 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "GEX",
+      "tickers": [
+        "GEX"
+      ],
+      "exchange": "",
+      "headline_vi": "Là cổ phiếu ngành công nghiệp duy nhất lọt rổ FTSE GEIS, triển vọng của GEX ra sao?",
+      "summary_vi": "Là cổ phiếu ngành công nghiệp duy nhất lọt rổ FTSE GEIS, triển vọng của GEX ra sao? Tạp chí Kinh tế chứng khoán Việt Nam",
+      "source": "Tạp chí Kinh tế chứng khoán Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamp4eFAxaEpnejE5b3RPTkJQT0NmdVBWS3FTZm9ocU1RUzFjSFl2SkpwcGlTeTB0SW1wa3FyOTcyMHYwSGNWY1dkRjJSWWNRWk5IaWU3S0ZpMERfaWdydjd0NTB6a3JsTHRnV3dmd1ZvNWlOZFFKa2REZTROUWlHYnhuMElITlJGdFJRUm1RR016ODU5alF2YkZEZko3eHE1VHV6VFdfbUJNdG93T2c?oc=5",
+      "published_at": "2026-08-26T08:18:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:18",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "",
       "tickers": [],
       "exchange": "",
@@ -114,6 +183,22 @@
       "published_at": "2026-08-26T08:06:01+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "15:06",
+      "importance": 2
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "USD exchange rate today, August 26th: The US dollar fluctuates in opposite directions between the 'black market' and banks.",
+      "summary_vi": "USD exchange rate today, August 26th: The US dollar fluctuates in opposite directions between the 'black market' and banks. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdWVXYlo0YTVFbnlBTG1wc0FkcjlzN3p1SXJFemNFYkZJbVlRbXpXakM1WDRnNWN1YzJ3ZWhsQXBENThsMUM2TEhjSGZDX1BXbVJweEd3ejFaX0V2NVlYQlFEQWYxMEEwdXpQYnZXOXYxX3dMbDY4Q0pUd2g5SERQSVl6SGc5enhYaDhlSGJjTGhqQ3VJN1RDWVhLUjVjbmpfOGF3RUg4ZVhQR0d5SXdr?oc=5",
+      "published_at": "2026-08-26T08:00:28+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:00",
       "importance": 2
     },
     {
@@ -359,6 +444,22 @@
       "importance": 4
     },
     {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tính cách người Nam Bộ",
+      "summary_vi": "Tính cách người Nam Bộ Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pVmZwaU8yMUtXZFd1MnBuODBKbWk0Y3k0ZVpVS05GaVZJem9PZGVRc1NBb0VRcjF6Y2ZRd3ZOdVFMSmtkLWQyV2E3QWoxeGdOckZabzJzU2tnLVBGUjdyUGZ3Y0l4Tkk?oc=5",
+      "published_at": "2026-08-26T06:00:50+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "13:00",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -389,6 +490,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "12:43",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Công ty bảo hiểm đầu tư chứng khoán lãi hơn nghìn tỷ đồng",
+      "summary_vi": "Công ty bảo hiểm đầu tư chứng khoán lãi hơn nghìn tỷ đồng VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ0NuR2kzS1VjN1BCTklGNTNTejZVQVIwSGlSc2dqNXIzUnRXX2hUbXg4UE1YU2FFbnUweWd5TlJZVURtblNHQ1lXLXVLeVdhOVU2WlpUWVJDYW5OS3VrNWZhRDlCNjdYU2Z0TFFacXNHYWl3a0hzN001dGlVWngtRE9wZEstVGlFemVmXzNVS015dGNXN21J?oc=5",
+      "published_at": "2026-08-26T05:38:06+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "12:38",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
@@ -603,6 +720,22 @@
       "importance": 2
     },
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vì sao chưa tới 10% doanh nghiệp vừa và nhỏ vay ngân hàng?",
+      "summary_vi": "Vì sao chưa tới 10% doanh nghiệp vừa và nhỏ vay ngân hàng? Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRFE2UEU0ckR2cGl1d1IyQVVxZ3pySzBYLXFYWnJxT1RubFVqWXpUVzRpMVg1U3JuSVhEUTR6OHBxNURQZEc1RERSeEVscGJfVGVqVFZJaElTUVdNQ3F6ZWpBc2VRUWRqbEtBek1BMDkyeFRJVnRYUHFnYS1VU2pWSjQzT1gzSmZPQ2p1ZU52c0MtQVlF?oc=5",
+      "published_at": "2026-08-26T04:13:23+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "11:13",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -762,6 +895,22 @@
       "published_at": "2026-08-26T03:22:20+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "10:22",
+      "importance": 2
+    },
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Foreign exchange rates, USD/VND exchange rate today, August 26th: The US dollar depreciates against other major currencies.",
+      "summary_vi": "Foreign exchange rates, USD/VND exchange rate today, August 26th: The US dollar depreciates against other major currencies. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOE1IZ1lDZ1lEdTVkejZuR0lWN3BaOEgzMm9lYWRGM2hnY2lLZjZpT2xnYjR0clF1WHYtQnVGY1BCZnBlWHhTWWt6VXZSZVRIQlczRGlVXy1XNFVtSFFUZHdlX2psNzZhOUJfaEhmZkQ3aUxpa0pTU2hLR1g5V3lpMjFpVVQwMGNGa0Y4d1BJTG5FSDJUTElVTHV2QTE0ZWZrNV9JVjhCM0lOanJVNGs5WHZwVkhTZUg0WThSa1ZfYw?oc=5",
+      "published_at": "2026-08-26T03:13:52+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "10:13",
       "importance": 2
     },
     {
