@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 17:26",
+  "updated_at": "26/08/2026 17:44",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu Nvidia tăng 2% trước báo cáo kết quả kinh doanh khi thị trường quyền chọn dự báo biến động hạn chế",
+      "summary_vi": "Cổ phiếu Nvidia tăng 2% trước báo cáo kết quả kinh doanh khi thị trường quyền chọn dự báo biến động hạn chế TradingKey",
+      "source": "TradingKey",
+      "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUlF5N1hLcVdvRTVvSTVtX2s5dnQ2dktKcDFpNFlQeVhreGJIekEzbnIxeHkzTHgwVU5MSnBiZUVURVp3VzJXak91enV0N1RjZHlhaFowUEVyMklGUndoYnBKaVFhYk9nMmt5X2pCbURRbWtMdzFkMG5xMDFmbHBJNzJiSlE3cEVMdzJTSVVhdmxaQUJZbmF0T1R4UG85MkFzdUpOOXJWVXBfRjFNY2NXWTFVeXhwX3ZqdVI0NGloTHJaWExSYU9pZUtxa3ptekdvZE84c1UyZjZfd3E0V2dGZm9DQ21UN043WUVzVjNQOXY?oc=5",
+      "published_at": "2026-08-26T10:19:50+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "17:19",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -35,6 +51,38 @@
       "published_at": "2026-08-26T10:05:25+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "17:05",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vụ bắt cóc phủ bóng giấc mơ hút khách Trung Quốc của Thái Lan",
+      "summary_vi": "Vụ nữ du khách bị bắt cóc tại Thái Lan làm dấy lên lo ngại về an toàn, phủ bóng nỗ lực của nước này trong việc phục hồi thị trường khách Trung Quốc.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/vu-bat-coc-phu-bong-giac-mo-hut-khach-trung-quoc-cua-thai-lan-5113745.html",
+      "published_at": "2026-08-26T10:00:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "17:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lý do người đàn ông gốc Việt đưa máy chém tới Washington",
+      "summary_vi": "Gia đình của nghi phạm Philan-Tam-Duy Le cho hay người này mang máy chém tới Washington \"nhằm biểu thị sự phản đối\".",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/ly-do-nguoi-dan-ong-goc-viet-dua-may-chem-toi-washington-5113688.html",
+      "published_at": "2026-08-26T09:55:10+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:55",
       "importance": 2
     },
     {
@@ -102,6 +150,22 @@
       "published_at": "2026-08-26T09:26:00+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "16:26",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "12 ngân hàng dành 408.000 tỷ đồng tiếp vốn cho động lực tăng trưởng",
+      "summary_vi": "12 ngân hàng dành 408.000 tỷ đồng tiếp vốn cho động lực tăng trưởng Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZHFuVDgxV0NrSXUtTDhONWpxYnhOaFB6XzFUSTdGY1pMTWhUM0ZSa0tSMi1XVlBmaV9yc1FiSEVIaUoyc0hnbFdxN0lOaV9ZM0loZkJESW15U3dISGpMTTBnMHN1SXFhRk1EZ1JvZGZrUlNlQ2ZUX0Etem9xYTFjVmZnVWJYUGtZcDVNeF9qeDF3NEs5c05CQUFjVlhXbU02Znc?oc=5",
+      "published_at": "2026-08-26T09:21:47+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:21",
       "importance": 2
     },
     {
@@ -717,6 +781,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "11:57",
       "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "BIDV nâng vốn điều lệ lên gần 77,782 tỷ sau đợt phát hành gần 500 triệu cp",
+      "summary_vi": "BIDV nâng vốn điều lệ lên gần 77,782 tỷ sau đợt phát hành gần 500 triệu cp Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa2NqRE5QOHpWYW1SaW9qNER4QjE1UElpanpMbkNfdHJfMURrT2N3c21Kdk1WTzVSYU02YXZqRkhoUElDckRNd09iZkxLQ25vdFh4UVo5QUktVnNfQTFyanZ1UGZDN3djOEtxVlFuYnJ1N2hvS3N6UHBldngxR0F4UXBaRC1ZMWhBdE9FQnlVUWxfZS1yY20zLTh5OW9hVkdsckJJVUY2Z2RUeV9fOEs1cEZnTjBWeTMyVVE?oc=5",
+      "published_at": "2026-08-26T04:56:24+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "11:56",
+      "importance": 3
     },
     {
       "category": "THẾ GIỚI",
