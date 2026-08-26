@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 21:05",
+  "updated_at": "26/08/2026 21:50",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Khoảnh khắc lũ quét như sóng thần tràn qua cửa khẩu Trung Quốc",
+      "summary_vi": "Đợt lũ quét từ vùng núi Tây Tạng, Trung Quốc tràn qua cửa khẩu với Nepal, khiến ít nhất 95 người thiệt mạng tại vùng Rasuwa.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/khoanh-khac-lu-quet-nhu-song-than-tran-qua-cua-khau-trung-quoc-nepal-5113834.html",
+      "published_at": "2026-08-26T14:17:26+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "21:17",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -100,6 +116,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "19:00",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Rủi ro nào với tỷ giá cuối năm?",
+      "summary_vi": "Rủi ro nào với tỷ giá cuối năm? theleader.vn",
+      "source": "theleader.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PdVdQYS02UWVQOU5ENklrejNhYTVLRlRWZlY0aWF0LUUzcnRUM0VVQ3AyZ25zN2dpS3ZPbkV2SVhSVUNzMWEzRDduNERDVWl5aDR2NExBNmd6dUdRcnFvdFo1cFFhRnI5eHRUZ1hSTGw?oc=5",
+      "published_at": "2026-08-26T11:50:57+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "18:50",
+      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
@@ -476,6 +508,22 @@
       "published_at": "2026-08-26T08:29:24+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "15:29",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "408.000 tỷ đồng tín dụng chờ rót vào doanh nghiệp",
+      "summary_vi": "408.000 tỷ đồng tín dụng chờ rót vào doanh nghiệp thuonghieucongluan.com.vn",
+      "source": "thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV0p0X3g3RE8tZXRhZ29leWlOLTMtM0k0Y2dScV9jdDBOLW91S2lIUWdTVTZsSmFPck1mRXJfSXozeHBxLWhkVGFtMDBMR2U4N0NXMEFEZUdlMHEyQmZRY2g3Tl82OHpfZ3dDYzZOY3VxQ21JS2UybzcwM1FXanRJNTJaMTdPTGNicmZQck1yR3V1Sk4wYUF4b2xPNUQ?oc=5",
+      "published_at": "2026-08-26T08:26:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:26",
       "importance": 2
     },
     {
