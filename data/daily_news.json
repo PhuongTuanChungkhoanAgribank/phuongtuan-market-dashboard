@@ -1,8 +1,24 @@
 {
-  "updated_at": "26/08/2026 20:07",
+  "updated_at": "26/08/2026 20:12",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "ASEAN",
+      "region": "ASEAN",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vietnam and Thailand are attracting the most attention in Southeast Asia regarding electric vehicles.",
+      "summary_vi": "Vietnam and Thailand are attracting the most attention in Southeast Asia regarding electric vehicles. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb2ZrM1lNczdvdGJOMEdueW1mbDQ1U1JMZ2hFOU9CMXFPby16TXVfMDJYNDF2Ylk0a1JTN2t0Wl95UG9jVnhDWmNoYnd0TWptZXJLdzlJdWgzRy03Z05CeTVZdHRFNTR0d2QwR01oc0tYZkttQjdoNXdNaG1PbHZjNnQ1d19HdS1VUWtj?oc=5",
+      "published_at": "2026-08-26T13:07:29+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "20:07",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Trung Đông",
