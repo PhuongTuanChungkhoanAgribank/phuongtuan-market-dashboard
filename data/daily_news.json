@@ -1,8 +1,40 @@
 {
-  "updated_at": "26/08/2026 12:53",
+  "updated_at": "26/08/2026 13:21",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cao su Phước Hòa sắp phát hành hơn 108 triệu cổ phiếu thưởng, chia cổ tức tiền mặt 14%",
+      "summary_vi": "Cao su Phước Hòa sắp phát hành hơn 108 triệu cổ phiếu thưởng, chia cổ tức tiền mặt 14% MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeXloQkZxXzVxQzlrTjY5X0NPRjlQckVWMnBBU0paSGRvN1Z3bFQwZUMyY1NvUk1yUUhIdXlmQTg0bGhfQ1IxOWdtdW5zWHNBZ1UzMUwyc05iNmtmWTBLMU5vRExLNHVnN1BFSV9UYzB2X0NHWnNUbFRHejZzN3E3RXptTQ?oc=5",
+      "published_at": "2026-08-26T06:15:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "13:15",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kết quả kinh doanh Nvidia hôm nay: Báo cáo lợi nhuận sẽ tiết lộ gì về rủi ro bong bóng AI",
+      "summary_vi": "Kết quả kinh doanh Nvidia hôm nay: Báo cáo lợi nhuận sẽ tiết lộ gì về rủi ro bong bóng AI BeInCrypto",
+      "source": "BeInCrypto",
+      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aRWFtWWtmSW1Ba0RPYXFVaVo4YnJCZXFZcFE4Yl9zYkNHU1l2WlRNemNuZ1d3NVU2UE52VHpEZHE0ZWZieGNCVU4zYjdOdlV3c193OXN0UlJqTFdZZ2lGN2dTQmZjeWN3?oc=5",
+      "published_at": "2026-08-26T06:00:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "13:00",
+      "importance": 4
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -54,6 +86,22 @@
       "importance": 3
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thị trường bắt đầu định giá AI: Bài học từ Microsoft và Meta cho ngân hàng Việt Nam",
+      "summary_vi": "Thị trường bắt đầu định giá AI: Bài học từ Microsoft và Meta cho ngân hàng Việt Nam Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX3hZVXlBYklBeE9kYm5WZE45cHdKNUd1emlZd2k4YzZ4NXVoS0loU3lnNG5OZkRLQWtsbWtBbWNQNkJaemw3Y05NUTRtSG16MGVGbEZ3U2tNam9kdEZPVGoxVFZ5LXZHRHF1UDRvVHNyV3c2STlSb01TZXNrOWJVSUI3RXZRVEJHcURHYVJmQ3RXUFpjblZFRjczSUE4RDJVZm9oQi1sdUVIa1E3dEhFX3VQR1NmNkNTS3BUS1pBUQ?oc=5",
+      "published_at": "2026-08-26T05:03:08+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "12:03",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -68,22 +116,6 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "12:00",
       "importance": 4
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Thị trường bắt đầu định giá AI: Bài học từ Microsoft và Meta cho ngân hàng Việt Nam",
-      "summary_vi": "Thị trường bắt đầu định giá AI: Bài học từ Microsoft và Meta cho ngân hàng Việt Nam Fili.vn",
-      "source": "Fili.vn",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX3hZVXlBYklBeE9kYm5WZE45cHdKNUd1emlZd2k4YzZ4NXVoS0loU3lnNG5OZkRLQWtsbWtBbWNQNkJaemw3Y05NUTRtSG16MGVGbEZ3U2tNam9kdEZPVGoxVFZ5LXZHRHF1UDRvVHNyV3c2STlSb01TZXNrOWJVSUI3RXZRVEJHcURHYVJmQ3RXUFpjblZFRjczSUE4RDJVZm9oQi1sdUVIa1E3dEhFX3VQR1NmNkNTS3BUS1pBUQ?oc=5",
-      "published_at": "2026-08-26T05:00:00+00:00",
-      "published_date_vn": "2026-08-26",
-      "published_time_vn": "12:00",
-      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
