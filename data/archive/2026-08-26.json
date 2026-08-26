@@ -3,6 +3,40 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PVS",
+      "tickers": [
+        "PVS"
+      ],
+      "exchange": "",
+      "headline_vi": "PVS sắp phát hành hơn 102 triệu cổ phiếu trả cổ tức, vốn điều lệ vượt 6.100 tỷ đồng",
+      "summary_vi": "PVS sắp phát hành hơn 102 triệu cổ phiếu trả cổ tức, vốn điều lệ vượt 6.100 tỷ đồng MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSDVSN1dEcURhelN3MUxrZTlPelNjWmVVSjhoWlR5RkVocWpua2dGZ3o5OS1NNjdCN2t1TG5jd18tT3hTRkNkd3NMNTVZSnpRLURTalFLLWl2SE4tVV84WnEzY0VZRGdWUC1lT2ZSdFRkLVlvOEprcGxtNkdCYl9uY2F6Yw?oc=5",
+      "published_at": "2026-08-26T05:36:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "12:36",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Techcombank chia cổ tức bằng cổ phiếu để tăng mạnh vốn điều lệ",
+      "summary_vi": "Techcombank chia cổ tức bằng cổ phiếu để tăng mạnh vốn điều lệ Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdE8xN1AxVmF4Z0YteUhVMEZ4VEZ5cnVQRDdlNU00TDBLbzJOMkNQRy1JSnRRMllmc01UMjdrSUpMWktfVE53NWdWRzRwV0VJaVNBcl9SV0JXSHpCZVZmLThJeFdtcUd3LUtxU1QwNGtlZThFSklWMnNMQnZibjlqZkxBMlVKcC13cnRFWG13?oc=5",
+      "published_at": "2026-08-26T05:29:39+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "12:29",
+      "importance": 3
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -165,22 +199,6 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "10:31",
       "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Techcombank chia cổ tức bằng cổ phiếu để tăng mạnh vốn điều lệ",
-      "summary_vi": "Techcombank chia cổ tức bằng cổ phiếu để tăng mạnh vốn điều lệ Báo VietNamNet",
-      "source": "Báo VietNamNet",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM3A4RERtOUtXRWFVbU54OFNaeUt0cXBPUk03bE5sNkt0VXhSdkxOcFpERWdUZE92eTB2VlZpSDhYMHBxNU1saU9DZmlHQkVsdWVJSDMwYWxjVmMzSTRYRjVEbk1idVNEMmN0ZVh4OXduZlJyY3Nhb0c2UTlTYXQwaGk1TTFwM3hKbTFuWVU2YlhTOFdEVmc1OUlIZ19Cdw?oc=5",
-      "published_at": "2026-08-26T03:30:00+00:00",
-      "published_date_vn": "2026-08-26",
-      "published_time_vn": "10:30",
-      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
