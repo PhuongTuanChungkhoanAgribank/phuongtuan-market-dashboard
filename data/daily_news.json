@@ -1,8 +1,42 @@
 {
-  "updated_at": "26/08/2026 21:59",
+  "updated_at": "26/08/2026 23:06",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Inflation is back, posing a challenge to central banks.",
+      "summary_vi": "Inflation is back, posing a challenge to central banks. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR0lOXzdoY3NPSURLeE5yZHZiNDRvcGFtNC1WbFJ4VHdxTWdHbWg0ZTNsYnRrRmVsV2xNNVp4aWtuOVZPWTRCVThtTW5FTjc5WG9MT3ppdjl4Rmhremhua3h6TnpWcmNzVjFjMGMxX0taa0VfdVZHZ3V5aGlmZ3diUVRnLWE?oc=5",
+      "published_at": "2026-08-26T15:29:07+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "22:29",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SBS",
+      "tickers": [
+        "SBS"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng khoán SBS mua gần 10% vốn một công ty trên HOSE",
+      "summary_vi": "Chứng khoán SBS mua gần 10% vốn một công ty trên HOSE VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWZJWk1HY2E5WXJ0V0JGTXgzczRxWlVtS3NuV3hsWm1sYWhHSGJXanhKS3dTc3ZPRk92Umk3SklCT0ktNm9qbmp4MGM0RW9WWnloTDdZa2RNbHVnRjhoMTgwbENnSkk2bDBvOFNlR2dmQkk1MXBjSGRzQkEtcm1rZnNOUnBVRGZqXzZmZkRCOEJWUG1EN3AzRXRPOA?oc=5",
+      "published_at": "2026-08-26T15:18:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "22:18",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
@@ -49,6 +83,22 @@
       "published_at": "2026-08-26T13:50:00+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "20:50",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Rốt ráo GPMB dự án metro nối TP.HCM với sân bay Long Thành",
+      "summary_vi": "Rốt ráo GPMB dự án metro nối TP.HCM với sân bay Long Thành Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmZhbVN0bjNUQ0ZKc1pxOUE2MHBfUW9QT2Y3OTRlcjRqcm1WTzVrUjNHdHgyVkl6aXV5LXgydHBEMWNqNV9MY1pabW9OZFh6WURBYTRyeEhCUTJpdG93LUZScXBHcEtUZVhsS0RpVTNvbFVGUXMyUUdPaXpUWXRhU2lwb0EwVThNRTVYOTVnY05FRGpPY0E?oc=5",
+      "published_at": "2026-08-26T13:13:22+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "20:13",
       "importance": 2
     },
     {
@@ -115,6 +165,22 @@
       "published_at": "2026-08-26T12:09:00+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "19:09",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Những mỹ nhân Milan qua nét cọ Leonardo da Vinci",
+      "summary_vi": "Những mỹ nhân Milan qua nét cọ Leonardo da Vinci Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVjFLd3JWQWVzRG8waWVsc3c0NFpXNVNORzllQkFKMURsVWk4TjJqSEpWanc2eWhSemlkd013NVB3T2VTa0RiNHJVc1JVdDVJSGpxTjN3QlBiNEs5NWM5c05XQXozS2xSMk9oeG12akZCSjE3NDljTnBWQVlIem1zMHV2VGFmTVYxNlE?oc=5",
+      "published_at": "2026-08-26T12:00:41+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "19:00",
       "importance": 2
     },
     {
@@ -359,6 +425,40 @@
       "published_at": "2026-08-26T09:31:26+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "16:31",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Theo FTSE Russell: Dòng vốn chủ động và thụ động vào Việt Nam có thể lên tới 157 nghìn tỷ",
+      "summary_vi": "Theo FTSE Russell: Dòng vốn chủ động và thụ động vào Việt Nam có thể lên tới 157 nghìn tỷ VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUE9FUzdoZFB4NTBra2ZXRHZNdlo3UlJPYVFNZElBMXVmbFJXQk40cFc4S29BaGx5ZHN5Mzk2WjRMT1EwdlNHWmdOUVd5NXNjZThrT1hjYmtSUlJLYWxOcC1CWE1MZjNwUHBvY1hDekJZUVRoYU0zS2lPUmdMQ3BpWHQxWWI2OTZScldVVmwxWFBGcTVETWI5QkhEUzF2SWhDUEJoWXhRN3VQQWdW?oc=5",
+      "published_at": "2026-08-26T09:30:22+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:30",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "TDC",
+      "tickers": [
+        "TDC"
+      ],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu TDC giảm hơn 30%, lãnh đạo không mua đủ như đăng ký, lợi nhuận quý II lao dốc 95%",
+      "summary_vi": "Cổ phiếu TDC giảm hơn 30%, lãnh đạo không mua đủ như đăng ký, lợi nhuận quý II lao dốc 95% Tạp chí điện tử Thương Trường",
+      "source": "Tạp chí điện tử Thương Trường",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeC1JTTBGdTI3bkhjODVnMi1RSzhsNVJ2eHRDYm11dS12Vm84MWVIckk3V1hDMDRUQnZOTnlyRnZaSGZPb0pBNGc1US1QeHkzWGhpaFJ3SVRJMURoTElsWkM1R3hYQlJ0eE9GZ3ZmdVRXcDZ1S3dsM2ZaOFBZY3l2WU1ZLWxDd2pEUHFidXVOeDNZQTVLRU5LNmFyYk8tXzc5dzBDaEtXNVRPNGM0YXdZYi1LQm1OaGp4dFgtbS1XS2lQeTY1NnBBQWNTVQ?oc=5",
+      "published_at": "2026-08-26T09:30:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:30",
       "importance": 3
     },
     {
