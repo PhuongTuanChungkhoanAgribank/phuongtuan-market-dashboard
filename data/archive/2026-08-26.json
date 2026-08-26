@@ -3,6 +3,38 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Ngân hàng \"gom\" gần 24.000 tỷ đồng tháng 8: Lãi suất chạm mốc 10%",
+      "summary_vi": "Ngân hàng \"gom\" gần 24.000 tỷ đồng tháng 8: Lãi suất chạm mốc 10% Báo Dân Việt",
+      "source": "Báo Dân Việt",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZGs5NGltYkJnMzBTS3FjVWdZak9USDZTN1RjakpKelRHcURIYTQyVFJCMTUzZTczam5lZ3o3N3VEdmE0U0ExaGwycVlESmhlRmtkM3U0SWFJcVQ0LTBVZzNZSENZMTFWWXZCWV9sTnotVVkxU2t0eS1IU2lhVFdyNEJLQ2VoRDVZOHVyTFFOZnBLS2ExWll1MA?oc=5",
+      "published_at": "2026-08-26T07:54:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "14:54",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Dự báo giá cổ phiếu Nvidia: Trước báo cáo kết quả kinh doanh quý 2, liệu cổ phiếu có thể đạt mức cao kỷ lục?",
+      "summary_vi": "Dự báo giá cổ phiếu Nvidia: Trước báo cáo kết quả kinh doanh quý 2, liệu cổ phiếu có thể đạt mức cao kỷ lục? TradingKey",
+      "source": "TradingKey",
+      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOWFXeGNENFBreE45bk5HMFhRVDBlRzRsOE80Y2RDVXhCQjUwal9KTHZPcXlWR0NLdFU0T0I2QlJwY05wVDFLV29zang5OG82ZDV3RzNvOVBaeWtEcjd3Zk1jUUx4SkV3TVJ0a3J3UWZjbHhJTG92VHkxRU5LSW1WRldHZHFDQXQyV0ZtMDE5NXA5dXVFd2c4QU9vdy1uSVVuUjFSZzJqajdVU3ZaNkI1cnFHVXktSXlBeFZfanJPMHdyTkZlNDZtYi0ydlVwZGFKYURkWUk1SzkxMVV4cUUtSHBWa2pVN1lfdlE?oc=5",
+      "published_at": "2026-08-26T07:22:26+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "14:22",
+      "importance": 3
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
