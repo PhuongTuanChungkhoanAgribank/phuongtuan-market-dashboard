@@ -3,6 +3,62 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "CAR",
+      "tickers": [
+        "CAR"
+      ],
+      "exchange": "",
+      "headline_vi": "Thao túng cổ phiếu CAR, một cá nhân bị phạt 1,5 tỷ đồng, cấm giao dịch 3 năm",
+      "summary_vi": "Thao túng cổ phiếu CAR, một cá nhân bị phạt 1,5 tỷ đồng, cấm giao dịch 3 năm Tạp chí Tài chính Doanh nghiệp",
+      "source": "Tạp chí Tài chính Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOemZLOWhnUElhdTBDZVNtRVdJaWtOeWVYWVppSkRWTThiLVVsdHlKZUlpSlNhOENzaURSVG5QcE9JNVNSN1d2a0N1bVU0T0JRMWFGZjYwdVlfZkhKTU1KTmYyZTQ0VTh4bmJCWWxZam5WaFBvaUZCbGNFYWZCRmhycXYzZ0liZjNqUzdXem5mb0xxYVEyTTZQRnhaTzZGRTFsRUVQdHlNSWJxMFlTUm1OZ1RmWlpWSjZjVDV3UA?oc=5",
+      "published_at": "2026-08-26T02:01:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "09:01",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "TCM",
+      "tickers": [
+        "TCM"
+      ],
+      "exchange": "",
+      "headline_vi": "Lãnh đạo TCM vừa bị công ty chứng khoán bán giải chấp 147.700 cổ phiếu",
+      "summary_vi": "Lãnh đạo TCM vừa bị công ty chứng khoán bán giải chấp 147.700 cổ phiếu VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUHkza0dJYzNVUU1sS2VwZTU2MmRPdkl3SXVEV3E2N1A2Y3hBNXhzNnZkaGs2VEJqN1pCQ1d6ejJQYnRoeVNYQkwzRXRBVndndzJKdWVfZ3diQkJQU1cyeXBIMUlCQVZyUERmNXhxUXZRZ2RUTUdBTXR3R0FWbXNCUVRJbFIydEx3X095cUNEZFpVWHRZZVlCaUpR?oc=5",
+      "published_at": "2026-08-26T01:48:40+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "08:48",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "FRT",
+      "tickers": [
+        "FRT",
+        "GVR",
+        "MWG"
+      ],
+      "exchange": "",
+      "headline_vi": "Khuyến nghị mua cổ phiếu FRT, GVR, MWG: Cập nhật giá mục tiêu",
+      "summary_vi": "Khuyến nghị mua cổ phiếu FRT, GVR, MWG: Cập nhật giá mục tiêu bnews.vn",
+      "source": "bnews.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUG90WmxEVHpqQ2IyLVdXQUQwdHV4YjlScms2eVB3aEhwRENkSlplSVdnNDVfa295QU10LTFPamc2aklRZVJoQjJFN2RvZW0wN2stNUt4MTYxclhVenR5Z0hiQTdqbVhtLUhxSmpoMk9EVFBNWGk3Q2dWYW12QThBN3Z5R2ZOYkREVWdibTFQYkE?oc=5",
+      "published_at": "2026-08-26T01:48:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "08:48",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -56,6 +112,22 @@
       "importance": 3
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hai cổ phiếu Masan vào danh sách ưu tiên, chờ đón dòng vốn ngoại",
+      "summary_vi": "Hai cổ phiếu Masan vào danh sách ưu tiên, chờ đón dòng vốn ngoại Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPenlmdWtPNmNFRFptZUR6R3Mxc3RMRnBUQkRDMTBtcGJTRmNEUEl4UTdsS0tHY2Vmbmd5ZFEzaFMtLTVqbFl0UEtMNzRtcUI5dXQ0cVRWYjVnMWxqdWtCblI3Z1JtcWdIdDJFOUtTV3dhdXVtam1pWk5sTVFhZXpCV3dnWU9nYlBaMm1wTnNxd1VCeTh2ZTQwSXZVNU04OW8?oc=5",
+      "published_at": "2026-08-26T01:00:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "08:00",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -70,6 +142,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "07:55",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Ngân hàng tiếp tục phát hành gần 24.000 tỷ đồng trái phiếu trong tháng 8, lãi suất chạm mốc 10%",
+      "summary_vi": "Ngân hàng tiếp tục phát hành gần 24.000 tỷ đồng trái phiếu trong tháng 8, lãi suất chạm mốc 10% VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPazdRaGpwaENMemI1TDVPdG9QTkUwbHRUeWUzQUxfUHRybC1CcjRsMDMzNUp0YTVlOFBZR09taFNiOUt0RmgyYWdMY1VKUDBrRU42Y21FYzdEZWZBTlNpUUdfZ09WOUx1TjNwbXBDYlFPdElyeUdxSGxRdmVTanY2bmFMbGdTck1OV0xycmlELVFhdzZMcW9uRUVBb2wyN0U3WHg2Q0FHRHBxYUNER1JkUEprblU2ZHVYTW5MLU5FNnBSX1ltTC1ZVzhXQUxuNnc?oc=5",
+      "published_at": "2026-08-26T00:38:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "07:38",
+      "importance": 4
     },
     {
       "category": "TRONG NƯỚC",
