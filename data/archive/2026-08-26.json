@@ -6,6 +6,72 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Loạt cổ phiếu blue-chips tăng mạnh kéo VN-Index đột phá mốc 1800 điểm",
+      "summary_vi": "Loạt cổ phiếu blue-chips tăng mạnh kéo VN-Index đột phá mốc 1800 điểm VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUDI2cXhqOGVvdEJmMmM5NFFFbGY2NFNUdUxtUEtxa0xiUHNPdkFDSVVvZkdOMldwUWk3ZWUyMndLMmJaTmFBbVV1YnVrU2Zycl91MHZGRWplazktOTBnTk1yZUNfQjR3LW16WEdyV3hZQzJiSzNOdTVkZjZZaGVTODNNTkFTUDZxdEFTUWxEOFhTempVYll3MktR?oc=5",
+      "published_at": "2026-08-26T08:32:37+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:32",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phố Wall đồng loạt tăng điểm",
+      "summary_vi": "Phố Wall đồng loạt tăng điểm Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iTHpLa0xrblhxOUYxUlVRSnk3Z0VpemRsNlBySWMzSGVCY2k5T3htNGRWNkxVRXktdjFURnZiVS04WnhOTVdfUjEyOTFKWGxPSHRPU2pFRDBHZjhJVXQ3Xw?oc=5",
+      "published_at": "2026-08-26T08:10:53+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:10",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Private Wealth và bước chuyển mới trong cách doanh nhân Việt quản lý tài sản",
+      "summary_vi": "Private Wealth và bước chuyển mới trong cách doanh nhân Việt quản lý tài sản Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSjcyR0g1UFV5MFZ3b3JyUXB3YVlUMnVNaTNZM2kxV3BWVlppcUVJR1ZUb1hacWV5amxzeWNqZzZUYnUzWlhiT0dUWG9LVGhsXzY0MmpHLVdrd2xsZGlRejhORVV5OEJ3dE16LUF2M0YzRE5EdF9iVDBsZndnWWIwc251SGtMNkhQWTF5eTJOS1hQQVJUc2FvSlhCc09WUkk5?oc=5",
+      "published_at": "2026-08-26T08:10:52+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:10",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PHR",
+      "tickers": [
+        "PHR"
+      ],
+      "exchange": "",
+      "headline_vi": "Cao su Phước Hòa (PHR) sắp chi 190 tỷ đồng trả cổ tức, thưởng cổ phiếu tỷ lệ 80%",
+      "summary_vi": "Cao su Phước Hòa (PHR) sắp chi 190 tỷ đồng trả cổ tức, thưởng cổ phiếu tỷ lệ 80% Tạp chí Nhịp sống thị trường",
+      "source": "Tạp chí Nhịp sống thị trường",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOVNDRlFidTgtYlU1ajFMS2hvVjJqWFI3Rkl4SVI4anA4RVV6RWtmVEQyc2dHdzNVUjJDOUh2c19mS2VoTVVaN0lIVGp2NWNQSDdFelBsdlNEU2tJampNQXdoeGhKUjZoc0h1d29TaEhpcW9tRi1HZm9VdUI2dlpiNXlrOV81UkZFV01QemxGUHdUTlhnbk9vbkcxaUhWTXVPTGVuakhiUlJTQmNRZTJTMQ?oc=5",
+      "published_at": "2026-08-26T08:06:01+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "15:06",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "PVS",
       "tickers": [
         "PVS"
@@ -35,6 +101,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "14:54",
       "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Công ty con Novaland chi hơn 430 tỷ mua lại trái phiếu trước hạn",
+      "summary_vi": "Công ty con Novaland chi hơn 430 tỷ mua lại trái phiếu trước hạn Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTER4UnJpcFZ0M2ZTTTA0MVVuYUdLR1o1am54Ylp2aEwtTmhteUpvcTVrSktHMDNVMnZGSlZmclB1Ulo3NEdrY3JYSkdMRDBJclFOR0lBZWRMSVMzVF9XM2xpUVNJQXluSjZvUFdkMGMwTllWUDQxMUVZWW52OF83cTgzdl9RNU5nQ0NUYnpJX2Z5THRkOUx0c3FiSWxNemlTY0RtN1dVU1dpZnJpMU40?oc=5",
+      "published_at": "2026-08-26T07:34:31+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "14:34",
+      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
@@ -331,6 +413,22 @@
       "importance": 2
     },
     {
+      "category": "VĨ MÔ",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Gold prices have stabilized after reaching their highest level in over three months.",
+      "summary_vi": "Gold prices have stabilized after reaching their highest level in over three months. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSmNvTFRFRTBzaWMyNFJmWGhtTEtsM294ajFwRG1lRDY5Y1FvdlVlcEkwQ2t6MUdkQkhjeHBWZ1BmM1RQOGRQamtSbDhOY05XVUtzc21rMF8wbTAyV3I5NDAxV3FCZDFHOGpGcnpqc2d2TGFmUDNDVnVuZzNtb3p6OGJOMDRLY2Y5YWYzSm5tQ19sZw?oc=5",
+      "published_at": "2026-08-26T02:46:02+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "09:46",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -415,6 +513,24 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "09:31",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "MWG",
+      "tickers": [
+        "MWG"
+      ],
+      "exchange": "",
+      "headline_vi": "Dự báo chứng khoán ngày 26/8: Loạt cổ phiếu được khuyến nghị mua, MWG có dư địa tăng 41%",
+      "summary_vi": "Dự báo chứng khoán ngày 26/8: Loạt cổ phiếu được khuyến nghị mua, MWG có dư địa tăng 41% hangthat.thuonghieucongluan.com.vn",
+      "source": "hangthat.thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbDRLbzRFS3ZIbk5WWGt2NFdtZFI0U2E1N1E3OVluV1dZMWdZaS12bUJUWTU4VUpoNEZMVnJSOGRwRDhKbmFCR1BpRXh4NnNkdUJBUHZzSDdZWDlTYjRNR2FwMDlvc251dzBXRGRya2VoX3NCVU8wQ3FUVFB5OUdIWkZYNFpRZ0RYdEJ3SHU5MjB1a0FidVYzclZoQkFsMWpueHdBTGpGVDZvQnRHczl5QTZ0OHJsbHdwUlJ5Vk16ZFdGTDJUclNDbnI2MElibVktUEdCWkkycC0?oc=5",
+      "published_at": "2026-08-26T02:28:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "09:28",
+      "importance": 2
     },
     {
       "category": "TRONG NƯỚC",
