@@ -1,8 +1,26 @@
 {
-  "updated_at": "26/08/2026 15:00",
+  "updated_at": "26/08/2026 15:06",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PVS",
+      "tickers": [
+        "PVS"
+      ],
+      "exchange": "",
+      "headline_vi": "PVS chốt ngày phát hành hơn 100 triệu cổ phiếu",
+      "summary_vi": "PVS chốt ngày phát hành hơn 100 triệu cổ phiếu VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWjlFMll0UFBhZ1Qyb2NLQ2FueHZET0tPay1WYWZMcEhTMzJhNnkwTllwaXh1RS1iSmprbjYwdll2RFVzUXF4Y254UC1vMnNiQ2FMaW5XYjZ4NHMtNHVheU5zMlp0bUowRm1OQ3B3SEtYNU5EdVJQMDZFdmZWMVA1Y0VLejluS0hFMi1Ba2dROERkLWM?oc=5",
+      "published_at": "2026-08-26T07:58:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "14:58",
+      "importance": 3
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
