@@ -1,8 +1,58 @@
 {
-  "updated_at": "26/08/2026 19:02",
+  "updated_at": "26/08/2026 20:07",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-26",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tổng thống Iran: Mỹ sẽ không đạt được gì từ cuộc chiến kinh tế",
+      "summary_vi": "Tổng thống Iran Pezeshkian cho rằng chiến dịch cô lập kinh tế và tăng cường trừng phạt của Mỹ nhắm vào nước này sẽ không tạo ra kết quả nào.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/tong-thong-iran-my-se-khong-dat-duoc-gi-tu-cuoc-chien-kinh-te-5113815.html",
+      "published_at": "2026-08-26T12:27:49+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "19:27",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DMX",
+      "tickers": [
+        "DMX"
+      ],
+      "exchange": "",
+      "headline_vi": "Hàng nghìn tỷ đồng đổ về tài khoản, DMX sinh lợi cho nhà đầu tư",
+      "summary_vi": "Hàng nghìn tỷ đồng đổ về tài khoản, DMX sinh lợi cho nhà đầu tư Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORWhEWXpKOVYzV1EtRExPMk1wMzQwX0c3ZnlyN1RySGd4eDNpZk8zYzM4N1lPMllVbkhBc1BySDlvRFVYMkdHMjlxV19vWUNtd3NwS1dibmFnNDlDbmwyOU4zbTFDR1c3cG83Y2NLdHZUWUFYZDJGYVcwVHJPYl9pSURMdVBBbDRZZ21uay1n?oc=5",
+      "published_at": "2026-08-26T12:09:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "19:09",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Ông Zelensky tặng Elon Musk huân chương cao quý nhất",
+      "summary_vi": "Tổng thống Zelensky trao cho Elon Musk Huân chương Tự do, trong lúc đang muốn tỷ phú Mỹ cấp phép để sử dụng Starlink trên lãnh thổ Nga.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/ong-zelensky-tang-elon-musk-huan-chuong-cao-quy-nhat-5113769.html",
+      "published_at": "2026-08-26T12:00:00+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "19:00",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -17,6 +67,22 @@
       "published_at": "2026-08-26T11:32:06+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "18:32",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hé lộ các khách hàng lớn chuyên mua thịt trâu Ấn Độ",
+      "summary_vi": "Hé lộ các khách hàng lớn chuyên mua thịt trâu Ấn Độ Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUo4TjhIMlhhZUJIQWNwU3VjRk84dnBXSm9XMk5WLXRENkN0QVcxZDU3SzVxZDg1b25kcVdDanRmNGoya0JQTjNTUzh3QVR3dkRlVHdEX1hTU3p6bFNjSXpPZDhZN19GdGhjYkg3OE1vNFNXT1V2ZWR0b1pULTdVN0k4alpEeDU1WGlrT3FR?oc=5",
+      "published_at": "2026-08-26T11:31:34+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "18:31",
       "importance": 2
     },
     {
@@ -248,6 +314,22 @@
       "published_at": "2026-08-26T09:21:16+00:00",
       "published_date_vn": "2026-08-26",
       "published_time_vn": "16:21",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phụ huynh xếp hàng mua SGK, NXB Giáo dục Việt Nam nói gì?",
+      "summary_vi": "Phụ huynh xếp hàng mua SGK, NXB Giáo dục Việt Nam nói gì? Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQak42dUsyalhpWVdCd3Vwa2Q4Zl9LeUM2OHJRUkdyMExPa2prUFRtc1BFWmd5enFHLVo1Tmx6LS1DYkVMTlg5bEFWZmVxZ3dIbXRJOF9QMjVqbmg5UHdpSjBCd0dMbnRjWEh1dmphbUFjcHRZbUtxSEtGaDdjenFFVk1xVjY0RW9acHRmTFJtX3JoclU?oc=5",
+      "published_at": "2026-08-26T09:05:36+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "16:05",
       "importance": 2
     },
     {
@@ -655,6 +737,22 @@
       "importance": 4
     },
     {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vụ cả trăm người đau bụng, nôn ói do ăn bánh mì: Thêm 45 ca nhập viện",
+      "summary_vi": "Vụ cả trăm người đau bụng, nôn ói do ăn bánh mì: Thêm 45 ca nhập viện Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRlRmUVFYUXVwZFU2ZTE2bUdXdEtfY2NzMWh0WnBob25BV0UwVTJNRWxCbU9xUFZDRDJzc0dsRUJGUEViQlM1ejBoeU83X3FjZXkwZ01yX1RSZDdFNGpqT3dxMGZqSjY4RjFMNkRxdlFKa0RBWHA3cVZaQmR1b3A1c0N5WDBUWEJlMWFkejR2Z0FMa2JnZDkzT09aT1pkaVlSQVlB?oc=5",
+      "published_at": "2026-08-26T06:19:18+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "13:19",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -751,6 +849,22 @@
       "published_date_vn": "2026-08-26",
       "published_time_vn": "12:36",
       "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Căn bệnh nguy hiểm khiến bé gái ở Đồng Tháp ra đi trong đau xót",
+      "summary_vi": "Căn bệnh nguy hiểm khiến bé gái ở Đồng Tháp ra đi trong đau xót Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTFBhdERDT0ZObHItZndlMlpJU1dXWkhvV2ttVmhvNE1ZLXQ1aDZESHFTcnZLUFVQY3pHMmRFaXA1dzE5U3VaN3J6R0Rmenl4RW9rMkM0dWducUJpZVNKTWRTUmtSU1FxcllmUG1pSGFnT0EwNHFfWVdfT2kwYWdUZTZ3TVlPYWtHWEdqMUs5ejNKVUtqeGFHNVEzQVlodw?oc=5",
+      "published_at": "2026-08-26T05:35:55+00:00",
+      "published_date_vn": "2026-08-26",
+      "published_time_vn": "12:35",
+      "importance": 2
     },
     {
       "category": "THẾ GIỚI",
