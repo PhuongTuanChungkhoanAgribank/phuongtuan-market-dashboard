@@ -1,1 +1,0 @@
-Temporary note: app.py required the missing re import. This file will be removed in the next cleanup commit.
