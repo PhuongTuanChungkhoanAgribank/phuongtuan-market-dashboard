@@ -1,6 +1,5 @@
 import html
 import json
-import re
 import subprocess
 import sys
 from datetime import datetime
@@ -10,7 +9,12 @@ from zoneinfo import ZoneInfo
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="Phương Tuấn - Chứng khoán Agribank Chi nhánh Miền Trung", page_icon="📈", layout="wide")
+st.set_page_config(
+    page_title="Phương Tuấn - Chứng khoán Agribank Chi nhánh Miền Trung",
+    page_icon="📈",
+    layout="wide",
+)
+
 DATA_FILE = Path(__file__).parent / "data" / "daily_news.json"
 FETCH_SCRIPT = Path(__file__).parent / "scripts" / "fetch_news.py"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
@@ -51,12 +55,12 @@ def load_data():
     return {"updated_at":"—","cards":[]}
 
 
-def clean_prototype_text(text: str) -> str:
+def clean_text(text: str) -> str:
     result = html.unescape(str(text or "")).replace("\xa0", " ")
     result = re.sub(r"\s+", " ", result)
-    replacements = ["Prototype: ","Prototype – ","Prototype - ","Card này dùng để kiểm tra cách hiển thị nhóm vĩ mô quốc tế. ","Nội dung thực tế sẽ lấy từ nguồn chính thức của Fed. ","Đây là dữ liệu mẫu để kiểm tra giao diện. ","Ở bước tiếp theo hệ thống sẽ lấy tin thật từ Google News RSS và các nguồn đã chốt. ","Thông tin doanh nghiệp được trình bày thuần túy theo sự kiện công bố, không thêm nhận định, dự báo hoặc khuyến nghị. ","Card mẫu minh họa định dạng tin doanh nghiệp: mã cổ phiếu, sự kiện chính, nguồn và liên kết gốc. "]
-    for old in replacements: result = result.replace(old, "")
-    return re.sub(r"\s+", " ", result).strip()
+    for old in ("Prototype: ", "Prototype – ", "Prototype - "):
+        result = result.replace(old, "")
+    return result.strip()
 
 
 def display_tag(item: dict) -> str:
@@ -64,22 +68,29 @@ def display_tag(item: dict) -> str:
     if ticker:
         exchange=(item.get("exchange") or "").strip()
         return f"[{exchange}: {ticker}]" if exchange else f"[{ticker}]"
-    if item.get("region"):
-        return item.get("region")
+    region=(item.get("region") or "").strip()
+    if region:
+        return region
     tag=(item.get("tag") or "").strip(); category=(item.get("category") or "").strip()
     return "" if not tag or tag.casefold()==category.casefold() else tag
 
 
 def display_time(value: str) -> str:
-    if not value: return ""
-    try: return datetime.fromisoformat(value.replace("Z","+00:00")).astimezone(VN_TZ).strftime("%d/%m %H:%M")
-    except Exception: return value
+    if not value:
+        return ""
+    try:
+        return datetime.fromisoformat(value.replace("Z","+00:00")).astimezone(VN_TZ).strftime("%d/%m %H:%M")
+    except Exception:
+        return value
 
-# Header locked; manual refresh lives immediately below it.
-data=load_data(); cards=data.get("cards",[]); updated_at=data.get("updated_at","—")
+
+data=load_data()
+cards=data.get("cards",[])
+updated_at=data.get("updated_at","—")
+
 st.markdown(f'''<div class="hero"><div class="hero-glow"></div><div class="hero-content"><div class="hero-title">PHƯƠNG TUẤN <span class="accent">- CHỨNG KHOÁN AGRIBANK</span><br>CHI NHÁNH MIỀN TRUNG</div><div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div><div class="hero-note">DAILY MARKET</div></div><div class="update-box">DỮ LIỆU CẬP NHẬT<br><b>{html.escape(str(updated_at))}</b></div></div>''',unsafe_allow_html=True)
 
-clock_col, refresh_col, history_col = st.columns([1.55, 1.25, 2.2])
+clock_col, refresh_col, info_col = st.columns([1.55, 1.25, 2.2])
 with clock_col:
     components.html("""
     <div style="font-family:Arial,sans-serif;color:#F7F8FF;text-align:left;padding:2px 0 0;background:transparent;">
@@ -108,28 +119,58 @@ with refresh_col:
                         st.error("Cập nhật chưa thành công. Kiểm tra GitHub Actions nếu cần.")
                 except Exception as exc:
                     st.error(f"Không thể cập nhật: {exc}")
-with history_col:
+with info_col:
     st.caption("Tự động cập nhật tin: mỗi 5 phút · GitHub Actions")
 
+# Vĩ mô is removed from the public dashboard. Fed/FOMC items remain visible
+# in THẾ GIỚI because they are international market-moving information.
+world_count=sum(1 for x in cards if x.get("category")=="THẾ GIỚI")
+local_count=sum(1 for x in cards if x.get("category")=="TRONG NƯỚC")
+corp_count=sum(1 for x in cards if x.get("category")=="DOANH NGHIỆP")
+fund_count=sum(1 for x in cards if x.get("category")=="QUỸ")
+
 m1,m2,m3,m4,m5=st.columns(5)
-m1.metric("Tổng tin",len(cards));m2.metric("Doanh nghiệp",sum(1 for x in cards if x.get("category")=="DOANH NGHIỆP"));m3.metric("Vĩ mô",sum(1 for x in cards if x.get("category")=="VĨ MÔ"));m4.metric("Thế giới",sum(1 for x in cards if x.get("category")=="THẾ GIỚI"));m5.metric("Quỹ",sum(1 for x in cards if x.get("category")=="QUỸ"))
+m1.metric("Tổng tin",len(cards))
+m2.metric("Doanh nghiệp",corp_count)
+m3.metric("Trong nước",local_count)
+m4.metric("Thế giới",world_count)
+m5.metric("Quỹ",fund_count)
+
 search=st.text_input("Tìm kiếm",placeholder="Nhập mã cổ phiếu, doanh nghiệp, chủ đề hoặc từ khóa…")
-category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","VĨ MÔ","DOANH NGHIỆP","QUỸ"],horizontal=True,label_visibility="collapsed")
-q=(search or "").lower().strip();visible=[]
+category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","DOANH NGHIỆP","QUỸ"],horizontal=True,label_visibility="collapsed")
+q=(search or "").casefold().strip()
+visible=[]
 for item in cards:
     ok_cat=category=="Tất cả" or item.get("category")==category
-    headline=clean_prototype_text(item.get("headline_vi",""));summary=clean_prototype_text(item.get("summary_vi",""))
-    text=" ".join([headline,summary,item.get("ticker", ""),item.get("tag", ""),item.get("region", ""),item.get("source", "")]).lower()
-    if ok_cat and (not q or q in text): visible.append((item,headline,summary))
+    headline=clean_text(item.get("headline_vi",""))
+    summary=clean_text(item.get("summary_vi",""))
+    text=" ".join([
+        headline,summary,item.get("ticker", ""),
+        " ".join(item.get("tickers",[]) or []),
+        item.get("tag", ""),item.get("region", ""),item.get("source", "")
+    ]).casefold()
+    if ok_cat and (not q or q in text):
+        visible.append((item,headline,summary))
 
 st.markdown('<div class="section-title">TIN TRONG NGÀY</div>',unsafe_allow_html=True)
-if not visible: st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
+if not visible:
+    st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
 else:
     for start in range(0,len(visible),3):
-        row=visible[start:start+3];cols=st.columns(3,gap="medium")
+        row=visible[start:start+3]
+        cols=st.columns(3,gap="medium")
         for col,(item,headline,summary) in zip(cols,row):
             with col:
-                tag=display_tag(item);url=item.get("source_url") or item.get("url") or "#";tag_html=f"<span class='pill'>{html.escape(tag)}</span>" if tag else "";category_html=f"<span class='cat'>{html.escape(str(item.get('category','—')))}</span>";source=html.escape(str(item.get("source","")));headline_html=html.escape(headline);summary_html=html.escape(summary);url_html=html.escape(str(url),quote=True);published_html=html.escape(display_time(str(item.get('published_at',''))))
-                st.markdown(f'''<div class='card'>{tag_html}{category_html}<span class='time'>{published_html}</span><div class='headline'>{headline_html}</div><div class='summary'>{summary_html}</div><div class='source'>{source} · <a href='{url_html}' target='_blank'>Nguồn ↗</a></div></div>''',unsafe_allow_html=True);st.write("")
+                tag=display_tag(item)
+                url=item.get("source_url") or item.get("url") or "#"
+                tag_html=f"<span class='pill'>{html.escape(tag)}</span>" if tag else ""
+                category_html=f"<span class='cat'>{html.escape(str(item.get('category','—')))}</span>"
+                source=html.escape(str(item.get("source","")))
+                headline_html=html.escape(headline)
+                summary_html=html.escape(summary)
+                url_html=html.escape(str(url),quote=True)
+                published_html=html.escape(display_time(str(item.get('published_at',''))))
+                st.markdown(f'''<div class='card'>{tag_html}{category_html}<span class='time'>{published_html}</span><div class='headline'>{headline_html}</div><div class='summary'>{summary_html}</div><div class='source'>{source} · <a href='{url_html}' target='_blank'>Nguồn ↗</a></div></div>''',unsafe_allow_html=True)
+                st.write("")
 
 st.markdown('<div class="footer-note">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK CHI NHÁNH MIỀN TRUNG · Bản tin cung cấp thông tin, không phải khuyến nghị đầu tư.</div>',unsafe_allow_html=True)
