@@ -13,13 +13,13 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "daily_news.json"
 ARCHIVE_DIR = ROOT / "data" / "archive"
+FUND_FILE = ROOT / "data" / "fund_portfolios.json"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
 # World-news layer: broad international coverage plus targeted Vietnamese media.
 # Google News RSS is the free aggregation layer. VnExpress also contributes via
 # its first-party World RSS channel.
 FEEDS = [
-    # Global / US
     ("THẾ GIỚI", "global markets Reuters OR Bloomberg OR CNBC OR WSJ OR Financial Times"),
     ("THẾ GIỚI", "US markets Wall Street stocks bonds Treasury dollar Fed"),
     ("THẾ GIỚI", "US Iran Israel Middle East conflict oil sanctions geopolitics"),
@@ -30,8 +30,6 @@ FEEDS = [
     ("THẾ GIỚI", "site:reuters.com world markets Fed Iran oil bonds"),
     ("THẾ GIỚI", "site:wsj.com markets Fed economy stocks bonds"),
     ("THẾ GIỚI", "site:ft.com markets economy Fed global markets"),
-
-    # Japan / Korea / India / ASEAN / Australia / Taiwan
     ("THẾ GIỚI", "Japan markets BOJ yen Nikkei inflation GDP exports"),
     ("THẾ GIỚI", "site:reuters.com Japan BOJ yen Nikkei economy"),
     ("THẾ GIỚI", "site:cnbc.com Japan BOJ yen Nikkei economy"),
@@ -40,15 +38,11 @@ FEEDS = [
     ("THẾ GIỚI", "ASEAN Singapore Indonesia Thailand Malaysia markets economy"),
     ("THẾ GIỚI", "Australia RBA AUD jobs inflation commodities economy"),
     ("THẾ GIỚI", "Taiwan TSMC semiconductors exports economy"),
-
-    # Europe / UK
     ("THẾ GIỚI", "Europe ECB euro STOXX inflation GDP Germany France economy"),
     ("THẾ GIỚI", "site:ecb.europa.eu ECB monetary policy interest rates"),
     ("THẾ GIỚI", "UK Bank of England sterling inflation GDP economy"),
     ("THẾ GIỚI", "Germany DAX Bundesbank inflation industrial production economy"),
     ("THẾ GIỚI", "France Italy Spain Europe markets sovereign bonds economy"),
-
-    # China / geopolitics / markets
     ("THẾ GIỚI", "China markets PBOC yuan property exports imports GDP inflation"),
     ("THẾ GIỚI", "site:stats.gov.cn China NBS GDP CPI PPI industrial production"),
     ("THẾ GIỚI", "dollar DXY Treasury yields global bonds FX currencies"),
@@ -57,8 +51,6 @@ FEEDS = [
     ("THẾ GIỚI", "OPEC oil production energy LNG natural gas Middle East"),
     ("THẾ GIỚI", "US China tariffs trade war sanctions supply chain geopolitics"),
     ("THẾ GIỚI", "Ukraine Russia Europe NATO sanctions oil gas geopolitics"),
-
-    # Vietnamese media: World
     ("THẾ GIỚI", "site:znews.vn thế giới OR quốc tế OR Mỹ OR Iran OR Trung Quốc OR Nhật Bản OR châu Âu"),
     ("THẾ GIỚI", "site:znews.vn Fed OR FOMC OR dầu OR vàng OR chứng khoán Mỹ OR chứng khoán thế giới"),
     ("THẾ GIỚI", "site:vnexpress.net/the-gioi Mỹ OR Iran OR Trung Quốc OR Nhật Bản OR châu Âu OR Nga OR Ukraine"),
@@ -66,8 +58,6 @@ FEEDS = [
     ("THẾ GIỚI", "site:vietstock.vn vàng thế giới OR dầu thế giới OR giá dầu OR hàng hóa quốc tế OR USD"),
     ("THẾ GIỚI", "site:cafef.vn thế giới OR chứng khoán Mỹ OR Fed OR dầu OR vàng"),
     ("THẾ GIỚI", "site:vneconomy.vn thế giới OR Mỹ OR Trung Quốc OR châu Âu OR Nhật Bản OR Fed"),
-
-    # Vietnam macro / corporates
     ("VĨ MÔ", "Federal Reserve OR Fed OR inflation OR interest rates OR USD OR Treasury"),
     ("TRONG NƯỚC", "Việt Nam kinh tế OR Chính phủ OR NHNN OR tỷ giá OR lãi suất"),
     ("DOANH NGHIỆP", "Việt Nam doanh nghiệp OR HOSE OR HNX OR UPCOM OR kết quả kinh doanh OR cổ phiếu OR M&A"),
@@ -77,8 +67,6 @@ FEEDS = [
     ("DOANH NGHIỆP", "site:ndh.vn chứng khoán OR doanh nghiệp OR cổ phiếu OR kết quả kinh doanh"),
     ("DOANH NGHIỆP", "site:vneconomy.vn chứng khoán OR doanh nghiệp OR cổ phiếu"),
     ("DOANH NGHIỆP", "site:24hmoney.vn cổ phiếu OR doanh nghiệp OR kết quả kinh doanh"),
-
-    # Funds
     ("QUỸ", "ETF Việt Nam OR FTSE Vietnam OR MSCI Vietnam OR quỹ đầu tư OR quỹ mở"),
     ("QUỸ", "site:dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
     ("QUỸ", "site:dautu.dragoncapital.com.vn quỹ danh mục đầu tư OR DCDS OR DCDE OR DCBF OR DCIP"),
@@ -90,7 +78,7 @@ DIRECT_RSS_FEEDS = [
     ("THẾ GIỚI", "VnExpress", "https://vnexpress.net/rss/the-gioi.rss"),
 ]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.9)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/2.0)"}
 FETCH_HOURS = 8
 
 
@@ -186,14 +174,7 @@ def infer_exchange(text: str) -> str:
 
 def importance_score(category: str, title: str, summary: str) -> int:
     text = f"{title} {summary}".lower()
-    keywords = [
-        "lãi suất", "tỷ giá", "fed", "fomc", "inflation", "cpi", "pce", "nhnn",
-        "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse",
-        "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế", "phát hành",
-        "chia cổ tức", "mua lại", "sáp nhập", "m&a", "đại hội cổ đông", "hđqt",
-        "iran", "israel", "middle east", "hormuz", "opec", "oil", "brent", "wti",
-        "ecb", "boj", "japan", "eurozone", "europe", "china", "pbo", "tariff",
-    ]
+    keywords = ["lãi suất", "tỷ giá", "fed", "fomc", "inflation", "cpi", "pce", "nhnn", "chính phủ", "kết quả kinh doanh", "lợi nhuận", "doanh thu", "etf", "ftse", "msci", "nâng hạng", "giảm lãi suất", "tăng lãi suất", "thuế", "phát hành", "chia cổ tức", "mua lại", "sáp nhập", "m&a", "đại hội cổ đông", "hđqt", "iran", "israel", "middle east", "hormuz", "opec", "oil", "brent", "wti", "ecb", "boj", "japan", "eurozone", "europe", "china", "pbo", "tariff"]
     score = 2 + sum(1 for keyword in keywords if keyword in text)
     if category == "THẾ GIỚI" and any(x in text for x in ("fomc", "fed", "iran", "israel", "oil", "ecb", "boj", "china", "opec")):
         score += 1
@@ -283,6 +264,61 @@ def load_existing():
         return []
 
 
+def load_fund_cards(now_vn):
+    """Turn the latest official fund portfolio snapshot into dashboard cards.
+    This guarantees QUỸ has useful content even when fund websites publish
+    portfolio data rather than RSS news articles.
+    """
+    if not FUND_FILE.exists():
+        return []
+    try:
+        payload = json.loads(FUND_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+
+    cards = []
+    for fund in payload.get("funds", []):
+        name = str(fund.get("fund", "Quỹ")).strip()
+        url = str(fund.get("url", "")).strip()
+        holdings = fund.get("holdings", []) or []
+        valid = []
+        seen = set()
+        for item in holdings:
+            ticker = re.sub(r"[^A-Z0-9.-]", "", str(item.get("ticker", "")).upper())
+            if not ticker or ticker in {"NAV", "USD", "EUR", "ETF", "THE", "AND", "PYN", "URL", "GTM", "DOM", "SPA", "YTD", "RNS", "ESG", "CEO", "IPO", "III", "ROE", "VOF"}:
+                continue
+            if ticker in seen:
+                continue
+            seen.add(ticker)
+            weight = str(item.get("weight_pct", "")).strip()
+            if weight:
+                valid.append(f"{ticker} ({weight}%)")
+            else:
+                valid.append(ticker)
+            if len(valid) >= 8:
+                break
+        if not valid:
+            continue
+        summary = "Danh mục gần nhất: " + ", ".join(valid) + "."
+        cards.append({
+            "category": "QUỸ",
+            "tag": "DANH MỤC QUỸ",
+            "region": "",
+            "ticker": "",
+            "tickers": [v.split(" ")[0] for v in valid],
+            "exchange": "",
+            "headline_vi": f"{name} - cập nhật danh mục cổ phiếu",
+            "summary_vi": summary,
+            "source": name,
+            "source_url": url,
+            "published_at": now_vn.isoformat(),
+            "published_date_vn": now_vn.strftime("%Y-%m-%d"),
+            "published_time_vn": now_vn.strftime("%H:%M"),
+            "importance": 4,
+        })
+    return cards
+
+
 def dedupe(cards):
     seen = set()
     output = []
@@ -325,6 +361,7 @@ def main():
 
     now_vn = datetime.now(VN_TZ)
     today = now_vn.strftime("%Y-%m-%d")
+    fresh.extend(load_fund_cards(now_vn))
     all_recent = dedupe(load_existing() + fresh)
     today_cards = [c for c in all_recent if c.get("published_date_vn") == today]
     if not today_cards:
