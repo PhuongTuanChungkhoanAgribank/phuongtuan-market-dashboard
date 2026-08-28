@@ -6,7 +6,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Danh mục Quỹ - Daily Market", page_icon="💰", layout="wide")
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "fund_portfolios.json"
+DATA = ROOT / "data" / "weekly_fund_portfolios.json"
 
 st.markdown("""
 <style>
@@ -16,10 +16,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("💰 DANH MỤC QUỸ")
-st.caption("Dữ liệu danh mục và tỷ trọng được lấy từ trang công bố của từng quỹ; không phải nhận định đầu tư.")
+st.caption("Danh mục và tỷ trọng được cập nhật theo tuần từ trang công bố của từng quỹ; không phải dữ liệu real-time và không phải nhận định đầu tư.")
 
 if not DATA.exists():
-    st.info("Chưa có dữ liệu quỹ. Workflow sẽ tạo dữ liệu sau lần chạy cập nhật đầu tiên.")
+    st.info("Chưa có dữ liệu danh mục quỹ tuần này. Workflow sẽ cập nhật theo lịch hàng tuần.")
     st.stop()
 
 try:
@@ -28,7 +28,7 @@ except Exception as exc:
     st.error(f"Không đọc được dữ liệu quỹ: {exc}")
     st.stop()
 
-st.caption(f"Lần thu thập gần nhất: {payload.get('updated_at','—')}")
+st.caption(f"Lần cập nhật danh mục: {payload.get('updated_at','—')}")
 
 for fund in payload.get("funds", []):
     name = html.escape(str(fund.get("fund", "Quỹ")))
@@ -47,4 +47,4 @@ for fund in payload.get("funds", []):
         st.markdown("".join(chunks), unsafe_allow_html=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
-st.caption("Lưu ý: ngày dữ liệu danh mục phụ thuộc kỳ công bố của từng quỹ; hệ thống không giả định rằng tỷ trọng là real-time.")
+st.caption("Lưu ý: ngày dữ liệu danh mục phụ thuộc kỳ công bố của từng quỹ; hệ thống cập nhật dữ liệu theo tuần.")
