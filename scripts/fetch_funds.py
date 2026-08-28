@@ -9,9 +9,9 @@ from zoneinfo import ZoneInfo
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data" / "fund_portfolios.json"
+OUT = ROOT / "data" / "weekly_fund_portfolios.json"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/1.1)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/2.1)"}
 
 SOURCES = [
     ("Dragon Capital - DCDS", "https://dautu.dragoncapital.com.vn/dcds"),
@@ -48,11 +48,9 @@ def fetch_source(name, url):
     text = parser.text()
     holdings = []
 
-    # The official pages expose the ticker and, on some pages, the weight near it.
-    # This fallback is intentionally conservative: it never invents a percentage.
     for match in TICKER_RE.finditer(text):
         ticker = match.group(0)
-        if ticker in {"NAV", "USD", "EUR", "ETF", "THE", "AND", "PYN"}:
+        if ticker in {"NAV", "USD", "EUR", "ETF", "THE", "AND", "PYN", "URL", "GTM", "DOM", "SPA", "YTD", "RNS", "ESG", "CEO", "IPO", "III", "ROE", "VOF"}:
             continue
         window = text[match.start():match.start() + 260]
         weight_match = WEIGHT_RE.search(window)
@@ -76,7 +74,7 @@ def fetch_source(name, url):
         "url": url,
         "fetched_at": datetime.now(VN_TZ).isoformat(),
         "holdings": unique[:20],
-        "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; ngày dữ liệu phụ thuộc kỳ cập nhật của từng quỹ.",
+        "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ.",
     }
 
 
@@ -90,8 +88,8 @@ def main():
     if not result:
         raise RuntimeError("Không lấy được dữ liệu quỹ: " + "; ".join(errors))
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps({"updated_at": datetime.now(VN_TZ).isoformat(), "funds": result, "errors": errors}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Updated {len(result)} fund sources")
+    OUT.write_text(json.dumps({"updated_at": datetime.now(VN_TZ).isoformat(), "update_frequency": "weekly", "funds": result, "errors": errors}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Updated {len(result)} weekly fund sources")
     for e in errors:
         print("-", e)
 
