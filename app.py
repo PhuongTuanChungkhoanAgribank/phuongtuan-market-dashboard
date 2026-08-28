@@ -13,6 +13,7 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Phương Tuấn - Chứng khoán Agribank Chi nhánh Miền Trung", page_icon="📈", layout="wide")
 ROOT = Path(__file__).parent
 DATA_FILE = ROOT / "data" / "daily_news.json"
+FUND_DATA_FILE = ROOT / "data" / "weekly_fund_portfolios.json"
 FETCH_SCRIPT = ROOT / "scripts" / "fetch_news.py"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 
@@ -34,15 +35,15 @@ div[data-baseweb="input"]{background:rgba(255,255,255,.055)!important;border:1px
 div[role="radiogroup"]{gap:9px}div[role="radiogroup"] label{background:rgba(38,21,75,.62);border:1px solid rgba(154,126,255,.18);border-radius:999px;padding:7px 13px}div[role="radiogroup"] p{color:#E9E9F7!important;font-weight:700}
 .stButton>button{background:linear-gradient(135deg,#F7A21F 0%,#B81D2D 100%)!important;color:#fff!important;border:1px solid rgba(255,255,255,.22)!important;border-radius:12px!important;font-weight:900!important;min-height:42px;box-shadow:0 8px 22px rgba(184,29,45,.28)}.stButton>button:hover{filter:brightness(1.08);transform:translateY(-1px)}
 .card{background:linear-gradient(145deg,rgba(35,19,68,.96),rgba(17,14,43,.97));border:1px solid rgba(154,126,255,.22);border-radius:16px;padding:16px;min-height:205px;box-shadow:0 10px 28px rgba(0,0,0,.24)}.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--orange),var(--red))}.card{position:relative;overflow:hidden}.pill{display:inline-block;background:rgba(247,162,31,.13);color:var(--orange2);border:1px solid rgba(247,162,31,.26);border-radius:999px;padding:4px 8px;font-size:.66rem;font-weight:900}.cat{display:inline-block;background:rgba(184,29,45,.15);color:#FF7784;border:1px solid rgba(184,29,45,.25);border-radius:999px;padding:4px 8px;font-size:.66rem;font-weight:900;margin-left:5px}.time{float:right;color:#8F91B0;font-size:.65rem}.headline{color:#fff;font-size:1rem;font-weight:900;line-height:1.42;margin-top:.72rem}.summary{font-size:.81rem;line-height:1.52;color:#B7B8CD;margin-top:.44rem}.source{color:#8F91AB;font-size:.65rem;margin-top:.78rem}a{color:var(--orange)!important;font-weight:750}.footer-note{color:#777A9A;font-size:.68rem;margin-top:1.25rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.08)}
-@media(max-width:800px){.hero{min-height:210px;padding:22px}.hero-content{max-width:100%}.hero-title{font-size:1.15rem}.hero-tagline{font-size:.76rem}.update-box{top:18px;right:18px}.card{min-height:180px}}
+.fund-card{background:linear-gradient(145deg,rgba(35,19,68,.96),rgba(17,14,43,.97));border:1px solid rgba(247,162,31,.26);border-radius:16px;padding:16px;min-height:205px;box-shadow:0 10px 28px rgba(0,0,0,.24)}.fund-name{color:#fff;font-size:1rem;font-weight:900}.fund-meta{color:#8F91AB;font-size:.66rem;margin-top:.35rem}.fund-holdings{color:#D9DAE9;font-size:.82rem;line-height:1.55;margin-top:.75rem}.fund-note{color:#8F91AB;font-size:.68rem;margin-top:.7rem}
 </style>
 """,unsafe_allow_html=True)
 
-def load_data():
+def load_json(path, fallback):
     try:
-        return json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else {"updated_at":"—","cards":[]}
+        return json.loads(path.read_text(encoding="utf-8")) if path.exists() else fallback
     except Exception:
-        return {"updated_at":"—","cards":[]}
+        return fallback
 
 def clean_text(text:str)->str:
     text=html.unescape(str(text or "")).replace("\xa0"," ")
@@ -62,7 +63,23 @@ def display_time(value:str)->str:
     try:return datetime.fromisoformat(value.replace("Z","+00:00")).astimezone(VN_TZ).strftime("%d/%m %H:%M")
     except Exception:return value or ""
 
-data=load_data();cards=data.get("cards",[]);updated_at=data.get("updated_at","—")
+def fund_summary(fund:dict)->str:
+    parts=[]
+    for item in (fund.get("holdings",[]) or [])[:10]:
+        ticker=clean_text(item.get("ticker",""))
+        weight=clean_text(item.get("weight_pct",""))
+        if ticker:
+            parts.append(f"{ticker} ({weight}%)" if weight else ticker)
+    return ", ".join(parts)
+
+data=load_json(DATA_FILE,{"updated_at":"—","cards":[]})
+all_cards=data.get("cards",[])
+# Legacy daily fund cards are intentionally hidden from the daily stream.
+cards=[x for x in all_cards if x.get("category")!="QUỸ"]
+updated_at=data.get("updated_at","—")
+fund_payload=load_json(FUND_DATA_FILE,{"updated_at":"—","funds":[]})
+funds=fund_payload.get("funds",[]) or []
+
 st.markdown(f'''<div class="hero"><div class="hero-glow"></div><div class="hero-content"><div class="hero-title">PHƯƠNG TUẤN <span class="accent">- CHỨNG KHOÁN AGRIBANK</span><br>CHI NHÁNH MIỀN TRUNG</div><div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div><div class="hero-note">DAILY MARKET</div></div><div class="update-box">DỮ LIỆU CẬP NHẬT<br><b>{html.escape(str(updated_at))}</b></div></div>''',unsafe_allow_html=True)
 
 c1,c2,c3=st.columns([1.55,1.25,2.2])
@@ -77,23 +94,47 @@ with c2:
         except Exception as e: st.error(f"Không thể cập nhật: {e}")
 with c3: st.caption("Tự động cập nhật tin: mỗi 5 phút · GitHub Actions")
 
-world=sum(x.get("category")=="THẾ GIỚI" for x in cards);local=sum(x.get("category")=="TRONG NƯỚC" for x in cards);corp=sum(x.get("category")=="DOANH NGHIỆP" for x in cards);fund=sum(x.get("category")=="QUỸ" for x in cards)
-m1,m2,m3,m4,m5=st.columns(5);m1.metric("Tổng tin",len(cards));m2.metric("Doanh nghiệp",corp);m3.metric("Trong nước",local);m4.metric("Thế giới",world);m5.metric("Quỹ",fund)
+world=sum(x.get("category")=="THẾ GIỚI" for x in cards);local=sum(x.get("category")=="TRONG NƯỚC" for x in cards);corp=sum(x.get("category")=="DOANH NGHIỆP" for x in cards)
+m1,m2,m3,m4,m5=st.columns(5);m1.metric("Tổng tin",len(cards));m2.metric("Doanh nghiệp",corp);m3.metric("Trong nước",local);m4.metric("Thế giới",world);m5.metric("Quỹ theo dõi",len(funds))
 
-search=st.text_input("Tìm kiếm",placeholder="Nhập mã cổ phiếu, doanh nghiệp, chủ đề hoặc từ khóa…");category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","DOANH NGHIỆP","QUỸ"],horizontal=True,label_visibility="collapsed")
-q=(search or "").casefold().strip();visible=[]
-for item in cards:
-    if category!="Tất cả" and item.get("category")!=category: continue
-    headline=clean_text(item.get("headline_vi",""));summary=clean_text(item.get("summary_vi",""));hay=" ".join([headline,summary,item.get("ticker","")," ".join(item.get("tickers",[]) or []),item.get("tag",""),item.get("region",""),item.get("source","")]).casefold()
-    if not q or q in hay: visible.append((item,headline,summary))
+search=st.text_input("Tìm kiếm",placeholder="Nhập mã cổ phiếu, doanh nghiệp, chủ đề hoặc từ khóa…")
+category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","DOANH NGHIỆP","QUỸ"],horizontal=True,label_visibility="collapsed")
+q=(search or "").casefold().strip()
 
-st.markdown('<div class="section-title">TIN TRONG NGÀY</div>',unsafe_allow_html=True)
-if not visible: st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
+if category=="QUỸ":
+    st.markdown('<div class="section-title">DANH MỤC QUỸ · CẬP NHẬT HÀNG TUẦN</div>',unsafe_allow_html=True)
+    st.caption(f"Lần cập nhật danh mục: {html.escape(str(fund_payload.get('updated_at','—')))} · Dữ liệu không phải real-time.")
+    if not funds:
+        st.info("Chưa có dữ liệu danh mục quỹ tuần này.")
+    else:
+        for start in range(0,len(funds),3):
+            cols=st.columns(3,gap="medium")
+            for col,fund in zip(cols,funds[start:start+3]):
+                name=html.escape(str(fund.get("fund","Quỹ"))); url=html.escape(str(fund.get("url","#")),quote=True); fetched=html.escape(str(fund.get("fetched_at",fund_payload.get("updated_at",""))))
+                holdings=fund_summary(fund)
+                if holdings:
+                    body=html.escape(holdings)
+                    note="Danh mục theo thông tin công bố; cập nhật theo tuần."
+                else:
+                    body="Chưa có danh mục cấu trúc đủ tin cậy từ nguồn."
+                    note="Mở nguồn chính thức để xem dữ liệu mới nhất."
+                with col:
+                    st.markdown(f"<div class='fund-card'><div class='fund-name'>{name}</div><div class='fund-meta'>Cập nhật: {fetched} · <a href='{url}' target='_blank'>Nguồn ↗</a></div><div class='fund-holdings'>{body}</div><div class='fund-note'>{note}</div></div>",unsafe_allow_html=True)
+                    st.write("")
 else:
-    for start in range(0,len(visible),3):
-        cols=st.columns(3,gap="medium")
-        for col,(item,headline,summary) in zip(cols,visible[start:start+3]):
-            with col:
-                tag=display_tag(item);url=item.get("source_url") or item.get("url") or "#";tag_html=f"<span class='pill'>{html.escape(tag)}</span>" if tag else "";cat_html=f"<span class='cat'>{html.escape(str(item.get('category','—')))}</span>";source=html.escape(str(item.get('source','')));ph=html.escape(str(display_time(str(item.get('published_at','')))));u=html.escape(str(url),quote=True)
-                st.markdown(f"<div class='card'>{tag_html}{cat_html}<span class='time'>{ph}</span><div class='headline'>{html.escape(headline)}</div><div class='summary'>{html.escape(summary)}</div><div class='source'>{source} · <a href='{u}' target='_blank'>Nguồn ↗</a></div></div>",unsafe_allow_html=True);st.write("")
+    visible=[]
+    for item in cards:
+        if category!="Tất cả" and item.get("category")!=category: continue
+        headline=clean_text(item.get("headline_vi",""));summary=clean_text(item.get("summary_vi",""));hay=" ".join([headline,summary,item.get("ticker","")," ".join(item.get("tickers",[]) or []),item.get("tag",""),item.get("region",""),item.get("source","")]).casefold()
+        if not q or q in hay: visible.append((item,headline,summary))
+    st.markdown('<div class="section-title">TIN TRONG NGÀY</div>',unsafe_allow_html=True)
+    if not visible: st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
+    else:
+        for start in range(0,len(visible),3):
+            cols=st.columns(3,gap="medium")
+            for col,(item,headline,summary) in zip(cols,visible[start:start+3]):
+                with col:
+                    tag=display_tag(item);url=item.get("source_url") or item.get("url") or "#";tag_html=f"<span class='pill'>{html.escape(tag)}</span>" if tag else "";cat_html=f"<span class='cat'>{html.escape(str(item.get('category','—')))}</span>";source=html.escape(str(item.get('source','')));ph=html.escape(str(display_time(str(item.get('published_at','')))));u=html.escape(str(url),quote=True)
+                    st.markdown(f"<div class='card'>{tag_html}{cat_html}<span class='time'>{ph}</span><div class='headline'>{html.escape(headline)}</div><div class='summary'>{html.escape(summary)}</div><div class='source'>{source} · <a href='{u}' target='_blank'>Nguồn ↗</a></div></div>",unsafe_allow_html=True);st.write("")
+
 st.markdown('<div class="footer-note">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK CHI NHÁNH MIỀN TRUNG · Bản tin cung cấp thông tin, không phải khuyến nghị đầu tư.</div>',unsafe_allow_html=True)
