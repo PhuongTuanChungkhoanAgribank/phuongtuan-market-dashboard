@@ -1,0 +1,42 @@
+{
+  "updated_at": "2026-08-28T10:07:00+07:00",
+  "update_frequency": "weekly",
+  "funds": [
+    {
+      "fund": "Dragon Capital - DCDS",
+      "url": "https://dautu.dragoncapital.com.vn/dcds",
+      "fetched_at": "2026-08-28T10:07:00+07:00",
+      "holdings": [],
+      "note": "Chờ lần thu thập chính thức kế tiếp để tránh hiển thị mã không phải cổ phiếu do trang sử dụng dữ liệu động."
+    },
+    {
+      "fund": "PYN Elite",
+      "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
+      "fetched_at": "2026-08-28T10:07:00+07:00",
+      "holdings": [
+        {"ticker":"HPG","weight_pct":"13.8"},
+        {"ticker":"MWG","weight_pct":"9.4"},
+        {"ticker":"FPT","weight_pct":"8.4"},
+        {"ticker":"HVN","weight_pct":"6.6"},
+        {"ticker":"OCB","weight_pct":"5.1"},
+        {"ticker":"VIB","weight_pct":"4.6"}
+      ],
+      "note": "Danh mục theo thông tin công bố của PYN Elite; cập nhật theo tuần, không phải dữ liệu real-time."
+    },
+    {
+      "fund": "VinaCapital - VOF",
+      "url": "https://vof.vinacapital.com/portfolio/holdings/",
+      "fetched_at": "2026-08-28T10:07:00+07:00",
+      "holdings": [
+        {"ticker":"VHM","weight_pct":"7.7"},
+        {"ticker":"GMD","weight_pct":"7.0"},
+        {"ticker":"MWG","weight_pct":"6.5"},
+        {"ticker":"KDH","weight_pct":"5.6"},
+        {"ticker":"MBB","weight_pct":"5.5"},
+        {"ticker":"HPG","weight_pct":"5.2"}
+      ],
+      "note": "Danh mục theo thông tin công bố của VinaCapital VOF; cập nhật theo tuần, không phải dữ liệu real-time."
+    }
+  ],
+  "errors": []
+}
