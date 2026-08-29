@@ -1,8 +1,58 @@
 {
-  "updated_at": "29/08/2026 17:43",
+  "updated_at": "29/08/2026 20:13",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-29",
   "cards": [
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "IFC",
+      "tickers": [
+        "IFC"
+      ],
+      "exchange": "",
+      "headline_vi": "Chủ sở hữu Saigon Marina IFC báo lỗ hơn 200 tỷ đồng nửa đầu năm",
+      "summary_vi": "Chủ sở hữu Saigon Marina IFC báo lỗ hơn 200 tỷ đồng nửa đầu năm cafeland.vn",
+      "source": "cafeland.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPekxDcDRSeHM3UW1wSDF3ZHp3Q3hhLTAtTUJtdk9weFI3cmhBRHNpTlhOdktSVEE5R3pZTzJoWk50cFFPZkhkeFNxRWd0WmkwQUo4dDJKNUg1cWxVZXdsN0x6TTVYRFhRb2lmSmw5bWZOenNwOE9ab3Fsd09hRHN0bFR5WExVMTFvRnBIZVJVdkdOUTZoZ1c4aEtJSGZsZTJ0RWVTSkN3?oc=5",
+      "published_at": "2026-08-29T12:40:00+00:00",
+      "published_date_vn": "2026-08-29",
+      "published_time_vn": "19:40",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phút cuối của sĩ quan Trung Quốc xả thân làm nhiệm vụ trong lũ quét",
+      "summary_vi": "Hoàng Bành, cảnh sát cửa khẩu Cát Long, hướng dẫn người dân sơ tán đến những giây cuối cùng trước khi lũ quét ập tới.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/phut-cuoi-cua-si-quan-trung-quoc-xa-than-lam-nhiem-vu-trong-lu-quet-5114984.html",
+      "published_at": "2026-08-29T12:23:52+00:00",
+      "published_date_vn": "2026-08-29",
+      "published_time_vn": "19:23",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tin vui với các 'ông chủ' của Vinhomes",
+      "summary_vi": "Tin vui với các 'ông chủ' của Vinhomes Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWmk3UUpBeHp4RDNhVENpamRyZGJMaUpDWnBFc0RBLWtKQkZBSVZPSTBHQk1GMmktZnBpQldFX1hrUmdILXBIQnBVdkZuQ2tyN3QwTkRYd1RadnU4TFlqa2FWUkFIT0xObnhJ?oc=5",
+      "published_at": "2026-08-29T10:45:59+00:00",
+      "published_date_vn": "2026-08-29",
+      "published_time_vn": "17:45",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "EU",
@@ -17,6 +67,22 @@
       "published_at": "2026-08-29T10:21:41+00:00",
       "published_date_vn": "2026-08-29",
       "published_time_vn": "17:21",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cách show hẹn hò khiến 2 người lạ yêu nhau chỉ sau vài ngày",
+      "summary_vi": "Cách show hẹn hò khiến 2 người lạ yêu nhau chỉ sau vài ngày Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObnRUUVNUb0pQdGtCcnVfbHVZWnV3UlAyNzFUQm9DNjE0UWFrNVRlWWVZUUVfV3BNei03OVU3OG5tQXhLNTFHbGYya1BEM3pld1F5OVdXS0RTTmtpb2txSlFxNUM4aHN5MC12MkI2ODh1SUVLZnlXb0FMeXZwYm1wZHdqYTBWQWRweXV4V3BQNnZrR0FONTJ5Ug?oc=5",
+      "published_at": "2026-08-29T10:07:05+00:00",
+      "published_date_vn": "2026-08-29",
+      "published_time_vn": "17:07",
       "importance": 2
     },
     {
@@ -218,6 +284,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Các đại gia bất động sản phía Nam đang dồn lực vào dự án nào?",
+      "summary_vi": "Các đại gia bất động sản phía Nam đang dồn lực vào dự án nào? Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMVk4eExNcDg2RmhXMXR0MEZHX2VrX2dkbzE2YVp0V2pGVTRrQzdrSWFKNEgzMUxEU0pBZkpjSU5xQnNkVWpXaXZZSGpRU0xHVUpSM1ZFSTJCYW1RbEtSM2hNd1lyQS1kYW02T1NtYjc1QlhkSU4zS2dKbklWNVZEbmd4Q3pYWUloc3c1c2RCeWZKSkdGLV9qV0dR?oc=5",
+      "published_at": "2026-08-29T07:15:17+00:00",
+      "published_date_vn": "2026-08-29",
+      "published_time_vn": "14:15",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Hai doanh nghiệp cam kết đồng hành thay đổi diện mạo TP.HCM",
       "summary_vi": "Hai doanh nghiệp cam kết đồng hành thay đổi diện mạo TP.HCM Znews",
       "source": "Znews",
@@ -273,6 +355,22 @@
       "published_at": "2026-08-29T07:00:31+00:00",
       "published_date_vn": "2026-08-29",
       "published_time_vn": "14:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tín hiệu báo động từ Trung Quốc [Kỳ 1]: Cỗ máy sản xuất không thể dừng",
+      "summary_vi": "Tín hiệu báo động từ Trung Quốc [Kỳ 1]: Cỗ máy sản xuất không thể dừng Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMFc5bG92QkdBZUNFN3I5VkR1UUF3MmZZQmx6N0EzV2kzUjc1Q3BFV1B0cUlrZ0VJVENvLVZ5ZDkyUWYwd1oybW1FWU5qRGQ5Z2hFZThXRFBjU0l4Qm0zeTNyeDJjY3Y5T1JhaDBMakprZHhIb05md3ZvRnd6eFdBUDNCaVdhOExqejdjLWN3NFAxUnh3MWhlUU5EZWZjOFdtX0ZxS0RLYTVWYkYxcWkzazRB?oc=5",
+      "published_at": "2026-08-29T06:02:00+00:00",
+      "published_date_vn": "2026-08-29",
+      "published_time_vn": "13:02",
       "importance": 2
     },
     {
