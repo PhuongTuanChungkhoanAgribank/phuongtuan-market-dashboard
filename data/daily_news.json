@@ -1,8 +1,40 @@
 {
-  "updated_at": "30/08/2026 04:57",
+  "updated_at": "30/08/2026 06:25",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-30",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Mixue's dream of rapid growth is shattered.",
+      "summary_vi": "Mixue's dream of rapid growth is shattered. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xUTJiTzdWTmR5enJTeHZQUFNfYkowRXBVTTVBQ1hlaHhQOHRIaXRmMkhUM3JoUHFTTHpnbzhSZU9rWjNCeUhCSjJzN3hwVFpYTmdvRndPai1oZGZ3YkFFLVlLbVNobVZn?oc=5",
+      "published_at": "2026-08-29T23:19:21+00:00",
+      "published_date_vn": "2026-08-30",
+      "published_time_vn": "06:19",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Đảng Cộng hòa nguy cơ trả giá vì đòn thuế của ông Trump với Canada",
+      "summary_vi": "Cuộc chiến thuế quan với Canada nguy cơ khiến vật giá tăng cao tại Mỹ, đe dọa tới đảng Cộng hòa trong cuộc bầu cử giữa kỳ.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/dang-cong-hoa-nguy-co-tra-gia-vi-don-thue-cua-ong-trump-voi-canada-5113432.html",
+      "published_at": "2026-08-29T22:00:00+00:00",
+      "published_date_vn": "2026-08-30",
+      "published_time_vn": "05:00",
+      "importance": 3
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
