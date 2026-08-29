@@ -1,8 +1,24 @@
 {
-  "updated_at": "30/08/2026 00:07",
+  "updated_at": "30/08/2026 01:41",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-30",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Khoảnh khắc sông băng sụp đổ, kích hoạt lũ quét ở Nepal",
+      "summary_vi": "Du khách quay video núi tuyết ở Tây Tạng, vô tình ghi được hình ảnh được cho là sông băng sụp đổ, dẫn đến thảm họa lũ quét ở Nepal.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/khoanh-khac-song-bang-sup-do-kich-hoat-lu-quet-o-nepal-5115079.html",
+      "published_at": "2026-08-29T17:27:27+00:00",
+      "published_date_vn": "2026-08-30",
+      "published_time_vn": "00:27",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
@@ -14,6 +30,22 @@
       "summary_vi": "Sau dịp lễ Quốc khánh, khi nào thị trường chứng khoán giao dịch trở lại bình thường? CafeF",
       "source": "CafeF",
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZWw3VlNkM043dm5DQVR4NE82bUgwbmVyNnRLR3YyNEJ2Wnk5MHdWY1IwU0haR0ZEZjBmY2lTLVpSYWUwS2o1Z1hXVktoazVwbnVMTklxRTgydUdJVDdUcjB1THNEMURGc1dURjJickZqSi1KZWNqcnE5T3gyQW5uR3hyNWNZZlBxRDZtYVAyNmVOWFZ2TmVWd2xtM0JqYm1yLXVHYXp4cWp2N3pnaW9JaWZubmI4LURCN005SnFxMA?oc=5",
+      "published_at": "2026-08-29T17:05:00+00:00",
+      "published_date_vn": "2026-08-30",
+      "published_time_vn": "00:05",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chủ tịch Ủy ban Chứng khoán Nhà nước làm việc với lãnh đạo S&P Dow Jones Indices",
+      "summary_vi": "Chủ tịch Ủy ban Chứng khoán Nhà nước làm việc với lãnh đạo S&P Dow Jones Indices CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVTQ4Z19DcFZySlpuVEtub0h4MlVENHJ0b1UtQWRmVC1DRlRzcm5XSXVfUHMxYzhsU1VuUDVab2ZCdUVoN0RCT0VGaDRFSkpGUDlHODlQTGRRYzZjUm1sMHRwcGRZc01WVmtaV2pubXJkWm9kdmRTTC1NVkoxN0d3QnV3NWZ5OGxQQ3Utems3NHNBeHhBNm1PYjRFYWUyMjlIc2dRemhZNDhPRDVBdmE1VDZSZ3hHb1FhZnhF?oc=5",
       "published_at": "2026-08-29T17:05:00+00:00",
       "published_date_vn": "2026-08-30",
       "published_time_vn": "00:05",
