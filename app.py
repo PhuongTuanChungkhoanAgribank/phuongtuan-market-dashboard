@@ -86,41 +86,46 @@ with c2:
 with c3:st.caption("Tự động cập nhật tin: khoảng mỗi 15 phút · GitHub Actions")
 
 world=sum(x.get("category")=="THẾ GIỚI" for x in cards);local=sum(x.get("category")=="TRONG NƯỚC" for x in cards);corp=sum(x.get("category")=="DOANH NGHIỆP" for x in cards);notice=sum(x.get("category")=="THÔNG BÁO" for x in cards)
-m=st.columns(6);m[0].metric("Tổng tin",len(cards));m[1].metric("Doanh nghiệp",corp);m[2].metric("Trong nước",local);m[3].metric("Thế giới",world);m[4].metric("Thông báo",notice);m[5].metric("Quỹ theo dõi",len(funds))
+m=st.columns(6);m[0].metric("Tổng tin",len(cards));m[1].metric("Doanh nghiệp",corp);m[2].metric("Trong nước",local);m[3].metric("Thế giới",world);m[4].metric("Thông báo từ UBCK",notice);m[5].metric("Quỹ theo dõi",len(funds))
 
 search=st.text_input("Tìm kiếm",placeholder="Nhập mã cổ phiếu, doanh nghiệp, chủ đề hoặc từ khóa…")
-category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","DOANH NGHIỆP","THÔNG BÁO","QUỸ"],horizontal=True,label_visibility="collapsed")
+category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","DOANH NGHIỆP","THÔNG BÁO TỪ UBCK","QUỸ"],horizontal=True,label_visibility="collapsed")
 q=(search or "").casefold().strip()
 
 st.markdown('''<div class="history-card"><div class="history-title">🔎 TRA CỨU LỊCH SỬ</div><div class="history-help">Xem lại bản tin theo <b>ngày quá khứ</b>, mã cổ phiếu, doanh nghiệp hoặc từ khóa. Chọn ngày trước, sau đó nhập từ khóa để thu hẹp kết quả.</div><a class="history-link" href="/Tra_cuu_lich_su" target="_self">MỞ TRA CỨU LỊCH SỬ ↗</a></div>''', unsafe_allow_html=True)
 
 if category=="QUỸ":
     st.markdown('<div class="section-title">DANH MỤC QUỸ · CẬP NHẬT HÀNG TUẦN</div>',unsafe_allow_html=True)
-    st.caption(f"Lần cập nhật danh mục: {html.escape(str(fund_payload.get('updated_at','—')))} · Dữ liệu không phải real-time.")
-    if not funds:st.info("Chưa có dữ liệu danh mục quỹ tuần này.")
-    else:
-        for start in range(0,len(funds),3):
-            cols=st.columns(3,gap="medium")
-            for col,fund in zip(cols,funds[start:start+3]):
-                name=html.escape(str(fund.get("fund","Quỹ")));url=html.escape(str(fund.get("url","#")),quote=True);fetched=html.escape(str(fund.get("fetched_at",fund_payload.get("updated_at",""))));holdings=fund_summary(fund)
-                body=html.escape(holdings) if holdings else "Chưa có danh mục cấu trúc đủ tin cậy từ nguồn.";note="Danh mục theo thông tin công bố; cập nhật theo tuần." if holdings else "Mở nguồn chính thức để xem dữ liệu mới nhất."
-                with col:st.markdown(f"<div class='fund-card'><div class='fund-name'>{name}</div><div class='fund-meta'>Cập nhật: {fetched} · <a href='{url}' target='_blank'>Nguồn ↗</a></div><div class='fund-holdings'>{body}</div><div class='fund-note'>{note}</div></div>",unsafe_allow_html=True);st.write("")
+    st.caption(f"Snapshot gần nhất: {fund_payload.get('updated_at','—')} · Danh mục được cập nhật theo kỳ công bố của quỹ, không phải dữ liệu thời gian thực.")
+    filtered=[]
+    for fund in funds:
+        blob=" ".join([fund.get("fund_name",""),fund.get("manager",""),fund_summary(fund)]).casefold()
+        if not q or q in blob:filtered.append(fund)
+    if not filtered:st.info("Chưa có dữ liệu danh mục quỹ phù hợp.")
+    for i in range(0,len(filtered),3):
+        cols=st.columns(3)
+        for col,fund in zip(cols,filtered[i:i+3]):
+            with col:
+                name=html.escape(clean_text(fund.get("fund_name","Quỹ")));manager=html.escape(clean_text(fund.get("manager","")));summary=html.escape(fund_summary(fund) or "Chưa trích xuất được danh mục.");url=html.escape(fund.get("source_url","#"),quote=True);updated=html.escape(clean_text(fund.get("updated_at","")))
+                st.markdown(f'<div class="fund-card"><div class="fund-name">{name}</div><div class="fund-meta">{manager} · Cập nhật: {updated}</div><div class="fund-holdings">{summary}</div><div class="fund-note">Danh mục/tỷ trọng theo kỳ công bố gần nhất. · <a href="{url}" target="_blank">Nguồn ↗</a></div></div>',unsafe_allow_html=True)
 else:
-    visible=[]
+    selected_category="THÔNG BÁO" if category=="THÔNG BÁO TỪ UBCK" else category
+    filtered=[]
     for item in cards:
-        if category!="Tất cả" and item.get("category")!=category:continue
-        headline=clean_text(item.get("headline_vi",""));summary=clean_text(item.get("summary_vi",""));hay=" ".join([headline,summary,item.get("ticker","")," ".join(item.get("tickers",[]) or []),item.get("tag",""),item.get("region",""),item.get("source","")]).casefold()
-        if not q or q in hay:visible.append((item,headline,summary))
-    title="THÔNG BÁO TỪ CƠ QUAN QUẢN LÝ" if category=="THÔNG BÁO" else "TIN TRONG NGÀY"
-    st.markdown(f'<div class="section-title">{title}</div>',unsafe_allow_html=True)
-    if category=="THÔNG BÁO":st.markdown('<div class="notice-help">Nguồn ưu tiên: HOSE/HSX, HNX và Ủy ban Chứng khoán Nhà nước (SSC) — tập trung cảnh báo, kiểm soát/hạn chế giao dịch, xử phạt và công bố thông tin doanh nghiệp.</div>',unsafe_allow_html=True)
-    if not visible:st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
-    else:
-        for start in range(0,len(visible),3):
-            cols=st.columns(3,gap="medium")
-            for col,(item,headline,summary) in zip(cols,visible[start:start+3]):
-                with col:
-                    tag=display_tag(item);url=item.get("source_url") or item.get("url") or "#";tag_html=f"<span class='pill'>{html.escape(tag)}</span>" if tag else "";cat_html=f"<span class='cat'>{html.escape(str(item.get('category','—')))}</span>";source=html.escape(str(item.get('source','')));ph=html.escape(str(display_time(str(item.get('published_at','')))));u=html.escape(str(url),quote=True)
-                    st.markdown(f"<div class='card'>{tag_html}{cat_html}<span class='time'>{ph}</span><div class='headline'>{html.escape(headline)}</div><div class='summary'>{html.escape(summary)}</div><div class='source'>{source} · <a href='{u}' target='_blank'>Nguồn ↗</a></div></div>",unsafe_allow_html=True);st.write("")
+        if selected_category!="Tất cả" and item.get("category")!=selected_category:continue
+        blob=" ".join([item.get("headline_vi",""),item.get("summary_vi",""),item.get("source",""),item.get("ticker",""),item.get("company",""),item.get("region","")]).casefold()
+        if q and q not in blob:continue
+        filtered.append(item)
+    if category=="THÔNG BÁO TỪ UBCK":
+        st.markdown('<div class="section-title">THÔNG BÁO TỪ ỦY BAN CHỨNG KHOÁN</div>',unsafe_allow_html=True)
+        st.markdown('<div class="notice-help">Nguồn chính thức và ưu tiên: <b>Ủy ban Chứng khoán Nhà nước (SSC), HOSE/HSX và HNX</b> — tập trung cảnh báo, kiểm soát/hạn chế giao dịch, xử phạt và công bố thông tin liên quan doanh nghiệp.</div>',unsafe_allow_html=True)
+    else:st.markdown('<div class="section-title">TIN TRONG NGÀY</div>',unsafe_allow_html=True)
+    if not filtered:st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
+    for i in range(0,len(filtered),3):
+        cols=st.columns(3)
+        for col,item in zip(cols,filtered[i:i+3]):
+            with col:
+                tag=html.escape(display_tag(item));cat_label="THÔNG BÁO TỪ UBCK" if item.get("category")=="THÔNG BÁO" else item.get("category","");cat=html.escape(cat_label);headline=html.escape(clean_text(item.get("headline_vi","")));summary=html.escape(clean_text(item.get("summary_vi","")));source=html.escape(clean_text(item.get("source","")));url=html.escape(item.get("url","#"),quote=True);t=html.escape(display_time(item.get("published_at","")))
+                st.markdown(f'<div class="card"><span class="pill">{tag or source}</span><span class="cat">{cat}</span><span class="time">{t}</span><div class="headline">{headline}</div><div class="summary">{summary}</div><div class="source">{source} · <a href="{url}" target="_blank">Nguồn ↗</a></div></div>',unsafe_allow_html=True)
 
 st.markdown('<div class="footer-note">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK CHI NHÁNH MIỀN TRUNG · Bản tin cung cấp thông tin, không phải khuyến nghị đầu tư.</div>',unsafe_allow_html=True)
