@@ -2,8 +2,7 @@ name: Update Daily Market News
 
 on:
   schedule:
-    # GitHub minimum scheduled interval is 5 minutes.
-    - cron: "*/5 * * * *"
+    - cron: "*/15 * * * *"
       timezone: "Asia/Ho_Chi_Minh"
   workflow_dispatch:
 
@@ -42,5 +41,6 @@ jobs:
             echo "No news changes to commit."
           else
             git commit -m "chore: update daily market news"
+            git pull --rebase
             git push
           fi
