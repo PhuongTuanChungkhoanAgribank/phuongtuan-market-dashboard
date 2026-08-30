@@ -1,8 +1,24 @@
 {
-  "updated_at": "31/08/2026 01:11",
+  "updated_at": "31/08/2026 04:07",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-31",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nepal chôn cất tập thể hàng trăm nạn nhân lũ quét vô danh",
+      "summary_vi": "Quận Chitwan, Nepal, nơi nổi tiếng với những cánh rừng và dòng sông, trở thành nơi chôn cất tập thể cho hàng trăm nạn nhân chưa xác định được danh tính.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/nepal-chon-cat-tap-the-hang-tram-nan-nhan-lu-quet-vo-danh-5115278.html",
+      "published_at": "2026-08-30T18:27:50+00:00",
+      "published_date_vn": "2026-08-31",
+      "published_time_vn": "01:27",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
