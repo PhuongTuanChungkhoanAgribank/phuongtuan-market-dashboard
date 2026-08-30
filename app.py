@@ -32,34 +32,29 @@ st.markdown("""
 .section-title{font-size:1.02rem;font-weight:950;color:#fff;margin:1rem 0 .75rem;padding-left:.75rem;border-left:4px solid var(--orange)}
 [data-testid="stMetric"]{background:linear-gradient(145deg,rgba(40,22,78,.82),rgba(16,16,48,.86));border:1px solid rgba(154,126,255,.18);border-radius:15px;padding:11px 15px;box-shadow:0 8px 24px rgba(0,0,0,.18)}[data-testid="stMetricLabel"]{color:#B8B9D2!important}[data-testid="stMetricValue"]{color:#fff!important}
 div[data-baseweb="input"]{background:rgba(255,255,255,.055)!important;border:1px solid rgba(154,126,255,.18)!important;border-radius:12px!important}div[data-baseweb="input"] input{color:#fff!important}div[data-baseweb="input"] input::placeholder{color:#8E90AC!important}
-div[role="radiogroup"]{gap:9px}div[role="radiogroup"] label{background:rgba(38,21,75,.62);border:1px solid rgba(154,126,255,.18);border-radius:999px;padding:7px 13px}div[role="radiogroup"] p{color:#E9E9F7!important;font-weight:700}
+div[role="radiogroup"]{gap:9px;flex-wrap:wrap}div[role="radiogroup"] label{background:rgba(38,21,75,.62);border:1px solid rgba(154,126,255,.18);border-radius:999px;padding:7px 13px}div[role="radiogroup"] p{color:#E9E9F7!important;font-weight:700}
 .stButton>button{background:linear-gradient(135deg,#F7A21F 0%,#B81D2D 100%)!important;color:#fff!important;border:1px solid rgba(255,255,255,.22)!important;border-radius:12px!important;font-weight:900!important;min-height:42px;box-shadow:0 8px 22px rgba(184,29,45,.28)}.stButton>button:hover{filter:brightness(1.08);transform:translateY(-1px)}
-.card{background:linear-gradient(145deg,rgba(35,19,68,.96),rgba(17,14,43,.97));border:1px solid rgba(154,126,255,.22);border-radius:16px;padding:16px;min-height:205px;box-shadow:0 10px 28px rgba(0,0,0,.24)}.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--orange),var(--red))}.card{position:relative;overflow:hidden}.pill{display:inline-block;background:rgba(247,162,31,.13);color:var(--orange2);border:1px solid rgba(247,162,31,.26);border-radius:999px;padding:4px 8px;font-size:.66rem;font-weight:900}.cat{display:inline-block;background:rgba(184,29,45,.15);color:#FF7784;border:1px solid rgba(184,29,45,.25);border-radius:999px;padding:4px 8px;font-size:.66rem;font-weight:900;margin-left:5px}.time{float:right;color:#8F91B0;font-size:.65rem}.headline{color:#fff;font-size:1rem;font-weight:900;line-height:1.42;margin-top:.72rem}.summary{font-size:.81rem;line-height:1.52;color:#B7B8CD;margin-top:.44rem}.source{color:#8F91AB;font-size:.65rem;margin-top:.78rem}a{color:var(--orange)!important;font-weight:750}.footer-note{color:#777A9A;font-size:.68rem;margin-top:1.25rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.08)}
+.card{background:linear-gradient(145deg,rgba(35,19,68,.96),rgba(17,14,43,.97));border:1px solid rgba(154,126,255,.22);border-radius:16px;padding:16px;min-height:205px;box-shadow:0 10px 28px rgba(0,0,0,.24);position:relative;overflow:hidden}.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--orange),var(--red))}.pill{display:inline-block;background:rgba(247,162,31,.13);color:var(--orange2);border:1px solid rgba(247,162,31,.26);border-radius:999px;padding:4px 8px;font-size:.66rem;font-weight:900}.cat{display:inline-block;background:rgba(184,29,45,.15);color:#FF7784;border:1px solid rgba(184,29,45,.25);border-radius:999px;padding:4px 8px;font-size:.66rem;font-weight:900;margin-left:5px}.time{float:right;color:#8F91B0;font-size:.65rem}.headline{color:#fff;font-size:1rem;font-weight:900;line-height:1.42;margin-top:.72rem}.summary{font-size:.81rem;line-height:1.52;color:#B7B8CD;margin-top:.44rem}.source{color:#8F91AB;font-size:.65rem;margin-top:.78rem}a{color:var(--orange)!important;font-weight:750}.footer-note{color:#777A9A;font-size:.68rem;margin-top:1.25rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.08)}
 .fund-card{background:linear-gradient(145deg,rgba(35,19,68,.96),rgba(17,14,43,.97));border:1px solid rgba(247,162,31,.26);border-radius:16px;padding:16px;min-height:205px;box-shadow:0 10px 28px rgba(0,0,0,.24)}.fund-name{color:#fff;font-size:1rem;font-weight:900}.fund-meta{color:#8F91AB;font-size:.66rem;margin-top:.35rem}.fund-holdings{color:#D9DAE9;font-size:.82rem;line-height:1.55;margin-top:.75rem}.fund-note{color:#8F91AB;font-size:.68rem;margin-top:.7rem}
-.history-card{background:linear-gradient(145deg,rgba(43,25,82,.88),rgba(19,15,48,.96));border:1px solid rgba(247,162,31,.24);border-radius:16px;padding:14px 16px;margin:12px 0 18px;box-shadow:0 10px 24px rgba(0,0,0,.16)}
-.history-title{color:#fff;font-size:.98rem;font-weight:900}.history-help{color:#AEB0C8;font-size:.72rem;line-height:1.45;margin-top:.35rem}.history-link{display:inline-block;margin-top:.65rem;padding:7px 11px;border-radius:10px;background:rgba(247,162,31,.13);border:1px solid rgba(247,162,31,.24);color:#FFBF45!important;font-size:.74rem;font-weight:900;text-decoration:none!important}
+.history-card{background:linear-gradient(145deg,rgba(43,25,82,.88),rgba(19,15,48,.96));border:1px solid rgba(247,162,31,.24);border-radius:16px;padding:14px 16px;margin:12px 0 18px;box-shadow:0 10px 24px rgba(0,0,0,.16)}.history-title{color:#fff;font-size:.98rem;font-weight:900}.history-help{color:#AEB0C8;font-size:.72rem;line-height:1.45;margin-top:.35rem}.history-link{display:inline-block;margin-top:.65rem;padding:7px 11px;border-radius:10px;background:rgba(247,162,31,.13);border:1px solid rgba(247,162,31,.24);color:#FFBF45!important;font-size:.74rem;font-weight:900;text-decoration:none!important}
+.notice-help{color:#AEB0C8;font-size:.72rem;margin:-.4rem 0 .8rem .8rem}
 @media(max-width:800px){.hero{min-height:210px;padding:22px}.hero-content{max-width:100%}.hero-title{font-size:1.15rem}.hero-tagline{font-size:.76rem}.update-box{top:18px;right:18px}.card{min-height:180px}}
 </style>
 """,unsafe_allow_html=True)
 
 def load_json(path, fallback):
-    try:
-        return json.loads(path.read_text(encoding="utf-8")) if path.exists() else fallback
-    except Exception:
-        return fallback
+    try:return json.loads(path.read_text(encoding="utf-8")) if path.exists() else fallback
+    except Exception:return fallback
 
 def clean_text(text:str)->str:
-    text=html.unescape(str(text or "")).replace("\xa0"," ")
-    text=re.sub(r"\s+"," ",text)
-    for old in ("Prototype: ","Prototype – ","Prototype - "):
-        text=text.replace(old,"")
+    text=html.unescape(str(text or "")).replace("\xa0"," ");text=re.sub(r"\s+"," ",text)
+    for old in ("Prototype: ","Prototype – ","Prototype - "):text=text.replace(old,"")
     return text.strip()
 
 def display_tag(item:dict)->str:
     ticker=(item.get("ticker") or "").strip()
     if ticker:
-        ex=(item.get("exchange") or "").strip()
-        return f"[{ex}: {ticker}]" if ex else f"[{ticker}]"
+        ex=(item.get("exchange") or "").strip();return f"[{ex}: {ticker}]" if ex else f"[{ticker}]"
     return (item.get("region") or item.get("tag") or "").strip()
 
 def display_time(value:str)->str:
@@ -69,19 +64,12 @@ def display_time(value:str)->str:
 def fund_summary(fund:dict)->str:
     parts=[]
     for item in (fund.get("holdings",[]) or [])[:10]:
-        ticker=clean_text(item.get("ticker",""))
-        weight=clean_text(item.get("weight_pct",""))
-        if ticker:
-            parts.append(f"{ticker} ({weight}%)" if weight else ticker)
+        ticker=clean_text(item.get("ticker",""));weight=clean_text(item.get("weight_pct",""))
+        if ticker:parts.append(f"{ticker} ({weight}%)" if weight else ticker)
     return ", ".join(parts)
 
-data=load_json(DATA_FILE,{"updated_at":"—","cards":[]})
-all_cards=data.get("cards",[])
-# Legacy daily fund cards are intentionally hidden from the daily stream.
-cards=[x for x in all_cards if x.get("category")!="QUỸ"]
-updated_at=data.get("updated_at","—")
-fund_payload=load_json(FUND_DATA_FILE,{"updated_at":"—","funds":[]})
-funds=fund_payload.get("funds",[]) or []
+data=load_json(DATA_FILE,{"updated_at":"—","cards":[]});all_cards=data.get("cards",[]);cards=[x for x in all_cards if x.get("category")!="QUỸ"];updated_at=data.get("updated_at","—")
+fund_payload=load_json(FUND_DATA_FILE,{"updated_at":"—","funds":[]});funds=fund_payload.get("funds",[]) or []
 
 st.markdown(f'''<div class="hero"><div class="hero-glow"></div><div class="hero-content"><div class="hero-title">PHƯƠNG TUẤN <span class="accent">- CHỨNG KHOÁN AGRIBANK</span><br>CHI NHÁNH MIỀN TRUNG</div><div class="hero-tagline">NGƯỜI AGRIBANK LÀM CHỨNG KHOÁN</div><div class="hero-note">DAILY MARKET</div></div><div class="update-box">DỮ LIỆU CẬP NHẬT<br><b>{html.escape(str(updated_at))}</b></div></div>''',unsafe_allow_html=True)
 
@@ -91,17 +79,17 @@ with c1:
 with c2:
     if st.button("🔄 CẬP NHẬT TIN NGAY",use_container_width=True):
         try:
-            r=subprocess.run([sys.executable,str(FETCH_SCRIPT)],cwd=str(ROOT),capture_output=True,text=True,timeout=120)
-            if r.returncode==0: st.success("Đã cập nhật tin."); st.rerun()
-            else: st.error("Cập nhật chưa thành công. Kiểm tra GitHub Actions.")
-        except Exception as e: st.error(f"Không thể cập nhật: {e}")
-with c3: st.caption("Tự động cập nhật tin: mỗi 5 phút · GitHub Actions")
+            r=subprocess.run([sys.executable,str(FETCH_SCRIPT)],cwd=str(ROOT),capture_output=True,text=True,timeout=180)
+            if r.returncode==0:st.success("Đã cập nhật tin.");st.rerun()
+            else:st.error("Cập nhật chưa thành công. Kiểm tra GitHub Actions.")
+        except Exception as e:st.error(f"Không thể cập nhật: {e}")
+with c3:st.caption("Tự động cập nhật tin: khoảng mỗi 15 phút · GitHub Actions")
 
-world=sum(x.get("category")=="THẾ GIỚI" for x in cards);local=sum(x.get("category")=="TRONG NƯỚC" for x in cards);corp=sum(x.get("category")=="DOANH NGHIỆP" for x in cards)
-m1,m2,m3,m4,m5=st.columns(5);m1.metric("Tổng tin",len(cards));m2.metric("Doanh nghiệp",corp);m3.metric("Trong nước",local);m4.metric("Thế giới",world);m5.metric("Quỹ theo dõi",len(funds))
+world=sum(x.get("category")=="THẾ GIỚI" for x in cards);local=sum(x.get("category")=="TRONG NƯỚC" for x in cards);corp=sum(x.get("category")=="DOANH NGHIỆP" for x in cards);notice=sum(x.get("category")=="THÔNG BÁO" for x in cards)
+m=st.columns(6);m[0].metric("Tổng tin",len(cards));m[1].metric("Doanh nghiệp",corp);m[2].metric("Trong nước",local);m[3].metric("Thế giới",world);m[4].metric("Thông báo",notice);m[5].metric("Quỹ theo dõi",len(funds))
 
 search=st.text_input("Tìm kiếm",placeholder="Nhập mã cổ phiếu, doanh nghiệp, chủ đề hoặc từ khóa…")
-category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","DOANH NGHIỆP","QUỸ"],horizontal=True,label_visibility="collapsed")
+category=st.radio("Bộ lọc",["Tất cả","THẾ GIỚI","TRONG NƯỚC","DOANH NGHIỆP","THÔNG BÁO","QUỸ"],horizontal=True,label_visibility="collapsed")
 q=(search or "").casefold().strip()
 
 st.markdown('''<div class="history-card"><div class="history-title">🔎 TRA CỨU LỊCH SỬ</div><div class="history-help">Xem lại bản tin theo <b>ngày quá khứ</b>, mã cổ phiếu, doanh nghiệp hoặc từ khóa. Chọn ngày trước, sau đó nhập từ khóa để thu hẹp kết quả.</div><a class="history-link" href="/Tra_cuu_lich_su" target="_self">MỞ TRA CỨU LỊCH SỬ ↗</a></div>''', unsafe_allow_html=True)
@@ -109,31 +97,24 @@ st.markdown('''<div class="history-card"><div class="history-title">🔎 TRA C�
 if category=="QUỸ":
     st.markdown('<div class="section-title">DANH MỤC QUỸ · CẬP NHẬT HÀNG TUẦN</div>',unsafe_allow_html=True)
     st.caption(f"Lần cập nhật danh mục: {html.escape(str(fund_payload.get('updated_at','—')))} · Dữ liệu không phải real-time.")
-    if not funds:
-        st.info("Chưa có dữ liệu danh mục quỹ tuần này.")
+    if not funds:st.info("Chưa có dữ liệu danh mục quỹ tuần này.")
     else:
         for start in range(0,len(funds),3):
             cols=st.columns(3,gap="medium")
             for col,fund in zip(cols,funds[start:start+3]):
-                name=html.escape(str(fund.get("fund","Quỹ"))); url=html.escape(str(fund.get("url","#")),quote=True); fetched=html.escape(str(fund.get("fetched_at",fund_payload.get("updated_at",""))))
-                holdings=fund_summary(fund)
-                if holdings:
-                    body=html.escape(holdings)
-                    note="Danh mục theo thông tin công bố; cập nhật theo tuần."
-                else:
-                    body="Chưa có danh mục cấu trúc đủ tin cậy từ nguồn."
-                    note="Mở nguồn chính thức để xem dữ liệu mới nhất."
-                with col:
-                    st.markdown(f"<div class='fund-card'><div class='fund-name'>{name}</div><div class='fund-meta'>Cập nhật: {fetched} · <a href='{url}' target='_blank'>Nguồn ↗</a></div><div class='fund-holdings'>{body}</div><div class='fund-note'>{note}</div></div>",unsafe_allow_html=True)
-                    st.write("")
+                name=html.escape(str(fund.get("fund","Quỹ")));url=html.escape(str(fund.get("url","#")),quote=True);fetched=html.escape(str(fund.get("fetched_at",fund_payload.get("updated_at",""))));holdings=fund_summary(fund)
+                body=html.escape(holdings) if holdings else "Chưa có danh mục cấu trúc đủ tin cậy từ nguồn.";note="Danh mục theo thông tin công bố; cập nhật theo tuần." if holdings else "Mở nguồn chính thức để xem dữ liệu mới nhất."
+                with col:st.markdown(f"<div class='fund-card'><div class='fund-name'>{name}</div><div class='fund-meta'>Cập nhật: {fetched} · <a href='{url}' target='_blank'>Nguồn ↗</a></div><div class='fund-holdings'>{body}</div><div class='fund-note'>{note}</div></div>",unsafe_allow_html=True);st.write("")
 else:
     visible=[]
     for item in cards:
-        if category!="Tất cả" and item.get("category")!=category: continue
+        if category!="Tất cả" and item.get("category")!=category:continue
         headline=clean_text(item.get("headline_vi",""));summary=clean_text(item.get("summary_vi",""));hay=" ".join([headline,summary,item.get("ticker","")," ".join(item.get("tickers",[]) or []),item.get("tag",""),item.get("region",""),item.get("source","")]).casefold()
-        if not q or q in hay: visible.append((item,headline,summary))
-    st.markdown('<div class="section-title">TIN TRONG NGÀY</div>',unsafe_allow_html=True)
-    if not visible: st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
+        if not q or q in hay:visible.append((item,headline,summary))
+    title="THÔNG BÁO TỪ CƠ QUAN QUẢN LÝ" if category=="THÔNG BÁO" else "TIN TRONG NGÀY"
+    st.markdown(f'<div class="section-title">{title}</div>',unsafe_allow_html=True)
+    if category=="THÔNG BÁO":st.markdown('<div class="notice-help">Nguồn ưu tiên: HOSE/HSX, HNX và Ủy ban Chứng khoán Nhà nước (SSC) — tập trung cảnh báo, kiểm soát/hạn chế giao dịch, xử phạt và công bố thông tin doanh nghiệp.</div>',unsafe_allow_html=True)
+    if not visible:st.info("Chưa có tin phù hợp với bộ lọc hiện tại.")
     else:
         for start in range(0,len(visible),3):
             cols=st.columns(3,gap="medium")
