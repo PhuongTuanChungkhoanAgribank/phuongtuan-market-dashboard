@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "daily_news.json"
 ARCHIVE_DIR = ROOT / "data" / "archive"
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/2.2)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PhuongTuanMarketDashboard/2.3)"}
 FETCH_HOURS = 24
 
 FEEDS = [
@@ -42,6 +42,7 @@ FEEDS = [
     # DOANH NGHIỆP - query ngắn, tách theo nguồn để Google News trả kết quả tốt hơn
     ("DOANH NGHIỆP", "site:cafef.vn/doanh-nghiep cổ phiếu doanh nghiệp kết quả kinh doanh"),
     ("DOANH NGHIỆP", "site:cafef.vn/thi-truong-chung-khoan cổ phiếu doanh nghiệp niêm yết"),
+    ("DOANH NGHIỆP", "site:cafef.vn smart money cổ phiếu doanh nghiệp khối ngoại tự doanh"),
     ("DOANH NGHIỆP", "site:vietstock.vn/doanh-nghiep doanh nghiệp cổ phiếu kết quả kinh doanh"),
     ("DOANH NGHIỆP", "site:vietstock.vn/chung-khoan cổ phiếu niêm yết giao dịch nội bộ cổ tức"),
     ("DOANH NGHIỆP", "site:vietnambiz.vn/doanh-nghiep cổ phiếu doanh nghiệp kết quả kinh doanh"),
@@ -58,10 +59,21 @@ FEEDS = [
     ("THÔNG BÁO", "site:vietstock.vn công bố thông tin HOSE HNX UPCOM cảnh báo kiểm soát"),
 ]
 
+# Ưu tiên RSS trực tiếp để tăng độ phủ và đảm bảo link về đúng bài gốc.
+# CafeF công bố nhiều kênh RSS chính thức, nên lấy trực tiếp thay vì chỉ phụ thuộc Google News.
 DIRECT_RSS_FEEDS = [
     ("THẾ GIỚI", "VnExpress", "https://vnexpress.net/rss/the-gioi.rss"),
+
+    # CafeF - Doanh nghiệp / Chứng khoán / Dòng tiền
     ("DOANH NGHIỆP", "CafeF", "https://cafef.vn/doanh-nghiep.rss"),
     ("DOANH NGHIỆP", "CafeF", "https://cafef.vn/thi-truong-chung-khoan.rss"),
+    ("DOANH NGHIỆP", "CafeF", "https://cafef.vn/smart-money.rss"),
+
+    # CafeF - Trong nước / chính sách / ngân hàng
+    ("TRONG NƯỚC", "CafeF", "https://cafef.vn/tai-chinh-ngan-hang.rss"),
+    ("TRONG NƯỚC", "CafeF", "https://cafef.vn/vi-mo-dau-tu.rss"),
+
+    # CafeF - Quốc tế
     ("THẾ GIỚI", "CafeF", "https://cafef.vn/tai-chinh-quoc-te.rss"),
 ]
 
@@ -225,7 +237,7 @@ def fetch_direct_rss(category: str, source: str, url: str):
     feed = feedparser.parse(r.content)
     cutoff = datetime.now(timezone.utc) - timedelta(hours=FETCH_HOURS)
     results = []
-    for entry in feed.entries[:60]:
+    for entry in feed.entries[:80]:
         if published_dt(entry) < cutoff:
             continue
         card = build_card(category, entry, source, url)
@@ -289,7 +301,7 @@ def main():
         print("No fresh news for today; keeping existing dashboard data.")
         return
 
-    limits = {"THẾ GIỚI": 100, "TRONG NƯỚC": 40, "DOANH NGHIỆP": 180, "THÔNG BÁO": 100}
+    limits = {"THẾ GIỚI": 100, "TRONG NƯỚC": 60, "DOANH NGHIỆP": 220, "THÔNG BÁO": 100}
     selected, counts = [], {k: 0 for k in limits}
     for card in sorted(today_cards, key=lambda x: x.get("published_at", ""), reverse=True):
         cat = card.get("category")
