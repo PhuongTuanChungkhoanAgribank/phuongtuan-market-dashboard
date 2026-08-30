@@ -1,8 +1,40 @@
 {
-  "updated_at": "31/08/2026 04:07",
+  "updated_at": "31/08/2026 06:28",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-08-31",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lần đầu tiên Nga khai hỏa Iskander-1000 tấn công Ukraine, Kiev ráo riết săn bệ phóng",
+      "summary_vi": "Cơ quan Tình báo Quốc phòng Ukraine (GUR) cho biết Nga lần đầu tiên sử dụng phiên bản nâng cấp của tên lửa đạn đạo Iskander trong một cuộc tấn công nhằm vào Kiev trong cuộc tấn công hôm 27/8.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/lan-dau-tien-nga-khai-hoa-iskander-1000-tan-cong-ukraine-kiev-rao-riet-san-be-phong-188260831060758457.chn",
+      "published_at": "2026-08-30T23:07:00+00:00",
+      "published_date_vn": "2026-08-31",
+      "published_time_vn": "06:07",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Giấc mơ đường sắt cao tốc dang dở của California",
+      "summary_vi": "Sau 18 năm, California vẫn loay hoay với giấc mơ đường sắt cao tốc, khi dự án đội vốn hàng chục tỷ USD nhưng chưa đặt được mét ray nào.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/giac-mo-duong-sat-cao-toc-dang-do-cua-california-5114365.html",
+      "published_at": "2026-08-30T22:00:00+00:00",
+      "published_date_vn": "2026-08-31",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
