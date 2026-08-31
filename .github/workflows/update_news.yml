@@ -2,13 +2,14 @@ name: Update Daily Market News
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
-      timezone: "Asia/Ho_Chi_Minh"
+    # GitHub Actions cron is UTC. Offset away from :00/:15/:30/:45
+    # to reduce delays during peak scheduler load.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 concurrency:
   group: daily-market-news
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -16,9 +17,12 @@ permissions:
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -26,8 +30,8 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install dependencies
-        run: python -m pip install -r requirements.txt
+      - name: Install news dependencies
+        run: python -m pip install "feedparser<7.0,>=6.0" "requests<3.0,>=2.31" "beautifulsoup4<5.0,>=4.12"
 
       - name: Fetch and translate news
         run: python scripts/fetch_news.py
@@ -41,6 +45,6 @@ jobs:
             echo "No news changes to commit."
           else
             git commit -m "chore: update daily market news"
-            git pull --rebase
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
