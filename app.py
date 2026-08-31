@@ -125,7 +125,7 @@ else:
         cols=st.columns(3)
         for col,item in zip(cols,filtered[i:i+3]):
             with col:
-                tag=html.escape(display_tag(item));cat_label="THÔNG BÁO TỪ UBCK" if item.get("category")=="THÔNG BÁO" else item.get("category","");cat=html.escape(cat_label);headline=html.escape(clean_text(item.get("headline_vi","")));summary=html.escape(clean_text(item.get("summary_vi","")));source=html.escape(clean_text(item.get("source","")));url=html.escape(item.get("url","#"),quote=True);t=html.escape(display_time(item.get("published_at","")))
+                tag=html.escape(display_tag(item));cat_label="THÔNG BÁO TỪ UBCK" if item.get("category")=="THÔNG BÁO" else item.get("category","");cat=html.escape(cat_label);headline=html.escape(clean_text(item.get("headline_vi","")));summary=html.escape(clean_text(item.get("summary_vi","")));source=html.escape(clean_text(item.get("source","")));url=html.escape((item.get("source_url") or item.get("url") or "#"),quote=True);t=html.escape(display_time(item.get("published_at","")))
                 st.markdown(f'<div class="card"><span class="pill">{tag or source}</span><span class="cat">{cat}</span><span class="time">{t}</span><div class="headline">{headline}</div><div class="summary">{summary}</div><div class="source">{source} · <a href="{url}" target="_blank">Nguồn ↗</a></div></div>',unsafe_allow_html=True)
 
 st.markdown('<div class="footer-note">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK CHI NHÁNH MIỀN TRUNG · Bản tin cung cấp thông tin, không phải khuyến nghị đầu tư.</div>',unsafe_allow_html=True)
