@@ -1,42 +1,193 @@
 {
-  "updated_at": "2026-08-28T10:07:00+07:00",
+  "updated_at": "2026-08-31T11:21:59.290648+07:00",
   "update_frequency": "weekly",
   "funds": [
     {
       "fund": "Dragon Capital - DCDS",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-08-28T10:07:00+07:00",
-      "holdings": [],
-      "note": "Chờ lần thu thập chính thức kế tiếp để tránh hiển thị mã không phải cổ phiếu do trang sử dụng dữ liệu động."
+      "fetched_at": "2026-08-31T11:21:56.337516+07:00",
+      "holdings": [
+        {
+          "ticker": "CCQ",
+          "weight_pct": "1.58",
+          "raw": "CCQ má»i nháº¥t 96.246,61 â« â² 1,58% NgÃ y BÃ¡o cÃ¡o 26/08/2026 ChÆ°a rÃµ con sá» nÃ y nghÄ©a lÃ gÃ¬? Xem NAV lÃ gÃ¬ vÃ NAV/CCQ ÄÆ°á»£c tÃ­nh tháº¿ nÃ o . Xem NAV trá»±c tiáº¿p cá»§a DCDS â PHÆ¯Æ NG PHÃP Äáº§u tÆ° TÃ´i nÃªn Äáº§u tÆ° DCDS nhÆ° tháº¿"
+        },
+        {
+          "ticker": "DCA",
+          "weight_pct": "",
+          "raw": "DCA Trung tÃ¢m kiáº¿n thá»©c Há» TRá»¢ Tin tá»©c & bÃ¡o cÃ¡o quá»¹ Há»i ÄÃ¡p quá»¹ má» ChÃ­nh sÃ¡ch báº£o máº­t Â© 2026 Dragon Capital. Ná»i dung trang nÃ y chá» nháº±m má»¥c ÄÃ­ch cung cáº¥p thÃ´ng tin, khÃ´ng cáº¥u thÃ nh lá»i khuyÃªn hay khuyáº¿n ng"
+        },
+        {
+          "ticker": "UTM",
+          "weight_pct": "",
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,112,113],\"{\\\"from\\\":\\\"f0407dbe-5f2e-4e38-add4-8be143a523ca\\\",\\\"limit\\\":{\\\""
+        }
+      ],
+      "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
     },
     {
       "fund": "PYN Elite",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-08-28T10:07:00+07:00",
+      "fetched_at": "2026-08-31T11:21:57.209425+07:00",
       "holdings": [
-        {"ticker":"HPG","weight_pct":"13.8"},
-        {"ticker":"MWG","weight_pct":"9.4"},
-        {"ticker":"FPT","weight_pct":"8.4"},
-        {"ticker":"HVN","weight_pct":"6.6"},
-        {"ticker":"OCB","weight_pct":"5.1"},
-        {"ticker":"VIB","weight_pct":"4.6"}
+        {
+          "ticker": "HPG",
+          "weight_pct": "13.8",
+          "raw": "HPG - Hoa Phat Group Portfolio weight 13.8% Hoa Phat Group (HPG) is the largest steel producer in Southeast Asia. Following completion of the Dung Quat 2 complex in late 2025, the group has successfully joined top 30 largest steel companies globally. Beyond it"
+        },
+        {
+          "ticker": "MWG",
+          "weight_pct": "9.4",
+          "raw": "MWG Portfolio weight 9.4% MWG operates TGDD, Vietnam‘s top mobile retail chain with 1,000+ stores, and DMX, the leading electronics retailer with over 2,000 stores. It also founded Bach Hoa Xanh (BHX), a grocery chain specializing in fresh food and essentials,"
+        },
+        {
+          "ticker": "DMX",
+          "weight_pct": "",
+          "raw": "DMX, the leading electronics retailer with over 2,000 stores. It also founded Bach Hoa Xanh (BHX), a grocery chain specializing in fresh food and essentials, with 2,500 stores. BHX aims to become the leading grocery retail chain in Vietnam, achieving $10 billi"
+        },
+        {
+          "ticker": "BHX",
+          "weight_pct": "",
+          "raw": "BHX), a grocery chain specializing in fresh food and essentials, with 2,500 stores. BHX aims to become the leading grocery retail chain in Vietnam, achieving $10 billion in revenue by 2030. DMX has a plan to do IPO in year 2026, and BHX achieved good profitabi"
+        },
+        {
+          "ticker": "FPT",
+          "weight_pct": "8.4",
+          "raw": "FPT Portfolio weight 8.4% FPT is the largest publicly traded technology company in Vietnam, evolving from an IT intermediary and outsourcing vendor into a globally recognized technology partner and innovator. In 2024, FPT formed a strategic partnership with NV"
+        },
+        {
+          "ticker": "HVN",
+          "weight_pct": "6.6",
+          "raw": "HVN - Vietnam Airlines Portfolio weight 6.6% Vietnam Airlines (HVN) is the national flag carrier of Vietnam. The company owns many subsidiaries in the industry value chain, from ground services to cargo and jet fuel. HVN is the biggest full-service airline in "
+        },
+        {
+          "ticker": "OCB",
+          "weight_pct": "5.1",
+          "raw": "OCB Portfolio weight 5.1% OCB is a mid-sized bank focusing on SMEs and retail clients. Unlike other banks with chairmen involved in real estate, OCB’s leadership is solely dedicated to banking, minimizing related party concerns. The bank’s P/B dropped in 2022 "
+        },
+        {
+          "ticker": "VIB",
+          "weight_pct": "4.6",
+          "raw": "VIB Portfolio weight 4.6% VIB holds a leading market share in retail lending, bancassurance, and credit cards in Vietnam and is a pioneer in Basel III adoption and digital transformation. It achieved the highest ROE of 28% from 2019 to 2023 among peers. After "
+        },
+        {
+          "ticker": "SHS",
+          "weight_pct": "4.3",
+          "raw": "SHS Portfolio weight 4.3% Founded in 2007, SHS ranks among Vietnam’s top 10 securities firms by shareholders’ equity. In recent years, the broker has built a strong reputation as one of the market’s top performers in proprietary trading. Its five-year average "
+        },
+        {
+          "ticker": "TCX",
+          "weight_pct": "4.0",
+          "raw": "TCX - Techcom Securities Portfolio weight 4.0% TCX is Vietnam’s largest broker by market cap and total equity, and the most profitable for 6 consecutive years. Backed by Techcombank, TCX pioneered the WealthTech model – digitally integrating investment service"
+        },
+        {
+          "ticker": "ACV",
+          "weight_pct": "3.9",
+          "raw": "ACV – Airports of Vietnam Portfolio weight 3.9% ACV manages eight international and thirteen domestic airports in Vietnam. In the balance sheet, there is a huge valuation difference, because the investments made by the company are still at the acquisition pric"
+        }
       ],
-      "note": "Danh mục theo thông tin công bố của PYN Elite; cập nhật theo tuần, không phải dữ liệu real-time."
+      "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
     },
     {
       "fund": "VinaCapital - VOF",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-08-28T10:07:00+07:00",
+      "fetched_at": "2026-08-31T11:21:59.289394+07:00",
       "holdings": [
-        {"ticker":"VHM","weight_pct":"7.7"},
-        {"ticker":"GMD","weight_pct":"7.0"},
-        {"ticker":"MWG","weight_pct":"6.5"},
-        {"ticker":"KDH","weight_pct":"5.6"},
-        {"ticker":"MBB","weight_pct":"5.5"},
-        {"ticker":"HPG","weight_pct":"5.2"}
+        {
+          "ticker": "SVN",
+          "weight_pct": "",
+          "raw": "SVN-Georgia\", Sans-serif;font-size:32px;font-weight:normal;line-height:32px;letter-spacing:-0.64px;}.elementor-614 .elementor-element.elementor-element-163b4b7{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-fle"
+        },
+        {
+          "ticker": "CSS",
+          "weight_pct": "",
+          "raw": "CSS for container, class: .elementor-element-163b4b7 */.thumb-image{ transform: scale(1,1); } .container:hover .thumb-image{ transform: scale(1.15,1.15); transform-origin: center; }/* End custom CSS */ /* Start custom CSS for container, class: .elementor-eleme"
+        },
+        {
+          "ticker": "VHM",
+          "weight_pct": "7.7",
+          "raw": "VHM Vinhomes With disciplined execution and land bank quality, well-placed to capitalise on urban housing shortage and growth in middle-income demand Real Estate NAV: 7.7% 2. GMD Gemadept Leading port and logistics operator with major infrastructure expansions"
+        },
+        {
+          "ticker": "GMD",
+          "weight_pct": "7.0",
+          "raw": "GMD Gemadept Leading port and logistics operator with major infrastructure expansions to significantly boost container throughput capacity and capture increasing trade flow with Vietnam Industrials NAV: 7.0% 3. MWG Mobile World Top retail and omni-channel plat"
+        },
+        {
+          "ticker": "MWG",
+          "weight_pct": "6.5",
+          "raw": "MWG Mobile World Top retail and omni-channel platform leveraging scale and integrated logistics to benefit from Vietnam’s transition to modern trade Consumer Discretionary NAV: 6.5% 4. MBB MB Bank Strong retail and corporate franchises with leading digital pla"
+        },
+        {
+          "ticker": "MBB",
+          "weight_pct": "5.6",
+          "raw": "MBB MB Bank Strong retail and corporate franchises with leading digital platform, provides leverage to expanding credit and financial services demand Financials NAV: 5.6% 5. KDH Khang Dien House Combines a premium urban land bank, disciplined balance sheet, an"
+        },
+        {
+          "ticker": "KDH",
+          "weight_pct": "5.6",
+          "raw": "KDH Khang Dien House Combines a premium urban land bank, disciplined balance sheet, and proven delivery capability, supporting resilient long-term returns Real Estate NAV: 5.6% 6. HPG Hoa Phat Group Dominant market share in construction steel and integrated mo"
+        },
+        {
+          "ticker": "HPG",
+          "weight_pct": "5.2",
+          "raw": "HPG Hoa Phat Group Dominant market share in construction steel and integrated model drive strong cash flow with upside from infrastructure spending and real estate recovery Materials NAV: 5.2% 7. KDC KIDO Group Leading manufacturer of confectioneries and cooki"
+        },
+        {
+          "ticker": "KDC",
+          "weight_pct": "4.8",
+          "raw": "KDC KIDO Group Leading manufacturer of confectioneries and cooking oils Consumer Staples NAV: 4.8% 8. ACB Asia Commercial Bank Bank with strong asset quality and franchise strength is positioned to capture SME-led credit growth amid focus on private sector Fin"
+        },
+        {
+          "ticker": "ACB",
+          "weight_pct": "4.5",
+          "raw": "ACB Asia Commercial Bank Bank with strong asset quality and franchise strength is positioned to capture SME-led credit growth amid focus on private sector Financials NAV: 4.5% 9. Private Thu Cuc Hospital Leading private hospital in Hanoi, specialising in outpa"
+        },
+        {
+          "ticker": "SME",
+          "weight_pct": "4.5",
+          "raw": "SME-led credit growth amid focus on private sector Financials NAV: 4.5% 9. Private Thu Cuc Hospital Leading private hospital in Hanoi, specialising in outpatient and corporate medical services Healthcare NAV: 4.4% 10. CTG Vietinbank State-owned bank combines s"
+        },
+        {
+          "ticker": "CTG",
+          "weight_pct": "3.4",
+          "raw": "CTG Vietinbank State-owned bank combines scale, strong corporate lending franchise and a private-bank mindset focused on efficiency and returns Financials NAV: 3.4% sector allocation As of 31 July 2026 (function($) { 'use strict'; $(document).ready(function() "
+        },
+        {
+          "ticker": "FAQ",
+          "weight_pct": "",
+          "raw": "FAQ Linkedin Youtube Copyright © 2025 VinaCapital. All rights reserved. Disclaimer Privacy Policy Terms and Conditions Modern Slavery Statement Website by Majoris {\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\""
+        },
+        {
+          "ticker": "MAY",
+          "weight_pct": "",
+          "raw": "MAY BE RESTRICTED UNDER SECURITIES LAWS OR REGULATIONS IN CERTAIN JURISDICTIONS. THIS NOTICE REQUIRES YOU TO CONFIRM CERTAIN MATTERS (INCLUDING THAT YOU ARE NOT RESIDENT IN SUCH A JURISDICTION) BEFORE YOU MAY OBTAIN ACCESS TO THE WEBSITE. This website has been"
+        },
+        {
+          "ticker": "YOU",
+          "weight_pct": "",
+          "raw": "YOU TO CONFIRM CERTAIN MATTERS (INCLUDING THAT YOU ARE NOT RESIDENT IN SUCH A JURISDICTION) BEFORE YOU MAY OBTAIN ACCESS TO THE WEBSITE. This website has been prepared for use solely by individuals who are resident in the United Kingdom for tax and investment "
+        },
+        {
+          "ticker": "ARE",
+          "weight_pct": "",
+          "raw": "ARE NOT RESIDENT IN SUCH A JURISDICTION) BEFORE YOU MAY OBTAIN ACCESS TO THE WEBSITE. This website has been prepared for use solely by individuals who are resident in the United Kingdom for tax and investment purposes. The information contained in this website"
+        },
+        {
+          "ticker": "NOT",
+          "weight_pct": "",
+          "raw": "NOT RESIDENT IN SUCH A JURISDICTION) BEFORE YOU MAY OBTAIN ACCESS TO THE WEBSITE. This website has been prepared for use solely by individuals who are resident in the United Kingdom for tax and investment purposes. The information contained in this website is "
+        },
+        {
+          "ticker": "USE",
+          "weight_pct": "",
+          "raw": "USE By using this website you confirm that you have read, understood, and accepted the terms and conditions contained in this disclaimer. These terms of use may change at any time. Any changes will be posted on the relevant page of this website and you should "
+        }
       ],
-      "note": "Danh mục theo thông tin công bố của VinaCapital VOF; cập nhật theo tuần, không phải dữ liệu real-time."
+      "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
     }
   ],
-  "errors": []
+  "errors": [
+    "Dragon Capital - DCDE: HTTPSConnectionPool(host='www.dragoncapital.com.vn', port=443): Max retries exceeded with url: /individual/vi/product/a0eJ2000001X9qOIAS/dcde (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  ]
 }
