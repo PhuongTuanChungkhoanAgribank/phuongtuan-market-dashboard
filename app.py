@@ -99,15 +99,17 @@ if category=="QUỸ":
     st.caption(f"Snapshot gần nhất: {fund_payload.get('updated_at','—')} · Danh mục được cập nhật theo kỳ công bố của quỹ, không phải dữ liệu thời gian thực.")
     filtered=[]
     for fund in funds:
-        blob=" ".join([fund.get("fund_name",""),fund.get("manager",""),fund_summary(fund)]).casefold()
+        fund_name=fund.get("fund_name") or fund.get("fund") or ""
+        blob=" ".join([fund_name,fund.get("manager",""),fund_summary(fund)]).casefold()
         if not q or q in blob:filtered.append(fund)
     if not filtered:st.info("Chưa có dữ liệu danh mục quỹ phù hợp.")
     for i in range(0,len(filtered),3):
         cols=st.columns(3)
         for col,fund in zip(cols,filtered[i:i+3]):
             with col:
-                name=html.escape(clean_text(fund.get("fund_name","Quỹ")));manager=html.escape(clean_text(fund.get("manager","")));summary=html.escape(fund_summary(fund) or "Chưa trích xuất được danh mục.");url=html.escape(fund.get("source_url","#"),quote=True);updated=html.escape(clean_text(fund.get("updated_at","")))
-                st.markdown(f'<div class="fund-card"><div class="fund-name">{name}</div><div class="fund-meta">{manager} · Cập nhật: {updated}</div><div class="fund-holdings">{summary}</div><div class="fund-note">Danh mục/tỷ trọng theo kỳ công bố gần nhất. · <a href="{url}" target="_blank">Nguồn ↗</a></div></div>',unsafe_allow_html=True)
+                name=html.escape(clean_text(fund.get("fund_name") or fund.get("fund") or "Quỹ"));manager=html.escape(clean_text(fund.get("manager","")));summary=html.escape(fund_summary(fund) or "Chưa trích xuất được danh mục.");url=html.escape((fund.get("source_url") or fund.get("url") or "#"),quote=True);updated=html.escape(clean_text(fund.get("updated_at") or fund.get("fetched_at") or ""))
+                meta=" · ".join(x for x in [manager, f"Cập nhật: {updated}" if updated else ""] if x)
+                st.markdown(f'<div class="fund-card"><div class="fund-name">{name}</div><div class="fund-meta">{meta}</div><div class="fund-holdings">{summary}</div><div class="fund-note">Danh mục/tỷ trọng theo kỳ công bố gần nhất. · <a href="{url}" target="_blank">Nguồn ↗</a></div></div>',unsafe_allow_html=True)
 else:
     selected_category="THÔNG BÁO" if category=="THÔNG BÁO TỪ UBCK" else category
     filtered=[]
