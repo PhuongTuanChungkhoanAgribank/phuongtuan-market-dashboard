@@ -1,8 +1,40 @@
 {
-  "updated_at": "03/09/2026 03:58",
+  "updated_at": "03/09/2026 06:15",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-03",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Bí ẩn quanh nữ nghi phạm ám sát tài phiệt Ukraine",
+      "summary_vi": "Berezovska được xác định là nghi phạm ám sát tài phiệt Ukraine ở Monaco, nhưng vài ngày sau, người phụ nữ bí ẩn này bị bắn chết, vùi xác trong rừng gần Kiev.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/bi-an-quanh-nu-nghi-pham-am-sat-tai-phiet-ukraine-5111374.html",
+      "published_at": "2026-09-02T22:00:00+00:00",
+      "published_date_vn": "2026-09-03",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "81 năm Quốc khánh 2/9 (1945-2026)",
+      "summary_vi": "81 năm Quốc khánh 2/9 (1945-2026) VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZSzlEM1h6UFo3a0lfVGE5bEVGLUVmUnF0Sk9GR0JDb0E2eUFtblpBRk5TZGFiZUJ5QmtLTk8xWVc3bEJCY2Nxd2s4ZndzVE1LS0xMNkllREhnTG85SlM3VXNLLVdXcU0yUlk2Qw?oc=5",
+      "published_at": "2026-09-02T21:49:31+00:00",
+      "published_date_vn": "2026-09-03",
+      "published_time_vn": "04:49",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
