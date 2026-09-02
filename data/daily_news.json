@@ -1,8 +1,24 @@
 {
-  "updated_at": "03/09/2026 00:57",
+  "updated_at": "03/09/2026 03:58",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-03",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Từ hôm nay, UBTVQH sẽ xem xét thông qua Nghị quyết mới về bảng lương, phụ cấp, tiêu chuẩn bổ nhiệm, điều kiện nâng ngạch...",
+      "summary_vi": "Dự kiến, Phiên họp thứ 6 của Ủy ban Thường vụ Quốc hội sẽ diễn ra thành 2 đợt: đợt 1: 01 ngày (chiều 03/9 và sáng 04/9/2026); đợt 2: diễn ra trong 4,5 ngày (từ ngày 21/9 đến sáng ngày 25/9/2026).",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/tu-hom-nay-ubtvqh-se-xem-xet-thong-qua-nghi-quyet-moi-ve-bang-luong-phu-cap-tieu-chuan-bo-nhiem-dieu-kien-nang-ngach-1882609030050159.chn",
+      "published_at": "2026-09-02T18:11:00+00:00",
+      "published_date_vn": "2026-09-03",
+      "published_time_vn": "01:11",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
