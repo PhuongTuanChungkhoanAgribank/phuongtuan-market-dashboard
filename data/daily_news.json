@@ -1,8 +1,24 @@
 {
-  "updated_at": "04/09/2026 04:18",
+  "updated_at": "04/09/2026 06:20",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-04",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Làn sóng tướng lĩnh Mỹ rời đi dưới thời ông Hegseth",
+      "summary_vi": "Một năm rưỡi từ khi ông Hegseth đảm nhận ghế Bộ trưởng Quốc phòng Mỹ, ít nhất 20 quan chức cấp cao đã rời đi, gây xáo trộn lớn trong bộ máy lãnh đạo Lầu Năm Góc.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/lan-song-tuong-linh-my-roi-di-duoi-thoi-ong-hegseth-5115987.html",
+      "published_at": "2026-09-03T22:00:00+00:00",
+      "published_date_vn": "2026-09-04",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
