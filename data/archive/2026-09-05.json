@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kienlongbank miễn nhiệm Phó Tổng Giám đốc Vũ Ngọc Lan Châu",
+      "summary_vi": "Bà Châu vừa được bổ nhiệm làm Phó Tổng Giám đốc ngân hàng hồi tháng 5/2026.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/kienlongbank-mien-nhiem-pho-tong-giam-doc-vu-ngoc-lan-chau-188260904225027321.chn",
+      "published_at": "2026-09-04T20:10:00+00:00",
+      "published_date_vn": "2026-09-05",
+      "published_time_vn": "03:10",
+      "importance": 2
+    },
+    {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
       "region": "Mỹ",
