@@ -1,8 +1,24 @@
 {
-  "updated_at": "06/09/2026 04:38",
+  "updated_at": "06/09/2026 06:24",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-06",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Trùm dầu mỏ giúp Mỹ đạt 'thỏa thuận lớn nhất lịch sử' với Venezuela",
+      "summary_vi": "Dù vướng nhiều rắc rối pháp lý, doanh nhân Betancourt trở thành cầu nối giúp chính quyền Tổng thống Trump đạt thỏa thuận dầu mỏ với Venezuela.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/trum-dau-mo-giup-my-dat-thoa-thuan-lon-nhat-lich-su-voi-venezuela-5116797.html",
+      "published_at": "2026-09-05T22:00:00+00:00",
+      "published_date_vn": "2026-09-06",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
