@@ -1,8 +1,24 @@
 {
-  "updated_at": "07/09/2026 01:36",
+  "updated_at": "07/09/2026 03:48",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-07",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "9 dịch vụ công của NHNN chuyển sang Cổng Dịch vụ công quốc gia",
+      "summary_vi": "Ngân hàng Nhà nước Việt Nam (NHNN) vừa có văn bản thông báo về việc chuyển các dịch vụ công trực tuyến (DVCTT) toàn trình thuộc lĩnh vực hoạt động công nghệ thông tin ngân hàng và hoạt động thanh toán từ Cổng Dịch vụ công của NHNN sang Hệ thống thông tin giải quyết thủ tục hành chính mới của NHNN.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/9-dich-vu-cong-cua-nhnn-chuyen-sang-cong-dich-vu-cong-quoc-gia-188260907020414433.chn",
+      "published_at": "2026-09-06T19:08:00+00:00",
+      "published_date_vn": "2026-09-07",
+      "published_time_vn": "02:08",
+      "importance": 3
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
