@@ -1,16 +1,20 @@
 {
-  "updated_at": "2026-08-31T11:21:59.290648+07:00",
+  "updated_at": "2026-09-07T10:29:42.775094+07:00",
   "update_frequency": "weekly",
   "funds": [
     {
       "fund": "Dragon Capital - DCDS",
+      "fund_name": "Dragon Capital - DCDS",
+      "manager": "Dragon Capital",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-08-31T11:21:56.337516+07:00",
+      "source_url": "https://dautu.dragoncapital.com.vn/dcds",
+      "fetched_at": "2026-09-07T10:29:39.104665+07:00",
+      "updated_at": "2026-09-07T10:29:39.104665+07:00",
       "holdings": [
         {
           "ticker": "CCQ",
-          "weight_pct": "1.58",
-          "raw": "CCQ má»i nháº¥t 96.246,61 â« â² 1,58% NgÃ y BÃ¡o cÃ¡o 26/08/2026 ChÆ°a rÃµ con sá» nÃ y nghÄ©a lÃ gÃ¬? Xem NAV lÃ gÃ¬ vÃ NAV/CCQ ÄÆ°á»£c tÃ­nh tháº¿ nÃ o . Xem NAV trá»±c tiáº¿p cá»§a DCDS â PHÆ¯Æ NG PHÃP Äáº§u tÆ° TÃ´i nÃªn Äáº§u tÆ° DCDS nhÆ° tháº¿"
+          "weight_pct": "1.00",
+          "raw": "CCQ má»i nháº¥t 95.765,45 â« â¼ 1,00% NgÃ y BÃ¡o cÃ¡o 03/09/2026 ChÆ°a rÃµ con sá» nÃ y nghÄ©a lÃ gÃ¬? Xem NAV lÃ gÃ¬ vÃ NAV/CCQ ÄÆ°á»£c tÃ­nh tháº¿ nÃ o . Xem NAV trá»±c tiáº¿p cá»§a DCDS â PHÆ¯Æ NG PHÃP Äáº§u tÆ° TÃ´i nÃªn Äáº§u tÆ° DCDS nhÆ° tháº¿"
         },
         {
           "ticker": "DCA",
@@ -20,15 +24,19 @@
         {
           "ticker": "UTM",
           "weight_pct": "",
-          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,112,113],\"{\\\"from\\\":\\\"f0407dbe-5f2e-4e38-add4-8be143a523ca\\\",\\\"limit\\\":{\\\""
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"f0407dbe-5f2e-4e38-add4-8be143a523ca\\\",\\\"limit\\\":{\\\"ty"
         }
       ],
       "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
     },
     {
       "fund": "PYN Elite",
+      "fund_name": "PYN Elite",
+      "manager": "PYN Fund Management",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-08-31T11:21:57.209425+07:00",
+      "source_url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
+      "fetched_at": "2026-09-07T10:29:39.850111+07:00",
+      "updated_at": "2026-09-07T10:29:39.850111+07:00",
       "holdings": [
         {
           "ticker": "HPG",
@@ -90,8 +98,12 @@
     },
     {
       "fund": "VinaCapital - VOF",
+      "fund_name": "VinaCapital - VOF",
+      "manager": "VinaCapital",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-08-31T11:21:59.289394+07:00",
+      "source_url": "https://vof.vinacapital.com/portfolio/holdings/",
+      "fetched_at": "2026-09-07T10:29:42.774044+07:00",
+      "updated_at": "2026-09-07T10:29:42.774044+07:00",
       "holdings": [
         {
           "ticker": "SVN",
