@@ -1,8 +1,40 @@
 {
-  "updated_at": "09/09/2026 00:53",
+  "updated_at": "09/09/2026 04:04",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-09",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Từ mai (10/9), người lao động có thể bị phạt tiền lên đến 100 triệu đồng nếu vi phạm điều sau",
+      "summary_vi": "Nghị định 283/2026/NĐ-CP đã quy định chi tiết các mức phạt vi phạm của người lao động Việt Nam đi làm việc ở nước ngoài và tổ chức, cá nhân liên quan khác. Nghị định 283/2026/NĐ-CP chính thức có hiệu lực từ 10/9.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/tu-mai-10-9-nguoi-lao-dong-co-the-bi-phat-tien-len-den-100-trieu-dong-neu-vi-pham-dieu-sau-188260909001258196.chn",
+      "published_at": "2026-09-08T18:12:00+00:00",
+      "published_date_vn": "2026-09-09",
+      "published_time_vn": "01:12",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Mẫu tên lửa đạn đạo Iran buộc tàu sân bay Mỹ cơ động né tránh",
+      "summary_vi": "Iran dường như đã phóng tên lửa Qasem Basir, được mô tả là \"bước ngoặt trong chiến lược quốc phòng\", và buộc tàu sân bay Mỹ né tránh.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/mau-ten-lua-dan-dao-iran-buoc-tau-san-bay-my-co-dong-ne-tranh-5117714.html",
+      "published_at": "2026-09-08T18:00:00+00:00",
+      "published_date_vn": "2026-09-09",
+      "published_time_vn": "01:00",
+      "importance": 3
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
