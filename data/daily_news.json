@@ -1,8 +1,24 @@
 {
-  "updated_at": "10/09/2026 01:42",
+  "updated_at": "10/09/2026 04:16",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-10",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nơi lưu trữ hơn nửa triệu thỏi vàng của thế giới giữa lòng New York",
+      "summary_vi": "Nơi lưu trữ hơn nửa triệu thỏi vàng của thế giới giữa lòng New York vnexpress.net",
+      "source": "vnexpress.net",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZnZiZ0pEdFlDbU5vN19HY2tuQk1CbTVIOGxxTXJxY2M2WE8wT0dZZjhicGxuajRVaFFyTUxhRkc3UDg2bWJUemhSWjdGS2dOaEpZM1hpbUd4MjdFeFZTdWphZHlDaGxaVVY0aUo4aFVxTUZNb2ZENlRhQ296ZURXLWhrclRjdVoyZTFfS2w3N2Nzckc4Y21JRGRMYWozaXdxcE5PQg?oc=5",
+      "published_at": "2026-09-09T18:00:29+00:00",
+      "published_date_vn": "2026-09-10",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
