@@ -1,8 +1,24 @@
 {
-  "updated_at": "11/09/2026 03:58",
+  "updated_at": "11/09/2026 06:05",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-11",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tranh cãi quanh khoản tiền ông Trump tặng nữ trợ lý trung thành",
+      "summary_vi": "Việc ông Trump tặng tiền cho các trợ lý Nhà Trắng làm dấy lên tranh cãi liên quan quy định cấm nhân viên chính phủ nhận thêm thu nhập từ bên ngoài.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/tranh-cai-quanh-khoan-tien-ong-trump-tang-nu-tro-ly-trung-thanh-5118632.html",
+      "published_at": "2026-09-10T22:00:00+00:00",
+      "published_date_vn": "2026-09-11",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
