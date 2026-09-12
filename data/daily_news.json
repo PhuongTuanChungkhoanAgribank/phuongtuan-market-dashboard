@@ -1,8 +1,24 @@
 {
-  "updated_at": "13/09/2026 03:54",
+  "updated_at": "13/09/2026 05:58",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-13",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lời hứa tặng 5.000 USD của ông Trump khả thi đến đâu?",
+      "summary_vi": "Kế hoạch tặng 5.000 USD cho mỗi người dân Mỹ của Tổng thống Trump có nguy cơ khó thành hiện thực trước rào cản ngân sách và bóng ma lạm phát.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/loi-hua-tang-5-000-usd-cua-ong-trump-kha-thi-den-dau-5119030.html",
+      "published_at": "2026-09-12T22:00:00+00:00",
+      "published_date_vn": "2026-09-13",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
