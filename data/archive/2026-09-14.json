@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cách đối thủ dùng AI Mỹ để đe dọa quân đội Mỹ",
+      "summary_vi": "Công ty Anthropic cho biết nhiều bên đã dùng mô hình AI Claude để nhắm mục tiêu vào Mỹ, phát triển tên lửa và phần mềm điều khiển drone.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/cach-doi-thu-dung-ai-my-de-de-doa-quan-doi-my-5119467.html",
+      "published_at": "2026-09-13T18:00:00+00:00",
+      "published_date_vn": "2026-09-14",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
