@@ -1,8 +1,24 @@
 {
-  "updated_at": "14/09/2026 03:56",
+  "updated_at": "14/09/2026 06:05",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-14",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Vùng Vịnh tăng tốc xây 'kế hoạch B' khi chiến sự kéo dài",
+      "summary_vi": "Xung đột Mỹ",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/vung-vinh-tang-toc-xay-ke-hoach-b-khi-chien-su-keo-dai-5118169.html",
+      "published_at": "2026-09-13T22:00:00+00:00",
+      "published_date_vn": "2026-09-14",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
