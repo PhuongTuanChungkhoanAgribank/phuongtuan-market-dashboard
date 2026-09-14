@@ -1,8 +1,40 @@
 {
-  "updated_at": "15/09/2026 01:13",
+  "updated_at": "15/09/2026 04:54",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-15",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "'Phép màu hiện đại' trong cuộc giải cứu phi công F-15E Mỹ ở Iran",
+      "summary_vi": "Phi công F-15E Mỹ lần đầu kể về thời điểm bị bắn rơi tại Iran, cũng như nỗ lực lẩn trốn trong suốt hơn hai ngày.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/phep-mau-hien-dai-trong-cuoc-giai-cuu-phi-cong-f-15e-my-o-iran-5119975.html",
+      "published_at": "2026-09-14T18:00:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "01:00",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nguy cơ Iran leo thang trả đũa khi Mỹ siết gọng kìm kinh tế",
+      "summary_vi": "Iran có thể leo thang quân sự, mở rộng xung đột nhằm buộc Mỹ quay lại đàm phán sau khi Washington chuyển sang gây sức ép kinh tế lên Tehran.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/nguy-co-iran-leo-thang-tra-dua-khi-my-siet-gong-kim-kinh-te-5117914.html",
+      "published_at": "2026-09-14T18:00:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "01:00",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
