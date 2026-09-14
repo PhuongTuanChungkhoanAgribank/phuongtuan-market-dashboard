@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T10:29:42.775094+07:00",
+  "updated_at": "2026-09-14T10:55:52.104465+07:00",
   "update_frequency": "weekly",
   "funds": [
     {
@@ -8,13 +8,13 @@
       "manager": "Dragon Capital",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
       "source_url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-09-07T10:29:39.104665+07:00",
-      "updated_at": "2026-09-07T10:29:39.104665+07:00",
+      "fetched_at": "2026-09-14T10:55:48.565965+07:00",
+      "updated_at": "2026-09-14T10:55:48.565965+07:00",
       "holdings": [
         {
           "ticker": "CCQ",
-          "weight_pct": "1.00",
-          "raw": "CCQ má»i nháº¥t 95.765,45 â« â¼ 1,00% NgÃ y BÃ¡o cÃ¡o 03/09/2026 ChÆ°a rÃµ con sá» nÃ y nghÄ©a lÃ gÃ¬? Xem NAV lÃ gÃ¬ vÃ NAV/CCQ ÄÆ°á»£c tÃ­nh tháº¿ nÃ o . Xem NAV trá»±c tiáº¿p cá»§a DCDS â PHÆ¯Æ NG PHÃP Äáº§u tÆ° TÃ´i nÃªn Äáº§u tÆ° DCDS nhÆ° tháº¿"
+          "weight_pct": "0.12",
+          "raw": "CCQ má»i nháº¥t 95.308,61 â« â¼ 0,12% NgÃ y BÃ¡o cÃ¡o 09/09/2026 ChÆ°a rÃµ con sá» nÃ y nghÄ©a lÃ gÃ¬? Xem NAV lÃ gÃ¬ vÃ NAV/CCQ ÄÆ°á»£c tÃ­nh tháº¿ nÃ o . Xem NAV trá»±c tiáº¿p cá»§a DCDS â PHÆ¯Æ NG PHÃP Äáº§u tÆ° TÃ´i nÃªn Äáº§u tÆ° DCDS nhÆ° tháº¿"
         },
         {
           "ticker": "DCA",
@@ -24,7 +24,39 @@
         {
           "ticker": "UTM",
           "weight_pct": "",
-          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"f0407dbe-5f2e-4e38-add4-8be143a523ca\\\",\\\"limit\\\":{\\\"ty"
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":125},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"6983a023-1d79-45f9-ac61-b395d6764d9e\\\",\\\"limit\\\":{\\\"ty"
+        }
+      ],
+      "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
+    },
+    {
+      "fund": "Dragon Capital - DCDE",
+      "fund_name": "Dragon Capital - DCDE",
+      "manager": "Dragon Capital",
+      "url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
+      "source_url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
+      "fetched_at": "2026-09-14T10:55:49.607919+07:00",
+      "updated_at": "2026-09-14T10:55:49.607919+07:00",
+      "holdings": [
+        {
+          "ticker": "UTF",
+          "weight_pct": "",
+          "raw": "UTF-8\"),n.send(t)}}(globalThis.location.origin+v+e,m)}const s=(e={})=>{const{reason:n={}}=e;r({subject:\"unhandledrejection\",error:n})};function a(e={},n={}){const{message:t,filename:o,lineno:s,colno:a,error:i}=e;r({subject:\"window error\",error:i,extra:{message"
+        },
+        {
+          "ticker": "LWR",
+          "weight_pct": "",
+          "raw": "LWR=globalThis.LWR||{},globalThis.LWR&&Object.isExtensible(globalThis.LWR)&&(globalThis.LWR.onError=e=>{!function(e){const{message:t,stack:o,wcstack:a}=e,{pathname:c,hostname:l}=globalThis.location;let d=[];try{globalThis.performance&&globalThis.performance.ge"
+        },
+        {
+          "ticker": "GMT",
+          "weight_pct": "",
+          "raw": "GMT`}return function({defaultLocale:n,activeLanguages:i,cookieKey:t,basePath:o,useCombinedLanguageSearch:l,userAgentsToSkipRedirect:c}){if(null==o||!i||i.length<=1)return;const s=o.split(\"/\");let a=s.length<2?\"\":s[s.length-1];const{pathname:d}=window.location;"
+        },
+        {
+          "ticker": "FAQ",
+          "weight_pct": "",
+          "raw": "FAQ\",\"createdOnVersion\":null,\"isPublic\":true,\"viewId\":\"59778ab2-2972-47b3-b60e-f3536d04b935\",\"hasVanityURL\":false,\"patternMap\":{},\"id\":\"c06f3907-89d3-4f59-b8db-96273cb92959\",\"path\":\"/faq\",\"view\":\"fAQ\",\"isRoot\":false,\"isDefault\":false,\"page\":{\"type\":\"comm__name"
         }
       ],
       "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
@@ -35,8 +67,8 @@
       "manager": "PYN Fund Management",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
       "source_url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-09-07T10:29:39.850111+07:00",
-      "updated_at": "2026-09-07T10:29:39.850111+07:00",
+      "fetched_at": "2026-09-14T10:55:49.895573+07:00",
+      "updated_at": "2026-09-14T10:55:49.895573+07:00",
       "holdings": [
         {
           "ticker": "HPG",
@@ -102,8 +134,8 @@
       "manager": "VinaCapital",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
       "source_url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-09-07T10:29:42.774044+07:00",
-      "updated_at": "2026-09-07T10:29:42.774044+07:00",
+      "fetched_at": "2026-09-14T10:55:52.103380+07:00",
+      "updated_at": "2026-09-14T10:55:52.103380+07:00",
       "holdings": [
         {
           "ticker": "SVN",
@@ -199,7 +231,5 @@
       "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
     }
   ],
-  "errors": [
-    "Dragon Capital - DCDE: HTTPSConnectionPool(host='www.dragoncapital.com.vn', port=443): Max retries exceeded with url: /individual/vi/product/a0eJ2000001X9qOIAS/dcde (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  ]
+  "errors": []
 }
