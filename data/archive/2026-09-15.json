@@ -9,6 +9,551 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Thực hư vụ tàu chiến Nga bắn pháo sáng suýt trúng trực thăng Đan Mạch",
+      "summary_vi": "Nga lên tiếng đáp trả sau khi quân đội Đan Mạch cáo buộc một tàu hộ vệ của Nga bắn pháo sáng suýt trúng trực thăng quân sự Đan Mạch tại vùng biển quốc tế.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/thuc-hu-vu-tau-chien-nga-ban-phao-sang-suyt-trung-truc-thang-dan-mach-188260915215740145.chn",
+      "published_at": "2026-09-15T14:57:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:57",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Siêu cầu gần 8.000 tỷ đồng ở Hà Nội: Thiết kế \"vô cực\" chưa từng có, khác hẳn cầu truyền thống",
+      "summary_vi": "Đó là siêu công trình nào?",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/sieu-cau-gan-8000-ty-dong-o-ha-noi-thiet-ke-vo-cuc-chua-tung-co-khac-han-cau-truyen-thong-188260915211315938.chn",
+      "published_at": "2026-09-15T14:48:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:48",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phó Thủ tướng Thường trực Phạm Gia Túc cho ý kiến về chủ trương đầu tư xây dựng Tổ hợp Công nghiệp đường sắt",
+      "summary_vi": "Chiều nay (15/9), tại Trụ sở Chính phủ, Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc có cuộc làm việc với lãnh đạo các bộ, cơ quan, doanh nghiệp về chủ trương đầu tư xây dựng Tổ hợp Công nghiệp đường sắt.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-cho-y-kien-ve-chu-truong-dau-tu-xay-dung-to-hop-cong-nghiep-duong-sat-188260915210534398.chn",
+      "published_at": "2026-09-15T14:38:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:38",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "BVH",
+      "tickers": [
+        "BVH"
+      ],
+      "exchange": "",
+      "headline_vi": "Bảo Việt",
+      "summary_vi": "Tập đoàn Bảo Việt (BVH) được vinh danh trong Top 100 doanh nghiệp nhà nước nộp ngân sách lớn nhất Việt Nam năm 2026 (STATE 100), xếp thứ 61 trong bảng xếp hạng và là doanh nghiệp bảo hiểm nộp ngân sách lớn nhất Việt Nam. Kết quả tiếp tục ghi nhận những đóng góp tích cực của Bảo Việt đối với ngân sách nhà nước, đồng thời khẳng định vai trò của một doanh nghiệp hàng đầu trong lĩnh vực tài chính - bảo hiểm đối với sự phát triển kinh tế",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/bao-viet-doanh-nghiep-bao-hiem-nop-ngan-sach-lon-nhat-viet-nam-188260915212938184.chn",
+      "published_at": "2026-09-15T14:29:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:29",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Kiến nghị bất ngờ về hầm ngầm xuyên sân bay chưa từng có tiền lệ ở Việt Nam, 2,9km trị giá 10.000 tỷ đồng",
+      "summary_vi": "Siêu dự án độc đáo này có khả năng phải xem xét lại.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/kien-nghi-bat-ngo-ve-ham-ngam-xuyen-san-bay-chua-tung-co-tien-le-o-viet-nam-29km-tri-gia-10000-ty-dong-188260915211205978.chn",
+      "published_at": "2026-09-15T14:21:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:21",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Houthi đang dùng smartphone thay thế bộ phận dẫn đường trong tên lửa lạc hậu?",
+      "summary_vi": "Thông tin về thí nghiệm sử dụng điện thoại thông minh thay cho hệ thống dẫn đường trong tên lửa của lực lượng Houthi ở Yemen đang gây tò mò.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/houthi-dang-dung-smartphone-thay-the-bo-phan-dan-duong-trong-ten-lua-lac-hau-188260915193923865.chn",
+      "published_at": "2026-09-15T14:12:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:12",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Sun Group được giao hơn 200 ha đất tại Măng Đen, dự án hơn 6.700 tỷ đồng tiến gần ngày khởi công",
+      "summary_vi": "UBND tỉnh Quảng Ngãi vừa giao, cho thuê đất đợt 1 cho Sun World để triển khai khu đô thị số 1 tại Măng Đen, mở đường cho dự án khu đô thị đa chức năng quy mô 264 ha, tổng vốn đầu tư hơn 6.700 tỷ đồng.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/sun-group-duoc-giao-hon-200-ha-dat-tai-mang-den-du-an-hon-6700-ty-dong-tien-gan-ngay-khoi-cong-188260915210730898.chn",
+      "published_at": "2026-09-15T14:07:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:07",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "HCM",
+      "tickers": [
+        "HCM"
+      ],
+      "exchange": "",
+      "headline_vi": "Nóng: CITIGYM thông báo sắp dừng hoạt động 2 chi nhánh tại TP.HCM",
+      "summary_vi": "Kể từ ngày 1/10/2026, CITIGYM Vạn Hạnh Mall và CITIGYM Điện Biên Phủ cho biết sẽ tạm ngưng hoạt động tại địa điểm hiện tại.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/nong-citigym-thong-bao-sap-dung-hoat-dong-2-chi-nhanh-tai-tphcm-188260915210632796.chn",
+      "published_at": "2026-09-15T14:06:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "21:06",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Báo cáo lần đầu hé lộ thiệt hại nặng nề của Mỹ trong chiến dịch ở Iran",
+      "summary_vi": "Một cơ quan giám sát của Chính phủ Mỹ đã công bố báo cáo đầu tiên về tác động của cuộc xung đột với Iran. Báo cáo này thừa nhận tình trạng thiếu hụt các loại vũ khí hiện đại của quân đội, đồng thời lần đầu tiên công khai thông tin về những thiệt hại đối với máy bay, căn cứ và các cơ sở ngoại giao của Mỹ tại Trung Đông.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/bao-cao-lan-dau-he-lo-thiet-hai-nang-ne-cua-my-trong-chien-dich-o-iran-188260915200603332.chn",
+      "published_at": "2026-09-15T13:50:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "20:50",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Căng thẳng khi tàu khu trục Nga bắn về phía trực thăng Đan Mạch trên biển Baltic",
+      "summary_vi": "Một tàu khu trục Nga đã bắn 2 quả pháo sáng vào chiếc trực thăng của Không quân Đan Mạch khi nó đang bay gần đảo Falster ở Biển Baltic.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/cang-thang-khi-tau-khu-truc-nga-ban-ve-phia-truc-thang-dan-mach-tren-bien-baltic-188260915193753005.chn",
+      "published_at": "2026-09-15T13:37:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "20:37",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất ngân hàng 15/9 tại Agribank, Vietcombank, BIDV, VietinBank, MB, Techcombank, VPBank, Sacombank, HDBank,...",
+      "summary_vi": "Lãi suất huy động trực tuyến niêm yết tại các ngân hàng ngày 15/9 tiếp tục phân hóa mạnh giữa các nhóm tổ chức tín dụng. Tại kỳ hạn 12 tháng, ACB đang dẫn đầu với mức 7,8%/năm, tiếp đến là Sacombank với 7,5%/năm. Trong khi đó, nhóm Agribank, BIDV, Vietcombank và VietinBank cùng niêm yết 6,8%/năm.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/lai-suat-ngan-hang-15-9-tai-agribank-vietcombank-bidv-vietinbank-mb-techcombank-vpbank-sacombank-hdbank-188260915204027398.chn",
+      "published_at": "2026-09-15T13:36:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "20:36",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Nhật Bản",
+      "region": "Nhật Bản",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "‘Mắt thần’ Global Hawk của Nhật Bản mất liên lạc, nghi rơi xuống biển",
+      "summary_vi": "Hôm nay (15/9), Lực lượng Phòng vệ trên không Nhật Bản (ASDF) cho biết, chiếc máy bay trinh sát không người lái Global Hawk của nước này được cho là đã rơi trên vùng biển ngoài khơi tỉnh Tottori, sau khi mất liên lạc.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/mat-than-global-hawk-cua-nhat-ban-mat-lien-lac-nghi-roi-xuong-bien-188260915193608242.chn",
+      "published_at": "2026-09-15T13:02:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "20:02",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "EU",
+      "region": "EU",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Đề nghị 27 tỷ USD của Ukraine đẩy châu Âu vào thế khó",
+      "summary_vi": "Khoản thiếu hụt 27 tỷ USD mà Ukraine bất ngờ công bố phơi bày sức ép ngày càng lớn của cuộc chiến, đồng thời đẩy châu Âu vào thế khó trong bài toán tài chính.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/de-nghi-27-ty-usd-cua-ukraine-day-chau-au-vao-the-kho-5118834.html",
+      "published_at": "2026-09-15T12:59:34+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:59",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "5 tháng sau khi nhà sáng lập bị khởi tố, Tiệm vàng HanaGold có CEO mới, công bố lộ trình rút tiền cho khách hàng",
+      "summary_vi": "Sau thời gian giao dịch bị đóng băng, HanaGold đã mở đợt tiếp nhận yêu cầu rút tiền đầu tiên từ ngày 25/8, với hạn mức tối đa 20% tổng tài sản, không quá 100 triệu đồng. Doanh nghiệp dự kiến triển khai các đợt tiếp theo cách nhau khoảng 30 ngày.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/5-thang-sau-khi-nha-sang-lap-bi-khoi-to-tiem-vang-hanagold-co-ceo-moi-cong-bo-lo-trinh-rut-tien-cho-khach-hang-188260915195350375.chn",
+      "published_at": "2026-09-15T12:55:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:55",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "HDG",
+      "tickers": [
+        "HDG"
+      ],
+      "exchange": "",
+      "headline_vi": "Pyn Elite Fund nâng tỷ lệ nắm giữ Tập đoàn Hà Đô vượt 10%",
+      "summary_vi": "Pyn Elite Fund vừa mua thêm 1 triệu cổ phiếu HDG, nâng tỷ lệ sở hữu tại Tập đoàn Hà Đô lên 10,04% vốn.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/pyn-elite-fund-nang-ty-le-nam-giu-tap-doan-ha-do-vuot-10-188260915194927238.chn",
+      "published_at": "2026-09-15T12:50:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:50",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Eximbank bất ngờ kéo dài thời gian đề cử thành viên HĐQT",
+      "summary_vi": "Lý do điều chỉnh là gia hạn thời gian nhận hồ sơ đề cử để tạo điều kiện cho cổ đông/nhóm cổ đông hoàn thiện hồ sơ đề cử nhân sự HĐQT nhiệm kỳ VIII (2025-2030) theo quy định.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/eximbank-bat-ngo-keo-dai-thoi-gian-de-cu-thanh-vien-hdqt-18826091519483658.chn",
+      "published_at": "2026-09-15T12:49:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:49",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "EVNGENCO3 bàn giao công trình an sinh xã hội tại tỉnh Đắk Lắk",
+      "summary_vi": "Đoàn Thanh niên Tổng Công ty Phát điện 3 (EVNGENCO3) vừa phối hợp với Tỉnh đoàn Đắk Lắk cùng các đơn vị đồng hành tổ chức Lễ khánh thành và bàn giao các công trình thanh niên tại tỉnh Đắk Lắk.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/evngenco3-ban-giao-cong-trinh-an-sinh-xa-hoi-tai-tinh-dak-lak-188260915194746615.chn",
+      "published_at": "2026-09-15T12:30:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:30",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Campuchia và “cơ hội 1 tỷ USD”: Một thị trường Đông Nam Á vừa phát đi tín hiệu đáng chú ý",
+      "summary_vi": "Các doanh nghiệp Campuchia đang được khuyến khích khai thác tiềm năng của một thị trường Đông Nam Á để đẩy mạnh xuất khẩu nhiều loại sản phẩm, bao gồm cao su và hàng dệt may.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/campuchia-va-co-hoi-1-ty-usd-mot-thi-truong-dong-nam-a-vua-phat-di-tin-hieu-dang-chu-y-188260915193016708.chn",
+      "published_at": "2026-09-15T12:30:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:30",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "ASEAN",
+      "region": "ASEAN",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Singapore thanh lý hàng xa xỉ sau đại án rửa tiền 2,4 tỷ USD",
+      "summary_vi": "Số tài sản hơn 2 tỷ USD thu giữ trong vụ triệt phá đường dây rửa tiền lớn nhất lịch sử Singapore sẽ được đem ra đấu giá để thu tiền nộp ngân sách nhà nước.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/singapore-thanh-ly-hang-xa-xi-sau-dai-an-rua-tien-2-4-ty-usd-5120566.html",
+      "published_at": "2026-09-15T12:18:10+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:18",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãnh đạo Chứng khoán Rồng Việt đăng ký bán cổ phiếu",
+      "summary_vi": "Lãnh đạo Chứng khoán Rồng Việt đăng ký bán cổ phiếu VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOci1hcWZlWnhvbWp5X3MtNWwzYXhIWjNpUWdsSlIzdlQ0SjcxMkNKMEJIV3A2X0Qyd01tZnlDc3VKTDRzOTZHd2I0NGJ5VXNncndldkl1X1lEOC1fbEFISnR2NDVuZ1k1ZXZBRkRhZ3l1ZXRFVkxLbzc3MndTMWYxa05n?oc=5",
+      "published_at": "2026-09-15T12:01:51+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:01",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "NTL",
+      "tickers": [
+        "NTL"
+      ],
+      "exchange": "",
+      "headline_vi": "Phó Chủ tịch NTL Đinh Quang Chiến muốn nâng sở hữu lên 18%",
+      "summary_vi": "Phó Chủ tịch NTL Đinh Quang Chiến muốn nâng sở hữu lên 18% VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQelVqQkFxc3JhZUVua053ak9TVWVoSm9iT3JKY2dIRjNsTFhBS3U5ZzZxNTBUV2hlTW43eUNITUQ4UURFbkVMTlhadXhXT1FZSlh6QUlVWl9ydDRWTmp4eHh0czlQZ21qd204QXpaLWdpOHBqYUZkNVFaMThBZ0I0Q241ZXIycnN5V2c?oc=5",
+      "published_at": "2026-09-15T12:00:14+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "19:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nhóm Gelex 'thoát hiểm', cổ phiếu dầu khí đồng loạt bứt phá",
+      "summary_vi": "Nhóm Gelex 'thoát hiểm', cổ phiếu dầu khí đồng loạt bứt phá CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaGVPVkN4ZnJfOU82WlZJVmtUQmQ1NmstQ0IyVDZBNWNEck9tV0R4VmNtZzkyeFQwLTk4RTcwSnNhUGRobVAwRGVvcGZBQ0dwTUNHRmNWMGVCYXJ5SzQ5NGE0MGhpQWJWeVJXaDJHYzJXcTk0Z25yWDVKYlcyRE9ubE1nQ2hfQlNZSUNGYVlRR2l3SkVqZUl3ZzM4REM?oc=5",
+      "published_at": "2026-09-15T11:59:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "18:59",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xe bus 'Made in Vietnam' thương hiệu KIM LONG ra mắt thị trường Thái Lan",
+      "summary_vi": "Chiều 15/9, tại thủ đô Bangkok, Thái Lan, KIM LONG MOTOR phối hợp cùng đối tác KIJSETTHI Mobility tổ chức lễ ra mắt các mẫu xe bus thương hiệu KIM LONG tại trị trường Thái Lan.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/xe-bus-made-in-vietnam-thuong-hieu-kim-long-ra-mat-thi-truong-thai-lan-188260915181550543.chn",
+      "published_at": "2026-09-15T11:52:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "18:52",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VNM",
+      "tickers": [
+        "VNM",
+        "KIS"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền.VNM.KIS.4M.40 HOSE: CVNM2608",
+      "summary_vi": "Chứng quyền.VNM.KIS.4M.40 HOSE: CVNM2608 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ3k4YTFGdTdPZndZVndGWWRNVEJVTy1ZMFhmSUNzTzZlZEp6dklVWHl5WjRnajNPMWNpUTdISkZHc2RlUW0zeWdTNW82N3g2T0o3YlV5eFJ1eE5wczF2U2dObXZrZ1BpWlRyb1FDOU5Nd19wMDBCVno3UEdXdmQ3YjYyUFFHWHNDc24wc1ZiUEp0cjA4a091S0ZqbUpJdjlZLVdydy1yTm5iS3huM3c?oc=5",
+      "published_at": "2026-09-15T11:47:51+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "18:47",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Nhật Bản",
+      "region": "Nhật Bản",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Một quốc gia châu Á lần đầu vượt mốc 100.000 người thọ trên trăm tuổi, nữ giới chiếm đến 90%",
+      "summary_vi": "Nhật Bản lần đầu ghi nhận hơn 100.000 người từ 100 tuổi trở lên, với 107.677 người tính đến ngày 1/9, đánh dấu năm thứ 56 liên tiếp nhóm dân số này tăng lên.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/mot-quoc-gia-chau-a-lan-dau-vuot-moc-100000-nguoi-tho-tren-tram-tuoi-nu-gioi-chiem-den-90-18826091517112444.chn",
+      "published_at": "2026-09-15T11:24:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "18:24",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "HPG",
+      "tickers": [
+        "HPG"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền HPG/LPBS/Call/EU/Cash/9M/35 HOSE: CHPG2633",
+      "summary_vi": "Chứng quyền HPG/LPBS/Call/EU/Cash/9M/35 HOSE: CHPG2633 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeUNxNGxpMGtpYkVzLVgzNDQ2Y3hoaHYzdkx0c19XTkF2ejc5YmR6TjRySnhiSm1ZbFhiMDVYQUk5VFUtOUdsbFV0WWVvV2pHbHhWTFRwRFRTbWMwWEJqaGpnaXlIaWM5WnhYek5WelZQdDlfTUdyWmlOdDdhWGFFbGU1LUw3QXc0djlwVjRMNHhZOUpQRHJmRzRPaXhSSlk?oc=5",
+      "published_at": "2026-09-15T11:02:30+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "18:02",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Bộ trưởng Năng lượng Mỹ: Dầu vận chuyển qua eo biển Hormuz sẽ tiếp tục tăng",
+      "summary_vi": "Bộ trưởng Năng lượng Mỹ Chris Wright mới đây nhận định, khối lượng dầu vận chuyển qua eo biển Hormuz sẽ tăng trong những tuần tới.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/bo-truong-nang-luong-my-dau-van-chuyen-qua-eo-bien-hormuz-se-tiep-tuc-tang-188260915175643619.chn",
+      "published_at": "2026-09-15T11:00:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "18:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VIC",
+      "tickers": [
+        "VIC"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền VIC/LPBS/Call/EU/Cash/6M/43 HOSE: CVIC2611",
+      "summary_vi": "Chứng quyền VIC/LPBS/Call/EU/Cash/6M/43 HOSE: CVIC2611 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTdkNEh0NjEtR1lQV1dzSndGRGFSWlhCZFVaM0tQMjhEUnRqdVAxTFFGWVpiOWczRXZjeXlDdTAxbFV0cTdzSFd0dHEzOHBNOUUzS2pjdWx6LXl3QkhrWFd4QzhYU1l1cnhXMWdoSFNOazk1azBaa1NUVmh0N21rQnRrTGIyNEJwcGpRc01MdW11S09HdGtFQmQ2c3M?oc=5",
+      "published_at": "2026-09-15T10:49:43+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "17:49",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Ty gia : NHNN bơm thanh khoản VND dài hạn hơn",
+      "summary_vi": "Ty gia : NHNN bơm thanh khoản VND dài hạn hơn CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8zODVkMXRJUWhqSTZLb3ZmNVJHc3lCOEZKRVpHazBxeVhwR3hhU0FLVFRJVVhQd1dEUDlfb3lkRTlZZw?oc=5",
+      "published_at": "2026-09-15T10:48:32+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "17:48",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "BRICS đang làm thay đổi trật tự thế giới theo cách ít người nhận ra",
+      "summary_vi": "BRICS không phải liên minh chống phương Tây mà đang trở thành mô hình sớm của một trật tự thế giới đa cực, nơi chủ quyền và bình đẳng được đề cao.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/brics-dang-lam-thay-doi-trat-tu-the-gioi-theo-cach-it-nguoi-nhan-ra-188260915165154192.chn",
+      "published_at": "2026-09-15T10:39:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "17:39",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "CFF",
+      "tickers": [
+        "CFF"
+      ],
+      "exchange": "",
+      "headline_vi": "CFF Fair 2026: Giải bài toán chi phí và vận hành nhà hàng cùng Chuyên viên ẩm thực Hoàng Yến Nhi",
+      "summary_vi": "Năm 2026, áp lực lạm phát nguyên liệu, biến động chi phí nhân công và áp lực tối ưu lợi nhuận đang đặt chủ nhà hàng và Bếp trưởng vào những bài toán vận hành khắt khe. Một thực đơn hấp dẫn thôi là chưa đủ; nó phải đi kèm với một cấu trúc chi phí tinh gọn và quy trình bếp đạt hiệu suất tối đa.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/cff-fair-2026-giai-bai-toan-chi-phi-va-van-hanh-nha-hang-cung-chuyen-vien-am-thuc-hoang-yen-nhi-188260915170327054.chn",
+      "published_at": "2026-09-15T10:30:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "17:30",
+      "importance": 3
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lắng nghe trí tuệ nhân dân khi điều chỉnh quy hoạch sông Hồng và Hồ Gươm",
+      "summary_vi": "Nói về việc thành phố đang tổ chức lấy ý kiến nhân dân về Điều chỉnh tổng thể quy hoạch phân khu sông Hồng, điều chỉnh quy hoạch khu vực Hồ Gươm và phụ cận, Bí thư Hà Nội Trần Đức Thắng cho rằng phải chủ động thông tin chính thống để người dân biết sớm, biết đầy đủ, lắng nghe nhiều chiều, tiếp thu có chọn lọc, phát huy tối đa sự đóng góp trí tuệ của nhân dân.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/lang-nghe-tri-tue-nhan-dan-khi-dieu-chinh-quy-hoach-song-hong-va-ho-guom-188260915164327447.chn",
+      "published_at": "2026-09-15T10:30:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "17:30",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thứ trưởng Bộ Tài chính: Bảo đảm đối xử bình đẳng và bảo hộ đầy đủ quyền, lợi ích của nhà đầu tư",
+      "summary_vi": "Thứ trưởng Bộ Tài chính: Bảo đảm đối xử bình đẳng và bảo hộ đầy đủ quyền, lợi ích của nhà đầu tư VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1hJUlU0MmVlMGpIejd5UThHVG1JUDZ3UU1sbFF5eWxiSGlvNl80YlhZaEVZYUwtdDBhbkJ0MmhUR2JOYkJSSVkzNGFhcHhuMWxPclVMR2c1emhQMTBMUG9SckNfbnRUQWdQcXZJLW4zQ3dnVGZ3R20zcFB5RTFYenlGcVU2azdSRHJvZy1QZFppTmlKRjR5YUswQi1TLXZ3Vk9VUWNXWG12RHhVTGNOX2xqNHJCaklVY2ZZ?oc=5",
+      "published_at": "2026-09-15T10:13:38+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "17:13",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Chưa từng có: Xuất hiện \"vua cá cảnh\" Kim Long Quá Bối phiên bản robot giống thật đến kinh ngạc",
       "summary_vi": "Hãy cùng xem cách con Kim Long Quá Bối phiên bản robot này tung tăng dưới nước.",
       "source": "CafeF",
@@ -33,6 +578,22 @@
       "published_date_vn": "2026-09-15",
       "published_time_vn": "17:00",
       "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "‘Phép màu hiện đại’ giúp Mỹ đưa phi công F-15E trở về từ Iran",
+      "summary_vi": "Phi công F-15E Mỹ lần đầu kể về thời điểm bị bắn rơi tại Iran, cũng như nỗ lực lẩn trốn trong suốt hơn hai ngày.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/phep-mau-hien-dai-giup-my-dua-phi-cong-f-15e-tro-ve-tu-iran-5120544.html",
+      "published_at": "2026-09-15T10:00:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "17:00",
+      "importance": 3
     },
     {
       "category": "TRONG NƯỚC",
@@ -183,6 +744,24 @@
       "importance": 2
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SHB",
+      "tickers": [
+        "SHB"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền SHB/LPBS/Call/EU/Cash/9M/17 HOSE: CSHB2618",
+      "summary_vi": "Chứng quyền SHB/LPBS/Call/EU/Cash/9M/17 HOSE: CSHB2618 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnVnbFRWbXk0NVJTUG9lTnVQYkllbmtlOFVTUmowVGk4OG5TR2YtNzJOTGkxTzh2b1hJRWRYQVN1OFpJQUpqNFE0M3N5Y2JrTkFRbXptVHhMNWVZaWJlMDZrZ04wNU1NdVozSEJGUXp4Umd2a3dRM2lhSE5BaVk2cE1ZV0lIQ3dhMzVvSkJyakpKbGs?oc=5",
+      "published_at": "2026-09-15T09:34:51+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "16:34",
+      "importance": 2
+    },
+    {
       "category": "THẾ GIỚI",
       "tag": "Đông Âu",
       "region": "Đông Âu",
@@ -260,6 +839,24 @@
       "published_at": "2026-09-15T09:09:25+00:00",
       "published_date_vn": "2026-09-15",
       "published_time_vn": "16:09",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "MBB",
+      "tickers": [
+        "MBB"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/6M/15 HOSE: CMBB2622",
+      "summary_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/6M/15 HOSE: CMBB2622 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZHR4eGF2VnZUTTZHZURVN01wVVRya0dpNUYydFRlNHhyNzZyUGY5VlZMRWM2Y1JiRndWRk1ZY29ocXh4VGVINVZkLUh5ODRVbzlIenV3aVVPeHAxbGpISTN5Y2VQUDRUb25sWW9jSUQwZGJDVUpfQ1RXNzA0aXVYaUNhRklHWDlDR2JpZ3Nn?oc=5",
+      "published_at": "2026-09-15T09:03:53+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "16:03",
       "importance": 2
     },
     {
@@ -441,6 +1038,24 @@
       "importance": 2
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "ACB",
+      "tickers": [
+        "ACB"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền ACB/LPBS/Call/EU/Cash/9M/08 HOSE: CACB2620",
+      "summary_vi": "Chứng quyền ACB/LPBS/Call/EU/Cash/9M/08 HOSE: CACB2620 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU2tNaWZIQ0trYkdNYWFld25uc0xFM3pOS08zQTJ4NkpyQTc0RnRYUEpuX1JWbEZZYzZMcnRDbVQwMWV3UHhtRGxzcVBwdUVCcFgwZEx1bUswYnNMVFkzRFNiY3ZkOGc4U0RMUGt1ZnFUOUk3MzdVMnU3VE1LSmR6MFJPQkU4RDdUM0tv?oc=5",
+      "published_at": "2026-09-15T08:21:27+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "15:21",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -588,6 +1203,24 @@
       "importance": 2
     },
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "MBB",
+      "tickers": [
+        "MBB"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/9M/13 HOSE: CMBB2621",
+      "summary_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/9M/13 HOSE: CMBB2621 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON0lDUGExRFk1b1VuZFJTUXZJWXVoNFlkNGsxd0FvRlRpVExNUWQ0ZlJ1SEc5TXBrbm80bW8xcW5SVU9uaWRKSmJKV0RWVkowcDQ4YWRsTW1BUjc2TDNSZ2JqQ2dCMzFLU01ZUC1DeHNIOHY4QUI4UFUyeGozdU9KX1NuQzVsZw?oc=5",
+      "published_at": "2026-09-15T07:47:45+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "14:47",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -639,18 +1272,18 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
-      "ticker": "MBB",
+      "ticker": "MSN",
       "tickers": [
-        "MBB"
+        "MSN"
       ],
       "exchange": "HOSE",
-      "headline_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/9M/13 HOSE: CMBB2621",
-      "summary_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/9M/13 HOSE: CMBB2621 VietstockFinance",
+      "headline_vi": "Chứng quyền MSN/LPBS/Call/EU/Cash/6M/38 HOSE: CMSN2625",
+      "summary_vi": "Chứng quyền MSN/LPBS/Call/EU/Cash/6M/38 HOSE: CMSN2625 VietstockFinance",
       "source": "VietstockFinance",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaXBUcklqaGg0U0JHVE53Tnc3amNwNmQya0ZJREZMNzRybndtTDhWWWhZTy1fNjBQNkYzeHZEY282T3ptR2x4cFI3aUdVbV9NVnRDRnlTQnV1c3JXb0pYQnhYUHlrLXNTMWdMMWFrallqdmFxSVJiZ1VXc2F1cjZJVQ?oc=5",
-      "published_at": "2026-09-15T07:31:20+00:00",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQX3RoVXB1c25jcWMxSjJIeGpMR0JVMWluY2c1YXRaT2FUMUZFVWtjajRlb2Q0ZlJyT2M4aGVXREk3UUtvcTlkcDBhTWtXV1k5eEtNV01jeUtSY2QzZWEwWUhaU05OVFBPcjFpWTByWjNDTGIzNU8zbDhjY1QyaHhrWQ?oc=5",
+      "published_at": "2026-09-15T07:28:42+00:00",
       "published_date_vn": "2026-09-15",
-      "published_time_vn": "14:31",
+      "published_time_vn": "14:28",
       "importance": 2
     },
     {
@@ -691,6 +1324,24 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "MWG",
+      "tickers": [
+        "MWG"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền MWG/LPBS/Call/EU/Cash/9M/39 HOSE: CMWG2625",
+      "summary_vi": "Chứng quyền MWG/LPBS/Call/EU/Cash/9M/39 HOSE: CMWG2625 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3FtTnZNSTJiUzZVdE5UU29iazc0Y05zekNURTR4WHZ4TV9sUlJtTUV0R1MtTGN5N05EUTNiaDQ5a0ljSUJNYmZnQl9NdHdoT0dlTFlsMi0wLTlLSW1vdEpoemExNG0yX09QaU1XZ0k5ZkQzZjUzeml5Q293SEdnNjJBenpOdw?oc=5",
+      "published_at": "2026-09-15T07:24:16+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "14:24",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "",
       "tickers": [],
       "exchange": "",
@@ -701,24 +1352,6 @@
       "published_at": "2026-09-15T07:23:00+00:00",
       "published_date_vn": "2026-09-15",
       "published_time_vn": "14:23",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "MSN",
-      "tickers": [
-        "MSN"
-      ],
-      "exchange": "HOSE",
-      "headline_vi": "Chứng quyền MSN/LPBS/Call/EU/Cash/6M/38 HOSE: CMSN2625",
-      "summary_vi": "Chứng quyền MSN/LPBS/Call/EU/Cash/6M/38 HOSE: CMSN2625 VietstockFinance",
-      "source": "VietstockFinance",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT19kUG5xU3AwQlFjOUk1RThoSllrQ1JqTlRRaWtYdXVnTl9LRmhmSlBOOUJJS0NTV2RZM3lEQkQ1VVFjVkVFS3RVYl9PR0JJcTNHVjRwQmpadGxrdE53V2VIS2FpNnhnSDVkbTNJSG41QUlDalgtUlEtVHczYWhyNVZFQnI?oc=5",
-      "published_at": "2026-09-15T07:21:01+00:00",
-      "published_date_vn": "2026-09-15",
-      "published_time_vn": "14:21",
       "importance": 2
     },
     {
@@ -768,6 +1401,24 @@
       "published_date_vn": "2026-09-15",
       "published_time_vn": "13:58",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VIB",
+      "tickers": [
+        "VIB"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền VIB/LPBS/Call/EU/Cash/9M/30 HOSE: CVIB2609",
+      "summary_vi": "Chứng quyền VIB/LPBS/Call/EU/Cash/9M/30 HOSE: CVIB2609 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZWNGa0pJRlZwbVRJblZNOEI4MnFmclhzenNaeG11aXJma21IQTloeGdqUTIxUDFpQ1pxcDVnd181aTFkWlNrdWNZT2h6SUg5dFphUGt5Tno1WWpYVjE3Qi1SWFhBaDJfdXRzbW9TUGZZNWd2RTZPYmNlWVkyaVNBQQ?oc=5",
+      "published_at": "2026-09-15T06:56:24+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "13:56",
+      "importance": 2
     },
     {
       "category": "TRONG NƯỚC",
@@ -967,6 +1618,24 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "VRE",
+      "tickers": [
+        "VRE"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền VRE/LPBS/Call/EU/Cash/6M/46 HOSE: CVRE2609",
+      "summary_vi": "Chứng quyền VRE/LPBS/Call/EU/Cash/6M/46 HOSE: CVRE2609 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQnlWTFllMmxwMmxFU01pcHVsMHZ1aTVrR011VXFmWmxEZ2pkRExZQTN0UjROZHhuZXNKSU1UVWJma0ZsN3BGbkNUX1QwNHhlQURCWENhY1dXd1Q3QmZ1MDNoaHJDU0M1WXY1REI2NVAzdDljaTg1Vzh2VVdBd2swUWRTVQ?oc=5",
+      "published_at": "2026-09-15T05:53:54+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "12:53",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "",
       "tickers": [],
       "exchange": "",
@@ -978,6 +1647,24 @@
       "published_date_vn": "2026-09-15",
       "published_time_vn": "12:52",
       "importance": 2
+    },
+    {
+      "category": "THÔNG BÁO",
+      "tag": "CƠ QUAN QUẢN LÝ",
+      "region": "",
+      "ticker": "SHB",
+      "tickers": [
+        "SHB"
+      ],
+      "exchange": "",
+      "headline_vi": "SHB mở rộng tính năng cảnh báo tài khoản nhận tiền có dấu hiệu nghi ngờ gian lận, lừa đảo",
+      "summary_vi": "SHB mở rộng tính năng cảnh báo tài khoản nhận tiền có dấu hiệu nghi ngờ gian lận, lừa đảo Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQkk5cmgwYXFFRkZwS1hnZU13LUdLUWVtU0g4RTFxVlh4RnVocWxkZ09OSENkMF9BZEZ1Q3l3a3pSN0dPODVJWWUxNjc0bHA1TmZYZmNYV2wybExuaTNYbDlueGpCOHhCN3hBbzBoMEJBcDh4V1BKU0hVRXEwY1hFYndyZERLOVVfb1FnTGpXNnpJRERnTjROTnduQl9ZM25ZYTNqZy1KRVowbkJQUE01NU0xZXB0S2Y3ZWtfdlkxYVdUVl9zOHdFU1ExaGtJdw?oc=5",
+      "published_at": "2026-09-15T05:28:53+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "12:28",
+      "importance": 4
     },
     {
       "category": "DOANH NGHIỆP",
@@ -1078,6 +1765,22 @@
       "published_date_vn": "2026-09-15",
       "published_time_vn": "11:50",
       "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Eximbank kéo dài thời gian đề cử thành viên HĐQT đến 23/9",
+      "summary_vi": "Eximbank kéo dài thời gian đề cử thành viên HĐQT đến 23/9 vietnambiz.vn",
+      "source": "vietnambiz.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb2xBbTZIQkUweVZYUnEyeDdCWWFfc1R6dDkxSzREckFJOGVib0pKZE1vSEg5azZZcC1xT1FDMDFXdnVaQlJqNnpNSVlPMVJaek91VURHZDFJVWw0d2pLOXF0ODVKT2VUUU5lODlYYjhWM05Md0tFN3FobGpUeHQwcFc1X29ONjFDdGZuQnZ4QWNJdHgxaktIUjZ3ejM0RklI?oc=5",
+      "published_at": "2026-09-15T04:48:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "11:48",
+      "importance": 3
     },
     {
       "category": "THÔNG BÁO",
@@ -1511,24 +2214,6 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
-      "ticker": "MBB",
-      "tickers": [
-        "MBB"
-      ],
-      "exchange": "HOSE",
-      "headline_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/6M/15 HOSE: CMBB2622",
-      "summary_vi": "Chứng quyền MBB/LPBS/Call/EU/Cash/6M/15 HOSE: CMBB2622 VietstockFinance",
-      "source": "VietstockFinance",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUjcyQURmNkkxN2JxdzFRUnRDMzBtbEgwZlpGUTAxSERPM0tjZ2l4VDBZdUIzQng5MlZSR0NtM21icEUtbWNOLVV5MlBydld3VGVpYW5fVzVlRjVtaFozNzJBQ2djRl82OWRQWldwVnU3TjRUVlhLV2JYRll4R0M1b1l1Yw?oc=5",
-      "published_at": "2026-09-15T03:20:19+00:00",
-      "published_date_vn": "2026-09-15",
-      "published_time_vn": "10:20",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
       "ticker": "VRE",
       "tickers": [
         "VRE"
@@ -1537,8 +2222,8 @@
       "headline_vi": "Chứng quyền VRE/LPBS/Call/EU/Cash/9M/45 HOSE: CVRE2608",
       "summary_vi": "Chứng quyền VRE/LPBS/Call/EU/Cash/9M/45 HOSE: CVRE2608 VietstockFinance",
       "source": "VietstockFinance",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93SlN5ckJBUGl1WXJjcE5CUzBLbW5XbXhYM3dURGo3MGI0b0FUTG5yMzc2ZWVuTVBwSmdkUW1HVkRfZFpCZWFCeXdYQ0YycWNBaWlvX2hJRFB1QXJCZmUtWmlZeVJpQmFtNmFXY2Z4UDdvRVZ3dGVzVlVHdUVvMVU?oc=5",
-      "published_at": "2026-09-15T03:19:11+00:00",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdVpqWG9XV25OVlF2ZS1KSURfbG5FaFRmVElta2w0QTBjUng1M1F5TU5VQzduR2hLR1BhUDVFZUdMVEZ2alQtcU9BN3BQaVpEdVhsZnVNWFd4dnR5V3A1M2l5b3hPX0c1eURDd283QkgtbGhkZ1NzUVZ6UUVZRTM3Q3FHQWNOdjlRTG1Yckl3?oc=5",
+      "published_at": "2026-09-15T03:19:55+00:00",
       "published_date_vn": "2026-09-15",
       "published_time_vn": "10:19",
       "importance": 2
@@ -1661,6 +2346,24 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "VHM",
+      "tickers": [
+        "VHM"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền VHM/LPBS/Call/EU/Cash/9M/40 HOSE: CVHM2618",
+      "summary_vi": "Chứng quyền VHM/LPBS/Call/EU/Cash/9M/40 HOSE: CVHM2618 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNTMzMnYxUDBYUWh5T0dZSGd2SG5iaDQyeE9fdG8xTWl5bGZ2andYU1d3SlZzczVicDVTMGdKWTFoQXVQMFBZamlTRE9mSV9DY0paNXFTbXh2Q1NJTGpMY2JTWW5wbTViSEw4TG40N3pVTDRsWjVMbVRuVGgxdEdBMA?oc=5",
+      "published_at": "2026-09-15T03:06:08+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "10:06",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "VIC",
       "tickers": [
         "VIC"
@@ -1673,6 +2376,24 @@
       "published_at": "2026-09-15T03:05:49+00:00",
       "published_date_vn": "2026-09-15",
       "published_time_vn": "10:05",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SHB",
+      "tickers": [
+        "SHB"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền SHB/LPBS/Call/EU/Cash/6M/20 HOSE: CSHB2619",
+      "summary_vi": "Chứng quyền SHB/LPBS/Call/EU/Cash/6M/20 HOSE: CSHB2619 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMU9aZHZFQTNQY3FOWW04TWxKYmQ5UGo2WjlELW53U3lVT1R5TU5TXzZuUE9vN09rN0xkaUM3VVBueXpxU1AyMnhyU1hXSzYyQkhiYTljY3lmcnlYNGhwOXpWb2Z0REFtVUFma1pfNFNNbFJvN25pU3NUb2VEdEJDVTlB?oc=5",
+      "published_at": "2026-09-15T03:04:55+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "10:04",
       "importance": 2
     },
     {
@@ -1775,6 +2496,24 @@
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
+      "ticker": "MWG",
+      "tickers": [
+        "MWG"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền MWG/LPBS/Call/EU/Cash/6M/01 HOSE: CMWG2624",
+      "summary_vi": "Chứng quyền MWG/LPBS/Call/EU/Cash/6M/01 HOSE: CMWG2624 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTGVUa0NEV2RrcUgwZ2JENWQzVktabDJVQ3pPVmVhcFVoRU9rOUdobWR6MnVqbi1kN1VuU0VzN2xfTHlMUXZQMW12S3JfbXJPbVdfcHBZLS1wRV9helBoUWkya2NkRjQ0QnVMY3k4b1BuYkQtRGQ0ZVM2WW5lVmd1eEVn?oc=5",
+      "published_at": "2026-09-15T02:47:38+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "09:47",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
       "ticker": "FPT",
       "tickers": [
         "FPT"
@@ -1785,24 +2524,6 @@
       "source": "VietstockFinance",
       "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUGFrTVJfejN1Q0kxUllWdm9ZSjlJNUVOTE9ES0NjNUNGbzR5NzgzekhVczBkaEtyY0RPNVdJZlh2U0xUZ2M3UFJnSEVacWF2RVdIdk9ybC1kOE5VcEJpMW1JLWh3Yzl3QU1NZ2VBdXVZbkw2M2xOT3dINmRtT3hJNkJn?oc=5",
       "published_at": "2026-09-15T02:46:45+00:00",
-      "published_date_vn": "2026-09-15",
-      "published_time_vn": "09:46",
-      "importance": 2
-    },
-    {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "VRE",
-      "tickers": [
-        "VRE"
-      ],
-      "exchange": "HOSE",
-      "headline_vi": "Chứng quyền VRE/LPBS/Call/EU/Cash/6M/46 HOSE: CVRE2609",
-      "summary_vi": "Chứng quyền VRE/LPBS/Call/EU/Cash/6M/46 HOSE: CVRE2609 VietstockFinance",
-      "source": "VietstockFinance",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQWpRUV9RdjlMbGJqYTNfUTRpaGdCNTduY19GeUh3UkNZeVIzWG8tV1NwUTZTcXBGUHNGbU14LVdCSG1TcDdxc2R0d0tSQ1ViSU5ON2Q3eWowZVlXTDBnWC00NkxBdVRqdU1sOHRLTWp2eDhHemRsMlE4amROdVFBQVpR?oc=5",
-      "published_at": "2026-09-15T02:46:20+00:00",
       "published_date_vn": "2026-09-15",
       "published_time_vn": "09:46",
       "importance": 2
@@ -1987,6 +2708,22 @@
       "importance": 3
     },
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "EVNHCMC triển khai kế hoạch đảm bảo điện mùa khô 2027",
+      "summary_vi": "EVNHCMC triển khai kế hoạch đảm bảo điện mùa khô 2027 VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdjhPU3VDQWVoX0dMRmtROTEzTEh2a09RRmJDSGVudmU3U3I5Y0d3dlVnYXlMVGpTb3JzXzJtVW90Z1NJNndSdFBrVi1EODdXZEFoT0VWVDU0MXZtSXRrcUpPSGJ6dUJSdy1OeXp5a0hkZ0ZqcVFrU295WHdoQms5RW9zd1prRkVkZG5IRmxWUzBidw?oc=5",
+      "published_at": "2026-09-15T02:00:00+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "09:00",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -2166,6 +2903,24 @@
       "published_at": "2026-09-15T01:30:00+00:00",
       "published_date_vn": "2026-09-15",
       "published_time_vn": "08:30",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "MWG",
+      "tickers": [
+        "MWG"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền MWG/ACBS/8M/104 HOSE: CMWG2616",
+      "summary_vi": "Chứng quyền MWG/ACBS/8M/104 HOSE: CMWG2616 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM3dDMm1rNVV3eEF3ejVJRWJFTXFNR0JNYjh1UVNJTmo1Zmtkdm5ZbC1oN0dLT2l1a2VpQ0NhSVdQSWQtN1d0RWx5c2FLZFpvWWVRTC16RFg2UjQtdkRZUHBpRXVuYlNrdmJybklXZS1oME8tWEE3ejBHc1VCN0M0b0ROVUcwT20tNnpQSFA4MlpYMjk5X2c?oc=5",
+      "published_at": "2026-09-15T01:27:54+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "08:27",
       "importance": 2
     },
     {
@@ -2669,6 +3424,25 @@
       "published_at": "2026-09-14T21:34:33+00:00",
       "published_date_vn": "2026-09-15",
       "published_time_vn": "04:34",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VNM",
+      "tickers": [
+        "VNM",
+        "KIS"
+      ],
+      "exchange": "HOSE",
+      "headline_vi": "Chứng quyền.VNM.KIS.6M.39 HOSE: CVNM2609",
+      "summary_vi": "Chứng quyền.VNM.KIS.6M.39 HOSE: CVNM2609 VietstockFinance",
+      "source": "VietstockFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOFVkajJrR0h4WmpjMV83SlJTa2N5ZFdBUFU4SUlVcDlkQnlIZ0pWMlBjVGVIeTF1akJwaGRLb01Ta0JGRDdpVzlGM29IRDdfZTI2aGx3UksxQmF5TEo5Uko0aFhvUkRhTmhvZmpJZzFWeWVhUWtXRXd3QVZpYXUtbW9HTENDWFl3VmlIT2xBMlk?oc=5",
+      "published_at": "2026-09-14T20:14:49+00:00",
+      "published_date_vn": "2026-09-15",
+      "published_time_vn": "03:14",
       "importance": 2
     },
     {
