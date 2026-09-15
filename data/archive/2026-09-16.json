@@ -3,6 +3,38 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nuôi biển cần đột phá công nghệ, giống và hành lang pháp lý",
+      "summary_vi": "Nuôi biển cần đột phá công nghệ, giống và hành lang pháp lý VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYXJVUlJSMGg4NHJvTGJRNGNrdTlrYlBOUHR2aW9EcVpONm5TaXc3SEJocGpsTzBhdF96NG16TFZsV1BoMkxGa3kwY0NpY2JSaDRpUWFfaGh0VjFkZDdENDIybFRfZ1JzOHdwZkI3eFp1RllPUVg0U2dLcTNMMUJTdXBvcEg1REFra1U4?oc=5",
+      "published_at": "2026-09-15T20:16:38+00:00",
+      "published_date_vn": "2026-09-16",
+      "published_time_vn": "03:16",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tòa Mỹ giáng đòn vào sắc lệnh hạn chế bỏ phiếu qua thư của ông Trump",
+      "summary_vi": "Tòa án Tối cao Mỹ giữ nguyên phán quyết của tòa cấp dưới, khiến chính quyền Trump không thể áp đặt hạn chế với việc bỏ phiếu qua thư.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/toa-my-giang-don-vao-sac-lenh-han-che-bo-phieu-qua-thu-cua-ong-trump-5120681.html",
+      "published_at": "2026-09-15T19:00:00+00:00",
+      "published_date_vn": "2026-09-16",
+      "published_time_vn": "02:00",
+      "importance": 2
+    },
+    {
       "category": "THẾ GIỚI",
       "tag": "Đông Âu",
       "region": "Đông Âu",
