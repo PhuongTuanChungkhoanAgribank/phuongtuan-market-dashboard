@@ -1,8 +1,40 @@
 {
-  "updated_at": "17/09/2026 01:30",
+  "updated_at": "17/09/2026 04:39",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-17",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xe đầu kéo điện BYD đến châu Âu, đấu Tesla Semi",
+      "summary_vi": "Xe đầu kéo điện BYD đến châu Âu, đấu Tesla Semi VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdmxsOU5hY2FKckdNRzI0ekp2Yk9FSXowMHBHb1JLVmFuOGVuQUVPelZTNldTTlJmUlFGT2tac0dPdWtzVEM0TkJCVjN2MTR1dHlDazhBVV9nTzI0V1Yyb1kzV1dnWW9MQ3BMdktGbTJFZEVXRVBBV1RkaXhkWkZiaG9JSjdMYlFt?oc=5",
+      "published_at": "2026-09-16T21:00:00+00:00",
+      "published_date_vn": "2026-09-17",
+      "published_time_vn": "04:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Fed tăng lãi suất lần đầu tiên sau hơn 3 năm, phát tín hiệu sẽ thắt chặt ít nhất 1 lần nữa trong năm nay",
+      "summary_vi": "Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất lần đầu tiên sau hơn 3 năm, đồng thời phát tín hiệu có thể tiếp tục nâng thêm một lần trong năm nay khi lạm phát dai dẳng và giá dầu tăng mạnh.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/fed-tang-lai-suat-lan-dau-tien-sau-hon-3-nam-phat-tin-hieu-se-that-chat-it-nhat-1-lan-nua-trong-nam-nay-188260917011211408.chn",
+      "published_at": "2026-09-16T18:30:00+00:00",
+      "published_date_vn": "2026-09-17",
+      "published_time_vn": "01:30",
+      "importance": 4
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
