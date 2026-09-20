@@ -1,8 +1,40 @@
 {
-  "updated_at": "21/09/2026 04:28",
+  "updated_at": "21/09/2026 06:28",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-21",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi suất cho vay bình quân lên 10,7% một năm",
+      "summary_vi": "Lãi suất cho vay bình quân lên 10,7% một năm VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYVQzNlFZN0paUFI1ajFXc0pIazZFLTI2Yk5uYU5VRkxLREVIZEt4X0ZsQW1xM0VwSEVhdTduYmEyaDdBbV9PbERjdGtaeGw3T29BSUlGTWxRNXZkYmlBSEl3MWpCOXhNQ0xCTnJPNVB1QmJVRnVPT2Z1YVJQNFZiTlZheHg?oc=5",
+      "published_at": "2026-09-20T23:00:00+00:00",
+      "published_date_vn": "2026-09-21",
+      "published_time_vn": "06:00",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chứng khoán sẽ diễn biến thế nào sau nâng hạng?",
+      "summary_vi": "Chứng khoán sẽ diễn biến thế nào sau nâng hạng? VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaWowbkdOWExiWlN1dzdxYnJJdFcwRkFkODR6OUdEdTVPeWhab2ZHWmVmTUd0cnNtOTRQNWpMbFZTeEI1M3RrMEVfQ2xRV21GWEs3WE5odWZDWm9HMXNnTDJjTHVobUJ2Y0lNODE2ZDdnVVlOQmE3VXR1RHcxMDlxWndhSFFZYUNW?oc=5",
+      "published_at": "2026-09-20T22:00:00+00:00",
+      "published_date_vn": "2026-09-21",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Đông Âu",
