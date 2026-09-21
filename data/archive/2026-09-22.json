@@ -1,7 +1,6 @@
 {
-  "updated_at": "22/09/2026 02:18",
-  "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-22",
+  "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
       "category": "TRONG NƯỚC",
@@ -188,22 +187,6 @@
       "importance": 4
     },
     {
-      "category": "DOANH NGHIỆP",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Bên trong tổ hợp sản xuất 1 triệu quả trứng/ngày của tỷ phú Trần Đình Long: 1,2 triệu con gà, thu gần 350 tỷ đồng trong 6 tháng",
-      "summary_vi": "Ngoài thép, Hòa Phát đang có một chuỗi sản xuất gia cầm khép kín, từ con giống, thức ăn đến trứng thành phẩm và đang tính đường mở rộng ra thị trường nước ngoài.",
-      "source": "CafeF",
-      "source_url": "https://cafef.vn/ben-trong-to-hop-san-xuat-1-trieu-qua-trung-ngay-cua-ty-phu-tran-dinh-long-12-trieu-con-ga-thu-gan-350-ty-dong-trong-6-thang-188260921202806614.chn",
-      "published_at": "2026-09-21T17:02:00+00:00",
-      "published_date_vn": "2026-09-22",
-      "published_time_vn": "00:02",
-      "importance": 2
-    },
-    {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
       "region": "Mỹ",
@@ -226,6 +209,22 @@
       "ticker": "",
       "tickers": [],
       "exchange": "",
+      "headline_vi": "Bên trong tổ hợp sản xuất 1 triệu quả trứng/ngày của tỷ phú Trần Đình Long: 1,2 triệu con gà, thu gần 350 tỷ đồng trong 6 tháng",
+      "summary_vi": "Ngoài thép, Hòa Phát đang có một chuỗi sản xuất gia cầm khép kín, từ con giống, thức ăn đến trứng thành phẩm và đang tính đường mở rộng ra thị trường nước ngoài.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/ben-trong-to-hop-san-xuat-1-trieu-qua-trung-ngay-cua-ty-phu-tran-dinh-long-12-trieu-con-ga-thu-gan-350-ty-dong-trong-6-thang-188260921202806614.chn",
+      "published_at": "2026-09-21T17:02:00+00:00",
+      "published_date_vn": "2026-09-22",
+      "published_time_vn": "00:02",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
       "headline_vi": "Một nữ tiến sĩ vừa vượt qua vợ ông Phạm Nhật Vượng, trở thành người giàu thứ 2 Việt Nam",
       "summary_vi": "Một nữ tiến sĩ vừa vượt qua vợ ông Phạm Nhật Vượng, trở thành người giàu thứ 2 Việt Nam cafef.vn",
       "source": "cafef.vn",
@@ -233,22 +232,6 @@
       "published_at": "2026-09-21T17:01:00+00:00",
       "published_date_vn": "2026-09-22",
       "published_time_vn": "00:01",
-      "importance": 2
-    },
-    {
-      "category": "THẾ GIỚI",
-      "tag": "Toàn cầu",
-      "region": "Toàn cầu",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Phát hiện hơn 20 tấn vàng giữa quốc lộ, chính quyền lập tức di dời cả tuyến đường",
-      "summary_vi": "20,4 tấn vàng được phát hiện nằm ngay tuyến đường quốc lộ.",
-      "source": "CafeF",
-      "source_url": "https://cafef.vn/phat-hien-hon-20-tan-vang-giua-quoc-lo-chinh-quyen-lap-tuc-di-doi-ca-tuyen-duong-188260921182442461.chn",
-      "published_at": "2026-09-21T17:00:00+00:00",
-      "published_date_vn": "2026-09-22",
-      "published_time_vn": "00:00",
       "importance": 2
     },
     {
@@ -282,6 +265,22 @@
       "published_date_vn": "2026-09-22",
       "published_time_vn": "00:00",
       "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phát hiện hơn 20 tấn vàng giữa quốc lộ, chính quyền lập tức di dời cả tuyến đường",
+      "summary_vi": "20,4 tấn vàng được phát hiện nằm ngay tuyến đường quốc lộ.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/phat-hien-hon-20-tan-vang-giua-quoc-lo-chinh-quyen-lap-tuc-di-doi-ca-tuyen-duong-188260921182442461.chn",
+      "published_at": "2026-09-21T17:00:00+00:00",
+      "published_date_vn": "2026-09-22",
+      "published_time_vn": "00:00",
+      "importance": 2
     }
   ]
 }
