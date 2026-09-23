@@ -1,8 +1,24 @@
 {
-  "updated_at": "24/09/2026 01:59",
+  "updated_at": "24/09/2026 05:13",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-24",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thượng đỉnh Mỹ",
+      "summary_vi": "Châu Âu theo dõi sát thượng đỉnh Mỹ",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/thuong-dinh-my-trung-co-the-tac-dong-den-chau-au-the-nao-5123828.html",
+      "published_at": "2026-09-23T22:00:00+00:00",
+      "published_date_vn": "2026-09-24",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
