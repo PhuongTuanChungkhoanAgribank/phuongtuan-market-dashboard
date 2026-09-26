@@ -4,6 +4,74 @@
   "cards": [
     {
       "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chiếc máy bay từng nhiều lần mang “Quái thú” hạ cánh xuống sân bay Nội Bài",
+      "summary_vi": "Dòng phương tiện này là \"nhân vật quen mặt\" trước mỗi chuyến công du của các Tổng thống Mỹ.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/chiec-may-bay-tung-nhieu-lan-mang-quai-thu-ha-canh-xuong-san-bay-noi-bai-nhiem-vu-quen-thuoc-truoc-moi-chuyen-cong-du-cua-tong-thong-my-18826092618362343.chn",
+      "published_at": "2026-09-26T23:31:00+00:00",
+      "published_date_vn": "2026-09-27",
+      "published_time_vn": "06:31",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PVP",
+      "tickers": [
+        "PVP"
+      ],
+      "exchange": "",
+      "headline_vi": "Một cổ phiếu dầu khí “bốc đầu\" kịch trần, lên đỉnh lịch sử trước thềm họp bất thường",
+      "summary_vi": "PVP đã tăng khoảng 27% trong vòng 2 tháng, đưa vốn hóa thị trường lần đầu chạm mức 2.126 tỷ đồng.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/mot-co-phieu-dau-khi-boc-dau-kich-tran-len-dinh-lich-su-truoc-them-hop-bat-thuong-188260926225055706.chn",
+      "published_at": "2026-09-26T23:28:00+00:00",
+      "published_date_vn": "2026-09-27",
+      "published_time_vn": "06:28",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thế khó của Thủ tướng Israel ở diễn đàn Liên Hợp Quốc",
+      "summary_vi": "Phát biểu tại Đại hội đồng LHQ, Thủ tướng Netanyahu quyết bảo vệ lập trường của Israel trong xung đột khu vực, nhưng phản ứng của nhiều nước và rạn nứt với Mỹ đẩy ông vào thế khó.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/the-kho-cua-thu-tuong-israel-o-dien-dan-lien-hop-quoc-5124735.html",
+      "published_at": "2026-09-26T22:00:00+00:00",
+      "published_date_vn": "2026-09-27",
+      "published_time_vn": "05:00",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VDP",
+      "tickers": [
+        "VDP"
+      ],
+      "exchange": "",
+      "headline_vi": "Vidipha (VDP) phân phối thành công gần 10 triệu cp, nâng vốn điều lệ lên 320 tỷ đồng",
+      "summary_vi": "Vidipha (VDP) phân phối thành công gần 10 triệu cp, nâng vốn điều lệ lên 320 tỷ đồng Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYlhnQk9CTHpadEdaU0N6UDJsSlQ3WURnZHBfX1RYX3BYSG5xaElpalpaZlB4eDhjVFZ1Z0FzWU1DNThnQVVpNkRVaXRsOFZ4QmdwWFJ4OGMyWkJhaFM1RmQzRTk2NUJtaU5LNjNmM2JnNzlsTURRamFocTNUSU9YTjlackpORFd0Y3FTTFR6SklGRkkzZmh1alpuVF9FY1dXVWkxU1VzbUx4Zk1pTm9qQWJsQ1VLd2VlNkk1YWR3?oc=5",
+      "published_at": "2026-09-26T21:45:00+00:00",
+      "published_date_vn": "2026-09-27",
+      "published_time_vn": "04:45",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
       "tag": "Đông Âu",
       "region": "Đông Âu",
       "ticker": "",
