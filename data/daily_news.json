@@ -1,8 +1,24 @@
 {
-  "updated_at": "28/09/2026 00:57",
+  "updated_at": "28/09/2026 04:16",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-09-28",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "'Lá cánh nằm lệch' khiến F-16 Mỹ đâm xuống đất năm 2025",
+      "summary_vi": "Các lá cánh bị lệch vị trí ở tầng nén của động cơ đã dẫn đến tình trạng mất lực đẩy, khiến tiêm kích F-16 Mỹ rơi tại bang California.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/la-canh-nam-lech-khien-f-16-my-dam-xuong-dat-nam-2025-5124966.html",
+      "published_at": "2026-09-27T18:00:00+00:00",
+      "published_date_vn": "2026-09-28",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -255,6 +271,22 @@
       "summary_vi": "Mọi cử nhân muốn nhận bằng Thạc sĩ đều phải dĩnh đạc đọc lên một câu thề vô cùng kỳ quặc: \"Thề sẽ không bao giờ hạ mình quay lại làm Cử nhân, và tuyệt đối không bao giờ hòa giải với Henry Symeonis.\"",
       "source": "CafeF",
       "source_url": "https://cafef.vn/bi-an-henry-symeonis-vi-sao-sinh-vien-oxford-phai-the-khong-bao-gio-tha-thu-cho-mot-ke-vo-danh-suot-5-the-ky-188260927234328288.chn",
+      "published_at": "2026-09-27T17:00:00+00:00",
+      "published_date_vn": "2026-09-28",
+      "published_time_vn": "00:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Các chuyên gia thận trọng với giá vàng tuần này",
+      "summary_vi": "Các chuyên gia thận trọng với giá vàng tuần này VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN1g2VWNXLUxIRV9WM2gtS2RwM1pxbFlCa1E1RlZuX3lvNVN6Tl92dE1wQ1YySEFiWWFLeWZQUDVISzVFOUhtQi16b3JWem1qQUp5ak5FV0RoMnBieWs3LTRsTlNxVVdYeFM0c2k5WVNnUWhVQS1hTXQ1WElpeVJJOGJqaEh1WGg1c1E?oc=5",
       "published_at": "2026-09-27T17:00:00+00:00",
       "published_date_vn": "2026-09-28",
       "published_time_vn": "00:00",
