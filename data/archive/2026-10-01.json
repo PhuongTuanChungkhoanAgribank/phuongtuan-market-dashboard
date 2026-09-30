@@ -1,7 +1,6 @@
 {
-  "updated_at": "01/10/2026 03:21",
-  "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-01",
+  "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
       "category": "TRONG NƯỚC",
@@ -200,6 +199,22 @@
       "importance": 2
     },
     {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chiến thuật mới giúp ICE bắt người nhập cư nhiều chưa từng thấy",
+      "summary_vi": "Thay vì ra quân rầm rộ như trước, ICE chuyển sang chiến thuật phân tán lực lượng, âm thầm bắt hàng chục nghìn người nhập cư mỗi tháng.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/chien-thuat-moi-giup-ice-bat-nguoi-nhap-cu-nhieu-chua-tung-thay-5126018.html",
+      "published_at": "2026-09-30T17:00:00+00:00",
+      "published_date_vn": "2026-10-01",
+      "published_time_vn": "00:00",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
@@ -245,22 +260,6 @@
       "summary_vi": "VietinBank Chi nhánh 12 TP.HCM vừa thông báo lựa chọn tổ chức đấu giá khoản nợ của ông Nguyễn Hồ Nam. Theo số liệu ngân hàng từng công bố, tổng nghĩa vụ nợ tại thời điểm tháng 8/2025 lên tới gần 58 tỷ đồng.",
       "source": "CafeF",
       "source_url": "https://cafef.vn/vietinbank-rao-ban-khoan-no-lon-cua-ong-nguyen-ho-nam-18826093021582915.chn",
-      "published_at": "2026-09-30T17:00:00+00:00",
-      "published_date_vn": "2026-10-01",
-      "published_time_vn": "00:00",
-      "importance": 2
-    },
-    {
-      "category": "THẾ GIỚI",
-      "tag": "Toàn cầu",
-      "region": "Toàn cầu",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Chiến thuật mới giúp ICE bắt người nhập cư nhiều chưa từng thấy",
-      "summary_vi": "Thay vì ra quân rầm rộ như trước, ICE chuyển sang chiến thuật phân tán lực lượng, âm thầm bắt hàng chục nghìn người nhập cư mỗi tháng.",
-      "source": "VnExpress",
-      "source_url": "https://vnexpress.net/chien-thuat-moi-giup-ice-bat-nguoi-nhap-cu-nhieu-chua-tung-thay-5126018.html",
       "published_at": "2026-09-30T17:00:00+00:00",
       "published_date_vn": "2026-10-01",
       "published_time_vn": "00:00",
