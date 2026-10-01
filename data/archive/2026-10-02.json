@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Quy trình mật của không quân Israel nhằm đối phó máy bay bị không tặc",
+      "summary_vi": "Theo quy trình mật của Israel, tiêm kích có thể bắn hạ máy bay dân dụng nếu xác nhận nó bị không tặc kiểm soát và không thể thương lượng.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/quy-trinh-mat-cua-khong-quan-israel-nham-doi-pho-may-bay-bi-khong-tac-5126999.html",
+      "published_at": "2026-10-01T18:00:00+00:00",
+      "published_date_vn": "2026-10-02",
+      "published_time_vn": "01:00",
+      "importance": 4
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
