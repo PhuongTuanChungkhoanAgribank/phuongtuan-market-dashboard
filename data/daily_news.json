@@ -1,8 +1,24 @@
 {
-  "updated_at": "03/10/2026 02:13",
+  "updated_at": "03/10/2026 06:03",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-03",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Loạt tàu dầu Iran mắc kẹt dưới sức ép trừng phạt của Mỹ",
+      "summary_vi": "Nhiều tàu dầu Iran phải neo đậu dài ngày ngoài khơi Malaysia hay Sri Lanka khi sức ép trừng phạt của Mỹ khiến hoạt động xuất khẩu ngày càng khó khăn.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/loat-tau-dau-iran-mac-ket-duoi-suc-ep-trung-phat-cua-my-5127198.html",
+      "published_at": "2026-10-02T22:00:00+00:00",
+      "published_date_vn": "2026-10-03",
+      "published_time_vn": "05:00",
+      "importance": 3
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
@@ -14,9 +30,9 @@
       "summary_vi": "Doanh nghiệp, : Trái phiếu doanh nghiệp chịu áp lực đáo hạn vào quý cuối năm CafeF",
       "source": "CafeF",
       "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ydUJBc19oY2xYclBDU2Rad3BRSTJ3LWRNS0tETEVsLVRDdjdYczV4ZVYtZTJZVUZHTXQzZmlrREo2VEFIbEtUbEVR?oc=5",
-      "published_at": "2026-10-02T18:28:32+00:00",
+      "published_at": "2026-10-02T20:27:14+00:00",
       "published_date_vn": "2026-10-03",
-      "published_time_vn": "01:28",
+      "published_time_vn": "03:27",
       "importance": 2
     },
     {
@@ -224,6 +240,22 @@
       "summary_vi": "Christa Pike vẫn thở sau hai liều thuốc độc trong khoảng 90 phút, khiến giới chức Tennessee phải hủy cuộc hành quyết và đưa nữ tử tù đi cấp cứu.",
       "source": "VnExpress",
       "source_url": "https://vnexpress.net/90-phut-nhu-tra-tan-cua-tu-tu-bi-tiem-thuoc-doc-hai-lan-khong-chet-5127422.html",
+      "published_at": "2026-10-02T17:00:00+00:00",
+      "published_date_vn": "2026-10-03",
+      "published_time_vn": "00:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Lãi vay mua nhà tại Mỹ lên cao nhất 3 năm",
+      "summary_vi": "Lãi vay mua nhà tại Mỹ lên cao nhất 3 năm VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWVhSdHhwX0x3THZOa0tvbUhWellLLXhHcXlJN2NBM296ZkVKR3p2V2dUUEt6S3lyZkFrYXUyV2pPNE9oaDVCNnF5ZHBQQVJidHFRWnAwS212NmdmajFCUUFBMENXb3lCc1FNR2d0ZmdJMEw2em1XbjhVYmZ4Z1VjdHNn?oc=5",
       "published_at": "2026-10-02T17:00:00+00:00",
       "published_date_vn": "2026-10-03",
       "published_time_vn": "00:00",
