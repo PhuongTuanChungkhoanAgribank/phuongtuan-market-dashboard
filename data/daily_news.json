@@ -1,8 +1,40 @@
 {
-  "updated_at": "04/10/2026 00:25",
+  "updated_at": "04/10/2026 03:09",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-04",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hài cốt Sa hoàng Bulgaria hồi hương sau 1.000 năm",
+      "summary_vi": "Hơn 1.000 năm sau khi qua đời, hài cốt của Sa hoàng Samuel, một trong những lãnh đạo cuối cùng của Đế quốc Bulgaria đệ nhất, sẽ trở về quê nhà.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/hai-cot-sa-hoang-bulgaria-hoi-huong-sau-1-000-nam-5128065.html",
+      "published_at": "2026-10-03T18:00:25+00:00",
+      "published_date_vn": "2026-10-04",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chiến thuật mật tập giúp Ukraine đẩy lùi Nga gần thành phố chiến lược",
+      "summary_vi": "Ukraine áp dụng nhiều chiến thuật, trong đó có tập kích bí mật khiến đối phương bất ngờ, trong chiến dịch phản công Vivaldi gần thành phố Lyman.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/chien-thuat-mat-tap-giup-ukraine-day-lui-nga-gan-thanh-pho-chien-luoc-5126596.html",
+      "published_at": "2026-10-03T18:00:00+00:00",
+      "published_date_vn": "2026-10-04",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
