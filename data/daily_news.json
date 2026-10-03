@@ -1,8 +1,40 @@
 {
-  "updated_at": "04/10/2026 03:09",
+  "updated_at": "04/10/2026 06:09",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-04",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "20 hãng xe Trung Quốc sắp đổ bộ Triển lãm ôtô Paris",
+      "summary_vi": "20 hãng xe Trung Quốc sắp đổ bộ Triển lãm ôtô Paris VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQWRNU2lHRzBPMjBTZXJsdl80LUVLUTRBdktXdVFkRmVHSEJ6MUNZa0t6a3dURnJXY2dFdkh0YkY0bldEZXNVSzJFcWJJdUVlV05sT0NhWHlkQ2VzZnZldURNTGxvOVJqMk1QMlZZb1NuQ0loeGFtLXppbTVUWER2ZC1oZHBRM0ZvOElmNE1Xaw?oc=5",
+      "published_at": "2026-10-03T22:00:00+00:00",
+      "published_date_vn": "2026-10-04",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cảnh vệ bí ẩn bên cạnh ông Tập trong các chuyến công du",
+      "summary_vi": "Chu Hồng Húc là quan chức cảnh vệ thường xuyên tháp tùng ông Tập tại các sự kiện quốc tế, nhưng danh tính của ông chỉ được hé lộ từ quốc yến tại Nhà Trắng.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/canh-ve-bi-an-ben-canh-ong-tap-trong-cac-chuyen-cong-du-5126886.html",
+      "published_at": "2026-10-03T22:00:00+00:00",
+      "published_date_vn": "2026-10-04",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
