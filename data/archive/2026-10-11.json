@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cuộc rút lui của lính Mỹ khỏi căn cứ bị Iran 'đánh tan hoang'",
+      "summary_vi": "Lực lượng Mỹ đóng quân ở căn cứ Buehring phải vội vã rút đi trong đêm sau khi cơ sở chịu thiệt hại nặng do đòn tấn công của Iran.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/cuoc-rut-lui-cua-linh-my-khoi-can-cu-bi-iran-danh-tan-hoang-5129869.html",
+      "published_at": "2026-10-10T18:00:00+00:00",
+      "published_date_vn": "2026-10-11",
+      "published_time_vn": "01:00",
+      "importance": 3
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
