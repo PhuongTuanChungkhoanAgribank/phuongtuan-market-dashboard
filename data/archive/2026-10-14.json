@@ -4,6 +4,40 @@
   "cards": [
     {
       "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Những đối thủ tiềm năng của ông Zelensky nếu Ukraine tổ chức bầu cử",
+      "summary_vi": "Sức ép ngày càng lớn từ Mỹ buộc Tổng thống Zelensky phải xem xét khả năng tổ chức bầu cử, nơi ông phải cạnh tranh với một số đối thủ tiềm năng.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/nhung-doi-thu-tiem-nang-cua-ong-zelensky-neu-ukraine-to-chuc-bau-cu-5131716.html",
+      "published_at": "2026-10-13T22:00:00+00:00",
+      "published_date_vn": "2026-10-14",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SCR",
+      "tickers": [
+        "SCR"
+      ],
+      "exchange": "",
+      "headline_vi": "SCR muốn thâu tóm 51% vốn chủ dự án Cù lao Tân Vạn với giá khởi điểm hơn ngàn tỷ",
+      "summary_vi": "SCR muốn thâu tóm 51% vốn chủ dự án Cù lao Tân Vạn với giá khởi điểm hơn ngàn tỷ Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSU42S28zTTJ3cmRQdXVfc1BXUVZmTEJPakJuWTZBLUI2TWg3SHNSZkpkV3doaUstaWZMTzlhNmhLZjBwRlozZWlyUG12d0lFQm9oRUx0THB0U09vN2V1ZWV1ZWhZWUtFMVJDQWRNek5KUW5vanV3TVVOTnRiQlVXSHcwU2RQVzJMblRWODhFYV9CY19EV2NfN2JKTk0xS2RRY3RCUEVKeFBlQmp4dXFZS1hmQVNkejUwZW5B?oc=5",
+      "published_at": "2026-10-13T19:18:45+00:00",
+      "published_date_vn": "2026-10-14",
+      "published_time_vn": "02:18",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
       "region": "Toàn cầu",
       "ticker": "",
