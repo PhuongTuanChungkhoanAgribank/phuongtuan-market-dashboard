@@ -1,8 +1,24 @@
 {
-  "updated_at": "15/10/2026 00:34",
+  "updated_at": "15/10/2026 03:56",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-15",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Công nghệ giúp drone Ukraine tập kích mục tiêu khi bị ngắt Starlink",
+      "summary_vi": "Ukraine đang ứng dụng nhiều công nghệ, như nhận diện và khóa mục tiêu bằng AI, nhằm đề phòng trường hợp drone mất kết nối Starlink.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/cong-nghe-giup-drone-ukraine-tap-kich-muc-tieu-khi-bi-ngat-starlink-5106426.html",
+      "published_at": "2026-10-14T18:00:00+00:00",
+      "published_date_vn": "2026-10-15",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
@@ -218,6 +234,22 @@
       "summary_vi": "IEA: Thế giới có nguy cơ thiếu dầu diesel đến giữa năm 2027 VnExpress",
       "source": "VnExpress",
       "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSmFwOTdQSkdxQm5GXzUwdGw3djdRdm9DcVdQZFhxMUhSak54VmxJWGNEd0p3X29XX2tXYVZ0NzR5ZnlWaDhlN1FkeXVPWVJMRXVDckE3aENVQ3d0ejZBWVlhX3dMc2NKWEREaVp3bF9UTWx5SFczYWxOTFpvSkdWaFVaV1dnRHh4Y0x2V2RUNnNBRXkxZERjSw?oc=5",
+      "published_at": "2026-10-14T17:00:00+00:00",
+      "published_date_vn": "2026-10-15",
+      "published_time_vn": "00:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nỗ lực vượt nghìn dặm của ông Trump để cứu ghế thượng nghị sĩ ở Alaska",
+      "summary_vi": "Ông Trump vượt hơn 5.400 km đến Alaska vận động cho ứng viên Cộng hòa trong nỗ lực giữ ghế thượng nghị sĩ tại đây, giữa lúc mức tín nhiệm của ông suy giảm.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/no-luc-vuot-nghin-dam-cua-ong-trump-de-cuu-ghe-thuong-nghi-si-o-alaska-5132007.html",
       "published_at": "2026-10-14T17:00:00+00:00",
       "published_date_vn": "2026-10-15",
       "published_time_vn": "00:00",
