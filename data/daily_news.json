@@ -1,8 +1,40 @@
 {
-  "updated_at": "17/10/2026 00:57",
+  "updated_at": "17/10/2026 03:57",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-17",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Khoảng trống pháp lý đặt California trước nguy cơ vỡ đập",
+      "summary_vi": "California ghi nhận 57 con đập xuống cấp nghiêm trọng, nhưng chính quyền bang không thể áp dụng biện pháp can thiệp mạnh trừ tình huống đặc biệt nguy cấp.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/khoang-trong-phap-ly-dat-california-truoc-nguy-co-vo-dap-5133121.html",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "published_date_vn": "2026-10-17",
+      "published_time_vn": "02:00",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Mẫu siêu bom Mỹ có thể san phẳng mọi thứ trong bán kính 1,5 km",
+      "summary_vi": "\"Mẹ của các loại bom\" là bom phi hạt nhân lớn nhất trong biên chế Mỹ, ứng dụng thiết kế nhiệt áp để tăng sức sát thương trên mặt đất.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/mau-sieu-bom-my-co-the-san-phang-moi-thu-trong-ban-kinh-1-5-km-5133105.html",
+      "published_at": "2026-10-16T18:00:00+00:00",
+      "published_date_vn": "2026-10-17",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
     {
       "category": "DOANH NGHIỆP",
       "tag": "",
