@@ -1,8 +1,24 @@
 {
-  "updated_at": "18/10/2026 04:31",
+  "updated_at": "18/10/2026 06:21",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-18",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cuộc đua sinh tử trên bầu trời Ukraine",
+      "summary_vi": "UAV Nga ngày càng nhanh và khó đánh chặn, buộc Ukraine chạy đua phát triển vũ khí mới để bảo vệ bầu trời Kiev trước những đợt tập kích liên tiếp.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/cuoc-dua-sinh-tu-tren-bau-troi-ukraine-5131307.html",
+      "published_at": "2026-10-17T22:00:00+00:00",
+      "published_date_vn": "2026-10-18",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Đông Âu",
