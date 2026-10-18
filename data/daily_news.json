@@ -1,8 +1,40 @@
 {
-  "updated_at": "19/10/2026 00:30",
+  "updated_at": "19/10/2026 02:36",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-19",
   "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Ty gia : Lãi suất cao tiếp tục 'thử thách' chứng khoán?",
+      "summary_vi": "Ty gia : Lãi suất cao tiếp tục 'thử thách' chứng khoán? CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8zODVkMXRJUWhqSTZLb3ZmNVJHc3lCOEZKRVpHazBxeVhwR3hhU0FLVFRJVVhQd1dEUDlfb3lkRTlZZw?oc=5",
+      "published_at": "2026-10-18T19:02:45+00:00",
+      "published_date_vn": "2026-10-19",
+      "published_time_vn": "02:02",
+      "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cập nhật số liệu CTCK ngày 19/10: Thêm công ty chứng khoán báo lợi nhuận quý 3 \"tăng bằng lần\"",
+      "summary_vi": "Mùa báo cáo tài chính quý 3/2026 của ngành chứng khoán tiếp tục ghi nhận thêm những kết quả đáng chú ý.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/cap-nhat-so-lieu-ctck-ngay-19-10-them-cong-ty-chung-khoan-bao-loi-nhuan-quy-3-tang-bang-lan-188261019003052144.chn",
+      "published_at": "2026-10-18T17:30:00+00:00",
+      "published_date_vn": "2026-10-19",
+      "published_time_vn": "00:30",
+      "importance": 3
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Toàn cầu",
@@ -66,22 +98,6 @@
       "published_date_vn": "2026-10-19",
       "published_time_vn": "00:03",
       "importance": 2
-    },
-    {
-      "category": "TRONG NƯỚC",
-      "tag": "",
-      "region": "",
-      "ticker": "",
-      "tickers": [],
-      "exchange": "",
-      "headline_vi": "Ty gia : Lãi suất cao tiếp tục 'thử thách' chứng khoán?",
-      "summary_vi": "Ty gia : Lãi suất cao tiếp tục 'thử thách' chứng khoán? CafeF",
-      "source": "CafeF",
-      "source_url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8zODVkMXRJUWhqSTZLb3ZmNVJHc3lCOEZKRVpHazBxeVhwR3hhU0FLVFRJVVhQd1dEUDlfb3lkRTlZZw?oc=5",
-      "published_at": "2026-10-18T17:02:47+00:00",
-      "published_date_vn": "2026-10-19",
-      "published_time_vn": "00:02",
-      "importance": 3
     },
     {
       "category": "DOANH NGHIỆP",
