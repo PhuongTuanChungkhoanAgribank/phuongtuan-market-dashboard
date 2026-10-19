@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T11:54:43.731690+07:00",
+  "updated_at": "2026-10-19T10:45:12.215926+07:00",
   "update_frequency": "weekly",
   "funds": [
     {
@@ -8,8 +8,8 @@
       "manager": "Dragon Capital",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
       "source_url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-10-12T11:54:39.548604+07:00",
-      "updated_at": "2026-10-12T11:54:39.548604+07:00",
+      "fetched_at": "2026-10-19T10:45:08.346676+07:00",
+      "updated_at": "2026-10-19T10:45:08.346676+07:00",
       "holdings": [
         {
           "ticker": "CCQ",
@@ -24,7 +24,7 @@
         {
           "ticker": "UTM",
           "weight_pct": "",
-          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":132},[\"Map\",2,3,33,34,119,120],\"{\\\"from\\\":\\\"49132140-e8af-422e-a3cf-11dd1cafc8bf\\\",\\\"limit\\\":{\\\""
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":132},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"70ee6bc3-e053-43c2-bb19-35fbfb44293a\\\",\\\"limit\\\":{\\\"ty"
         }
       ],
       "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
@@ -35,8 +35,8 @@
       "manager": "Dragon Capital",
       "url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
       "source_url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
-      "fetched_at": "2026-10-12T11:54:40.496395+07:00",
-      "updated_at": "2026-10-12T11:54:40.496395+07:00",
+      "fetched_at": "2026-10-19T10:45:09.421047+07:00",
+      "updated_at": "2026-10-19T10:45:09.421047+07:00",
       "holdings": [
         {
           "ticker": "UTF",
@@ -67,18 +67,18 @@
       "manager": "PYN Fund Management",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
       "source_url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-10-12T11:54:40.919043+07:00",
-      "updated_at": "2026-10-12T11:54:40.919043+07:00",
+      "fetched_at": "2026-10-19T10:45:09.738210+07:00",
+      "updated_at": "2026-10-19T10:45:09.738210+07:00",
       "holdings": [
         {
           "ticker": "HPG",
-          "weight_pct": "14.4",
-          "raw": "HPG - Hoa Phat Group Portfolio weight 14.4% Hoa Phat Group (HPG) is the largest steel producer in Southeast Asia. Following completion of the Dung Quat 2 complex in late 2025, the group has successfully joined top 30 largest steel companies globally. Beyond it"
+          "weight_pct": "14.9",
+          "raw": "HPG - Hoa Phat Group Portfolio weight 14.9% Hoa Phat Group (HPG) is the largest steel producer in Southeast Asia. Following completion of the Dung Quat 2 complex in late 2025, the group has successfully joined top 30 largest steel companies globally. Beyond it"
         },
         {
           "ticker": "MWG",
-          "weight_pct": "9.5",
-          "raw": "MWG Portfolio weight 9.5% MWG operates TGDD, Vietnam‘s top mobile retail chain with 1,000+ stores, and DMX, the leading electronics retailer with over 2,000 stores. It also founded Bach Hoa Xanh (BHX), a grocery chain specializing in fresh food and essentials,"
+          "weight_pct": "9.8",
+          "raw": "MWG Portfolio weight 9.8% MWG operates TGDD, Vietnam‘s top mobile retail chain with 1,000+ stores, and DMX, the leading electronics retailer with over 2,000 stores. It also founded Bach Hoa Xanh (BHX), a grocery chain specializing in fresh food and essentials,"
         },
         {
           "ticker": "DMX",
@@ -92,38 +92,43 @@
         },
         {
           "ticker": "FPT",
-          "weight_pct": "8.9",
-          "raw": "FPT Portfolio weight 8.9% FPT is the largest publicly traded technology company in Vietnam, evolving from an IT intermediary and outsourcing vendor into a globally recognized technology partner and innovator. In 2024, FPT formed a strategic partnership with NV"
+          "weight_pct": "8.5",
+          "raw": "FPT Portfolio weight 8.5% FPT is the largest publicly traded technology company in Vietnam, evolving from an IT intermediary and outsourcing vendor into a globally recognized technology partner and innovator. In 2024, FPT formed a strategic partnership with NV"
         },
         {
           "ticker": "HVN",
-          "weight_pct": "6.0",
-          "raw": "HVN - Vietnam Airlines Portfolio weight 6.0% Vietnam Airlines (HVN) is the national flag carrier of Vietnam. The company owns many subsidiaries in the industry value chain, from ground services to cargo and jet fuel. HVN is the biggest full-service airline in "
+          "weight_pct": "6.5",
+          "raw": "HVN - Vietnam Airlines Portfolio weight 6.5% Vietnam Airlines (HVN) is the national flag carrier of Vietnam. The company owns many subsidiaries in the industry value chain, from ground services to cargo and jet fuel. HVN is the biggest full-service airline in "
         },
         {
           "ticker": "VIB",
-          "weight_pct": "5.1",
-          "raw": "VIB Portfolio weight 5.1% VIB holds a leading market share in retail lending, bancassurance, and credit cards in Vietnam and is a pioneer in Basel III adoption and digital transformation. It achieved the highest ROE of 28% from 2019 to 2023 among peers. After "
+          "weight_pct": "6.0",
+          "raw": "VIB Portfolio weight 6.0% VIB holds a leading market share in retail lending, bancassurance, and credit cards in Vietnam and is a pioneer in Basel III adoption and digital transformation. It achieved the highest ROE of 28% from 2019 to 2023 among peers. After "
         },
         {
           "ticker": "OCB",
-          "weight_pct": "4.6",
-          "raw": "OCB Portfolio weight 4.6% OCB is a mid-sized bank focusing on SMEs and retail clients. Unlike other banks with chairmen involved in real estate, OCB’s leadership is solely dedicated to banking, minimizing related party concerns. The bank’s P/B dropped in 2022 "
-        },
-        {
-          "ticker": "SHS",
-          "weight_pct": "4.0",
-          "raw": "SHS Portfolio weight 4.0% Founded in 2007, SHS ranks among Vietnam’s top 10 securities firms by shareholders’ equity. In recent years, the broker has built a strong reputation as one of the market’s top performers in proprietary trading. Its five-year average "
+          "weight_pct": "5.0",
+          "raw": "OCB Portfolio weight 5.0% OCB is a mid-sized bank focusing on SMEs and retail clients. Unlike other banks with chairmen involved in real estate, OCB’s leadership is solely dedicated to banking, minimizing related party concerns. The bank’s P/B dropped in 2022 "
         },
         {
           "ticker": "ACV",
-          "weight_pct": "3.8",
-          "raw": "ACV – Airports of Vietnam Portfolio weight 3.8% ACV manages eight international and thirteen domestic airports in Vietnam. In the balance sheet, there is a huge valuation difference, because the investments made by the company are still at the acquisition pric"
+          "weight_pct": "4.3",
+          "raw": "ACV – Airports of Vietnam Portfolio weight 4.3% ACV manages eight international and thirteen domestic airports in Vietnam. In the balance sheet, there is a huge valuation difference, because the investments made by the company are still at the acquisition pric"
         },
         {
-          "ticker": "TCX",
+          "ticker": "SHS",
           "weight_pct": "3.6",
-          "raw": "TCX - Techcom Securities Portfolio weight 3.6% TCX is Vietnam’s largest broker by market cap and total equity, and the most profitable for 6 consecutive years. Backed by Techcombank, TCX pioneered the WealthTech model – digitally integrating investment service"
+          "raw": "SHS Portfolio weight 3.6% Founded in 2007, SHS ranks among Vietnam’s top 10 securities firms by shareholders’ equity. In recent years, the broker has built a strong reputation as one of the market’s top performers in proprietary trading. Its five-year average "
+        },
+        {
+          "ticker": "NSE",
+          "weight_pct": "",
+          "raw": "NSE is a commission-free online broker led by a tech-savvy management team. Thanks to advanced product offerings, it has seen significant growth since its inception. Currently, one out of every three new brokerage accounts opened in Vietnam is with DNSE. Their"
+        },
+        {
+          "ticker": "HDG",
+          "weight_pct": "3.9",
+          "raw": "HDG - Hado Group Portfolio weight 3.9% HDG is a prominent real estate developer in Hanoi and HCMC, and a notable renewable energy player in Vietnam. HDG owns and operates 462 MW capacity, including 314 MW hydropower, 50 MW wind, and 98 MWp solar. HDG managed t"
         }
       ],
       "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
@@ -134,8 +139,8 @@
       "manager": "VinaCapital",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
       "source_url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-10-12T11:54:43.730414+07:00",
-      "updated_at": "2026-10-12T11:54:43.730414+07:00",
+      "fetched_at": "2026-10-19T10:45:12.214532+07:00",
+      "updated_at": "2026-10-19T10:45:12.214532+07:00",
       "holdings": [
         {
           "ticker": "SVN",
