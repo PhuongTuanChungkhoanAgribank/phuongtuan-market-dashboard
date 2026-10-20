@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tiến sĩ Mỹ rải 2.300 hồ sơ vẫn thất nghiệp",
+      "summary_vi": "Jack Weis tự nhận mình là người thất nghiệp đang ăn bám cha mẹ, dù đã lấy bằng tiến sĩ Đại học Princeton và rải hàng loạt hồ sơ xin việc.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/tien-si-my-rai-2-300-ho-so-van-that-nghiep-5134729.html",
+      "published_at": "2026-10-20T19:00:00+00:00",
+      "published_date_vn": "2026-10-21",
+      "published_time_vn": "02:00",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
