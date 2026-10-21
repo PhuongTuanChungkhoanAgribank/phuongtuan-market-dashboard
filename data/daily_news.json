@@ -1,8 +1,40 @@
 {
-  "updated_at": "22/10/2026 01:59",
+  "updated_at": "22/10/2026 05:16",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-10-22",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Bí mật giúp máy bay nội địa Nga vượt trội hơn so với Boeing 737 MAX: Một centimet đã đủ mang lại ưu thế",
+      "summary_vi": "Sự cạnh tranh trong phân khúc máy bay thân hẹp thương mại lâu nay xoay quanh hiệu suất động cơ và chi phí vận hành, nhưng MS-21-310 của Nga đang chứng minh một hướng đi khác.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/bi-mat-giup-may-bay-noi-dia-nga-vuot-troi-hon-so-voi-boeing-737-max-mot-centimet-da-du-mang-lai-uu-the-188261021094205615.chn",
+      "published_at": "2026-10-21T22:03:00+00:00",
+      "published_date_vn": "2026-10-22",
+      "published_time_vn": "05:03",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chiến dịch 'không còn đường lùi' giúp Ukraine giải vây cho vành đai pháo đài",
+      "summary_vi": "Chiến dịch phản công Vivaldi giúp Ukraine bẻ gãy một gọng kìm của Nga nhằm vào vành đai pháo đài Donetsk, tạo cơ hội để củng cố phòng tuyến.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/chien-dich-khong-con-duong-lui-giup-ukraine-giai-vay-cho-vanh-dai-phao-dai-5134913.html",
+      "published_at": "2026-10-21T22:00:00+00:00",
+      "published_date_vn": "2026-10-22",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
     {
       "category": "TRONG NƯỚC",
       "tag": "",
