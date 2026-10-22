@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Thế khó của Ukraine khi đàm phán ba bên với Nga, Mỹ",
+      "summary_vi": "Ukraine chấp nhận đàm phán ba bên cùng Nga, Mỹ, nhưng đối mặt nguy cơ bị Washington gây sức ép để đồng ý thỏa thuận có lợi cho Moskva.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/the-kho-cua-ukraine-khi-dam-phan-ba-ben-voi-nga-my-5135429.html",
+      "published_at": "2026-10-22T22:00:00+00:00",
+      "published_date_vn": "2026-10-23",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -33,6 +49,22 @@
       "published_date_vn": "2026-10-23",
       "published_time_vn": "01:00",
       "importance": 3
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Bầu Hiển nói về bài toán tại sân bay 5.800 tỷ đồng: “Bay thì lỗ mà không bay thì khó”",
+      "summary_vi": "Sân bay Quảng Trị đang bước vào giai đoạn hoàn thiện để chuẩn bị khai thác thương mại, song bài toán thu hút các hãng hàng không mở đường bay mới vẫn là thách thức lớn.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/bau-hien-noi-ve-bai-toan-tai-san-bay-5800-ty-dong-bay-thi-lo-ma-khong-bay-thi-kho-188261022230837625.chn",
+      "published_at": "2026-10-22T17:08:00+00:00",
+      "published_date_vn": "2026-10-23",
+      "published_time_vn": "00:08",
+      "importance": 2
     },
     {
       "category": "DOANH NGHIỆP",
@@ -229,6 +261,22 @@
       "summary_vi": "Vị nữ doanh nhân này hiện có khối tài sản lên đến 4,1 tỷ USD.",
       "source": "CafeF",
       "source_url": "https://cafef.vn/mot-nguoi-phu-nu-viet-vua-co-them-hon-4000-ty-dong-188261022221823688.chn",
+      "published_at": "2026-10-22T17:01:00+00:00",
+      "published_date_vn": "2026-10-23",
+      "published_time_vn": "00:01",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Tập đoàn của bầu Hiển khảo sát khu liên hợp thể thao hơn 8.000 chỗ ngồi tại tỉnh duy nhất Việt Nam có 3 mặt giáp biển",
+      "summary_vi": "Khu liên hợp thể thao rộng gần 4,3 ha, có sân vận động sức chứa 8.000 người, đang được một tập đoàn lớn nghiên cứu phương án quản lý và khai thác.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/tap-doan-cua-bau-hien-khao-sat-khu-lien-hop-the-thao-hon-8000-cho-ngoi-tai-tinh-duy-nhat-viet-nam-co-3-mat-giap-bien-188261022230708093.chn",
       "published_at": "2026-10-22T17:01:00+00:00",
       "published_date_vn": "2026-10-23",
       "published_time_vn": "00:01",
