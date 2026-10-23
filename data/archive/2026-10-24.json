@@ -3,6 +3,38 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Hệ thống phòng không độc đáo của Phần Lan đánh chặn mọi tên lửa hành trình Nga?",
+      "summary_vi": "Ukraine đã nhận được phiên bản hệ thống phòng không Crotale của Phần Lan để đánh chặn máy bay không người lái và tên lửa Nga.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/he-thong-phong-khong-doc-dao-cua-phan-lan-danh-chan-moi-ten-lua-hanh-trinh-nga-188261023233331796.chn",
+      "published_at": "2026-10-23T22:01:00+00:00",
+      "published_date_vn": "2026-10-24",
+      "published_time_vn": "05:01",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Bạo loạn thúc đẩy đà trỗi dậy của phe cực hữu ở Pháp",
+      "summary_vi": "Bạo loạn và bất ổn xã hội đang giúp Marine Le Pen khuếch đại thông điệp về an ninh, nhập cư và trật tự, củng cố vị thế của phe cực hữu trong cuộc đua chính trị ở Pháp.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/bao-loan-thuc-day-da-troi-day-cua-phe-cuc-huu-o-phap-5135853.html",
+      "published_at": "2026-10-23T22:00:00+00:00",
+      "published_date_vn": "2026-10-24",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
