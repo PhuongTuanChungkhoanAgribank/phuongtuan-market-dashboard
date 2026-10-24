@@ -21,6 +21,11 @@ st.markdown("""
 <style>
 .stApp{background:linear-gradient(160deg,#fffdf9,#fff7eb 65%,#fffdf9);color:#392923}
 .block-container{max-width:1450px;padding-top:1.25rem}
+div[data-baseweb="select"]>div,div[data-baseweb="input"]{background:#fff!important;border:1px solid #ead4b6!important;border-radius:11px!important;color:#392923!important}
+div[data-baseweb="select"] span,div[data-baseweb="select"] div,div[data-baseweb="input"] input{color:#392923!important}
+div[data-baseweb="input"] input::placeholder{color:#9c857a!important}
+[data-testid="stWidgetLabel"] p{color:#80574d!important;font-weight:700}
+@media(max-width:700px){.block-container{padding-top:.6rem}.x-hero{padding:16px;margin-bottom:10px}.x-title{font-size:1.55rem}div[data-testid="stVerticalBlock"]{gap:.65rem}}
 .x-hero{padding:24px 28px;border:1px solid #f0d8b5;border-radius:18px;background:linear-gradient(110deg,#fff,#fff4dd 75%,#ffe4b1);margin-bottom:20px}
 .x-title{font-size:2rem;font-weight:900;color:#a21e2b;letter-spacing:.025em}
 .x-sub{color:#77564b;margin-top:4px}
