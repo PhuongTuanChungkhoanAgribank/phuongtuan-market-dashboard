@@ -3,6 +3,38 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Mặt bằng đã bàn giao nhưng 7 \"siêu cầu\" vượt sông Hồng vẫn chưa thể thi công đồng bộ: Điểm nghẽn nằm ở đâu?",
+      "summary_vi": "Những vướng mắc hiện nay không chỉ liên quan đến việc bàn giao đất mà còn tập trung ở hệ thống điện cao thế, cấp nước, viễn thông, cây xanh và các thủ tục thi công trong phạm vi bảo vệ đê điều. Đây đều là những công việc cần có sự phối hợp giữa chính quyền địa phương, đơn vị quản lý hạ tầng và chủ đầu tư.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/mat-bang-da-ban-giao-nhung-7-sieu-cau-vuot-song-hong-van-chua-the-thi-cong-dong-bo-diem-nghen-nam-o-dau-188261025011029963.chn",
+      "published_at": "2026-10-24T18:09:00+00:00",
+      "published_date_vn": "2026-10-25",
+      "published_time_vn": "01:09",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Nghịch lý của tỉnh tăng trưởng cao thứ hai cả nước, hội tụ cả \"ông lớn\" FDI lẫn \"họ nhà Vin\"",
+      "summary_vi": "Sự hiện diện của các tổ hợp công nghiệp quy mô lớn đã trở thành động lực tăng trưởng quan trọng, nhưng để sức bật từ những dự án này lan tỏa rộng hơn, tỉnh vẫn cần giải bài toán phát triển doanh nghiệp địa phương và kết nối chuỗi cung ứng.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/go-nghich-ly-cua-tinh-tang-truong-cao-thu-hai-ca-nuoc-hoi-tu-ca-ong-lon-fdi-lan-ho-nha-vin-188261025005907888.chn",
+      "published_at": "2026-10-24T17:58:00+00:00",
+      "published_date_vn": "2026-10-25",
+      "published_time_vn": "00:58",
+      "importance": 2
+    },
+    {
       "category": "DOANH NGHIỆP",
       "tag": "",
       "region": "",
