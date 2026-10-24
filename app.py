@@ -93,6 +93,8 @@ q=(search or "").casefold().strip()
 
 st.markdown('''<div class="history-card"><div class="history-title">🔎 TRA CỨU LỊCH SỬ</div><div class="history-help">Xem lại bản tin theo <b>ngày quá khứ</b>, mã cổ phiếu, doanh nghiệp hoặc từ khóa. Chọn ngày trước, sau đó nhập từ khóa để thu hẹp kết quả.</div><a class="history-link" href="/Tra_cuu_lich_su" target="_self">MỞ TRA CỨU LỊCH SỬ ↗</a></div>''', unsafe_allow_html=True)
 
+st.markdown('''<div class="history-card"><div class="history-title">🌐 X INSIGHTS · GÓC NHÌN TOÀN CẦU</div><div class="history-help">Theo dõi 9 tài khoản X về kinh tế Mỹ, Fed, năng lượng, thanh khoản và địa chính trị. Xem bài đăng trực tiếp từ nguồn gốc.</div><a class="history-link" href="/X_Insights" target="_self">MỞ X INSIGHTS ↗</a></div>''', unsafe_allow_html=True)
+
 if category=="QUỸ":
     st.markdown('<div class="section-title">DANH MỤC QUỸ · CẬP NHẬT HÀNG TUẦN</div>',unsafe_allow_html=True)
     st.caption(f"Snapshot gần nhất: {fund_payload.get('updated_at','—')} · Danh mục được cập nhật theo kỳ công bố của quỹ, không phải dữ liệu thời gian thực.")
