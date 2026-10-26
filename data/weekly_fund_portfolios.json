@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T10:45:12.215926+07:00",
+  "updated_at": "2026-10-26T10:46:09.120806+07:00",
   "update_frequency": "weekly",
   "funds": [
     {
@@ -8,8 +8,8 @@
       "manager": "Dragon Capital",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
       "source_url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-10-19T10:45:08.346676+07:00",
-      "updated_at": "2026-10-19T10:45:08.346676+07:00",
+      "fetched_at": "2026-10-26T10:46:02.425182+07:00",
+      "updated_at": "2026-10-26T10:46:02.425182+07:00",
       "holdings": [
         {
           "ticker": "CCQ",
@@ -24,7 +24,7 @@
         {
           "ticker": "UTM",
           "weight_pct": "",
-          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":132},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"70ee6bc3-e053-43c2-bb19-35fbfb44293a\\\",\\\"limit\\\":{\\\"ty"
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":132},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"8fc868e3-188d-44d3-beb0-f311deb157e1\\\",\\\"limit\\\":{\\\"ty"
         }
       ],
       "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
@@ -35,8 +35,8 @@
       "manager": "Dragon Capital",
       "url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
       "source_url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
-      "fetched_at": "2026-10-19T10:45:09.421047+07:00",
-      "updated_at": "2026-10-19T10:45:09.421047+07:00",
+      "fetched_at": "2026-10-26T10:46:03.534167+07:00",
+      "updated_at": "2026-10-26T10:46:03.534167+07:00",
       "holdings": [
         {
           "ticker": "UTF",
@@ -67,8 +67,8 @@
       "manager": "PYN Fund Management",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
       "source_url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-10-19T10:45:09.738210+07:00",
-      "updated_at": "2026-10-19T10:45:09.738210+07:00",
+      "fetched_at": "2026-10-26T10:46:04.038446+07:00",
+      "updated_at": "2026-10-26T10:46:04.038446+07:00",
       "holdings": [
         {
           "ticker": "HPG",
@@ -139,8 +139,8 @@
       "manager": "VinaCapital",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
       "source_url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-10-19T10:45:12.214532+07:00",
-      "updated_at": "2026-10-19T10:45:12.214532+07:00",
+      "fetched_at": "2026-10-26T10:46:09.119671+07:00",
+      "updated_at": "2026-10-26T10:46:09.119671+07:00",
       "holdings": [
         {
           "ticker": "SVN",
@@ -154,48 +154,48 @@
         },
         {
           "ticker": "VHM",
-          "weight_pct": "9.6",
-          "raw": "VHM Vinhomes With disciplined execution and land bank quality, well-placed to capitalise on urban housing shortage and growth in middle-income demand Real Estate NAV: 9.6% 2. MWG Mobile World Top retail and omni-channel platform leveraging scale and integrated"
+          "weight_pct": "10.0",
+          "raw": "VHM Vinhomes With disciplined execution and land bank quality, well-placed to capitalise on urban housing shortage and growth in middle-income demand Real Estate NAV: 10.0% 2. MWG Mobile World Top retail and omni-channel platform leveraging scale and integrate"
         },
         {
           "ticker": "MWG",
-          "weight_pct": "7.1",
-          "raw": "MWG Mobile World Top retail and omni-channel platform leveraging scale and integrated logistics to benefit from Vietnam’s transition to modern trade Consumer Discretionary NAV: 7.1% 3. MBB MB Bank Strong retail and corporate franchises with leading digital pla"
+          "weight_pct": "7.6",
+          "raw": "MWG Mobile World Top retail and omni-channel platform leveraging scale and integrated logistics to benefit from Vietnam’s transition to modern trade Consumer Discretionary NAV: 7.6% 3. MBB MB Bank Strong retail and corporate franchises with leading digital pla"
         },
         {
           "ticker": "MBB",
           "weight_pct": "6.3",
-          "raw": "MBB MB Bank Strong retail and corporate franchises with leading digital platform, provides leverage to expanding credit and financial services demand Financials NAV: 6.3% 4. KDH Khang Dien House Combines a premium urban land bank, disciplined balance sheet, an"
-        },
-        {
-          "ticker": "KDH",
-          "weight_pct": "5.6",
-          "raw": "KDH Khang Dien House Combines a premium urban land bank, disciplined balance sheet, and proven delivery capability, supporting resilient long-term returns Real Estate NAV: 5.6% 5. VIC Vingroup With strong track record of large mega projects execution, is posit"
+          "raw": "MBB MB Bank Strong retail and corporate franchises with leading digital platform, provides leverage to expanding credit and financial services demand Financials NAV: 6.3% 4. VIC Vingroup With strong track record of large mega projects execution, is positioned "
         },
         {
           "ticker": "VIC",
-          "weight_pct": "5.4",
-          "raw": "VIC Vingroup With strong track record of large mega projects execution, is positioned to capitalise on the Vietnamese government push for development of infrastructure and TOD. Real Estate NAV: 5.4% 6. HPG Hoa Phat Group Dominant market share in construction s"
+          "weight_pct": "5.6",
+          "raw": "VIC Vingroup With strong track record of large mega projects execution, is positioned to capitalise on the Vietnamese government push for development of infrastructure and TOD. Real Estate NAV: 5.6% 5. KDH Khang Dien House Combines a premium urban land bank, d"
         },
         {
           "ticker": "TOD",
-          "weight_pct": "5.4",
-          "raw": "TOD. Real Estate NAV: 5.4% 6. HPG Hoa Phat Group Dominant market share in construction steel and integrated model drive strong cash flow with upside from infrastructure spending and real estate recovery Materials NAV: 5.1% 7. GMD Gemadept Leading port and logi"
+          "weight_pct": "5.6",
+          "raw": "TOD. Real Estate NAV: 5.6% 5. KDH Khang Dien House Combines a premium urban land bank, disciplined balance sheet, and proven delivery capability, supporting resilient long-term returns Real Estate NAV: 5.1% 6. GMD Gemadept Leading port and logistics operator w"
         },
         {
-          "ticker": "HPG",
+          "ticker": "KDH",
           "weight_pct": "5.1",
-          "raw": "HPG Hoa Phat Group Dominant market share in construction steel and integrated model drive strong cash flow with upside from infrastructure spending and real estate recovery Materials NAV: 5.1% 7. GMD Gemadept Leading port and logistics operator with major infr"
+          "raw": "KDH Khang Dien House Combines a premium urban land bank, disciplined balance sheet, and proven delivery capability, supporting resilient long-term returns Real Estate NAV: 5.1% 6. GMD Gemadept Leading port and logistics operator with major infrastructure expan"
         },
         {
           "ticker": "GMD",
-          "weight_pct": "4.8",
-          "raw": "GMD Gemadept Leading port and logistics operator with major infrastructure expansions to significantly boost container throughput capacity and capture increasing trade flow with Vietnam Industrials NAV: 4.8% 8. KDC KIDO Group Leading manufacturer of confection"
+          "weight_pct": "5.0",
+          "raw": "GMD Gemadept Leading port and logistics operator with major infrastructure expansions to significantly boost container throughput capacity and capture increasing trade flow with Vietnam Industrials NAV: 5.0% 7. KDC KIDO Group Leading manufacturer of confection"
         },
         {
           "ticker": "KDC",
-          "weight_pct": "4.6",
-          "raw": "KDC KIDO Group Leading manufacturer of confectioneries and cooking oils Consumer Staples NAV: 4.6% 9. ACB Asia Commercial Bank Bank with strong asset quality and franchise strength is positioned to capture SME-led credit growth amid focus on private sector Fin"
+          "weight_pct": "5.0",
+          "raw": "KDC KIDO Group Leading manufacturer of confectioneries and cooking oils Consumer Staples NAV: 5.0% 8. HPG Hoa Phat Group Dominant market share in construction steel and integrated model drive strong cash flow with upside from infrastructure spending and real e"
+        },
+        {
+          "ticker": "HPG",
+          "weight_pct": "4.9",
+          "raw": "HPG Hoa Phat Group Dominant market share in construction steel and integrated model drive strong cash flow with upside from infrastructure spending and real estate recovery Materials NAV: 4.9% 9. ACB Asia Commercial Bank Bank with strong asset quality and fran"
         },
         {
           "ticker": "ACB",
@@ -205,7 +205,7 @@
         {
           "ticker": "SME",
           "weight_pct": "4.5",
-          "raw": "SME-led credit growth amid focus on private sector Financials NAV: 4.5% 10. Private Thu Cuc Hospital Leading private hospital in Hanoi, specialising in outpatient and corporate medical services Healthcare NAV: 4.2% sector allocation As of 31 August 2026 (funct"
+          "raw": "SME-led credit growth amid focus on private sector Financials NAV: 4.5% 10. Private Thu Cuc Hospital Leading private hospital in Hanoi, specialising in outpatient and corporate medical services Healthcare NAV: 4.4% sector allocation As of 30 September 2026 (fu"
         },
         {
           "ticker": "FAQ",
