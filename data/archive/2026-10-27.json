@@ -3,6 +3,40 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cuộc chiến đăng ký trường công cho con tại New York",
+      "summary_vi": "Quy trình tuyển sinh phức tạp, chứa nhiều yếu tố may rủi khiến các phụ huynh ở New York đối mặt nhiều áp lực khi đăng ký cho con vào trường công lập.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/cuoc-chien-dang-ky-truong-cong-cho-con-tai-new-york-5136456.html",
+      "published_at": "2026-10-26T19:00:00+00:00",
+      "published_date_vn": "2026-10-27",
+      "published_time_vn": "02:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "VPS",
+      "tickers": [
+        "VPS"
+      ],
+      "exchange": "",
+      "headline_vi": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+      "summary_vi": "Chỉ sau 3 tháng, số lượng nhân sự tại Chứng khoán VPS ghi nhận giảm mạnh",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+      "published_at": "2026-10-26T17:35:00+00:00",
+      "published_date_vn": "2026-10-27",
+      "published_time_vn": "00:35",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
