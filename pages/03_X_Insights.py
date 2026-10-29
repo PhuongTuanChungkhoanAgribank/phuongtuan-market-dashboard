@@ -1,6 +1,11 @@
 """X Insights - free source directory and copy/paste translation workflow."""
 import re
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from urllib.parse import quote, urlparse
+
+import feedparser
+import requests
 
 import streamlit as st
 
@@ -51,7 +56,129 @@ a{color:#ab2430}
 
 st.caption("Nguồn tham khảo đa chiều, gồm cả nhận định cá nhân. Nội dung không đại diện cho Agriseco và không phải khuyến nghị đầu tư.")
 
-tab_sources, tab_translate = st.tabs(["🌐 13 NGUỒN TIN X", "🌍 HỖ TRỢ DỊCH BÀI X"])
+# Experimental, unofficial community RSS mirrors: no login, API key or bypass.
+# Never manufacture posts; accept only genuine status URLs from expected handles.
+PILOT_HANDLES = {"KobeissiLetter", "JavierBlas", "charliebilello", "HFI_Research"}
+RSS_HOSTS = ("nitter.mie.foundation", "nitter.mizuki.st")
+
+def normalized_status_url(url, expected_handle):
+    try:
+        parsed = urlparse(url or "")
+        match = re.search(r"/([^/]+)/status/(\d+)", parsed.path, flags=re.I)
+        if not match or match.group(1).casefold() != expected_handle.casefold():
+            return ""
+        return f"https://x.com/{expected_handle}/status/{match.group(2)}"
+    except (ValueError, TypeError):
+        return ""
+
+def post_time(entry):
+    for key in ("published", "updated"):
+        value = entry.get(key)
+        if value:
+            try:
+                return parsedate_to_datetime(value).astimezone(timezone.utc).isoformat()
+            except (TypeError, ValueError, OverflowError):
+                pass
+    return ""
+
+@st.cache_data(ttl=1800, show_spinner=False)
+def fetch_pilot():
+    posts, checked, errors = [], [], []
+    for handle in PILOT_HANDLES:
+        found = False
+        for host in RSS_HOSTS:
+            feed_url = f"https://{host}/{handle}/rss"
+            try:
+                response = requests.get(feed_url, timeout=5, headers={"User-Agent": "XInsightsPublicRSS/1.0"}, allow_redirects=False)
+                if response.status_code != 200 or len(response.content) > 1_000_000:
+                    continue
+                feed = feedparser.parse(response.content)
+                if not feed.entries:
+                    continue
+                for entry in feed.entries[:12]:
+                    url = normalized_status_url(entry.get("link", ""), handle)
+                    if not url:
+                        continue
+                    # RSS descriptions may contain HTML: render as plain text only.
+                    text = re.sub(r"<[^>]+>", " ", entry.get("summary", "") or entry.get("title", ""))
+                    text = re.sub(r"\s+", " ", text).strip()
+                    if text:
+                        posts.append({"handle": handle, "text": text[:2000], "url": url, "published": post_time(entry)})
+                found = True
+                checked.append(handle)
+                break
+            except (requests.RequestException, ValueError):
+                continue
+        if not found:
+            errors.append(handle)
+    unique = {p["url"]: p for p in posts}
+    result = list(unique.values())
+    result.sort(key=lambda p: p["published"], reverse=True)
+    return result[:50], checked, errors
+
+if "x_manual_posts" not in st.session_state:
+    st.session_state["x_manual_posts"] = []
+
+def draw_post(post, is_manual=False):
+    handle = post["handle"]
+    name = next((a[0] for a in ACCOUNTS if a[1].casefold() == handle.casefold()), handle)
+    display_time = post.get("published", "")
+    if display_time:
+        try:
+            display_time = datetime.fromisoformat(display_time).astimezone().strftime("%d/%m/%Y %H:%M")
+        except ValueError:
+            pass
+    st.markdown(f"**{name}** · @{handle}")
+    if display_time:
+        st.caption(f"Thời gian từ nguồn: {display_time}" if not is_manual else f"Thời gian do người nhập: {display_time}")
+    st.write(post["text"])
+    st.link_button("Xem bài đăng X gốc ↗", post["url"])
+    st.caption("Bài nhập thủ công · chưa xác minh độc lập" if is_manual else "Bài từ RSS cộng đồng · chưa xác minh độc lập")
+
+
+tab_news, tab_sources, tab_translate = st.tabs(["📰 ĐIỂM TIN X", "🌐 13 NGUỒN X", "🌍 HỖ TRỢ DỊCH BÀI X"])
+
+with tab_news:
+    st.markdown("#### Bài đăng X | Thử nghiệm nguồn miễn phí")
+    st.caption("Đang thử trên 4 tài khoản: The Kobeissi Letter, Javier Blas, Charlie Bilello, HFI Research. RSS cộng đồng không chính thức có thể bị ngắt bất kỳ lúc nào.")
+    with st.spinner("Đang kiểm tra các nguồn công khai (có lưu bộ nhớ đệm 30 phút)…"):
+        pilot_posts, working, unavailable = fetch_pilot()
+    manual_posts = st.session_state["x_manual_posts"]
+    all_posts = [dict(p, manual=False) for p in pilot_posts] + [dict(p, manual=True) for p in manual_posts]
+    all_posts = list({p["url"]: p for p in all_posts}.values())
+    all_posts.sort(key=lambda p: p.get("published", ""), reverse=True)
+    if working:
+        st.success(f"Đã đọc được RSS công khai của {len(working)} tài khoản: " + ", ".join("@" + a for a in working))
+    else:
+        st.warning("Hiện chưa truy cập được bài đăng qua RSS cộng đồng. Trang không tạo dữ liệu giả. Bồ có thể thêm bài X thật bằng ô nhập bên dưới.")
+    if all_posts:
+        only = st.selectbox("Lọc nguồn bài đăng", ["Tất cả"] + sorted({p["handle"] for p in all_posts}), key="x_posts_filter")
+        shown = [p for p in all_posts if only == "Tất cả" or p["handle"] == only]
+        st.caption(f"Có {len(shown)} bài thật để xem · Nội dung nguyên bản (chưa dịch tự động)")
+        for offset in range(0, len(shown), 3):
+            cols = st.columns(3)
+            for col, post in zip(cols, shown[offset:offset+3]):
+                with col:
+                    with st.container(border=True):
+                        draw_post(post, is_manual=post.get("manual", False))
+    with st.expander("➕ Thêm bài X thật để xuất hiện dạng thẻ tin", expanded=not bool(all_posts)):
+        st.caption("Bài nhập chỉ lưu trong phiên truy cập hiện tại; tải lại hoặc mở trên thiết bị khác có thể mất. Không tự động ghi GitHub.")
+        with st.form("add_x_post", clear_on_submit=True):
+            selected = st.selectbox("Nguồn", [f"{a[0]} (@{a[1]})" for a in ACCOUNTS])
+            url_input = st.text_input("URL bài đăng X", placeholder="https://x.com/KobeissiLetter/status/123...")
+            text_input = st.text_area("Nội dung bài đăng (nguyên văn hoặc bản dịch do bồ cung cấp)", max_chars=5000, height=150)
+            submitted = st.form_submit_button("Thêm bài vào điểm tin")
+        if submitted:
+            handle = selected.split("(@")[-1].rstrip(")")
+            link = normalized_status_url(url_input.strip(), handle)
+            if not link:
+                st.error("Cần liên kết bài đăng đúng tài khoản và dạng x.com/tên_tài_khoản/status/ID.")
+            elif not text_input.strip():
+                st.error("Cần nội dung bài đăng thật để hiển thị.")
+            else:
+                st.session_state["x_manual_posts"].append({"handle": handle, "url": link, "text": text_input.strip(), "published": datetime.now(timezone.utc).isoformat()})
+                st.success("Đã thêm bài vào phiên hiện tại.")
+                st.rerun()
 
 with tab_sources:
     st.info("Mở bài gốc ngay trên X. X hiện hạn chế nhúng timeline vào website ngoài, nên bản này không hiển thị khung trắng hoặc giả định đã tải được bài đăng.")
@@ -129,4 +256,4 @@ with tab_translate:
         st.caption("Dán nội dung vào ô trên để bật nút dịch miễn phí và tạo mẫu bản tin.")
 
 st.divider()
-st.caption("X Insights 2.0 · 100% không phí API · Không tự lấy bài đăng, không lưu dữ liệu dán lên máy chủ ứng dụng và không thay đổi dữ liệu Daily Market.")
+st.caption("X Insights 3.0 thử nghiệm · Không phí API · RSS cộng đồng có thể gián đoạn · Bài nhập tay chỉ tồn tại trong phiên · Daily Market giữ nguyên.")
