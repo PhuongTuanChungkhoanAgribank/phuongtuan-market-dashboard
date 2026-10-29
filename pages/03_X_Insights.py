@@ -1,13 +1,14 @@
-"""X Insights: free official X profile timelines, separate from Daily Market."""
-import html
+"""X Insights - free source directory and copy/paste translation workflow."""
+import re
+from urllib.parse import quote, urlparse
+
 import streamlit as st
-import streamlit.components.v1 as components
 
 st.set_page_config(page_title="X Insights | Agriseco Miền Trung", page_icon="🌐", layout="wide")
 
 ACCOUNTS = [
-    ("Javier Blas", "JavierBlas", "Năng lượng & hàng hóa", "Bình luận năng lượng và thị trường hàng hóa"),
-    ("Lisa Abramowicz", "lisaabramowicz1", "Kinh tế Mỹ & Fed", "Lãi suất, kinh tế Mỹ và thị trường vốn"),
+    ("Javier Blas", "JavierBlas", "Năng lượng & hàng hóa", "Dầu mỏ, năng lượng, thị trường hàng hóa"),
+    ("Lisa Abramowicz", "lisaabramowicz1", "Kinh tế Mỹ & Fed", "Lãi suất, kinh tế Mỹ và trái phiếu"),
     ("Jim Bianco", "biancoresearch", "Kinh tế Mỹ & Fed", "Vĩ mô, trái phiếu và chính sách tiền tệ"),
     ("EndGame Macro", "onechancefreedm", "Vĩ mô & thanh khoản", "Rủi ro hệ thống và phân tích vĩ mô"),
     ("Drop Site", "DropSiteNews", "Địa chính trị", "Tin chính trị và xung đột quốc tế"),
@@ -19,61 +20,109 @@ ACCOUNTS = [
 
 st.markdown("""
 <style>
-.stApp{background:linear-gradient(160deg,#fffdf9,#fff7eb 65%,#fffdf9);color:#392923}
-.block-container{max-width:1450px;padding-top:1.25rem}
-div[data-baseweb="select"]>div,div[data-baseweb="input"]{background:#fff!important;border:1px solid #ead4b6!important;border-radius:11px!important;color:#392923!important}
-div[data-baseweb="select"] span,div[data-baseweb="select"] div,div[data-baseweb="input"] input{color:#392923!important}
-div[data-baseweb="input"] input::placeholder{color:#9c857a!important}
-[data-testid="stWidgetLabel"] p{color:#80574d!important;font-weight:700}
-@media(max-width:700px){.block-container{padding-top:.6rem}.x-hero{padding:16px;margin-bottom:10px}.x-title{font-size:1.55rem}div[data-testid="stVerticalBlock"]{gap:.65rem}}
-.x-hero{padding:24px 28px;border:1px solid #f0d8b5;border-radius:18px;background:linear-gradient(110deg,#fff,#fff4dd 75%,#ffe4b1);margin-bottom:20px}
-.x-title{font-size:2rem;font-weight:900;color:#a21e2b;letter-spacing:.025em}
+.stApp{background:linear-gradient(150deg,#fffdfa,#fff7eb 65%,#fffdf9);color:#392923}
+.block-container{max-width:1390px;padding-top:1.1rem;padding-bottom:2rem}
+.x-hero{padding:23px 27px;border:1px solid #efd4a9;border-radius:18px;background:linear-gradient(110deg,#fff,#fff2d9 75%,#ffe5b4);margin-bottom:12px}
+.x-title{font-size:1.85rem;font-weight:950;color:#a21e2b;letter-spacing:.025em}
 .x-sub{color:#77564b;margin-top:4px}
-.x-label{font-size:.82rem;font-weight:800;color:#aa2630}
-.x-card{padding:12px 16px;background:#fff;border:1px solid #efd9bb;border-radius:14px;margin-bottom:12px}
-.x-card a{color:#a21e2b;text-decoration:none;font-weight:800}
+.x-label{font-size:.78rem;font-weight:800;color:#aa2630}
+.x-card{padding:15px;background:#fff;border:1px solid #efd9bb;border-radius:14px;margin-bottom:10px;min-height:134px;box-shadow:0 5px 14px rgba(130,84,26,.045)}
+.x-card strong{color:#9f2330}
+.x-card .detail{font-size:.84rem;color:#785a50;line-height:1.5;margin:8px 0}
+.x-card a{color:#ae222c;text-decoration:none;font-weight:800}
+div[data-baseweb="select"]>div,div[data-baseweb="input"],div[data-baseweb="textarea"]{background:#fff!important;border:1px solid #ead4b6!important;border-radius:11px!important;color:#392923!important}
+div[data-baseweb="select"] span,div[data-baseweb="input"] input,div[data-baseweb="textarea"] textarea{color:#392923!important}
+div[data-baseweb="input"] input::placeholder,div[data-baseweb="textarea"] textarea::placeholder{color:#9c857a!important}
+[data-testid="stWidgetLabel"] p{color:#80574d!important;font-weight:700}
 [data-testid="stAlert"]{border-radius:12px}
+a{color:#ab2430}
+@media(max-width:700px){.block-container{padding-top:.6rem}.x-hero{padding:16px;margin-bottom:8px}.x-title{font-size:1.5rem}.x-card{min-height:0}div[data-testid="stVerticalBlock"]{gap:.7rem}}
 </style>
 <div class="x-hero">
-<div class="x-label">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK · CHI NHÁNH MIỀN TRUNG</div>
-<div class="x-title">🌐 X INSIGHTS</div>
-<div class="x-sub">Góc nhìn toàn cầu · Theo dõi các tài khoản X về kinh tế, tài chính và địa chính trị</div>
+  <div class="x-label">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK · CHI NHÁNH MIỀN TRUNG</div>
+  <div class="x-title">🌐 X INSIGHTS</div>
+  <div class="x-sub">Góc nhìn toàn cầu · Theo dõi 9 nguồn X · Không phí API</div>
 </div>
 """, unsafe_allow_html=True)
 
-st.info("Bản miễn phí: hiển thị bài đăng công khai qua tiện ích chính thức của X. Nội dung do X cung cấp, không tự động dịch, lưu lịch sử hay xác minh. X có thể yêu cầu đăng nhập hoặc chặn hiển thị nhúng.")
-st.caption("Các tài khoản được lựa chọn để tham khảo đa chiều. Quan điểm cá nhân không đại diện cho Agriseco và không cấu thành khuyến nghị đầu tư.")
+st.caption("Nguồn tham khảo đa chiều, gồm cả nhận định cá nhân. Nội dung không đại diện cho Agriseco và không phải khuyến nghị đầu tư.")
 
-topics = ["Tất cả"] + list(dict.fromkeys(item[2] for item in ACCOUNTS))
-topic = st.selectbox("Lọc theo chủ đề", topics)
-keyword = st.text_input("Tìm tài khoản", placeholder="Tên tác giả hoặc @username")
-filtered = [a for a in ACCOUNTS if (topic == "Tất cả" or a[2] == topic) and (not keyword or keyword.casefold() in (a[0] + " " + a[1]).casefold())]
-st.caption(f"Đang hiển thị {len(filtered)}/{len(ACCOUNTS)} tài khoản · Chọn tài khoản để xem timeline")
+tab_sources, tab_translate = st.tabs(["🌐 9 NGUỒN TIN X", "🌍 HỖ TRỢ DỊCH BÀI X"])
 
-if not filtered:
-    st.warning("Không có tài khoản phù hợp.")
-else:
-    labels = [f"{a[0]} · @{a[1]}" for a in filtered]
-    chosen = st.selectbox("Tài khoản X", labels)
-    name, handle, category, description = filtered[labels.index(chosen)]
-    profile = f"https://x.com/{handle}"
-    st.markdown(
-        f'<div class="x-card"><strong>{html.escape(name)}</strong> · '
-        f'<span>{html.escape(category)}</span><p>{html.escape(description)}</p>'
-        f'<a href="{profile}" target="_blank" rel="noopener noreferrer">Mở trang X gốc ↗</a></div>',
-        unsafe_allow_html=True,
-    )
-    st.caption("Timeline bên dưới phụ thuộc vào quyền hiển thị của X. Nếu trống, hãy dùng liên kết mở trang X gốc ở trên.")
-    widget = f"""<!doctype html><html lang="vi"><head><meta charset="utf-8"></head>
-    <body style="margin:0;background:#fff;">
-    <a class="twitter-timeline" data-height="740" data-theme="light" data-chrome="noheader nofooter"
-       href="{profile}">Bài đăng từ @{handle}</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </body></html>"""
-    components.html(widget, height=760, scrolling=True)
+with tab_sources:
+    st.info("Mở bài gốc ngay trên X. X hiện hạn chế nhúng timeline vào website ngoài, nên bản này không hiển thị khung trắng hoặc giả định đã tải được bài đăng.")
+    topic_options = ["Tất cả"] + list(dict.fromkeys(account[2] for account in ACCOUNTS))
+    col_topic, col_search = st.columns([1, 2])
+    with col_topic:
+        topic = st.selectbox("Chủ đề", topic_options)
+    with col_search:
+        keyword = st.text_input("Tìm tài khoản", placeholder="Tên tác giả, @username, chủ đề…")
+    filtered = [
+        account for account in ACCOUNTS
+        if (topic == "Tất cả" or account[2] == topic)
+        and (not keyword or keyword.casefold() in " ".join(account).casefold())
+    ]
+    st.caption(f"{len(filtered)}/{len(ACCOUNTS)} nguồn tin · Bấm 'Mở X' để xem bài mới nhất")
+    if not filtered:
+        st.warning("Không tìm thấy tài khoản phù hợp.")
+    for i in range(0, len(filtered), 3):
+        cols = st.columns(3)
+        for col, (name, handle, category, desc) in zip(cols, filtered[i:i+3]):
+            profile_url = f"https://x.com/{handle}"
+            with col:
+                st.markdown(
+                    '<div class="x-card">'
+                    f'<strong>{name}</strong><div class="detail">@{handle} · {category}<br>{desc}</div>'
+                    f'<a href="{profile_url}" target="_blank" rel="noopener noreferrer">Mở X · Xem bài mới nhất ↗</a>'
+                    '</div>',
+                    unsafe_allow_html=True,
+                )
+    st.caption("Các liên kết đưa đến chính chủ tài khoản X. Không dùng scraper, API trả phí hay dịch vụ trung gian.")
 
-with st.expander("Danh sách đầy đủ 9 nguồn X"):
-    for name, handle, category, description in ACCOUNTS:
-        st.markdown(f"**[{name}](https://x.com/{handle})** · @{handle} · {category} — {description}")
+with tab_translate:
+    st.markdown("#### Chuyển bài đăng X sang tiếng Việt miễn phí")
+    st.write("**Cách dùng:** Mở X → sao chép nội dung bài đăng → dán vào đây → bấm nút dịch. Google Dịch mở ở tab mới; không cần API hay thanh toán.")
+    source = st.selectbox("Tác giả / nguồn", ["Chưa xác định"] + [f"{name} (@{handle})" for name, handle, _, _ in ACCOUNTS])
+    post_url = st.text_input("Liên kết bài đăng (không bắt buộc)", placeholder="https://x.com/tacgia/status/...")
+    original = st.text_area("Dán nội dung bài đăng gốc", placeholder="Paste tweet / post text here...", height=190, max_chars=12000)
+    source_url = post_url.strip()
+    is_valid_url = False
+    if source_url:
+        try:
+            parsed = urlparse(source_url)
+            is_valid_url = parsed.scheme == "https" and (parsed.hostname or "").lower() in {"x.com", "www.x.com", "twitter.com", "www.twitter.com", "mobile.twitter.com"}
+        except ValueError:
+            pass
+        if not is_valid_url:
+            st.warning("Liên kết chưa đúng định dạng x.com hoặc twitter.com. Vui lòng kiểm tra lại.")
+    cleaned = original.strip()
+    if cleaned:
+        if len(cleaned) > 4000:
+            st.warning("Văn bản dài trên 4.000 ký tự: nút Google Dịch chỉ chuyển 4.000 ký tự đầu để tránh URL quá dài. Có thể chia thành nhiều đoạn.")
+        translate_url = "https://translate.google.com/?sl=auto&tl=vi&op=translate&text=" + quote(cleaned[:4000], safe="")
+        st.link_button("🌍 DỊCH SANG TIẾNG VIỆT MIỄN PHÍ ↗", translate_url, use_container_width=True)
+        st.caption("Google Dịch là trang web bên ngoài; nội dung đã dán sẽ được đưa vào liên kết để dịch. Không gửi văn bản nếu chứa thông tin riêng tư.")
+        template = (
+            "X INSIGHTS | BẢN TIN THAM KHẢO\n"
+            f"Nguồn: {source}\n"
+            f"Link gốc: {source_url if is_valid_url else 'Chưa có'}\n"
+            "Chủ đề: [Chọn chủ đề]\n"
+            "Thời gian bài đăng: [Điền theo X]\n\n"
+            "NỘI DUNG TIẾNG VIỆT:\n[Dán bản dịch tại đây]\n\n"
+            "THÔNG TIN / SỐ LIỆU CẦN KIỂM CHỨNG:\n[Điền nếu có]\n\n"
+            "TÁC ĐỘNG CÓ THỂ CẦN THEO DÕI:\n[Đánh giá riêng, không tự động suy diễn]\n\n"
+            "BẢN GỐC:\n" + cleaned
+        )
+        with st.expander("📋 Mẫu bản tin để sao chép, biên tập", expanded=False):
+            st.code(template, language=None)
+            st.download_button(
+                "⬇️ Tải mẫu bản tin .txt",
+                data=template.encode("utf-8"),
+                file_name="x_insights_ban_tin.txt",
+                mime="text/plain",
+            )
+    else:
+        st.caption("Dán nội dung vào ô trên để bật nút dịch miễn phí và tạo mẫu bản tin.")
 
-st.caption("X Insights · Giai đoạn 1: nhúng miễn phí, không dùng API, không lưu hoặc sao chép bài đăng. Daily Market hiện tại giữ nguyên.")
+st.divider()
+st.caption("X Insights 2.0 · 100% không phí API · Không tự lấy bài đăng, không lưu dữ liệu dán lên máy chủ ứng dụng và không thay đổi dữ liệu Daily Market.")
