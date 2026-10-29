@@ -2,6 +2,7 @@
 import re
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from zoneinfo import ZoneInfo
 from urllib.parse import quote, urlparse
 
 import feedparser
@@ -58,7 +59,7 @@ st.caption("Nguồn tham khảo đa chiều, gồm cả nhận định cá nhân
 
 # Experimental, unofficial community RSS mirrors: no login, API key or bypass.
 # Never manufacture posts; accept only genuine status URLs from expected handles.
-PILOT_HANDLES = {"KobeissiLetter", "JavierBlas", "charliebilello", "HFI_Research"}
+PILOT_HANDLES = ("KobeissiLetter", "JavierBlas", "charliebilello", "HFI_Research")
 RSS_HOSTS = ("nitter.mie.foundation", "nitter.mizuki.st")
 
 def normalized_status_url(url, expected_handle):
@@ -95,6 +96,7 @@ def fetch_pilot():
                 feed = feedparser.parse(response.content)
                 if not feed.entries:
                     continue
+                before = len(posts)
                 for entry in feed.entries[:12]:
                     url = normalized_status_url(entry.get("link", ""), handle)
                     if not url:
@@ -104,9 +106,10 @@ def fetch_pilot():
                     text = re.sub(r"\s+", " ", text).strip()
                     if text:
                         posts.append({"handle": handle, "text": text[:2000], "url": url, "published": post_time(entry)})
-                found = True
-                checked.append(handle)
-                break
+                if len(posts) > before:
+                    found = True
+                    checked.append(handle)
+                    break
             except (requests.RequestException, ValueError):
                 continue
         if not found:
@@ -125,12 +128,12 @@ def draw_post(post, is_manual=False):
     display_time = post.get("published", "")
     if display_time:
         try:
-            display_time = datetime.fromisoformat(display_time).astimezone().strftime("%d/%m/%Y %H:%M")
+            display_time = datetime.fromisoformat(display_time).astimezone(ZoneInfo("Asia/Ho_Chi_Minh")).strftime("%d/%m/%Y %H:%M")
         except ValueError:
             pass
     st.markdown(f"**{name}** · @{handle}")
     if display_time:
-        st.caption(f"Thời gian từ nguồn: {display_time}" if not is_manual else f"Thời gian do người nhập: {display_time}")
+        st.caption(f"Thời gian từ nguồn: {display_time}" if not is_manual else f"Thời gian thêm vào hệ thống: {display_time}")
     st.write(post["text"])
     st.link_button("Xem bài đăng X gốc ↗", post["url"])
     st.caption("Bài nhập thủ công · chưa xác minh độc lập" if is_manual else "Bài từ RSS cộng đồng · chưa xác minh độc lập")
