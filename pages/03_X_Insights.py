@@ -1,5 +1,7 @@
 """X Insights - free source directory and copy/paste translation workflow."""
 import re
+import html
+from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from zoneinfo import ZoneInfo
@@ -40,6 +42,7 @@ st.markdown("""
 .x-card strong{color:#9f2330}
 .x-card .detail{font-size:.84rem;color:#785a50;line-height:1.5;margin:8px 0}
 .x-card a{color:#ae222c;text-decoration:none;font-weight:800}
+.post-preview{min-height:156px}.post-source{font-size:.85rem;color:#a21e2b;font-weight:850}.post-time{font-size:.72rem;color:#8b796e;margin:5px 0 10px}.post-title{font-size:1.04rem;line-height:1.42;font-weight:850;color:#392923;margin-bottom:7px}.post-excerpt{font-size:.88rem;line-height:1.55;color:#60534d;overflow-wrap:anywhere}.post-label{display:inline-block;background:#fff0d9;color:#8c4a24;border-radius:999px;padding:3px 9px;font-size:.7rem;font-weight:750;margin-bottom:7px}
 div[data-baseweb="select"]>div,div[data-baseweb="input"],div[data-baseweb="textarea"]{background:#fff!important;border:1px solid #ead4b6!important;border-radius:11px!important;color:#392923!important}
 div[data-baseweb="select"] span,div[data-baseweb="input"] input,div[data-baseweb="textarea"] textarea{color:#392923!important}
 div[data-baseweb="input"] input::placeholder,div[data-baseweb="textarea"] textarea::placeholder{color:#9c857a!important}
@@ -72,6 +75,19 @@ def normalized_status_url(url, expected_handle):
     except (ValueError, TypeError):
         return ""
 
+def clean_feed_text(raw):
+    soup = BeautifulSoup(str(raw or ""), "html.parser")
+    for tag in soup(["script", "style"]):
+        tag.decompose()
+    plain = html.unescape(soup.get_text(" ", strip=True))
+    plain = re.sub(r"https?://\\S+", " ", plain)
+    return re.sub(r"\\s+", " ", plain).strip(" -—·")
+
+def excerpt(text, max_chars=315):
+    if len(text) <= max_chars:
+        return text
+    return (text[:max_chars].rsplit(" ", 1)[0] or text[:max_chars]) + "…"
+
 def post_time(entry):
     for key in ("published", "updated"):
         value = entry.get(key)
@@ -101,11 +117,13 @@ def fetch_pilot():
                     url = normalized_status_url(entry.get("link", ""), handle)
                     if not url:
                         continue
-                    # RSS descriptions may contain HTML: render as plain text only.
-                    text = re.sub(r"<[^>]+>", " ", entry.get("summary", "") or entry.get("title", ""))
-                    text = re.sub(r"\s+", " ", text).strip()
-                    if text:
-                        posts.append({"handle": handle, "text": text[:2000], "url": url, "published": post_time(entry)})
+                    title = clean_feed_text(entry.get("title", ""))
+                    content = clean_feed_text(entry.get("summary", "") or title)
+                    if title and content.startswith(title) and len(content) > len(title) + 20:
+                        content = content[len(title):].strip(" -—·") or title
+                    if content or title:
+                        posts.append({"handle": handle, "title": excerpt(title or content, 115),
+                                      "text": (content or title)[:4000], "url": url, "published": post_time(entry)})
                 if len(posts) > before:
                     found = True
                     checked.append(handle)
@@ -125,18 +143,34 @@ if "x_manual_posts" not in st.session_state:
 def draw_post(post, is_manual=False):
     handle = post["handle"]
     name = next((a[0] for a in ACCOUNTS if a[1].casefold() == handle.casefold()), handle)
-    display_time = post.get("published", "")
-    if display_time:
+    category = next((a[2] for a in ACCOUNTS if a[1].casefold() == handle.casefold()), "Tin thị trường")
+    published = post.get("published", "")
+    time_label = ""
+    if published:
         try:
-            display_time = datetime.fromisoformat(display_time).astimezone(ZoneInfo("Asia/Ho_Chi_Minh")).strftime("%d/%m/%Y %H:%M")
+            time_label = datetime.fromisoformat(published).astimezone(
+                ZoneInfo("Asia/Ho_Chi_Minh")).strftime("%d/%m %H:%M")
         except ValueError:
             pass
-    st.markdown(f"**{name}** · @{handle}")
-    if display_time:
-        st.caption(f"Thời gian từ nguồn: {display_time}" if not is_manual else f"Thời gian thêm vào hệ thống: {display_time}")
-    st.write(post["text"])
-    st.link_button("Xem bài đăng X gốc ↗", post["url"])
-    st.caption("Bài nhập thủ công · chưa xác minh độc lập" if is_manual else "Bài từ RSS cộng đồng · chưa xác minh độc lập")
+    content = post["text"]
+    title = post.get("title") or excerpt(content, 110)
+    snippet = content[len(title):].strip(" -—·") if content.startswith(title) else content
+    st.markdown(
+        '<div class="post-preview">'
+        f'<div class="post-source">{html.escape(name)} · @{html.escape(handle)}</div>'
+        f'<div class="post-time">{html.escape(time_label)} · '
+        f'{"Nhập thủ công" if is_manual else "RSS công khai"}</div>'
+        f'<span class="post-label">{html.escape(category)}</span>'
+        f'<div class="post-title">{html.escape(title)}</div>'
+        f'<div class="post-excerpt">{html.escape(excerpt(snippet or content, 275))}</div>'
+        '</div>', unsafe_allow_html=True,
+    )
+    st.link_button("↗ Bài gốc trên X", post["url"], use_container_width=True)
+    translate_url = "https://translate.google.com/?sl=auto&tl=vi&op=translate&text=" + quote(content[:2000], safe="")
+    st.link_button("🌍 Đọc tiếng Việt", translate_url, use_container_width=True)
+    with st.expander("Đọc toàn bộ nguyên bản"):
+        st.write(content)
+    st.caption("Chưa xác minh độc lập · Không phải khuyến nghị đầu tư")
 
 
 tab_news, tab_sources, tab_translate = st.tabs(["📰 ĐIỂM TIN X", "🌐 13 NGUỒN X", "🌍 HỖ TRỢ DỊCH BÀI X"])
@@ -151,16 +185,18 @@ with tab_news:
     all_posts = list({p["url"]: p for p in all_posts}.values())
     all_posts.sort(key=lambda p: p.get("published", ""), reverse=True)
     if working:
-        st.success(f"Đã đọc được RSS công khai của {len(working)} tài khoản: " + ", ".join("@" + a for a in working))
+        st.caption(f"● RSS có dữ liệu: {len(working)}/4 nguồn thử nghiệm · " + ", ".join("@" + a for a in working))
     else:
         st.warning("Hiện chưa truy cập được bài đăng qua RSS cộng đồng. Trang không tạo dữ liệu giả. Bồ có thể thêm bài X thật bằng ô nhập bên dưới.")
     if all_posts:
         only = st.selectbox("Lọc nguồn bài đăng", ["Tất cả"] + sorted({p["handle"] for p in all_posts}), key="x_posts_filter")
         shown = [p for p in all_posts if only == "Tất cả" or p["handle"] == only]
-        st.caption(f"Có {len(shown)} bài thật để xem · Nội dung nguyên bản (chưa dịch tự động)")
-        for offset in range(0, len(shown), 3):
-            cols = st.columns(3)
-            for col, post in zip(cols, shown[offset:offset+3]):
+        st.caption(f"{len(shown)} bài thật · Hiển thị bản xem trước, có nút dịch miễn phí")
+        limit = st.selectbox("Số bài hiển thị", [12, 24, 40], index=0)
+        shown = shown[:limit]
+        for offset in range(0, len(shown), 2):
+            cols = st.columns(2)
+            for col, post in zip(cols, shown[offset:offset+2]):
                 with col:
                     with st.container(border=True):
                         draw_post(post, is_manual=post.get("manual", False))
