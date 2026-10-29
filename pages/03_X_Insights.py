@@ -16,6 +16,10 @@ ACCOUNTS = [
     ("The Kobeissi Letter", "KobeissiLetter", "Thị trường tài chính", "Dữ liệu kinh tế và thị trường toàn cầu"),
     ("Bull Theory", "BullTheoryio", "Thị trường tài chính", "Tin tức và nghiên cứu thị trường"),
     ("Macro Liquidity by Sunil Reddy", "Macrobysunil", "Vĩ mô & thanh khoản", "Thanh khoản, chu kỳ nợ, vàng và bạc"),
+    ("HFI Research", "HFI_Research", "Năng lượng & hàng hóa", "Phân tích thị trường dầu khí và năng lượng"),
+    ("FinGenAI", "ackmeni", "Thị trường tài chính", "Góc nhìn tài chính và thị trường"),
+    ("Charlie Bilello", "charliebilello", "Kinh tế Mỹ & Fed", "Biểu đồ và dữ liệu kinh tế, thị trường tài chính"),
+    ("Investment Wisdom", "InvestingCanons", "Thị trường tài chính", "Bài học và góc nhìn về đầu tư"),
 ]
 
 st.markdown("""
@@ -41,13 +45,13 @@ a{color:#ab2430}
 <div class="x-hero">
   <div class="x-label">PHƯƠNG TUẤN · CHỨNG KHOÁN AGRIBANK · CHI NHÁNH MIỀN TRUNG</div>
   <div class="x-title">🌐 X INSIGHTS</div>
-  <div class="x-sub">Góc nhìn toàn cầu · Theo dõi 9 nguồn X · Không phí API</div>
+  <div class="x-sub">Góc nhìn toàn cầu · Theo dõi 13 nguồn X · Không phí API</div>
 </div>
 """, unsafe_allow_html=True)
 
 st.caption("Nguồn tham khảo đa chiều, gồm cả nhận định cá nhân. Nội dung không đại diện cho Agriseco và không phải khuyến nghị đầu tư.")
 
-tab_sources, tab_translate = st.tabs(["🌐 9 NGUỒN TIN X", "🌍 HỖ TRỢ DỊCH BÀI X"])
+tab_sources, tab_translate = st.tabs(["🌐 13 NGUỒN TIN X", "🌍 HỖ TRỢ DỊCH BÀI X"])
 
 with tab_sources:
     st.info("Mở bài gốc ngay trên X. X hiện hạn chế nhúng timeline vào website ngoài, nên bản này không hiển thị khung trắng hoặc giả định đã tải được bài đăng.")
