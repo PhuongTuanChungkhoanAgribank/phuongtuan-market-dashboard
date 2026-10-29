@@ -80,8 +80,8 @@ def clean_feed_text(raw):
     for tag in soup(["script", "style"]):
         tag.decompose()
     plain = html.unescape(soup.get_text(" ", strip=True))
-    plain = re.sub(r"https?://\\S+", " ", plain)
-    return re.sub(r"\\s+", " ", plain).strip(" -—·")
+    plain = re.sub(r"https?://\S+", " ", plain)
+    return re.sub(r"\s+", " ", plain).strip(" -—·")
 
 def excerpt(text, max_chars=315):
     if len(text) <= max_chars:
