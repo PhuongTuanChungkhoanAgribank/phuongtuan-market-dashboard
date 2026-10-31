@@ -3,6 +3,22 @@
   "timezone": "Asia/Ho_Chi_Minh",
   "cards": [
     {
+      "category": "THẾ GIỚI",
+      "tag": "Mỹ",
+      "region": "Mỹ",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cơn mưa tiền Elon Musk rót vào bầu cử giữa kỳ Mỹ",
+      "summary_vi": "Elon Musk đã rót gần nửa tỷ USD vào cuộc bầu cử giữa kỳ, biến ông trở thành nhà tài trợ lớn nhất trong lịch sử chính trị Mỹ hiện đại.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/con-mua-tien-elon-musk-rot-vao-bau-cu-giua-ky-my-5139020.html",
+      "published_at": "2026-10-31T22:00:00+00:00",
+      "published_date_vn": "2026-11-01",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
+    {
       "category": "TRONG NƯỚC",
       "tag": "",
       "region": "",
@@ -13,9 +29,9 @@
       "summary_vi": "Ty gia : Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\" CafeF",
       "source": "CafeF",
       "source_url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8zODVkMXRJUWhqSTZLb3ZmNVJHc3lCOEZKRVpHazBxeVhwR3hhU0FLVFRJVVhQd1dEUDlfb3lkRTlZZw?oc=5",
-      "published_at": "2026-10-31T18:32:07+00:00",
+      "published_at": "2026-10-31T21:30:35+00:00",
       "published_date_vn": "2026-11-01",
-      "published_time_vn": "01:32",
+      "published_time_vn": "04:30",
       "importance": 2
     },
     {
