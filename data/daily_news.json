@@ -1,8 +1,40 @@
 {
-  "updated_at": "02/11/2026 02:32",
+  "updated_at": "02/11/2026 06:00",
   "timezone": "Asia/Ho_Chi_Minh",
   "date": "2026-11-02",
   "cards": [
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "'Kiến trúc sư trưởng' xây dựng chiến lược bầu cử giữa kỳ của ông Trump",
+      "summary_vi": "James Blair giúp đảng Cộng hòa xây dựng chiến lược trong bầu cử giữa kỳ, trở thành người có ảnh hưởng lớn nhưng cũng có thể phải chịu trách nhiệm nếu thất bại.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/kien-truc-su-truong-xay-dung-chien-luoc-bau-cu-giua-ky-cua-ong-trump-5139019.html",
+      "published_at": "2026-11-01T22:00:00+00:00",
+      "published_date_vn": "2026-11-02",
+      "published_time_vn": "05:00",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Giá vàng giảm mạnh, người mua ở giá 191 triệu/lượng đang lỗ bao nhiêu tiền so với gửi tiết kiệm?",
+      "summary_vi": "Giá vàng trong nước đã giảm rất sâu so với mức đỉnh từng thiết lập đầu năm 2026.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/gia-vang-giam-manh-nguoi-mua-o-gia-191-trieu-luong-dang-lo-bao-nhieu-tien-so-voi-gui-tiet-kiem-188261101231641812.chn",
+      "published_at": "2026-11-01T20:16:00+00:00",
+      "published_date_vn": "2026-11-02",
+      "published_time_vn": "03:16",
+      "importance": 2
+    },
     {
       "category": "THẾ GIỚI",
       "tag": "Mỹ",
