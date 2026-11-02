@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T10:46:09.120806+07:00",
+  "updated_at": "2026-11-02T11:57:12.765431+07:00",
   "update_frequency": "weekly",
   "funds": [
     {
@@ -8,8 +8,8 @@
       "manager": "Dragon Capital",
       "url": "https://dautu.dragoncapital.com.vn/dcds",
       "source_url": "https://dautu.dragoncapital.com.vn/dcds",
-      "fetched_at": "2026-10-26T10:46:02.425182+07:00",
-      "updated_at": "2026-10-26T10:46:02.425182+07:00",
+      "fetched_at": "2026-11-02T11:57:05.731566+07:00",
+      "updated_at": "2026-11-02T11:57:05.731566+07:00",
       "holdings": [
         {
           "ticker": "CCQ",
@@ -24,7 +24,7 @@
         {
           "ticker": "UTM",
           "weight_pct": "",
-          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":132},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"8fc868e3-188d-44d3-beb0-f311deb157e1\\\",\\\"limit\\\":{\\\"ty"
+          "raw": "UTM tags:\",r)}})(window.location.search); typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}}); [{\"0\":1,\"1\":132},[\"Map\",2,3,33,34,46,47],\"{\\\"from\\\":\\\"2bfb7007-55c5-411d-9792-b2341134d07e\\\",\\\"limit\\\":{\\\"ty"
         }
       ],
       "note": "Danh mục/tỷ trọng lấy theo trang công bố của quỹ; cập nhật theo tuần, ngày dữ liệu phụ thuộc kỳ công bố của từng quỹ."
@@ -35,8 +35,8 @@
       "manager": "Dragon Capital",
       "url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
       "source_url": "https://www.dragoncapital.com.vn/individual/vi/product/a0eJ2000001X9qOIAS/dcde",
-      "fetched_at": "2026-10-26T10:46:03.534167+07:00",
-      "updated_at": "2026-10-26T10:46:03.534167+07:00",
+      "fetched_at": "2026-11-02T11:57:06.505147+07:00",
+      "updated_at": "2026-11-02T11:57:06.505147+07:00",
       "holdings": [
         {
           "ticker": "UTF",
@@ -67,8 +67,8 @@
       "manager": "PYN Fund Management",
       "url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
       "source_url": "https://www.pyn.fi/en/pyn-elite-fund/portfolio/",
-      "fetched_at": "2026-10-26T10:46:04.038446+07:00",
-      "updated_at": "2026-10-26T10:46:04.038446+07:00",
+      "fetched_at": "2026-11-02T11:57:07.043903+07:00",
+      "updated_at": "2026-11-02T11:57:07.043903+07:00",
       "holdings": [
         {
           "ticker": "HPG",
@@ -139,8 +139,8 @@
       "manager": "VinaCapital",
       "url": "https://vof.vinacapital.com/portfolio/holdings/",
       "source_url": "https://vof.vinacapital.com/portfolio/holdings/",
-      "fetched_at": "2026-10-26T10:46:09.119671+07:00",
-      "updated_at": "2026-10-26T10:46:09.119671+07:00",
+      "fetched_at": "2026-11-02T11:57:12.764383+07:00",
+      "updated_at": "2026-11-02T11:57:12.764383+07:00",
       "holdings": [
         {
           "ticker": "SVN",
