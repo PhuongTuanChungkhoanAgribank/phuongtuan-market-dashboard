@@ -4,6 +4,22 @@
   "cards": [
     {
       "category": "THẾ GIỚI",
+      "tag": "Trung Đông",
+      "region": "Trung Đông",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Iran tuyên bố miễn hạn chế qua eo biển Hormuz đối với 4 quốc gia",
+      "summary_vi": "Tại sao Iran cho phép tàu của 4 quốc gia này tự do đi qua eo biển Hormuz?",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/iran-tuyen-bo-mien-han-che-qua-eo-bien-hormuz-doi-voi-4-quoc-gia-188261107205846526.chn",
+      "published_at": "2026-11-07T23:10:00+00:00",
+      "published_date_vn": "2026-11-08",
+      "published_time_vn": "06:10",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
       "tag": "Đông Âu",
       "region": "Đông Âu",
       "ticker": "",
