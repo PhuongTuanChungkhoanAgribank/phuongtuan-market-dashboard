@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "cards": [
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Người lao động chỉ đóng BHXH đúng 15 năm, tỷ lệ hưởng lương hưu hàng tháng có bị giảm không? Cơ quan BHXH trả lời",
+      "summary_vi": "Cơ quan BHXH đã giải đáp thắc mắc của nhiều người lao động liên quan đến tỷ lệ hưởng lương hưu.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/nguoi-lao-dong-chi-dong-bhxh-dung-15-nam-ty-le-huong-luong-huu-hang-thang-co-bi-giam-khong-co-quan-bhxh-tra-loi-18826111422522486.chn",
+      "published_at": "2026-11-14T20:29:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "03:29",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Phong tỏa tài khoản ngân hàng, chặn giao dịch khi chuyển tiền/ nhận tiền đối với trường hợp sau",
+      "summary_vi": "Chỉ cần nhận một khoản tiền bán tài sản mã hóa có nguồn gốc từ lừa đảo, tài khoản ngân hàng của người bán có thể bị phong tỏa toàn bộ để phục vụ điều tra, kể cả khi người bán không hề hay biết.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/phong-toa-tai-khoan-ngan-hang-chan-giao-dich-khi-chuyen-tien--nhan-tien-doi-voi-truong-hop-sau-188261114074600167.chn",
+      "published_at": "2026-11-14T20:11:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "03:11",
+      "importance": 2
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Đông Âu",
+      "region": "Đông Âu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Chiến thuật 'nghìn vết cắt' khiến lính Ukraine chôn chân ở tiền tuyến",
+      "summary_vi": "Nhiều quân nhân Ukraine mắc kẹt tại tiền tuyến trong thời gian dài, không thể di chuyển khỏi cứ điểm do các nhóm xung kích Nga liên tục xâm nhập.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/chien-thuat-nghin-vet-cat-khien-linh-ukraine-chon-chan-o-tien-tuyen-5144349.html",
+      "published_at": "2026-11-14T18:00:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "01:00",
+      "importance": 2
+    },
+    {
+      "category": "TRONG NƯỚC",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "VPBank",
+      "summary_vi": "Từ lợi nhuận tỷ USD, tài sản triệu tỷ đồng đến những hệ sinh thái tài chính ngày càng toàn diện, VPBank và Techcombank đang liên tiếp thiết lập những cột mốc mới trong khối ngân hàng tư nhân. Sự bứt phá của hai nhà băng không chỉ tạo ra khoảng cách lớn về quy mô và lợi nhuận, mà còn cho thấy một sự thay đổi trong cuộc cạnh tranh của ngành ngân hàng Việt Nam.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/vpbank-techcombank-va-su-hinh-thanh-mot-dang-cap-moi-trong-khoi-ngan-hang-tu-nhan-188261113110230086.chn",
+      "published_at": "2026-11-14T18:00:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "01:00",
+      "importance": 3
+    },
+    {
+      "category": "THẾ GIỚI",
+      "tag": "Toàn cầu",
+      "region": "Toàn cầu",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Xuất hiện thêm hình ảnh Jensen Huang có cử chỉ thân mật với Alice Huang",
+      "summary_vi": "Hình ảnh chụp năm 2024 cho thấy Jensen Huang và Alice Huang có cử chỉ thân mật tại một triển lãm công nghệ ở Đài Loan.",
+      "source": "VnExpress",
+      "source_url": "https://vnexpress.net/xuat-hien-them-hinh-anh-jensen-huang-co-cu-chi-than-mat-voi-alice-huang-5144777.html",
+      "published_at": "2026-11-14T17:33:57+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:33",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DIG",
+      "tickers": [
+        "DIG"
+      ],
+      "exchange": "",
+      "headline_vi": "Đại gia Hàn Quốc vừa ký dự án 2 tỷ USD với Bộ Công thương: Có tới 56.200 nhân viên tại Việt Nam, từng thua kiện Novaland, bán hàng chục triệu cổ phiếu DIG trước \"cơn sóng thần\"",
+      "summary_vi": "Dù từng nếm \"trái đắng\" trong các thương vụ tay ngang sang bất động sản và chứng khoán, tập đoàn nắm giữ 15% sản lượng giày Nike toàn cầu vẫn cho thấy tiềm lực tài chính khổng lồ khi chính thức hồi sinh siêu dự án nhiệt điện Nam Định I.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/dai-gia-han-quoc-vua-ky-du-an-2-ty-usd-voi-bo-cong-thuong-co-toi-56200-nhan-vien-tai-viet-nam-tung-thua-kien-novaland-ban-hang-chuc-trieu-co-phieu-dig-truoc-con-song-than-188261113094400548.chn",
+      "published_at": "2026-11-14T17:07:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:07",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "SJC",
+      "tickers": [
+        "SJC"
+      ],
+      "exchange": "",
+      "headline_vi": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
+      "summary_vi": "Tỷ lệ vàng/bạc trên thị trường quốc tế đang lên cao nhất kể từ đầu năm 2026, trong khi một lượng vàng SJC hiện có giá tương đương gần 90 lượng bạc trong nước. Đáng chú ý, vàng trong nước vẫn đắt hơn thế giới trên 13%, còn bạc gần như đã áp sát giá quốc tế.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
+      "published_at": "2026-11-14T17:06:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:06",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ"
+      ],
+      "exchange": "",
+      "headline_vi": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
+      "summary_vi": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHVBbG93MEYzcXpVTXFwMGowZTBkcnZSeEJCR0pYa3owUlVOdF80cHEyaEZ2MzFyLVdyekI0dTJBeUJPaUY2aEIydjdaWGhfSm1Ddk5la3RyYTluenlkSFI4MFFYNlVqRDdZNFV4b0R4c0F5bUc4b0EzcjdIY3oxR0luU3hQbTdielA3eXlkbnN3cm9HbDd4MmhxNEpFXzVCLV9J?oc=5",
+      "published_at": "2026-11-14T17:05:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:05",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DMX",
+      "tickers": [
+        "DMX"
+      ],
+      "exchange": "",
+      "headline_vi": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
+      "summary_vi": "Điện Máy Xanh dự kiến phát hành trái phiếu cho 15 lãnh đạo cấp cao, người mua ít nhất là 12 trái phiếu và người mua nhiều nhất là 395 trái phiếu. Riêng ông Đoàn Văn Hiểu Em - Tổng Giám đốc DMX",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
+      "published_at": "2026-11-14T17:05:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:05",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
+      "summary_vi": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdHRRbl9BSmZEdlR4di1YLTJIbDlsSjhkVEtLM2p6eC1nS29uckQ1bzc3UHJKNXNaaFlROTdSUUh6UENXVjJ3aEc0cWdLRWUtemhSMFpVb0VkSDVYWHBjUFZ0T3pSZC10T0F6SHZ0YmZCQXZCVEhOWWNCMFFVb3RmZGEyb1Jfc2hEZVJTZlhXZzl5a3QzSlZOX2otQVQ2Uk00N29hbE5YcXJ4bFBYZHRQRzk2S01ZR1BHUUE?oc=5",
+      "published_at": "2026-11-14T17:04:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:04",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "HCM",
+      "tickers": [
+        "HCM"
+      ],
+      "exchange": "",
+      "headline_vi": "Tập đoàn Trung Quốc đổ tiền xây nhà máy công nghệ cao 10.000 m² tại TP.HCM: Công ty con ở Việt Nam lãi gấp 1,6 lần cả tập đoàn mẹ",
+      "summary_vi": "Một tập đoàn công nghệ Trung Quốc vừa ký hợp đồng xây dựng nhà máy tại TP.HCM. Đáng chú ý, công ty con tại Việt Nam đang ghi nhận kết quả kinh doanh vượt trội.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/tap-doan-trung-quoc-do-tien-xay-nha-may-cong-nghe-cao-10000-m-tai-tphcm-cong-ty-con-o-viet-nam-lai-gap-16-lan-ca-tap-doan-me-18826111423032855.chn",
+      "published_at": "2026-11-14T17:04:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:04",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "PNJ",
+      "tickers": [
+        "PNJ",
+        "FPT"
+      ],
+      "exchange": "",
+      "headline_vi": "PNJ từng lớn gấp 9 lần Petrosetco, gấp 4 lần Digiworld, bằng 1,3 lần FPT Retail, nay bị cả 3 DN vượt mặt chỉ sau 11 tháng",
+      "summary_vi": "Kết phiên 13/11/2026, vốn hóa PNJ chỉ còn khoảng 7.650 tỷ đồng, thấp hơn Petrosetco, Digiworld và FPT Retail, ba doanh nghiệp mà cuối năm 2025 đều đứng sau doanh nghiệp trang sức này. Cuộc đổi ngôi chủ yếu đến từ việc PNJ mất gần 77% vốn hóa, trong khi 2 trong 3 doanh nghiệp còn lại gần như đi ngang.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/pnj-tung-lon-gap-9-lan-petrosetco-gap-4-lan-digiworld-bang-13-lan-fpt-retail-nay-bi-ca-3-dn-vuot-mat-chi-sau-11-thang-188261114223956507.chn",
+      "published_at": "2026-11-14T17:02:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:02",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "EVN",
+      "tickers": [
+        "EVN"
+      ],
+      "exchange": "",
+      "headline_vi": "Công trình 9.000 tỷ đồng nằm sát đập thủy điện lớn bậc nhất Việt Nam: 80.000 m³ đất đá đổ sập trong đêm, công trường bất động suốt 11 tháng",
+      "summary_vi": "Theo EVN, đợt mưa kéo dài sau bão số 7 và số 8 năm 2021 đã khiến mái hố móng của Nhà máy Thủy điện Hòa Bình mở rộng sạt trượt ba lần. Công trường phải dừng 11 tháng. Hai tổ máy 480 MW của dự án đã phát điện trong năm 2025, nâng công suất nhà máy thủy điện Hòa Bình thêm 25%, lên 2.400 MW.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/cong-trinh-9000-ty-dong-nam-sat-dap-thuy-dien-lon-bac-nhat-viet-nam-80000-m-dat-da-do-sap-trong-dem-cong-truong-bat-dong-suot-11-thang-188261114221227706.chn",
+      "published_at": "2026-11-14T17:01:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:01",
+      "importance": 2
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "",
+      "tickers": [],
+      "exchange": "",
+      "headline_vi": "Cổ phiếu một công ty sách tăng 224% chỉ sau 13 phiên",
+      "summary_vi": "Dù kinh doanh thua lỗ và cổ phiếu đang trong diện cảnh báo, thị giá vẫn tăng hơn 3 lần chỉ sau 13 phiên giao dịch.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/co-phieu-mot-cong-ty-sach-tang-224-chi-sau-13-phien-188261114104646716.chn",
+      "published_at": "2026-11-14T17:01:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:01",
+      "importance": 4
+    },
+    {
+      "category": "DOANH NGHIỆP",
+      "tag": "",
+      "region": "",
+      "ticker": "DNN",
+      "tickers": [
+        "DNN"
+      ],
+      "exchange": "",
+      "headline_vi": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
+      "summary_vi": "Điều gây chú ý là đà tăng dựng đứng của DNN diễn ra trong bối cảnh thanh khoản khá khiêm tốn.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
+      "published_at": "2026-11-14T17:01:00+00:00",
+      "published_date_vn": "2026-11-15",
+      "published_time_vn": "00:01",
+      "importance": 2
+    }
+  ]
+}
